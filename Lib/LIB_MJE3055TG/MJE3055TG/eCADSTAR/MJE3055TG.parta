@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_171060"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MJE3055TG")
+)
+
+
+(pinAssign "ECS_171060"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_171060")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MJE3055TG")
+)
+
+
+(part "MJE3055TG"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "MJE3055TG")
+    (pinAssignRef "ECS_171060")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "DC Current Gain Specified to 10 Amperes; High Current Gain - Bandwidth Product - fT = 2.0 MHz (Min) @ IC fT = 500 mAdc; Pb-Free Packages are Available")
+    (property "Mouser_Part_Number" "863-MJE3055TG")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MJE3055TG?qs=HVbQlW5zcXUpZ6jjVRRo8A%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "MJE3055TG")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/MJE2955T-D.PDF")
+    (property "compAreaTopHeight" 4.83)
+)
+
+

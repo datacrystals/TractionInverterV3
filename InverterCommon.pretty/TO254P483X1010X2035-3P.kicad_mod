@@ -1,0 +1,234 @@
+(footprint "TO254P483X1010X2035-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220 CASE221A-09")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "Q**"
+		(at 2.5 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "316ceceb-3822-425e-a7ae-fb037093870a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TO254P483X1010X2035-3P"
+		(at 0 -9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ceb5ba72-098b-4f2d-808e-97b43c62e59a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ff10623-7f66-465a-a488-89d866f43bd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df625845-186b-49fc-8881-e5edd2ddc847")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb052eec-34b7-4918-9ddd-d50d5bc41e36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.725 -3.095)
+		(end -2.725 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff24cf59-396c-422a-be01-6aae34553f94")
+	)
+	(fp_line
+		(start 7.805 -3.095)
+		(end -2.725 -3.095)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb5530cf-1517-41f0-bb02-397bddc68f5b")
+	)
+	(fp_line
+		(start 7.805 1.735)
+		(end 7.805 -3.095)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45401058-e78a-4073-9351-4f2c3cf34027")
+	)
+	(fp_line
+		(start -2.975 -3.345)
+		(end 8.055 -3.345)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "105952b2-ec62-4dc3-ab16-fdf201c8974f")
+	)
+	(fp_line
+		(start -2.975 1.985)
+		(end -2.975 -3.345)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a405fd0-4bdd-4410-8bcf-f77b998671f0")
+	)
+	(fp_line
+		(start 8.055 -3.345)
+		(end 8.055 1.985)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58f7be91-55d1-4d19-bfc3-b5d36197a6fe")
+	)
+	(fp_line
+		(start 8.055 1.985)
+		(end -2.975 1.985)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4d19f34-f177-4ce3-9da4-94028934f8a5")
+	)
+	(fp_line
+		(start -2.725 -3.095)
+		(end 7.805 -3.095)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f830ca43-faaa-4571-9a78-b382ec033c13")
+	)
+	(fp_line
+		(start -2.725 -1.825)
+		(end -1.455 -3.095)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e29f804-92b4-41d1-a2f6-5c5cfaa64282")
+	)
+	(fp_line
+		(start -2.725 1.735)
+		(end -2.725 -3.095)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d0c5bcd-83e2-44b0-82a5-8b81b2e62f93")
+	)
+	(fp_line
+		(start 7.805 -3.095)
+		(end 7.805 1.735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3d9c11c-debf-4b9a-9633-6b0e9cdf1fe8")
+	)
+	(fp_line
+		(start 7.805 1.735)
+		(end -2.725 1.735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "999039af-a321-4798-a3e9-4f4c9f3caf0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -6.5 0)
+		(layer "F.Fab")
+		(uuid "1e5a0122-d38c-427d-ba5f-71f3c5fab130")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.01 2.01)
+		(drill 1.34)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d63c3d2-9bba-404e-9829-dbf353feb8f5")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.01 2.01)
+		(drill 1.34)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8df268f9-797f-4149-83e3-301a4d326fa1")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2.01 2.01)
+		(drill 1.34)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2893567b-21ee-4ecc-a33e-8627545729e3")
+	)
+	(model "MJE3055TG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

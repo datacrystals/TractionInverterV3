@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "InverterCommon")(type "KiCad")(uri "/home/tliao/Nextcloud/TractionInverterV3/InverterCommon.pretty")(options "")(descr ""))
+)

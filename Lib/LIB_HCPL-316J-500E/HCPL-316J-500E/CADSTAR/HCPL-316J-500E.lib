@@ -1,0 +1,16 @@
+.HCPL-316J-500E :1 ;2.5A Gate Driver Optical Coupling 5000Vrms 1 Channel 16-SO
+SOIC127P1036X391-16N
+*STM IC
+*NGS
+*PLB 1="VIN+" 2="VIN-" 3="VCC1" 4="GND1" 5="'RESET'" 6="'FAULT'" 7="VLED1+" 8="VLED1-" 9="VEE_1" 10="VEE_2" 11="VOUT" 12="VC" 13="VCC2" 14="DESAT" 15="VLED2+" 16="VE"
+*MXP 16
+*DFN HCPL-316J-500E
+~!Mouser Part Number (630-HCPL-316J-500E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCPL-316J-500E?qs=s%252BgfxR24RQ5bfr5kc6yRkw%3D%3D)
+~!Manufacturer_Name (Avago Technologies)
+~!Manufacturer_Part_Number (HCPL-316J-500E)
+~!Link Datasheet (https://docs.broadcom.com/doc/AV02-0717EN)
+~!Height (3.911mm)
+~!3D_Model (HCPL-316J-500E)
+HCPL-316J-500E
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

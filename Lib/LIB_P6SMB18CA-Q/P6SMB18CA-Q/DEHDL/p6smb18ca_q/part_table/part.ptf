@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'P6SMB18CA_Q'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "P6SMB18CA-Q" (!) = "", "DIONM5443X244N", "Diodes Moulded Non Polarised", "652-P6SMB18CA-Q", "https://www.mouser.co.uk/ProductDetail/Bourns/P6SMB18CA-Q?qs=%252B6g0mu59x7J8pA%252B%2FYZXG8Q%3D%3D", "P6SMB-Q Transient Voltage Suppressor Diode Series, Bi-Directional", "https://www.bourns.com/docs/product-datasheets/p6smb-q.pdf?sfvrsn=a8c47bf6_59", "2.44 mm"
+END_PART
+
+END.
