@@ -418,6 +418,14 @@
     [
       "3d976d82-3f75-4fca-a6d5-90ed17f44cc2",
       "Power Stage"
+    ],
+    [
+      "ad0007fc-5711-4e62-9143-fcdd8d324cfe",
+      "Dynamic Brakes"
+    ],
+    [
+      "56aadc24-a461-445c-90c1-565f337a6601",
+      "MCU Level Shifter"
     ]
   ],
   "text_variables": {}

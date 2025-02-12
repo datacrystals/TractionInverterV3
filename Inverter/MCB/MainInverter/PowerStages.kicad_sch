@@ -489,6 +489,12 @@
 		(uuid "1cc52bd4-1500-4b7f-9dda-da4a41446b24")
 	)
 	(junction
+		(at 175.26 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23de42d4-458b-4b86-81fa-f84dfe2ddd4d")
+	)
+	(junction
 		(at 175.26 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -649,6 +655,16 @@
 			(type default)
 		)
 		(uuid "468e56a7-f027-43af-a60a-51fe23e3a93b")
+	)
+	(wire
+		(pts
+			(xy 175.26 21.59) (xy 186.69 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f8dc5e-f787-4d7b-ae29-10b986669bb2")
 	)
 	(wire
 		(pts
@@ -1368,6 +1384,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DynamicBrakeVBUS+"
+		(shape input)
+		(at 186.69 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2b2615b-2a00-473c-ba8a-5c6fceca4de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.3904 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

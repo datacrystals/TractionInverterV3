@@ -89,6 +89,44 @@
 		)
 	)
 	(sheet
+		(at 215.9 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b8c86c7-5ef6-49d8-97f5-34ef0211a71f")
+		(property "Sheetname" "Phase B"
+			(at 215.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhaseB.kicad_sch"
+			(at 215.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 139.7 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
@@ -122,6 +160,44 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d364237d-c309-45a0-8ad7-401a789ba93d")
+		(property "Sheetname" "Phase A"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhaseA.kicad_sch"
+			(at 177.8 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505"
+					(page "6")
 				)
 			)
 		)
