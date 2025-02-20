@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MUR1100ERLG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "DIOAD1405W86L465D235")
+        (spec "System")
+    )
+)

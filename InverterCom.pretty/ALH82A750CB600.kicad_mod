@@ -269,4 +269,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/ALH82A750CB600.stp"
+		(offset
+			(xyz 5 0 33)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 45)
+		)
+	)
 )

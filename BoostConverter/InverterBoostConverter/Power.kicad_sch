@@ -736,28 +736,10 @@
 		)
 	)
 	(junction
-		(at 63.5 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0607481e-4abd-48cc-a6b4-46dea1af58c9")
-	)
-	(junction
-		(at 63.5 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dad7224-9af9-4fae-b288-e1dc81493d32")
-	)
-	(junction
-		(at 63.5 62.23)
+		(at 97.79 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2191fa20-5df1-4b3e-9749-1c23fd299c46")
-	)
-	(junction
-		(at 273.05 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b07552b-8e71-4c75-94c8-ca9291e07988")
 	)
 	(junction
 		(at 195.58 50.8)
@@ -766,19 +748,25 @@
 		(uuid "41272436-3cfa-43a0-a2d8-a556f0122916")
 	)
 	(junction
-		(at 63.5 104.14)
+		(at 55.88 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41ce0270-3a97-45a1-9182-8742803e0972")
 	)
 	(junction
-		(at 63.5 69.85)
+		(at 104.14 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "611871aa-e5e5-4c58-872b-8eefaadeb0fe")
+	)
+	(junction
+		(at 90.17 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73edf571-8cf6-46f7-b1fe-8d60e60d0830")
 	)
 	(junction
-		(at 63.5 92.71)
+		(at 67.31 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774db476-fd40-462b-9ca5-a70410b98744")
@@ -796,25 +784,13 @@
 		(uuid "9afce856-b353-4054-aa1d-8ebb4e813d42")
 	)
 	(junction
-		(at 261.62 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b10890f6-4001-4c80-bcc6-c10666b4ad25")
-	)
-	(junction
-		(at 63.5 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd962bab-b236-4c23-b712-7746443e25cd")
-	)
-	(junction
 		(at 250.19 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c15cfb19-3608-4c38-8147-edb66ce8665a")
 	)
 	(junction
-		(at 63.5 81.28)
+		(at 78.74 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83f5755-4b27-40f7-98a0-6ce85fb42923")
@@ -824,12 +800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb125eb2-678e-406b-b00e-b930dd7e28b3")
-	)
-	(junction
-		(at 63.5 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e864b431-b990-416e-be48-1374e4fab2c2")
 	)
 	(wire
 		(pts
@@ -893,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 50.8) (xy 273.05 50.8)
+			(xy 250.19 50.8) (xy 283.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -903,23 +873,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 63.5 92.71)
+			(xy 78.74 92.71) (xy 67.31 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31f00b93-c135-4042-a624-9ad381de4c20")
-	)
-	(wire
-		(pts
-			(xy 261.62 50.8) (xy 273.05 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f649c0-3fc1-46cf-bb08-903f484d68e3")
 	)
 	(wire
 		(pts
@@ -1043,16 +1003,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 33.02) (xy 63.5 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8744c171-4ea4-45f4-90ea-3acceff4f301")
-	)
-	(wire
-		(pts
 			(xy 195.58 50.8) (xy 195.58 57.15)
 		)
 		(stroke
@@ -1063,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 63.5 55.88)
+			(xy 97.79 92.71) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 92.71) (xy 63.5 104.14)
+			(xy 67.31 92.71) (xy 55.88 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1090,16 +1040,6 @@
 			(type default)
 		)
 		(uuid "9a2cbe93-c958-4751-95e7-85e85c37cc43")
-	)
-	(wire
-		(pts
-			(xy 63.5 44.45) (xy 63.5 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d080fe6-cdb4-4da9-9050-96b825e0f335")
 	)
 	(wire
 		(pts
@@ -1123,6 +1063,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87e95b0-09d8-4244-99fb-1a0496a34da4")
+	)
+	(wire
+		(pts
 			(xy 36.83 15.24) (xy 33.02 15.24)
 		)
 		(stroke
@@ -1130,16 +1080,6 @@
 			(type default)
 		)
 		(uuid "adebb6a5-f0e8-4f87-b4e6-4b422a924059")
-	)
-	(wire
-		(pts
-			(xy 63.5 55.88) (xy 63.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b40b2089-3007-4c88-86fe-a0b557511d47")
 	)
 	(wire
 		(pts
@@ -1183,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 63.5 69.85)
+			(xy 97.79 92.71) (xy 90.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 69.85) (xy 63.5 81.28)
+			(xy 90.17 92.71) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1203,13 +1143,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 50.8) (xy 261.62 50.8)
+			(xy 33.02 62.23) (xy 97.79 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd2242dc-f8c2-454f-9c19-0a4986a0ca14")
+		(uuid "e02d459e-3b49-4222-86ec-54396d3c75db")
 	)
 	(wire
 		(pts
@@ -1243,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 63.5 62.23)
+			(xy 97.79 62.23) (xy 97.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1300,8 +1240,8 @@
 		(uuid 50fca9ca-ecdd-4786-9624-aba68fc447b1)
 	)
 	(rectangle
-		(start 44.45 12.7)
-		(end 82.55 119.38)
+		(start 147.32 73.66)
+		(end 40.64 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -1324,7 +1264,7 @@
 		(uuid 8a65d0fd-fcfb-419a-b2ba-a121509d4577)
 	)
 	(label "VBus In Filter Caps"
-		(at 46.99 118.11 0)
+		(at 41.91 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1499,7 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 136.83 0)
 			(effects
 				(font
@@ -1621,7 +1561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -9.83 0)
 			(effects
 				(font
@@ -1743,7 +1683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 131.14 59.69 0)
 			(effects
 				(font
@@ -1838,130 +1778,8 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:ALH82A750CB600")
-		(at 261.62 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0f5ebe75-fe28-469c-bb7d-accaf91f3637")
-		(property "Reference" "C16"
-			(at 265.43 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "75uF"
-			(at 265.43 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ALH82A750CB600"
-			(at 165.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 65.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 261.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "32"
-			(at -134.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at -234.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at -334.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at -434.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at -534.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55523ed2-9b90-4404-bb59-0d8218f9c3a9")
-		)
-		(pin "1"
-			(uuid "eae238d2-7f50-4d32-b370-ce7ef8bd6c9e")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 76.2 81.28 90)
+		(at 78.74 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1970,7 +1788,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ffcafbc-b0e4-4110-9886-c2d1d8608701")
 		(property "Reference" "#PWR056"
-			(at 81.28 81.28 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1797,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 80.01 81.407 0)
+			(at 78.613 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 81.28 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 81.28 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +1823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 81.28 0)
+			(at 78.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,73 +1845,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 273.05 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "100e87cd-4868-48b2-9237-df42bc8a2881")
-		(property "Reference" "#PWR041"
-			(at 273.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 272.923 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 273.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6acfc29-7e61-44f0-ae23-a66cb1226cb9")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 50.8 69.85 270)
+		(at 90.17 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2102,7 +1854,7 @@
 		(fields_autoplaced yes)
 		(uuid "12064c21-da5e-4a9c-99b9-eafbc1e1ac6a")
 		(property "Reference" "#PWR054"
-			(at 45.72 69.85 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +1863,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 69.723 0)
+			(at 90.297 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +1871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 69.85 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +1880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 69.85 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +1889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 69.85 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,72 +1976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 50.8 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17b6534f-0165-489c-b2ea-764e5bec34a1")
-		(property "Reference" "#PWR013"
-			(at 45.72 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 46.99 44.323 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93d8fdf2-8a82-4f72-873e-a73ca8402f7f")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
 		(at 33.02 53.34 180)
 		(unit 1)
@@ -2317,7 +2003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -42.85 0)
 			(effects
 				(font
@@ -2412,130 +2098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:ALH82A750CB600")
-		(at 273.05 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1e2bbf1c-7cff-4f18-83cb-666cef91c7f9")
-		(property "Reference" "C42"
-			(at 276.86 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75uF"
-			(at 276.86 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ALH82A750CB600"
-			(at 369.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 469.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "32"
-			(at 669.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 769.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 869.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 969.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 1069.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1930f58-4ba3-4d57-b796-2f7df8a291d4")
-		)
-		(pin "1"
-			(uuid "cc3da10a-b395-46ad-a057-85c3967d384e")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 76.2 104.14 90)
+		(at 55.88 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2544,7 +2108,7 @@
 		(fields_autoplaced yes)
 		(uuid "265ff383-e20e-40ea-9a54-fade560e3c0b")
 		(property "Reference" "#PWR060"
-			(at 81.28 104.14 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2117,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 80.01 104.267 0)
+			(at 55.753 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 104.14 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 104.14 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 104.14 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,194 +2158,6 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29c3e36d-1022-4ecc-9b4f-f2f156d3416b")
-		(property "Reference" "#PWR047"
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.01 33.147 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11c720a5-e0c7-44ad-beee-271ff8f6279c")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b8612b0-fdeb-43fc-bdc8-93082ea99443")
-		(property "Reference" "C12"
-			(at 55.8799 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330uF"
-			(at 58.4199 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -51.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -151.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 54.61 -351.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -451.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -551.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -651.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -751.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c832b46-8005-45bc-9ed7-ee3799563143")
-		)
-		(pin "1"
-			(uuid "12620530-6701-4188-a8d4-32b00e5bd5d5")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 129.21 0)
 			(effects
 				(font
@@ -2911,7 +2287,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 50.8 33.02 270)
+		(at 104.14 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2920,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "376c7dbd-b1e7-4d36-8fcd-78e3ef76a20c")
 		(property "Reference" "#PWR046"
-			(at 45.72 33.02 0)
+			(at 104.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2305,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 32.893 0)
+			(at 104.267 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 33.02 0)
+			(at 104.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 33.02 0)
+			(at 104.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 33.02 0)
+			(at 104.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +2379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -50.47 0)
 			(effects
 				(font
@@ -3098,250 +2474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b383ddd-acd9-4680-889c-0d8ea97ca2a9")
-		(property "Reference" "C13"
-			(at 68.5799 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330uF"
-			(at 71.1199 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 140.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 240.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 72.39 440.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 540.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 640.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 740.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 840.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6e39fe8-1f06-436e-993a-80b808d1b687")
-		)
-		(pin "1"
-			(uuid "84402997-ab12-41e0-9c0e-a9151a92ce65")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:ALH82A750CB600")
-		(at 261.62 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3bed6b8a-7620-40eb-9b3a-30527d0c60bd")
-		(property "Reference" "C40"
-			(at 265.43 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75uF"
-			(at 265.43 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ALH82A750CB600"
-			(at 357.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 457.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 261.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "32"
-			(at 657.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 757.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 857.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 957.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 1057.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1acd7a55-6014-4155-b2a6-c74b6d81a91d")
-		)
-		(pin "1"
-			(uuid "8db505db-507c-4bed-abe2-b72f784917eb")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
 		(at 195.58 80.01 0)
 		(unit 1)
@@ -3369,7 +2501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 176.2 0)
 			(effects
 				(font
@@ -3465,72 +2597,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 261.62 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f5d9cb-c280-4da7-a946-3e1842aa5156")
-		(property "Reference" "#PWR022"
-			(at 261.62 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 261.747 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 261.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beaef213-4a19-440d-aec6-0b86aef192d1")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
 		(at 250.19 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3597,7 +2663,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 50.8 81.28 270)
+		(at 78.74 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3606,7 +2672,7 @@
 		(fields_autoplaced yes)
 		(uuid "4daf39e7-8287-407b-870a-45748c163bf0")
 		(property "Reference" "#PWR055"
-			(at 45.72 81.28 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +2681,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 81.153 0)
+			(at 78.867 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +2689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 81.28 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +2698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 81.28 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +2707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 81.28 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,438 +2861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "5565dd28-589c-4112-a7cb-d263397b99b8")
-		(property "Reference" "C49"
-			(at 71.1201 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330uF"
-			(at 68.5801 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 166.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 266.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 72.39 466.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 566.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 666.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 766.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 866.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6398532f-610b-4285-a1b7-356973fc7db7")
-		)
-		(pin "1"
-			(uuid "1f394a9e-b088-461a-bead-266899891c36")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:ALH82A750CB600")
-		(at 273.05 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "56cd32c1-f778-45ec-9486-8cc623971e72")
-		(property "Reference" "C41"
-			(at 276.86 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "75uF"
-			(at 276.86 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ALH82A750CB600"
-			(at 176.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 76.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "32"
-			(at -123.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at -223.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at -323.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at -423.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at -523.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3de815c4-5664-4686-95d9-6d7e8c7c5723")
-		)
-		(pin "1"
-			(uuid "2b38f0fb-08b5-47b1-aa65-ad6095564b61")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "577306aa-19e0-47b9-9cc9-4c0e4159cd2e")
-		(property "Reference" "C43"
-			(at 68.5799 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330uF"
-			(at 71.1199 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 129.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 229.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 72.39 429.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 529.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 629.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 729.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 829.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a085064a-a7fe-42a5-abea-5e6edc37ce8a")
-		)
-		(pin "1"
-			(uuid "b4017ebb-f26b-4b3e-adea-848eaf56a4e2")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 261.62 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59288c9b-b21d-4ac8-9c75-2c80a87f8250")
-		(property "Reference" "#PWR042"
-			(at 261.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 261.493 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 261.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "973fdf2c-b3de-4cd1-a78c-2c7fc78f2bef")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
 		(at 33.02 15.24 180)
 		(unit 1)
@@ -4254,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -80.95 0)
 			(effects
 				(font
@@ -4376,7 +3010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -58.09 0)
 			(effects
 				(font
@@ -4471,194 +3105,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 273.05 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6463b90c-770f-4e40-aacc-562f304b5293")
-		(property "Reference" "#PWR040"
-			(at 273.05 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 273.177 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 273.05 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b88c3976-d307-4941-b38f-10d08a05db85")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ac4d92-e254-4928-a73e-33b1d358c83f")
-		(property "Reference" "C10"
-			(at 68.5799 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330uF"
-			(at 71.1199 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 152.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 252.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 72.39 452.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 552.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 652.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 752.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 852.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5c4cfa5-2593-46da-ab53-b83887427968")
-		)
-		(pin "1"
-			(uuid "7622ba2b-b3a3-44b7-9774-25686edb600f")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
 		(at 33.02 30.48 180)
 		(unit 1)
@@ -4686,7 +3132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -65.71 0)
 			(effects
 				(font
@@ -4781,72 +3227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 50.8 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77e533bf-c402-431e-b509-dceeafc14d47")
-		(property "Reference" "#PWR011"
-			(at 45.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 46.99 55.753 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8404b0c-119e-4c04-a32d-164b71306496")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
 		(at 250.19 50.8 90)
 		(unit 1)
@@ -4874,7 +3254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 346.38 41.91 0)
 			(effects
 				(font
@@ -4970,16 +3350,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 104.14 0)
+		(at 55.88 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a5c933-91e5-4b50-9905-52ac76fdb364")
 		(property "Reference" "C55"
-			(at 71.1201 107.95 90)
+			(at 52.07 100.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +3368,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 68.5801 107.95 90)
+			(at 52.07 97.7901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,8 +3376,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 200.33 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at -40.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +3387,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 300.33 0)
+			(at -140.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +3397,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 104.14 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +3406,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 72.39 500.33 0)
+			(at -340.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +3416,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 600.33 0)
+			(at -440.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +3426,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 700.33 0)
+			(at -540.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +3436,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 800.33 0)
+			(at -640.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +3446,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 900.33 0)
+			(at -740.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +3498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 323.52 41.91 0)
 			(effects
 				(font
@@ -5240,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -17.45 0)
 			(effects
 				(font
@@ -5335,83 +3715,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 55.88 90)
+		(lib_id "InverterCom:SLPX331M200A1P3")
+		(at 78.74 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92d90a88-16fe-4d83-be88-ae5c8d3bbe19")
-		(property "Reference" "#PWR012"
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.01 56.007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0f7d6a0-21b6-46db-b3b1-38b55e79a38c")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "97e048f1-5227-4cdd-ac41-0351caf557a8")
 		(property "Reference" "C51"
-			(at 58.4201 85.09 90)
+			(at 74.93 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +3734,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 55.8801 85.09 90)
+			(at 74.93 85.0901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,8 +3742,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -14.91 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 174.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +3753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -114.91 0)
+			(at 274.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +3763,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 81.28 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +3772,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -314.91 0)
+			(at 474.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +3782,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -414.91 0)
+			(at 574.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +3792,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -514.91 0)
+			(at 674.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +3802,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -614.91 0)
+			(at 774.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +3812,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -714.91 0)
+			(at 874.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +3838,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 33.02 180)
+		(at 104.14 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5533,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b6bae96-9231-4748-8c59-e2c2f8cc5220")
 		(property "Reference" "C44"
-			(at 55.8799 29.21 90)
+			(at 107.95 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +3856,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 58.4199 29.21 90)
+			(at 107.95 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,8 +3864,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -63.17 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 200.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +3875,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -163.17 0)
+			(at 300.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +3885,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 33.02 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +3894,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -363.17 0)
+			(at 500.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +3904,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -463.17 0)
+			(at 600.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +3914,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -563.17 0)
+			(at 700.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +3924,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -663.17 0)
+			(at 800.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +3934,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -763.17 0)
+			(at 900.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 154 59.69 0)
 			(effects
 				(font
@@ -5767,72 +4081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2aa075d-5105-4ef7-95bd-8fa28479e7cb")
-		(property "Reference" "#PWR053"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.01 69.977 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1da7bcc-c048-4e58-bf26-9711d5ce1fdc")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
 		(at 195.58 87.63 0)
 		(unit 1)
@@ -5860,7 +4108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 183.82 0)
 			(effects
 				(font
@@ -5956,7 +4204,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 50.8 104.14 270)
+		(at 55.88 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5965,7 +4213,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae41f06-6997-4af0-8fa1-c360022a3b5c")
 		(property "Reference" "#PWR059"
-			(at 45.72 104.14 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +4222,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 104.013 0)
+			(at 56.007 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +4230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 104.14 0)
+			(at 55.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 104.14 0)
+			(at 55.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +4248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 104.14 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,16 +4270,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 81.28 0)
+		(at 78.74 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba319d6-489d-482e-82b5-6b9fa9659aa1")
 		(property "Reference" "C52"
-			(at 71.1201 85.09 90)
+			(at 74.93 100.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +4288,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 68.5801 85.09 90)
+			(at 74.93 97.7901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,8 +4296,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 177.47 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at -17.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +4307,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 277.47 0)
+			(at -117.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +4317,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 81.28 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +4326,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 72.39 477.47 0)
+			(at -317.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +4336,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 577.47 0)
+			(at -417.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +4346,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 677.47 0)
+			(at -517.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +4356,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 777.47 0)
+			(at -617.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +4366,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 877.47 0)
+			(at -717.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 50.8 21.59 270)
+		(at 115.57 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6153,7 +4401,7 @@
 		(fields_autoplaced yes)
 		(uuid "abb6e2d0-06af-45e2-819f-73123d18aa26")
 		(property "Reference" "#PWR048"
-			(at 45.72 21.59 0)
+			(at 115.57 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +4410,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 21.463 0)
+			(at 115.697 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 21.59 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +4427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 21.59 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +4436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 21.59 0)
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,72 +4451,6 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae526414-2263-43f1-b8ee-aae1e5fa12da")
-		(property "Reference" "#PWR014"
-			(at 81.28 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.01 44.577 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "076e03f2-4b5d-43c4-9356-9beedafc3f04")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6302,7 +4484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 191.44 0)
 			(effects
 				(font
@@ -6398,16 +4580,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 21.59 0)
+		(at 90.17 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3fde50a-2e5d-4ab1-af8f-72325a179b26")
 		(property "Reference" "C45"
-			(at 68.5799 17.78 90)
+			(at 93.98 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +4598,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 71.1199 17.78 90)
+			(at 93.98 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,8 +4606,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 117.78 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at -6.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 217.78 0)
+			(at -106.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +4627,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 21.59 0)
+			(at 90.17 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +4636,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 72.39 417.78 0)
+			(at -306.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +4646,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 517.78 0)
+			(at -406.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +4656,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 617.78 0)
+			(at -506.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +4666,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 717.78 0)
+			(at -606.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +4676,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 817.78 0)
+			(at -706.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -25.07 0)
 			(effects
 				(font
@@ -6668,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 153.34 0)
 			(effects
 				(font
@@ -6790,7 +4972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 19.05 -73.33 0)
 			(effects
 				(font
@@ -6886,16 +5068,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 104.14 180)
+		(at 55.88 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c245aa49-f241-4970-9063-7acd7763626f")
 		(property "Reference" "C56"
-			(at 58.4201 107.95 90)
+			(at 52.07 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +5086,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 55.8801 107.95 90)
+			(at 52.07 85.0901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,8 +5094,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 7.95 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 152.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +5105,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -92.05 0)
+			(at 252.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +5115,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 104.14 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +5124,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -292.05 0)
+			(at 452.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +5134,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -392.05 0)
+			(at 552.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +5144,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -492.05 0)
+			(at 652.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +5154,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -592.05 0)
+			(at 752.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +5164,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -692.05 0)
+			(at 852.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,16 +5322,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 69.85 180)
+		(at 90.17 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5a0e68-4a5c-485d-98e0-9479e582b663")
 		(property "Reference" "C50"
-			(at 58.4201 73.66 90)
+			(at 86.36 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +5340,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 55.8801 73.66 90)
+			(at 86.36 85.0901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,8 +5348,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -26.34 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 186.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +5359,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -126.34 0)
+			(at 286.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +5369,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 69.85 0)
+			(at 90.17 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +5378,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -326.34 0)
+			(at 486.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +5388,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -426.34 0)
+			(at 586.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +5398,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -526.34 0)
+			(at 686.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +5408,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -626.34 0)
+			(at 786.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +5418,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -726.34 0)
+			(at 886.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,16 +5444,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 21.59 180)
+		(at 115.57 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2237a2-9fc0-44e5-b180-c7833264a534")
 		(property "Reference" "C46"
-			(at 55.8799 17.78 90)
+			(at 119.38 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +5462,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 58.4199 17.78 90)
+			(at 119.38 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,8 +5470,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -74.6 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 211.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +5481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -174.6 0)
+			(at 311.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +5491,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 21.59 0)
+			(at 115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +5500,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -374.6 0)
+			(at 511.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +5510,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -474.6 0)
+			(at 611.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +5520,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -574.6 0)
+			(at 711.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +5530,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -674.6 0)
+			(at 811.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +5540,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -774.6 0)
+			(at 911.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +5632,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 76.2 92.71 90)
+		(at 67.31 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7459,7 +5641,7 @@
 		(fields_autoplaced yes)
 		(uuid "d540330b-9ef8-45fb-ad5d-7b8e44fd309f")
 		(property "Reference" "#PWR058"
-			(at 81.28 92.71 0)
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +5650,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 80.01 92.837 0)
+			(at 67.183 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +5658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 92.71 0)
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +5667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 92.71 0)
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +5676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 92.71 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 168.58 0)
 			(effects
 				(font
@@ -7730,7 +5912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 121.59 0)
 			(effects
 				(font
@@ -7852,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC6431X65N"
+		(property "Footprint" "InverterCom:RESC6431X65N"
 			(at 209.55 160.96 0)
 			(effects
 				(font
@@ -7948,7 +6130,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 76.2 21.59 90)
+		(at 90.17 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7957,7 +6139,7 @@
 		(fields_autoplaced yes)
 		(uuid "e81c2d22-eca9-4d47-998e-b29072d8208c")
 		(property "Reference" "#PWR049"
-			(at 81.28 21.59 0)
+			(at 90.17 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +6148,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 80.01 21.717 0)
+			(at 90.043 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +6156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 21.59 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +6165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 21.59 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +6174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 21.59 0)
+			(at 90.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,16 +6196,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 92.71 0)
+		(at 67.31 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9abf782-68de-4e91-ae2b-d17c671fa97a")
 		(property "Reference" "C53"
-			(at 71.1201 96.52 90)
+			(at 63.5 100.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +6214,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 68.5801 96.52 90)
+			(at 63.5 97.7901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,8 +6222,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 72.39 188.9 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at -28.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 72.39 288.9 0)
+			(at -128.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +6243,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 92.71 0)
+			(at 67.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +6252,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 72.39 488.9 0)
+			(at -328.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +6262,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 72.39 588.9 0)
+			(at -428.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +6272,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 72.39 688.9 0)
+			(at -528.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +6282,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 72.39 788.9 0)
+			(at -628.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +6292,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 72.39 888.9 0)
+			(at -728.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +6344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 334.95 41.91 0)
 			(effects
 				(font
@@ -8258,7 +6440,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 50.8 92.71 270)
+		(at 67.31 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8267,7 +6449,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb714886-fda4-423b-9fca-0f984999e180")
 		(property "Reference" "#PWR057"
-			(at 45.72 92.71 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +6458,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.99 92.583 0)
+			(at 67.437 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +6466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 92.71 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +6475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 92.71 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +6484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 50.8 92.71 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,128 +6499,6 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeaab087-965c-4646-aee2-36f081bbdc4f")
-		(property "Reference" "C11"
-			(at 55.8799 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330uF"
-			(at 58.4199 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -40.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -140.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "27"
-			(at 54.61 -340.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -440.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -540.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -640.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -740.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "608c3772-5f6a-46e7-a3de-ae02a42f989b")
-		)
-		(pin "1"
-			(uuid "444b4175-b4ae-42ba-8f24-efb7ad50258e")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8472,7 +6532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 142.57 59.69 0)
 			(effects
 				(font
@@ -8568,16 +6628,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 63.5 92.71 180)
+		(at 67.31 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd944e9e-5a30-428a-bf61-3567f60ccdfc")
 		(property "Reference" "C54"
-			(at 58.4201 96.52 90)
+			(at 63.5 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +6646,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 55.8801 96.52 90)
+			(at 63.5 85.0901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,8 +6654,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD1000W190D2250H2700"
-			(at 54.61 -3.48 0)
+		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
+			(at 163.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +6665,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 54.61 -103.48 0)
+			(at 263.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +6675,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 63.5 92.71 0)
+			(at 67.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +6684,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 54.61 -303.48 0)
+			(at 463.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +6694,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 54.61 -403.48 0)
+			(at 563.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +6704,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 54.61 -503.48 0)
+			(at 663.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +6714,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 54.61 -603.48 0)
+			(at 763.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +6724,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 54.61 -703.48 0)
+			(at 863.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

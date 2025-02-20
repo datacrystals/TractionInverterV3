@@ -3786,7 +3786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 109.22 174.93 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:TO127P1500X470-8N-2-V1"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 144.272 119.38 90)
 			(effects
 				(font
@@ -4271,7 +4271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BEADC1608X100N"
+		(property "Footprint" "InverterCom:BEADC1608X100N"
 			(at 97.79 116.078 90)
 			(effects
 				(font
@@ -4391,7 +4391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 100.6348 115.57 0)
 			(effects
 				(font
@@ -4527,7 +4527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 235.9152 33.02 0)
 			(effects
 				(font
@@ -4595,7 +4595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 76.2 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 84.582 119.38 90)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 158.4452 53.34 0)
 			(effects
 				(font
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BEADC1608X100N"
+		(property "Footprint" "InverterCom:BEADC1608X100N"
 			(at 157.48 116.078 90)
 			(effects
 				(font
@@ -5307,7 +5307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 84.582 130.81 90)
 			(effects
 				(font
@@ -5375,7 +5375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 54.61 62.23 0)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 109.22 185.09 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 109.22 164.77 0)
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:TO127P1500X470-8N-2-V1"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 86.36 185.09 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 144.272 130.81 90)
 			(effects
 				(font
@@ -6393,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 132.08 0)
 			(effects
 				(font
@@ -6648,7 +6648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 223.2152 33.02 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "InverterCom:SOIC127P600X175-8N"
 			(at 217.17 130.48 0)
 			(effects
 				(font
@@ -6856,7 +6856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 62.23 0)
 			(effects
 				(font
@@ -6977,7 +6977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 54.61 34.29 0)
 			(effects
 				(font
@@ -7100,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 145.7452 53.34 0)
 			(effects
 				(font
@@ -7168,7 +7168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 104.14 0)
 			(effects
 				(font
@@ -7291,7 +7291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 160.3248 115.57 0)
 			(effects
 				(font
@@ -7359,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 86.36 174.93 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 171.45 72.898 90)
 			(effects
 				(font
@@ -7567,7 +7567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS30CDU06HM3I"
+		(property "Footprint" "InverterCom:VS30CDU06HM3I"
 			(at 256.54 118.11 0)
 			(effects
 				(font
@@ -7690,7 +7690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1210"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 177.4952 80.01 0)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHDM1008BCEV2R2M20"
+		(property "Footprint" "InverterCom:IHDM1008BCEV2R2M20"
 			(at 86.36 164.77 0)
 			(effects
 				(font

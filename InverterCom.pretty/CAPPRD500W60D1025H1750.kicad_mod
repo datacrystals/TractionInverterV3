@@ -115,6 +115,18 @@
 		(uuid "01f04e1a-e4f7-495e-aab8-e31f40e58234")
 	)
 	(model "UVY1E102MPD1TD.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/UVY1E102MPD1TD.stp"
 		(offset
 			(xyz 0 0 0)
 		)

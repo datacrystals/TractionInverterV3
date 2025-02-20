@@ -125,4 +125,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/SLPX331M200A1P3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

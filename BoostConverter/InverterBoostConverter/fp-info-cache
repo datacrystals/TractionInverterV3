@@ -1,4 +1,4 @@
-24685874061690783
+24689361332358302
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64484,6 +64484,13 @@ Capacitor
 2
 2
 InverterCom
+Arduino_UNO_R3_ModifiedCourtyard
+Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
+0
+32
+32
+InverterCom
 BEADC1608X100N
 FBMJ1608HS220NTR
 Ferrite Bead
@@ -64609,6 +64616,13 @@ Diode
 0
 3
 3
+InverterCom
+WireSolderJoint
+
+
+0
+1
+1
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
