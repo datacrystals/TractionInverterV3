@@ -4019,7 +4019,7 @@
 		)
 	)
 	(junction
-		(at 223.52 110.49)
+		(at 223.52 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0032c108-5210-417a-aa3b-d84614572581")
@@ -4121,7 +4121,7 @@
 		(uuid "5561e0e9-ea0f-4117-b7c8-514d872455fb")
 	)
 	(junction
-		(at 261.62 110.49)
+		(at 261.62 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62e1f452-e4cb-4fb1-a580-e1dc0a650d78")
@@ -4270,6 +4270,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 111.76) (xy 261.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018abd32-3099-4859-ad44-56e6c8499173")
+	)
+	(wire
+		(pts
 			(xy 26.67 143.51) (xy 26.67 147.32)
 		)
 		(stroke
@@ -4370,7 +4380,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 123.19) (xy 278.13 123.19)
+			(xy 274.32 128.27) (xy 278.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4420,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 123.19) (xy 240.03 127)
+			(xy 240.03 128.27) (xy 240.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4500,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 110.49) (xy 261.62 110.49)
+			(xy 264.16 115.57) (xy 261.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 123.19) (xy 278.13 127)
+			(xy 278.13 128.27) (xy 278.13 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4810,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 123.19) (xy 210.82 110.49)
+			(xy 210.82 128.27) (xy 210.82 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4940,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 223.52 110.49)
+			(xy 210.82 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4957,6 +4967,16 @@
 			(type default)
 		)
 		(uuid "683aa7cb-b2e3-4225-b075-e3e9f79ac4b5")
+	)
+	(wire
+		(pts
+			(xy 261.62 111.76) (xy 261.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ab6e6e-ab40-4b21-8f5d-c15805c58bfe")
 	)
 	(wire
 		(pts
@@ -5100,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 110.49) (xy 261.62 113.03)
+			(xy 261.62 115.57) (xy 261.62 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5470,6 +5490,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 111.76) (xy 223.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0976490-768d-441f-839a-12f0ba98dd55")
+	)
+	(wire
+		(pts
 			(xy 22.86 17.78) (xy 24.13 17.78)
 		)
 		(stroke
@@ -5577,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "c9151a23-d532-4c0b-93fc-b1a538a8d8c3")
+	)
+	(wire
+		(pts
+			(xy 229.87 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9310cb0-1cb7-4297-a870-d7c108284199")
 	)
 	(wire
 		(pts
@@ -5690,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 248.92 110.49)
+			(xy 248.92 128.27) (xy 248.92 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5740,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 110.49) (xy 223.52 113.03)
+			(xy 223.52 115.57) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 110.49) (xy 261.62 110.49)
+			(xy 248.92 115.57) (xy 261.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5890,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 110.49) (xy 223.52 110.49)
+			(xy 226.06 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5940,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 123.19) (xy 240.03 123.19)
+			(xy 236.22 128.27) (xy 240.03 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6548,7 +6588,7 @@
 	)
 	(global_label "Arduino_Temp1"
 		(shape input)
-		(at 240.03 127 270)
+		(at 240.03 132.08 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6558,7 +6598,7 @@
 		)
 		(uuid "38f02086-5390-4a69-b0ae-e4dfcdca5e04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 144.1364 90)
+			(at 240.03 149.2164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7160,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 264.16 110.49 0)
+		(at 264.16 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7130,7 +7170,7 @@
 		)
 		(uuid "e14c5422-ef25-4991-bca1-2771ecbeaab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.0157 110.49 0)
+			(at 271.0157 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7226,7 @@
 	)
 	(global_label "Arduino_Temp2"
 		(shape input)
-		(at 278.13 127 270)
+		(at 278.13 132.08 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7196,7 +7236,7 @@
 		)
 		(uuid "f284d95a-e9af-49f2-b81f-590ad9ba31bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 144.1364 90)
+			(at 278.13 149.2164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7292,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 226.06 110.49 0)
+		(at 226.06 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7262,7 +7302,7 @@
 		)
 		(uuid "f899521b-e34b-419b-9024-3780a1a2d022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9157 110.49 0)
+			(at 232.9157 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,6 +7789,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 275.59 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd44bdb-2a65-4490-823b-d2f1e15862c8")
+		(property "Reference" "#PWR014"
+			(at 275.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e635c01d-0714-41a9-b685-2bbd33ca6be9")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 132.08 33.02 0)
 		(unit 1)
@@ -7870,7 +7976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 133.35 0)
+		(at 261.62 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7879,7 +7985,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d2c0536-6b99-4fc9-82ae-7fbf38d53566")
 		(property "Reference" "#PWR074"
-			(at 261.62 139.7 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +7994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 138.43 0)
+			(at 261.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +8002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 133.35 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 133.35 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +8020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 133.35 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8339,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TMP36xS")
-		(at 261.62 123.19 0)
+		(at 261.62 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8242,7 +8348,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a2a92b5-85bd-4387-a7f0-018ed7adada4")
 		(property "Reference" "U5"
-			(at 276.86 116.8714 0)
+			(at 276.86 121.9514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8356,7 @@
 			)
 		)
 		(property "Value" "TMP36xS"
-			(at 276.86 119.4114 0)
+			(at 276.86 124.4914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8364,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 261.62 134.62 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf"
-			(at 261.62 123.19 0)
+			(at 261.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8382,7 @@
 			)
 		)
 		(property "Description" "Low Voltage Temperature Sensor, SOIC-8"
-			(at 261.62 123.19 0)
+			(at 261.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,6 +9083,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 237.49 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365c76c5-a62c-419a-ae57-f75c9c1d9ebe")
+		(property "Reference" "#PWR013"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73dc9fe-e662-402d-b9b8-5ca7d4f29e9e")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 95.25 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9500,6 +9672,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 271.78 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44813e87-a168-439a-8eb4-9db9a8739290")
+		(property "Reference" "C5"
+			(at 271.78 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 271.78 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 275.59 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd1b57c-0e59-4cbc-b566-a4d9f68c69b6")
+		)
+		(pin "2"
+			(uuid "fb6c7a65-38e7-4cf6-86d1-325da3cc3e83")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InverterCom:MCP2515-e_ST")
 		(at 48.26 123.19 0)
 		(unit 1)
@@ -9745,7 +9984,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TMP36xS")
-		(at 223.52 123.19 0)
+		(at 223.52 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9754,7 +9993,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bd10e3c-4968-405b-9b32-2f1cf708cec8")
 		(property "Reference" "U4"
-			(at 238.76 116.8714 0)
+			(at 238.76 121.9514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +10001,7 @@
 			)
 		)
 		(property "Value" "TMP36xS"
-			(at 238.76 119.4114 0)
+			(at 238.76 124.4914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 223.52 134.62 0)
+			(at 223.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf"
-			(at 223.52 123.19 0)
+			(at 223.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +10027,7 @@
 			)
 		)
 		(property "Description" "Low Voltage Temperature Sensor, SOIC-8"
-			(at 223.52 123.19 0)
+			(at 223.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11304,6 +11543,73 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "895f8870-44b5-413d-8f06-eb5df2b5298f")
+		(property "Reference" "C4"
+			(at 233.68 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 233.68 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 237.49 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c0ac27-8d13-47b2-b9b1-bc64c9bbda94")
+		)
+		(pin "2"
+			(uuid "4b509d75-b6be-481d-8369-5a9b98e83d76")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14791,7 +15097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 133.35 0)
+		(at 223.52 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14800,7 +15106,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef6709fe-66a9-4525-b07a-e1b3f763af66")
 		(property "Reference" "#PWR073"
-			(at 223.52 139.7 0)
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +15115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 138.43 0)
+			(at 223.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14817,7 +15123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 133.35 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14826,7 +15132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 133.35 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +15141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 133.35 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

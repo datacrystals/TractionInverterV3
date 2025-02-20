@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MJE2955TG
-D DC Current Gain Specified to 10 Amperes; High Current Gain - Bandwidth Product - fT = 2.0 MHz (Min) @ IC fT = 500 mAdc; Pb-Free Packages are Available
-K
-F https://www.onsemi.com/pub/Collateral/MJE2955T-D.PDF
-$ENDCMP
-#
-#End Doc Library
