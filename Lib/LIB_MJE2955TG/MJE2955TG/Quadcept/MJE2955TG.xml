@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/225711/1553794/2.50/3/2/Transistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c201_h134" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="52.75590551181">
+    <padshape layer="TOP" shape="round" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="87.007874015747" height="87.007874015747" />
+    <padshape layer="INNER" shape="round" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="BOTTOM" shape="round" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="87.007874015747" height="87.007874015747" />
+  </padstyle>
+  <padstyle name="s201_h134" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="52.75590551181">
+    <padshape layer="TOP" shape="square" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="87.007874015747" height="87.007874015747" />
+    <padshape layer="INNER" shape="round" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="BOTTOM" shape="square" width="79.133858267716" height="79.133858267716" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="87.007874015747" height="87.007874015747" />
+  </padstyle>
+  <footprint name="TO254P483X1010X2035-3P" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s201_h134" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c201_h134" originx="99.999999999999" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="c201_h134" originx="200" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-117.12598425197" originy="131.69291338583" endx="317.12598425196" endy="131.69291338583" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="317.12598425196" originy="131.69291338583" endx="317.12598425196" endy="-78.149606299212" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="317.12598425196" originy="-78.149606299212" endx="-117.12598425197" endy="-78.149606299212" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-117.12598425197" originy="-78.149606299212" endx="-117.12598425197" endy="131.69291338583" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-107.28346456693" originy="121.85039370079" endx="307.28346456693" endy="121.85039370079" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="307.28346456693" originy="121.85039370079" endx="307.28346456693" endy="-68.307086614172" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="307.28346456693" originy="-68.307086614172" endx="-107.28346456693" endy="-68.307086614172" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-107.28346456693" originy="-68.307086614172" endx="-107.28346456693" endy="121.85039370079" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-107.28346456693" originy="71.850393700787" endx="-57.283464566928" endy="121.85039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="307.28346456693" originy="-68.307086614172" endx="307.28346456693" endy="121.85039370079" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="307.28346456693" originy="121.85039370079" endx="-107.28346456693" endy="121.85039370079" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-107.28346456693" originy="121.85039370079" endx="-107.28346456693" endy="0" width="7.8740157480314" />
+  </footprint>
+  <symbol name="MJE2955TG" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="C" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="E" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+  </symbol>
+  <component name="MJE2955TG" designatorprefix="Q" height="190.15748031496" footprint="TO254P483X1010X2035-3P">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="E" />
+    <attached_symbol gate="1" name="MJE2955TG" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.onsemi.com/pub/Collateral/MJE2955T-D.PDF" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="DC Current Gain Specified to 10 Amperes; High Current Gain - Bandwidth Product - fT = 2.0 MHz (Min) @ IC fT = 500 mAdc; Pb-Free Packages are Available" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="863-MJE2955TG" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/onsemi/MJE2955TG?qs=HVbQlW5zcXV0Q1cBURTsUg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="onsemi" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MJE2955TG" />
+  </component>
+</quadcept_library>

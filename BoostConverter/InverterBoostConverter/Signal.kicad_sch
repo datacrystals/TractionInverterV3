@@ -12930,7 +12930,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "RC2512JK-071ML"
 			(at 259.0801 50.8 90)
 			(effects
 				(font
@@ -13562,7 +13562,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "RC2512JK-071ML"
 			(at 227.3301 50.8 90)
 			(effects
 				(font
