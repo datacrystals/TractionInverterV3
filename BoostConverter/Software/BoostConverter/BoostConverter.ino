@@ -31,6 +31,12 @@
 #define VOUT_MAX_V 360
 #define VSENSE_GRACE_TIME_MS 2000 // Time which voltage is allowed to be out of spec before error is asserted
 
+// Current Sensor Settings
+#define PHASE_1_CURRENT_SENSE_PIN A0 // Pin which is used to sample the current for phase 1
+#define PHASE_2_CURRENT_SENSE_PIN A1 // Pin which is used to sample the current for phase 2
+#define CURRENT_MIN_VALUE_A -5       // Min current value below which current error thrown
+#define CURRENT_MAX_VALUE_A 180      // Max current value above which current error thrown
+
 // Fault management constants
 #define MIN_RESET_TIME_SEC 5      // Minimum time a fault must be active before it can auto-reset
 #define MAX_AUTO_RESET_COUNT 3    // Maximum number of times a fault can auto-reset
@@ -46,13 +52,17 @@
 #define ENABLE_SERIAL_PRINT
 
 
+
+
+
+
 // Indicator Class
 class Indicator {
   public:
     // Constructor
-    Indicator(int _Pin) {
-      Pin_ = _Pin;
-      pinMode(_Pin, OUTPUT);
+    Indicator(int pin) : Pin_(pin), State_(false), previousMillis_(0),
+                          blinkCodeIndex_(0), blinkState_(IDLE), blinkStartTime_(0) {
+      pinMode(Pin_, OUTPUT);
     }
 
     // Toggle the LED state
@@ -63,16 +73,16 @@ class Indicator {
     }
 
     // Set the LED state explicitly
-    void SetState(bool _NewState) {
-      State_ = _NewState;
+    void SetState(bool newState) {
+      State_ = newState;
       digitalWrite(Pin_, State_);
     }
 
     // Blink the LED at a fixed frequency
-    void Blink(int _Frequency_ms) {
+    void Blink(int frequencyMs) {
       unsigned long currentMillis = millis();
 
-      if (currentMillis - previousMillis_ >= _Frequency_ms) {
+      if (currentMillis - previousMillis_ >= frequencyMs) {
         previousMillis_ = currentMillis;
         ToggleIndicator();
       }
@@ -96,7 +106,7 @@ class Indicator {
             blinkStartTime_ = currentMillis;
             blinkState_ = BLINK_WAIT;
           } else {
-            // End of sequence, wait for 1.5s gap before repeating
+            // End of sequence, wait for the end gap before repeating
             blinkState_ = END_GAP;
             blinkStartTime_ = currentMillis;
           }
@@ -114,14 +124,14 @@ class Indicator {
 
         case BLINK_GAP:
           // Wait for the gap between blinks
-          if (currentMillis - blinkStartTime_ >= 300) {
+          if (currentMillis - blinkStartTime_ >= BLINK_GAP_DURATION) {
             blinkState_ = BLINK_ON;
           }
           break;
 
         case END_GAP:
-          // Wait for the 1.5s gap after the sequence ends
-          if (currentMillis - blinkStartTime_ >= 1500) {
+          // Wait for the end gap after the sequence ends
+          if (currentMillis - blinkStartTime_ >= END_GAP_DURATION) {
             blinkState_ = IDLE; // Restart the sequence
           }
           break;
@@ -135,19 +145,25 @@ class Indicator {
       BLINK_ON,  // LED is on
       BLINK_WAIT, // Waiting for the blink duration to complete
       BLINK_GAP,  // Waiting for the gap between blinks
-      END_GAP    // Waiting for the 1.5s gap after the sequence ends
+      END_GAP    // Waiting for the end gap after the sequence ends
     };
 
+    // Constants for timing
+    const unsigned long LONG_BLINK_DURATION = 1000; // Long blink duration in ms
+    const unsigned long SHORT_BLINK_DURATION = 500; // Short blink duration in ms
+    const unsigned long BLINK_GAP_DURATION = 500; // Gap between blinks in ms
+    const unsigned long END_GAP_DURATION = 1750; // End gap after sequence in ms
+
     int Pin_; // Output Pin
-    bool State_ = false; // Current LED State
-    unsigned long previousMillis_ = 0; // For the Blink method
-    int blinkCodeIndex_ = 0; // Current position in the blink code
-    BlinkState blinkState_ = IDLE; // Current state of the blink sequence
-    unsigned long blinkStartTime_ = 0; // When the current blink started
+    bool State_; // Current LED State
+    unsigned long previousMillis_; // For the Blink method
+    int blinkCodeIndex_; // Current position in the blink code
+    BlinkState blinkState_; // Current state of the blink sequence
+    unsigned long blinkStartTime_; // When the current blink started
 
     // Helper function to get the duration of a blink based on the code character
     unsigned long getBlinkDuration(char blinkChar) {
-      return (blinkChar == 'L') ? 800 : 400; // Long blink: 600ms, Short blink: 300ms
+      return (blinkChar == 'L') ? LONG_BLINK_DURATION : SHORT_BLINK_DURATION;
     }
 };
 
@@ -520,6 +536,39 @@ class TMP36Sensor {
       float maxTempETH;  // Maximum temperature threshold
 };
 
+class ACS758CurrentSensor {
+  public:
+      // Constructor
+      ACS758CurrentSensor(int voutPin, float sensitivity = 20.0, float quiescentVoltage = 0.6)
+          : voutPin(voutPin), sensitivity(sensitivity), quiescentVoltage(quiescentVoltage) {}
+
+      // Set the acceptable current range
+      void setCurrentRange(float minCurrent, float maxCurrent) {
+          this->minCurrent = minCurrent;
+          this->maxCurrent = maxCurrent;
+      }
+
+      // Read the current from the sensor
+      float getCurrent() {
+          int sensorValue = analogRead(voutPin);
+          float voltage = sensorValue * (5.0 / 1023.0); // Convert to voltage
+          float current = (voltage - quiescentVoltage) / sensitivity;
+          return current;
+      }
+
+      // Check if the current is within the acceptable range
+      bool getError() {
+          float current = getCurrent();
+          return (current < minCurrent || current > maxCurrent);
+      }
+
+  private:
+      int voutPin;
+      float sensitivity;
+      float quiescentVoltage;
+      float minCurrent = 0.0;
+      float maxCurrent = 200.0;
+};
 
 
 // -- Define Global Objects --//
@@ -533,6 +582,10 @@ VoltageSensor VoltageSensorVOUT(A3, 6000.0 / 40.0, VOUT_MIN_V, VOUT_MAX_V, VSENS
 
 TMP36Sensor Phase1TempSense(PHASE_1_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
 TMP36Sensor Phase2TempSense(PHASE_2_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
+
+ACS758CurrentSensor Phase1CurrentSense(PHASE_1_CURRENT_SENSE_PIN);
+ACS758CurrentSensor Phase2CurrentSense(PHASE_2_CURRENT_SENSE_PIN);
+
 
 FanController SystemFan(FAN_TACH, FAN_PWM);
 
@@ -572,7 +625,13 @@ void setup() {
 
     // Setup Output Enable Pin
     pinMode(OUTPUT_ENABLE_PIN, OUTPUT);
+
+    // Init Current Sensors
+    Phase1CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
+    Phase2CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
 }
+
+
 
 void loop() {
     // Update Indicators
@@ -667,6 +726,35 @@ void loop() {
             faultManager.assertFault("TEMPSENSE_2_OUT_OF_RANGE", "SSLL");
         }
 
+        // Update thermal indicator led
+        IndicatorTempOK.SetState(!(Phase1TempSense.getFault() || Phase2TempSense.getFault() || SystemFan.checkError()));
+
+
+
+
+        // ---- Current Sensor Monitoring ---- //
+        float Phase1Current_A = Phase1CurrentSense.getCurrent();
+        float Phase2Current_A = Phase2CurrentSense.getCurrent();
+
+#ifdef ENABLE_SERIAL_PRINT
+        Serial.print("Phase1 Current: ");
+        Serial.print(Phase1Current_A);
+        Serial.println("A");
+
+        Serial.print("Phase2 Current: ");
+        Serial.print(Phase2Current_A);
+        Serial.println("A");
+#endif        
+
+        if (Phase1CurrentSense.getError()) {
+            faultManager.assertFault("PHASE_A_OVERCURRENT", "LSSS");
+        }
+        if (Phase2CurrentSense.getError()) {
+            faultManager.assertFault("PHASE_B_OVERCURRENT", "LSSL");
+        }
+
+
+
         // ---- SERIAL LOG FAULTS ---- //
         // Print current faults
         if (faultManager.getFaultCount() > 0) {
@@ -677,7 +765,6 @@ void loop() {
         }
 
     }
-
 
 
 
