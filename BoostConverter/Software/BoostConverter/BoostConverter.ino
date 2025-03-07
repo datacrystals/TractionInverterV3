@@ -5,11 +5,15 @@
 #define LED_INDICATOR3_PIN 9  // Temperature OK
 #define FAN_TACH 3            // Fan Tachometer
 #define FAN_PWM 5             // Fan PWM duty cycle control
+#define OUTPUT_ENABLE_PIN 7   // Pin which enables output, must be high for output to be on
+#define PHASE_1_TEMP_SENSOR_PIN A4 // Phase A Temp Sensor
+#define PHASE_2_TEMP_SENSOR_PIN A5 // Phase A Temp Sensor
+
 
 // Constants for airflow calculation
 #define MAX_RPM 5500          // Maximum RPM at 100% PWM
 #define MAX_AIRFLOW_CFM 225.0 // Maximum airflow in CFM at 100% PWM
-#define DUCT_AREA_SQFT 0.25   // Cross-sectional area of the duct in square feet
+#define DUCT_AREA_SQFT 0.15   // Cross-sectional area of the duct in square feet
 
 // Thresholds for airflow in LFM
 #define MIN_AIRFLOW_LFM 50.0  // Minimum acceptable airflow in LFM
@@ -17,14 +21,30 @@
 
 // Temperature and fan speed settings
 #define MIN_TEMP 30.0         // Minimum temperature for fan speed adjustment
-#define MAX_TEMP 80.0         // Maximum temperature for fan speed adjustment
+#define MAX_TEMP 120.0         // Maximum temperature for fan speed adjustment
 #define BASE_FAN_SPEED 25     // Base fan speed (0-255)
+
+// Voltage Sensor settings
+#define VIN_MIN_V 24
+#define VIN_MAX_V 185
+#define VOUT_MIN_V 320
+#define VOUT_MAX_V 360
+#define VSENSE_GRACE_TIME_MS 2000 // Time which voltage is allowed to be out of spec before error is asserted
 
 // Fault management constants
 #define MIN_RESET_TIME_SEC 5      // Minimum time a fault must be active before it can auto-reset
 #define MAX_AUTO_RESET_COUNT 3    // Maximum number of times a fault can auto-reset
 #define AUTO_RESET_FAULT_TIME 60  // Time after which an auto-reset fault is forgotten
 #define FAULT_BUFFER_SIZE 4       // Size of the fault buffer
+#define FAULT_DURATION_THRESHOLD 5000 // Duration in milliseconds to consider a fault as proper
+
+#define FAULT_BUFFER_OVERFLOW "FAULT_BUFFER_OVERFLOW"
+#define FAULT_NAME_LENGTH 32
+#define BLINK_CODE_LENGTH 8
+
+// Debug Info
+#define ENABLE_SERIAL_PRINT
+
 
 // Indicator Class
 class Indicator {
@@ -127,31 +147,69 @@ class Indicator {
 
     // Helper function to get the duration of a blink based on the code character
     unsigned long getBlinkDuration(char blinkChar) {
-      return (blinkChar == 'L') ? 600 : 300; // Long blink: 600ms, Short blink: 300ms
+      return (blinkChar == 'L') ? 800 : 400; // Long blink: 600ms, Short blink: 300ms
     }
 };
 
 class VoltageSensor {
-    public:
-        // Constructor to initialize the sensor with an analog pin and voltage divider ratio
-        VoltageSensor(int analogPin, float dividerRatio)
-            : analogPin_(analogPin), dividerRatio_(dividerRatio) {}
+  public:
+      // Constructor to initialize the sensor with an analog pin, voltage divider ratio, and acceptable range
+      VoltageSensor(int analogPin, float dividerRatio, float vmin, float vmax, unsigned long errorDuration)
+          : analogPin_(analogPin), dividerRatio_(dividerRatio), vmin_(vmin), vmax_(vmax),
+            errorDuration_(errorDuration), errorStartTime_(0), error_(false) {}
 
-        // Method to read the voltage from the sensor
-        float readVoltage() {
-            // Read the analog value from the pin (0-1023 for Arduino)
-            int analogValue = analogRead(analogPin_);
+      // Method to read the voltage from the sensor
+      float readVoltage() {
+          // Read the analog value from the pin (0-1023 for Arduino)
+          int analogValue = analogRead(analogPin_);
 
-            // Convert the analog value to a voltage (0-5V for Arduino)
-            float voltage = analogValue * (5.0 / 1023.0);
+          // Convert the analog value to a voltage (0-5V for Arduino)
+          float voltage = analogValue * (5.0 / 1023.0);
 
-            // Apply the voltage divider ratio to get the actual voltage
-            return voltage / dividerRatio_;
-        }
+          // Apply the voltage divider ratio to get the actual voltage
+          voltage /= dividerRatio_;
 
-    private:
-        int analogPin_;        // Analog input pin
-        float dividerRatio_;   // Voltage divider ratio
+          // Check if the voltage is within the acceptable range
+          if (voltage < vmin_ || voltage > vmax_) {
+              if (errorStartTime_ == 0) {
+                  // Start timing the error duration
+                  errorStartTime_ = millis();
+              } else if (millis() - errorStartTime_ >= errorDuration_) {
+                  // Error duration exceeded, set the error flag
+                  error_ = true;
+              }
+          } else {
+              // Voltage is within range, reset error tracking
+              errorStartTime_ = 0;
+              error_ = false;
+          }
+
+          return voltage;
+      }
+
+      // Method to check if the voltage is out of the acceptable range
+      bool getError() const {
+          return error_;
+      }
+
+      // Method to check if the voltage is below the minimum acceptable value
+      bool isUndervoltage() const {
+          return error_ && (readVoltage() < vmin_);
+      }
+
+      // Method to check if the voltage is above the maximum acceptable value
+      bool isOvervoltage() const {
+          return error_ && (readVoltage() > vmax_);
+      }
+
+  private:
+      int analogPin_;             // Analog input pin
+      float dividerRatio_;       // Voltage divider ratio
+      float vmin_;               // Minimum acceptable voltage
+      float vmax_;               // Maximum acceptable voltage
+      unsigned long errorDuration_; // Duration for which voltage must be out of range to trigger error
+      unsigned long errorStartTime_; // Time when the voltage first went out of range
+      bool error_;               // Error flag indicating if voltage is out of range
 };
 
 class FanController {
@@ -246,8 +304,6 @@ class FanController {
 // Define the static member
 FanController* FanController::instance = nullptr;
 
-#define FAULT_NAME_LENGTH 32
-#define BLINK_CODE_LENGTH 8
 
 class FaultManager {
   public:
@@ -259,15 +315,18 @@ class FaultManager {
         faultBuffer[i].resetCount = 0;
         faultBuffer[i].startTime = 0;
         faultBuffer[i].isAutoReset = false;
+        faultBuffer[i].isActive = false;
       }
     }
 
     // Assert a fault
     void assertFault(const char* faultName, const char* blinkCode, bool isAutoReset = true, bool overwriteFaults = false) {
-      
+
+      if (isOverflown) {
+        return;
+      }
+
       if (overwriteFaults) {
-        // Clear existing faults
-        resetFaults();
 
         // Now add our fault to the buffer
         strncpy(faultBuffer[0].name, faultName, FAULT_NAME_LENGTH);
@@ -275,26 +334,34 @@ class FaultManager {
         faultBuffer[0].resetCount = 0;
         faultBuffer[0].startTime = millis();
         faultBuffer[0].isAutoReset = isAutoReset;
+        faultBuffer[0].isActive = true;
         faultCount = 1;
+        
         return;
       }
 
       // Check if the fault buffer is full
+      // Serial.println(faultCount);
+
       if (faultCount >= FAULT_BUFFER_SIZE) {
         // Assert the FAULT_BUFFER_OVERFLOW fault if the buffer is full
-        bool overflowAsserted = false;
-        for (int i = 0; i < FAULT_BUFFER_SIZE; i++) {
-          if (strcmp(faultBuffer[i].name, "FAULT_BUFFER_OVERFLOW") == 0) {
-            // If FAULT_BUFFER_OVERFLOW is already in the buffer, do not add it again
-            overflowAsserted = true;
-            break;
-          }
+        resetFaults();
+
+        // Force-add the overflow fault, overwriting existing faults
+        assertFault("FAULT_BUFFER_OVERFLOW", "SSSS", false, true);
+
+        isOverflown = true;
+
+      }
+
+      // Check if the fault is already in the buffer
+      for (int i = 0; i < FAULT_BUFFER_SIZE; i++) {
+        if (strcmp(faultBuffer[i].name, faultName) == 0) {
+          // Fault is already in the buffer, update the start time
+          faultBuffer[i].startTime = millis();
+          faultBuffer[i].isActive = true;
+          return;
         }
-        if (!overflowAsserted) {
-          // Add the FAULT_BUFFER_OVERFLOW fault to the buffer
-          assertFault("FAULT_BUFFER_OVERFLOW", "SSSS", false, true);
-        }
-        return;
       }
 
       // Add the fault to the buffer
@@ -305,15 +372,17 @@ class FaultManager {
           faultBuffer[i].resetCount = 0;
           faultBuffer[i].startTime = millis();
           faultBuffer[i].isAutoReset = isAutoReset;
+          faultBuffer[i].isActive = true;
           faultCount++;
           break;
         }
       }
     }
 
-
-
     void resetFaults() {
+
+      isOverflown = false;
+
       // Clear existing faults
       for (int i = 0; i < FAULT_BUFFER_SIZE; i++) {
         faultBuffer[i].name[0] = '\0';
@@ -321,10 +390,10 @@ class FaultManager {
         faultBuffer[i].resetCount = 0;
         faultBuffer[i].startTime = 0;
         faultBuffer[i].isAutoReset = false;
+        faultBuffer[i].isActive = false;
       }
       faultCount = 0;
     }
-
 
     // Clear auto-reset faults
     void clearAutoResetFaults() {
@@ -367,7 +436,7 @@ class FaultManager {
     void getFaultNames(char* faultNames, int maxLength) {
       faultNames[0] = '\0';
       for (int i = 0; i < FAULT_BUFFER_SIZE; i++) {
-        if (faultBuffer[i].name[0] != '\0') {
+        if (faultBuffer[i].name[0] != '\0' && faultBuffer[i].isActive) {
           if (faultNames[0] != '\0') {
             strncat(faultNames, ", ", maxLength - strlen(faultNames) - 1);
           }
@@ -380,7 +449,7 @@ class FaultManager {
     void getMostRecentFaultBlinkCode(char* blinkCode, int maxLength) {
       blinkCode[0] = '\0';
       for (int i = FAULT_BUFFER_SIZE - 1; i >= 0; i--) {
-        if (faultBuffer[i].name[0] != '\0') {
+        if (faultBuffer[i].name[0] != '\0' && faultBuffer[i].isActive) {
           strncpy(blinkCode, faultBuffer[i].blinkCode, maxLength);
           break;
         }
@@ -392,6 +461,21 @@ class FaultManager {
       return faultCount;
     }
 
+    // Update the fault status based on duration
+    void updateFaultStatus() {
+      unsigned long currentMillis = millis();
+      for (int i = 0; i < FAULT_BUFFER_SIZE; i++) {
+        if (faultBuffer[i].name[0] != '\0') {
+          unsigned long faultDuration = currentMillis - faultBuffer[i].startTime;
+          if (faultDuration >= FAULT_DURATION_THRESHOLD) {
+            faultBuffer[i].isActive = true;
+          } else {
+            faultBuffer[i].isActive = false;
+          }
+        }
+      }
+    }
+
   private:
     struct Fault {
       char name[FAULT_NAME_LENGTH];
@@ -399,11 +483,43 @@ class FaultManager {
       int resetCount;
       unsigned long startTime;
       bool isAutoReset;
+      bool isActive;
     };
 
     Fault faultBuffer[FAULT_BUFFER_SIZE];
     int faultCount = 0;
+    bool isOverflown;
+
 };
+
+class TMP36Sensor {
+  public:
+      // Constructor
+      TMP36Sensor(int pin, float minTempETH = -40.0, float maxTempETH = 125.0, float minTemp = -40.0, float maxTemp = 125.0)
+          : pin(pin), minTempETH(minTempETH), maxTempETH(maxTempETH), minTemp(minTemp), maxTemp(maxTemp) {}
+
+      // Method to read the temperature
+      float readTemperature() {
+          int sensorValue = analogRead(pin);  // Read the analog value from the sensor
+          float voltage = sensorValue * (5.0 / 1023.0);  // Convert to voltage (assuming 5V reference)
+          float temperatureC = (voltage - 0.5) * 100.0;  // Convert voltage to temperature in Celsius
+          return temperatureC;
+      }
+
+      // Method to check if the temperature is within the specified range
+      bool getFault() {
+          float temperatureC = readTemperature();
+          return (temperatureC < minTempETH || temperatureC > maxTempETH);
+      }
+
+  private:
+      int pin;  // Analog pin where the sensor is connected
+      float minTemp;  // Minimum temperature threshold
+      float minTempETH;  // Minimum temperature threshold
+      float maxTemp;  // Maximum temperature threshold
+      float maxTempETH;  // Maximum temperature threshold
+};
+
 
 
 // -- Define Global Objects --//
@@ -412,13 +528,22 @@ Indicator IndicatorPower(LED_INDICATOR1_PIN);
 Indicator IndicatorOutput(LED_INDICATOR2_PIN);
 Indicator IndicatorTempOK(LED_INDICATOR3_PIN);
 
-VoltageSensor VoltageSensorVIN(A2, 6000.0 / 120.0);
+VoltageSensor VoltageSensorVIN(A2, 6000.0 / 120.0, VIN_MIN_V, VIN_MAX_V, VSENSE_GRACE_TIME_MS);
+VoltageSensor VoltageSensorVOUT(A3, 6000.0 / 40.0, VOUT_MIN_V, VOUT_MAX_V, VSENSE_GRACE_TIME_MS);
+
+TMP36Sensor Phase1TempSense(PHASE_1_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
+TMP36Sensor Phase2TempSense(PHASE_2_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
 
 FanController SystemFan(FAN_TACH, FAN_PWM);
 
 FaultManager faultManager;
 
-bool FaultAsserted = false;
+bool OutputEnabled = true; // Indicates if the output has been enabled or not
+
+float CurrentTemp_C = 30.0; // Temperature which is used to drive the fan control
+
+
+
 
 //-- System Run Modes --//
 void setup() {
@@ -444,6 +569,9 @@ void setup() {
 
     // Fan Baseline Duty Cycle
     SystemFan.setSpeed(BASE_FAN_SPEED);
+
+    // Setup Output Enable Pin
+    pinMode(OUTPUT_ENABLE_PIN, OUTPUT);
 }
 
 void loop() {
@@ -462,11 +590,10 @@ void loop() {
       IndicatorFault.SetState(false);
     }
 
-    // Example temperature value (replace with actual sensor reading)
-    float currentTemp = 20.0;
+ 
 
     // Adjust fan speed based on temperature
-    SystemFan.setFanSpeed(currentTemp);
+    SystemFan.setFanSpeed(CurrentTemp_C);
 
     // Print airflow in LFM every second
     static unsigned long lastPrintTime = 0;
@@ -477,10 +604,81 @@ void loop() {
 
         // Check for airflow errors
         if (SystemFan.checkError()) {
-            Serial.println("Error: Airflow out of acceptable range!");
-            faultManager.assertFault("AIRFLOW_ERROR", "SSSL");
+            faultManager.assertFault("AIRFLOW_OUT_OF_RANGE", "SSSL");
         }
+
+
+        // ---- UPDATE VOLTAGE SENSOR DATA ---- //
+        // Read Voltage Sensors
+        float VIN  = VoltageSensorVIN.readVoltage();
+        float VOUT = VoltageSensorVOUT.readVoltage();
+
+#ifdef ENABLE_SERIAL_PRINT
+        Serial.print("VIN Voltage: ");
+        Serial.print(VIN);
+        Serial.println("V");
+
+        Serial.print("VOUT Voltage: ");
+        Serial.print(VOUT);
+        Serial.println("V");
+#endif
+        // Get voltage sense errors
+        if (VoltageSensorVOUT.isUndervoltage() && OutputEnabled) {
+            faultManager.assertFault("VOUT_UNDERVOLTAGE", "SLLS");
+        }
+        if (VoltageSensorVOUT.isOvervoltage()) {
+            faultManager.assertFault("VOUT_OVERVOLTAGE", "SLLL");
+        }
+        if (VoltageSensorVIN.isUndervoltage()) {
+            faultManager.assertFault("VIN_UNDERVOLTAGE", "SLSS");
+        }
+        if (VoltageSensorVIN.isOvervoltage()) {
+            faultManager.assertFault("VIN_OVERVOLTAGE", "SLSL");
+        }
+
+
+
+        // ---- UPDATE TEMPERATURE SENSOR DATA ---- //
+        // Read Temperature Sensors
+        float Phase1Temp_C = Phase1TempSense.readTemperature();
+        float Phase2Temp_C = Phase2TempSense.readTemperature();
+
+        // Select Max Temperature
+        if (Phase1Temp_C > Phase2Temp_C) {
+          // CurrentTemp_C = Phase1Temp_C;
+        } else {
+          // CurrentTemp_C = Phase2Temp_C;
+        }
+
+#ifdef ENABLE_SERIAL_PRINT
+        Serial.print("Phase1 Temp: ");
+        Serial.print(Phase1Temp_C);
+        Serial.println("C");
+
+        Serial.print("Phase2 Temp: ");
+        Serial.print(Phase2Temp_C);
+        Serial.println("C");
+#endif
+        // Temperature Sensor Faults
+        if (Phase1TempSense.getFault()) {
+            faultManager.assertFault("TEMPSENSE_1_OUT_OF_RANGE", "SSLS");
+        }
+        if (Phase2TempSense.getFault()) {
+            faultManager.assertFault("TEMPSENSE_2_OUT_OF_RANGE", "SSLL");
+        }
+
+        // ---- SERIAL LOG FAULTS ---- //
+        // Print current faults
+        if (faultManager.getFaultCount() > 0) {
+            char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH];
+            faultManager.getFaultNames(faultNames, sizeof(faultNames));
+            Serial.print("Current Faults: ");
+            Serial.println(faultNames);
+        }
+
     }
+
+
 
 
     // Various faults for future reference:
@@ -497,15 +695,16 @@ void loop() {
     // faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
     // faultManager.assertFault("CANBUS_REMOTE_ESTOP", "LSLL");
 
+    // Check that there are no errors, and disable output if there are
+    if (faultManager.getFaultCount() != 0) {
+      OutputEnabled = false;
+    }
+    IndicatorOutput.SetState(OutputEnabled);
+    digitalWrite(OUTPUT_ENABLE_PIN, OutputEnabled);
+
     // Clear and forget auto-reset faults
     faultManager.clearAutoResetFaults();
     faultManager.forgetAutoResetFaults();
 
-    // Print current faults
-    if (faultManager.getFaultCount() > 0) {
-        char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH];
-        faultManager.getFaultNames(faultNames, sizeof(faultNames));
-        Serial.print("Current Faults: ");
-        Serial.println(faultNames);
-    }
+
 }
