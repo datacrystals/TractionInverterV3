@@ -18,6 +18,13 @@
 #define CAN_SO_PIN 12         // Pin for canbus signal out
 #define CAN_SCK_PIN 13        // Pin for canbus clock
 
+#define DEVICE_ID 0x01 // Set this to a unique value (0x00 to 0x3F)
+
+// Indicator Defines
+#define LONG_BLINK_DURATION 1000  // Long blink duration in ms
+#define SHORT_BLINK_DURATION 500  // Short blink duration in ms
+#define BLINK_GAP_DURATION 500    // Gap between blinks in ms
+#define END_GAP_DURATION 1750     // End gap after sequence in ms
 
 // Constants for airflow calculation
 #define MAX_RPM 5500          // Maximum RPM at 100% PWM
@@ -90,24 +97,24 @@ The system uses blink codes to indicate specific faults. Each fault is associate
 
 | Command ID | Description                     | Data Format                  | Response Format             | Notes                                                                 |
 |------------|---------------------------------|------------------------------|-----------------------------|-----------------------------------------------------------------------|
-| `0x010`    | Emergency Stop (Disable Output) | None                         | `0x01` (Acknowledgment)     | Disables output and asserts a non-resettable fault.                   |
-| `0x011`    | Regular Stop (Disable Output)   | None                         | `0x01` (Acknowledgment)     | Disables output without asserting a fault.                            |
-| `0x012`    | Enable Output                   | None                         | `0x01` (Acknowledgment)     | Enables output if no faults are active.                               |
-| `0x013`    | Reset Faults                    | None                         | `0x01` (Acknowledgment)     | Resets all faults in the fault buffer.                                |
-| `0x014`    | Get Number of Faults            | None                         | `uint8_t` (Number of faults)| Returns the number of active faults.                                  |
-| `0x015`    | Get Faults List                 | None                         | `char[]` (Fault names)      | Returns a comma-separated list of active fault names.                 |
-| `0x016`    | Get Vin Voltage                 | None                         | `uint16_t` (Vin in volts)   | Returns the input voltage (Vin) in volts.                             |
-| `0x017`    | Get Vout Voltage                | None                         | `uint16_t` (Vout in volts)  | Returns the output voltage (Vout) in volts.                           |
-| `0x018`    | Get Phase 1 Current             | None                         | `uint16_t` (Current in A)   | Returns the current on Phase 1 in amperes.                            |
-| `0x019`    | Get Phase 2 Current             | None                         | `uint16_t` (Current in A)   | Returns the current on Phase 2 in amperes.                            |
-| `0x01A`    | Get Phase 1 Temperature         | None                         | `uint16_t` (Temp in °C)     | Returns the temperature of Phase 1 in Celsius.                        |
-| `0x01B`    | Get Phase 2 Temperature         | None                         | `uint16_t` (Temp in °C)     | Returns the temperature of Phase 2 in Celsius.                        |
-| `0x01C`    | Get Fan Airflow (LFM)           | None                         | `uint16_t` (Airflow in LFM) | Returns the airflow in Linear Feet per Minute (LFM).                  |
-| `0x01D`    | Get Fan RPM                     | None                         | `uint16_t` (RPM)            | Returns the fan speed in RPM.                                         |
-| `0x01E`    | Get Power                       | None                         | `uint16_t` (Power in W)     | Returns the total power (Vin * (I1 + I2)) in watts.                   |
-| `0x01F`    | Get CAN Fault Status            | None                         | `uint8_t` (0x00 or 0x01)    | Returns `0x01` if a CANbus error is detected, otherwise `0x00`.       |
-| `0x020`    | Enable Heartbeat Mode           | None                         | `0x01` (Acknowledgment)     | Enables heartbeat mode, requiring periodic pings to keep output on.   |
-| `0x021`    | Heartbeat Ping                  | None                         | `0x01` (Acknowledgment)     | Resets the heartbeat timer to keep output enabled.                    |
+| `0x00`     | Emergency Stop (Disable Output) | None                         | `0x01` (Acknowledgment)     | Disables output and asserts a non-resettable fault.                   |
+| `0x01`     | Regular Stop (Disable Output)   | None                         | `0x01` (Acknowledgment)     | Disables output without asserting a fault.                            |
+| `0x02`     | Enable Output                   | None                         | `0x01` (Acknowledgment)     | Enables output if no faults are active.                               |
+| `0x03`     | Reset Faults                    | None                         | `0x01` (Acknowledgment)     | Resets all faults in the fault buffer.                                |
+| `0x04`     | Get Number of Faults            | None                         | `uint8_t` (Number of faults)| Returns the number of active faults.                                  |
+| `0x05`     | Get Faults List                 | None                         | `char[]` (Fault names)      | Returns a comma-separated list of active fault names.                 |
+| `0x06`     | Get Vin Voltage                 | None                         | `uint16_t` (Vin in volts)   | Returns the input voltage (Vin) in volts.                             |
+| `0x07`     | Get Vout Voltage                | None                         | `uint16_t` (Vout in volts)  | Returns the output voltage (Vout) in volts.                           |
+| `0x08`     | Get Phase 1 Current             | None                         | `uint16_t` (Current in A)   | Returns the current on Phase 1 in amperes.                            |
+| `0x09`     | Get Phase 2 Current             | None                         | `uint16_t` (Current in A)   | Returns the current on Phase 2 in amperes.                            |
+| `0x0A`     | Get Phase 1 Temperature         | None                         | `uint16_t` (Temp in °C)     | Returns the temperature of Phase 1 in Celsius.                        |
+| `0x0B`     | Get Phase 2 Temperature         | None                         | `uint16_t` (Temp in °C)     | Returns the temperature of Phase 2 in Celsius.                        |
+| `0x0C`     | Get Fan Airflow (LFM)           | None                         | `uint16_t` (Airflow in LFM) | Returns the airflow in Linear Feet per Minute (LFM).                  |
+| `0x0D`     | Get Fan RPM                     | None                         | `uint16_t` (RPM)            | Returns the fan speed in RPM.                                         |
+| `0x0E`     | Get Power                       | None                         | `uint16_t` (Power in W)     | Returns the total power (Vin * (I1 + I2)) in watts.                   |
+| `0x0F`     | Get CAN Fault Status            | None                         | `uint8_t` (0x00 or 0x01)    | Returns `0x01` if a CANbus error is detected, otherwise `0x00`.       |
+| `0x10`     | Enable Heartbeat Mode           | None                         | `0x01` (Acknowledgment)     | Enables heartbeat mode, requiring periodic pings to keep output on.   |
+| `0x11`     | Heartbeat Ping                  | None                         | `0x01` (Acknowledgment)     | Resets the heartbeat timer to keep output enabled.                    |
 
 ---
 
@@ -143,7 +150,7 @@ class CANController {
           }
 
           // Set bitrate and mode
-          if (mcp2515.setBitrate(CAN_500KBPS) != MCP2515::ERROR_OK) {
+          if (mcp2515.setBitrate(CAN_1000KBPS) != MCP2515::ERROR_OK) {
               hasError = true;
   #ifdef ENABLE_SERIAL_PRINT
               Serial.println("MCP2515 Set Bitrate Failed");
@@ -181,9 +188,9 @@ class CANController {
           // Send the message and check for errors
           if (mcp2515.sendMessage(&frame) != MCP2515::ERROR_OK) {
               hasError = true;
-  #ifdef ENABLE_SERIAL_PRINT
-              Serial.println("Failed to Send CAN Message");
-  #endif
+      #ifdef ENABLE_SERIAL_PRINT
+              Serial.println(F("Failed to Send CAN Message"));
+      #endif
           }
       }
 
@@ -234,7 +241,7 @@ class Indicator {
   public:
     // Constructor
     Indicator(int pin) : Pin_(pin), State_(false), previousMillis_(0),
-                          blinkCodeIndex_(0), blinkState_(IDLE), blinkStartTime_(0) {
+                         blinkCodeIndex_(0), blinkState_(IDLE), blinkStartTime_(0) {
       pinMode(Pin_, OUTPUT);
     }
 
@@ -252,8 +259,8 @@ class Indicator {
     }
 
     // Blink the LED at a fixed frequency
-    void Blink(int frequencyMs) {
-      unsigned long currentMillis = millis();
+    void Blink(unsigned int frequencyMs) {
+      unsigned int currentMillis = millis();
 
       if (currentMillis - previousMillis_ >= frequencyMs) {
         previousMillis_ = currentMillis;
@@ -262,8 +269,8 @@ class Indicator {
     }
 
     // Blink a specific pattern (e.g., "SLS" for Short-Long-Short)
-    void BlinkCode(const String& blinkCode) {
-      unsigned long currentMillis = millis();
+    void BlinkCode(const char* blinkCode) {
+      unsigned int currentMillis = millis();
 
       switch (blinkState_) {
         case IDLE:
@@ -274,7 +281,7 @@ class Indicator {
 
         case BLINK_ON:
           // Turn on the LED and start the blink duration
-          if (blinkCodeIndex_ < blinkCode.length()) {
+          if (blinkCodeIndex_ < 4 && blinkCode[blinkCodeIndex_] != '\0') {
             SetState(true);
             blinkStartTime_ = currentMillis;
             blinkState_ = BLINK_WAIT;
@@ -321,21 +328,15 @@ class Indicator {
       END_GAP    // Waiting for the end gap after the sequence ends
     };
 
-    // Constants for timing
-    const unsigned long LONG_BLINK_DURATION = 1000; // Long blink duration in ms
-    const unsigned long SHORT_BLINK_DURATION = 500; // Short blink duration in ms
-    const unsigned long BLINK_GAP_DURATION = 500; // Gap between blinks in ms
-    const unsigned long END_GAP_DURATION = 1750; // End gap after sequence in ms
-
     int Pin_; // Output Pin
     bool State_; // Current LED State
-    unsigned long previousMillis_; // For the Blink method
-    int blinkCodeIndex_; // Current position in the blink code
+    unsigned int previousMillis_; // For the Blink method
+    unsigned char blinkCodeIndex_; // Current position in the blink code
     BlinkState blinkState_; // Current state of the blink sequence
-    unsigned long blinkStartTime_; // When the current blink started
+    unsigned int blinkStartTime_; // When the current blink started
 
     // Helper function to get the duration of a blink based on the code character
-    unsigned long getBlinkDuration(char blinkChar) {
+    unsigned int getBlinkDuration(char blinkChar) {
       return (blinkChar == 'L') ? LONG_BLINK_DURATION : SHORT_BLINK_DURATION;
     }
 };
@@ -786,243 +787,264 @@ float Phase1Current_A, Phase2Current_A; // Current values
 
 
 
+int freeMemory() {
+  extern int __heap_start, *__brkval;
+  int v;
+  return (int)&v - (__brkval == 0 ? (int)&__heap_start : (int)__brkval);
+}
+
+
 // Canbus Handler
 void handleCanResponse(struct can_frame* frame) {
     uint8_t dataBuffer[8]; // Buffer to hold CAN data
     uint16_t value;        // Temporary variable for 16-bit values
 
-    switch (frame->can_id) {
-        case 0x010:
-            // Estop Disable Output Command
+    // Debug: Print full CAN ID
+    // Serial.print(F("Received CAN ID: 0x"));
+    // Serial.println(frame->can_id, HEX);
+
+    // Extract the target device ID (bits 10 to 5)
+    uint8_t targetDeviceID = (frame->can_id >> 5) & 0x3F;
+    
+    // Debug: Print target device ID
+    // Serial.print(F("Target Device ID: 0x"));
+    // Serial.println(targetDeviceID, HEX);
+
+    // Ignore messages not intended for this device
+    if (targetDeviceID != DEVICE_ID && targetDeviceID != 0x00) {
+        Serial.println(F("Message ignored (wrong device ID)."));
+        return;
+    }
+
+    // Extract the command ID (bits 4 to 0)
+    uint8_t commandID = frame->can_id & 0x1F;
+
+    // Debug: Print command ID
+    // Serial.print(F("Command ID: 0x"));
+    // Serial.println(commandID, HEX);
+
+
+    switch (commandID) {
+        case 0x00: // Emergency Stop (Disable Output)
             faultManager.assertFault("CANBUS_REMOTE_ESTOP", "LSLL", false);
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Estop Disable Output Command Received");
-      #endif
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Estop Disable Output Command Received"));
+#endif
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x010, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x00, dataBuffer, 1);
             break;
 
-        case 0x011:
-            // Regular Stop Command
+        case 0x01: // Regular Stop (Disable Output)
             OutputEnabled = false;
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Regular Stop Command Received");
-      #endif
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Regular Stop Command Received"));
+#endif
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x011, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x01, dataBuffer, 1);
             break;
 
-        case 0x012:
-            // Enable Output Command
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Enable Output Command Received");
-      #endif
+        case 0x02: // Enable Output
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Enable Output Command Received"));
+#endif
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x012, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x02, dataBuffer, 1);
             OutputEnabled = true;
             break;
 
-        case 0x013:
-            // Reset Faults Command
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Reset Faults Command Received");
-      #endif
+        case 0x03: // Reset Faults
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Reset Faults Command Received"));
+#endif
             faultManager.resetFaults();
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x013, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x03, dataBuffer, 1);
             break;
 
-        case 0x014: {
-            // Get Number of Faults Command
-            uint8_t numFaults = faultManager.getFaultCount(); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Number of Faults: ");
+        case 0x04: { // Get Number of Faults
+            uint8_t numFaults = faultManager.getFaultCount();
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Number of Faults: "));
             Serial.println(numFaults);
-      #endif
+#endif
             dataBuffer[0] = numFaults;
-            CANController::instance().sendMessage(0x014, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x04, dataBuffer, 1);
             break;
         }
 
-        case 0x015: {
-            // Get Faults Command
+        case 0x05: { // Get Faults List
             char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH];
             faultManager.getFaultNames(faultNames, sizeof(faultNames));
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Faults:");
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Faults:"));
             Serial.println(faultNames);
-      #endif
+#endif
             // Send the fault names over CANbus
-            CANController::instance().sendMessage(0x015, (uint8_t*)faultNames, strlen(faultNames));
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x05, (uint8_t*)faultNames, strlen(faultNames));
             break;
         }
 
-        case 0x016: {
-            // Get Vin Value Command
-            value = int(VIN); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Vin Value: ");
+        case 0x06: { // Get Vin Voltage
+            value = int(VIN);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Vin Value: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x016, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x06, dataBuffer, 2);
             break;
         }
 
-        case 0x017: {
-            // Get Vout Value Command
-            value = int(VOUT); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Vout Value: ");
+        case 0x07: { // Get Vout Voltage
+            value = int(VOUT);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Vout Value: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x017, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x07, dataBuffer, 2);
             break;
         }
 
-        case 0x018: {
-            // Get Ph1 Current Command
-            value = int(Phase1Current_A); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Ph1 Current: ");
+        case 0x08: { // Get Phase 1 Current
+            value = int(Phase1Current_A);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Ph1 Current: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x018, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x08, dataBuffer, 2);
             break;
         }
 
-        case 0x019: {
-            // Get Ph2 Current Command
-            value = int(Phase2Current_A); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Ph2 Current: ");
+        case 0x09: { // Get Phase 2 Current
+            value = int(Phase2Current_A);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Ph2 Current: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x019, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x09, dataBuffer, 2);
             break;
         }
 
-        case 0x01A: {
-            // Get Ph1 Temperature Command
-            value = int(Phase1Temp_C); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Ph1 Temperature: ");
+        case 0x0A: { // Get Phase 1 Temperature
+            value = int(Phase1Temp_C);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Ph1 Temperature: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x01A, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0A, dataBuffer, 2);
             break;
         }
 
-        case 0x01B: {
-            // Get Ph2 Temperature Command
-            value = int(Phase2Temp_C); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Ph2 Temperature: ");
+        case 0x0B: { // Get Phase 2 Temperature
+            value = int(Phase2Temp_C);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Ph2 Temperature: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x01B, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0B, dataBuffer, 2);
             break;
         }
 
-        case 0x01C: {
-            // Get Fan Airflow LFM Command
-            value = SystemFan.getAirflowLFM(); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Fan Airflow (LFM): ");
+        case 0x0C: { // Get Fan Airflow LFM
+            value = SystemFan.getAirflowLFM();
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Fan Airflow (LFM): "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x01C, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0C, dataBuffer, 2);
             break;
         }
 
-        case 0x01D: {
-            // Get Fan RPM Command
-            value = SystemFan.getRPM(); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Fan RPM: ");
+        case 0x0D: { // Get Fan RPM
+            value = SystemFan.getRPM();
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Fan RPM: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x01D, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0D, dataBuffer, 2);
             break;
         }
 
-        case 0x01E: {
-            // Get Power Command
-            value = VIN * (Phase1Current_A + Phase2Current_A); // Hardcoded value
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.print("Power: ");
+        case 0x0E: { // Get Power
+            value = VIN * (Phase1Current_A + Phase2Current_A);
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.print(F("Power: "));
             Serial.println(value);
-      #endif
+#endif
             dataBuffer[0] = (value >> 8) & 0xFF;
             dataBuffer[1] = value & 0xFF;
-            CANController::instance().sendMessage(0x01E, dataBuffer, 2);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0E, dataBuffer, 2);
             break;
         }
 
-        case 0x01F: {
-            // Get CAN Fault Command
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Checking CAN Faults...");
+        case 0x0F: { // Get CAN Fault Status
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Checking CAN Faults..."));
             if (CANController::instance().getError()) {
-                Serial.println("CAN Error Detected");
+                Serial.println(F("CAN Error Detected"));
             } else {
-                Serial.println("CAN Communication OK");
+                Serial.println(F("CAN Communication OK"));
             }
-      #endif
+#endif
             dataBuffer[0] = CANController::instance().getError() ? 0x01 : 0x00; // Boolean response
-            CANController::instance().sendMessage(0x01F, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x0F, dataBuffer, 1);
             break;
         }
 
-        case 0x020:
-            // Heartbeat Enable
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Heartbeat enable received.");
-      #endif
+        case 0x10: // Enable Heartbeat Mode
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Heartbeat enable received."));
+#endif
             HeartbeatOutput = true;
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x020, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x10, dataBuffer, 1);
             break;
 
-        case 0x021:
-            // Heartbeat Ping
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Heartbeat ping received.");
-      #endif
+        case 0x11: // Heartbeat Ping
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Heartbeat ping received."));
+#endif
             lastKeepAliveTime = millis();
             dataBuffer[0] = 0x01; // Acknowledgment byte
-            CANController::instance().sendMessage(0x021, dataBuffer, 1);
+            CANController::instance().sendMessage((DEVICE_ID << 5) | 0x11, dataBuffer, 1);
             break;
 
-        default:
-      #ifdef ENABLE_SERIAL_PRINT
-            Serial.println("Unknown Command");
-      #endif
+        default: // Unknown Command
+#ifdef ENABLE_SERIAL_PRINT
+            Serial.println(F("Unknown Command"));
+#endif
             dataBuffer[0] = 0x02; // Error byte
-            CANController::instance().sendMessage(frame->can_id, dataBuffer, 1); // Respond with the same ID
+            CANController::instance().sendMessage((DEVICE_ID << 5) | (frame->can_id & 0x1F), dataBuffer, 1);
             break;
     }
 }
 
+
 //-- System Run Modes --//
 void setup() {
+
+
     // Initialize the static instance pointer
     FanController::instance = &SystemFan;
+
+    // Register Canbus Handler
+    canController.begin();
+    canController.registerCallback(handleCanResponse);
 
     // Initialize serial communication
 #ifdef ENABLE_SERIAL_PRINT
@@ -1053,9 +1075,6 @@ void setup() {
     Phase1CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
     Phase2CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
 
-    // Register Canbus Handler
-    canController.begin();
-    canController.registerCallback(handleCanResponse);
 
 }
 
@@ -1075,7 +1094,7 @@ void loop() {
       IndicatorFault.SetState(false);
     }
 
- 
+
 
     // Adjust fan speed based on temperature
     SystemFan.setFanSpeed(CurrentTemp_C);
@@ -1099,11 +1118,11 @@ void loop() {
         VOUT = VoltageSensorVOUT.readVoltage();
 
 #ifdef ENABLE_SERIAL_PRINT
-        Serial.print("VIN Voltage: ");
+        Serial.print(F("VIN Voltage: "));
         Serial.print(VIN);
         Serial.println("V");
 
-        Serial.print("VOUT Voltage: ");
+        Serial.print(F("VOUT Voltage: "));
         Serial.print(VOUT);
         Serial.println("V");
 #endif
@@ -1136,11 +1155,11 @@ void loop() {
         }
 
 #ifdef ENABLE_SERIAL_PRINT
-        Serial.print("Phase1 Temp: ");
+        Serial.print(F("Phase1 Temp: "));
         Serial.print(Phase1Temp_C);
         Serial.println("C");
 
-        Serial.print("Phase2 Temp: ");
+        Serial.print(F("Phase2 Temp: "));
         Serial.print(Phase2Temp_C);
         Serial.println("C");
 #endif
@@ -1163,11 +1182,11 @@ void loop() {
         Phase2Current_A = Phase2CurrentSense.getCurrent();
 
 #ifdef ENABLE_SERIAL_PRINT
-        Serial.print("Phase1 Current: ");
+        Serial.print(F("Phase1 Current: "));
         Serial.print(Phase1Current_A);
         Serial.println("A");
 
-        Serial.print("Phase2 Current: ");
+        Serial.print(F("Phase2 Current: "));
         Serial.print(Phase2Current_A);
         Serial.println("A");
 #endif        
@@ -1195,30 +1214,18 @@ void loop() {
             Serial.println(faultNames);
         }
 
+#ifdef ENABLE_SERIAL_PRINT
+    Serial.print(F("Free RAM: "));
+    Serial.println(freeMemory());
+#endif        
+
     }
-
-
-
-    // Various faults for future reference:
-    // // Trigger faults with specific blink codes
-    // faultManager.assertFault("AIRFLOW_OUT_OF_RANGE", "SSSL");
-    // faultManager.assertFault("TEMPSENSE_1_OUT_OF_RANGE", "SSLS");
-    // faultManager.assertFault("TEMPSENSE_2_OUT_OF_RANGE", "SSLL");
-    // faultManager.assertFault("VIN_UNDERVOLTAGE", "SLSS");
-    // faultManager.assertFault("VIN_OVERVOLTAGE", "SLSL");
-    // faultManager.assertFault("VOUT_UNDERVOLTAGE", "SLLS");
-    // faultManager.assertFault("VOUT_OVERVOLTAGE", "SLLL");
-    // faultManager.assertFault("PHASE_A_OVERCURRENT", "LSSS");
-    // faultManager.assertFault("PHASE_B_OVERCURRENT", "LSSL");
-    // faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
-    // faultManager.assertFault("CANBUS_REMOTE_ESTOP", "LSLL");
-    // faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS");
 
 
     // Heartbeat Logic Check
     if (millis() - lastKeepAliveTime > HEARTBEAT_SHUTDOWN_TIMER) {
       OutputEnabled = false;
-      faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS", false);
+      faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS");
     }
 
     // Check that there are no errors, and disable output if there are
@@ -1231,6 +1238,8 @@ void loop() {
     // Clear and forget auto-reset faults
     faultManager.clearAutoResetFaults();
     faultManager.forgetAutoResetFaults();
+
+
 
 
 }
