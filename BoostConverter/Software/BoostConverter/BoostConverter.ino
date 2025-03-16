@@ -36,14 +36,14 @@
 #define MAX_AIRFLOW_LFM 2500.0 // Maximum acceptable airflow in LFM
 
 // Temperature and fan speed settings
-#define MIN_TEMP 30.0         // Minimum temperature for fan speed adjustment
-#define MAX_TEMP 120.0         // Maximum temperature for fan speed adjustment
+#define MIN_TEMP -20.0         // Minimum temperature for fan speed adjustment
+#define MAX_TEMP 60.0         // Maximum temperature for fan speed adjustment
 #define BASE_FAN_SPEED 25     // Base fan speed (0-255)
 
 // Voltage Sensor settings
-#define VIN_MIN_V 24
+#define VIN_MIN_V 15
 #define VIN_MAX_V 185
-#define VOUT_MIN_V 320
+#define VOUT_MIN_V 24
 #define VOUT_MAX_V 360
 #define VSENSE_GRACE_TIME_MS 2000 // Time which voltage is allowed to be out of spec before error is asserted
 
@@ -68,6 +68,9 @@
 
 // Debug Info
 #define ENABLE_SERIAL_PRINT
+
+#define FIRMWARE_VERSION "V0.5"
+#define IGNORE_ERRORS true
 
 
 
@@ -344,8 +347,8 @@ class Indicator {
 class VoltageSensor {
   public:
       // Constructor to initialize the sensor with an analog pin, voltage divider ratio, and acceptable range
-      VoltageSensor(int analogPin, float dividerRatio, float vmin, float vmax, unsigned long errorDuration)
-          : analogPin_(analogPin), dividerRatio_(dividerRatio), vmin_(vmin), vmax_(vmax),
+      VoltageSensor(int analogPin, float topR, float bottomR, float vmin, float vmax, unsigned long errorDuration)
+          : analogPin_(analogPin), topR(topR), bottomR(bottomR), vmin_(vmin), vmax_(vmax),
             errorDuration_(errorDuration), errorStartTime_(0), error_(false) {}
 
       // Method to read the voltage from the sensor
@@ -357,9 +360,12 @@ class VoltageSensor {
           float voltage = analogValue * (5.0 / 1023.0);
 
           // Apply the voltage divider ratio to get the actual voltage
-          voltage /= dividerRatio_;
+          voltage = (voltage * topR) / bottomR;
 
           // Check if the voltage is within the acceptable range
+          if (voltage < vmax_ + 10.) {
+            error_ = true;
+          }
           if (voltage < vmin_ || voltage > vmax_) {
               if (errorStartTime_ == 0) {
                   // Start timing the error duration
@@ -393,8 +399,9 @@ class VoltageSensor {
       }
 
   private:
-      int analogPin_;             // Analog input pin
-      float dividerRatio_;       // Voltage divider ratio
+      int analogPin_;            // Analog input pin
+      float topR;                // Voltage divider top resistor value in kohm
+      float bottomR;             // Voltage divider bottom resistor value in kohm
       float vmin_;               // Minimum acceptable voltage
       float vmax_;               // Maximum acceptable voltage
       unsigned long errorDuration_; // Duration for which voltage must be out of range to trigger error
@@ -719,8 +726,8 @@ class TMP36Sensor {
 class ACS758CurrentSensor {
   public:
       // Constructor
-      ACS758CurrentSensor(int voutPin, float sensitivity = 20.0, float quiescentVoltage = 0.6)
-          : voutPin(voutPin), sensitivity(sensitivity), quiescentVoltage(quiescentVoltage) {}
+      ACS758CurrentSensor(int voutPin, float sensitivity_mVA = 20.0, float quiescentVoltage = 0.6)
+          : voutPin(voutPin), sensitivity_mVA(sensitivity_mVA), quiescentVoltage(quiescentVoltage) {}
 
       // Set the acceptable current range
       void setCurrentRange(float minCurrent, float maxCurrent) {
@@ -732,7 +739,7 @@ class ACS758CurrentSensor {
       float getCurrent() {
           int sensorValue = analogRead(voutPin);
           float voltage = sensorValue * (5.0 / 1023.0); // Convert to voltage
-          float current = (voltage - quiescentVoltage) / sensitivity;
+          float current = ((voltage - quiescentVoltage) * 1000.0) / sensitivity_mVA;
           return current;
       }
 
@@ -744,7 +751,7 @@ class ACS758CurrentSensor {
 
   private:
       int voutPin;
-      float sensitivity;
+      float sensitivity_mVA;
       float quiescentVoltage;
       float minCurrent = 0.0;
       float maxCurrent = 200.0;
@@ -757,8 +764,8 @@ Indicator IndicatorPower(LED_INDICATOR1_PIN);
 Indicator IndicatorOutput(LED_INDICATOR2_PIN);
 Indicator IndicatorTempOK(LED_INDICATOR3_PIN);
 
-VoltageSensor VoltageSensorVIN(A2, 6000.0 / 120.0, VIN_MIN_V, VIN_MAX_V, VSENSE_GRACE_TIME_MS);
-VoltageSensor VoltageSensorVOUT(A3, 6000.0 / 40.0, VOUT_MIN_V, VOUT_MAX_V, VSENSE_GRACE_TIME_MS);
+VoltageSensor VoltageSensorVIN(A2, 6000.0, 120.0, VIN_MIN_V, VIN_MAX_V, VSENSE_GRACE_TIME_MS);
+VoltageSensor VoltageSensorVOUT(A3, 6000.0, 40.0, VOUT_MIN_V, VOUT_MAX_V, VSENSE_GRACE_TIME_MS);
 
 TMP36Sensor Phase1TempSense(PHASE_1_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
 TMP36Sensor Phase2TempSense(PHASE_2_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
@@ -1051,6 +1058,19 @@ void setup() {
     Serial.begin(9600);
 #endif
 
+    // Info about this module via serial
+    Serial.println(F("Traction Inverter DC Link Bus Voltage Regulator Module"));
+    Serial.print(F("Firmware Version: "));
+    Serial.print(F(FIRMWARE_VERSION));
+    if (IGNORE_ERRORS) {
+      Serial.println(F("- NoErrorDetection"));
+    } else {
+      Serial.println(F(""));
+    }
+    Serial.println(F(""));
+    Serial.println(F(""));
+    Serial.println(F("System Initializing..."));
+
     // Led Self Test
     IndicatorFault.SetState(true);
     IndicatorPower.SetState(true);
@@ -1075,6 +1095,8 @@ void setup() {
     Phase1CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
     Phase2CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
 
+    // Init done
+    Serial.println(F("Initialization complete"));
 
 }
 
@@ -1126,19 +1148,7 @@ void loop() {
         Serial.print(VOUT);
         Serial.println("V");
 #endif
-        // Get voltage sense errors
-        if (VoltageSensorVOUT.isUndervoltage() && OutputEnabled) {
-            faultManager.assertFault("VOUT_UNDERVOLTAGE", "SLLS");
-        }
-        if (VoltageSensorVOUT.isOvervoltage()) {
-            faultManager.assertFault("VOUT_OVERVOLTAGE", "SLLL");
-        }
-        if (VoltageSensorVIN.isUndervoltage()) {
-            faultManager.assertFault("VIN_UNDERVOLTAGE", "SLSS");
-        }
-        if (VoltageSensorVIN.isOvervoltage()) {
-            faultManager.assertFault("VIN_OVERVOLTAGE", "SLSL");
-        }
+
 
 
 
@@ -1149,9 +1159,9 @@ void loop() {
 
         // Select Max Temperature
         if (Phase1Temp_C > Phase2Temp_C) {
-          // CurrentTemp_C = Phase1Temp_C;
+          CurrentTemp_C = Phase1Temp_C;
         } else {
-          // CurrentTemp_C = Phase2Temp_C;
+          CurrentTemp_C = Phase2Temp_C;
         }
 
 #ifdef ENABLE_SERIAL_PRINT
@@ -1163,14 +1173,7 @@ void loop() {
         Serial.print(Phase2Temp_C);
         Serial.println("C");
 #endif
-        // Temperature Sensor Faults
-        if (Phase1TempSense.getFault()) {
-            faultManager.assertFault("TEMPSENSE_1_OUT_OF_RANGE", "SSLS");
-        }
-        if (Phase2TempSense.getFault()) {
-            faultManager.assertFault("TEMPSENSE_2_OUT_OF_RANGE", "SSLL");
-        }
-
+        
         // Update thermal indicator led
         IndicatorTempOK.SetState(!(Phase1TempSense.getFault() || Phase2TempSense.getFault() || SystemFan.checkError()));
 
@@ -1191,26 +1194,20 @@ void loop() {
         Serial.println("A");
 #endif        
 
-        if (Phase1CurrentSense.getError()) {
-            faultManager.assertFault("PHASE_A_OVERCURRENT", "LSSS");
-        }
-        if (Phase2CurrentSense.getError()) {
-            faultManager.assertFault("PHASE_B_OVERCURRENT", "LSSL");
-        }
+        
 
-
-        // ---- CANBUS FAULT CHECK ---- //
-        if (canController.getError()) {
-            faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
+        // -- Ignore errors warning -- //
+        if (IGNORE_ERRORS) {
+          Serial.println(F("Warning, this firmware ignores all errors! Please monitor carefully, the output will always be enabled."));
+          faultManager.resetFaults();
         }
-
 
         // ---- SERIAL LOG FAULTS ---- //
         // Print current faults
         if (faultManager.getFaultCount() > 0) {
             char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH];
             faultManager.getFaultNames(faultNames, sizeof(faultNames));
-            Serial.print("Current Faults: ");
+            Serial.print(F("Current Faults: "));
             Serial.println(faultNames);
         }
 
@@ -1218,6 +1215,10 @@ void loop() {
     Serial.print(F("Free RAM: "));
     Serial.println(freeMemory());
 #endif        
+
+
+
+
 
     }
 
@@ -1228,12 +1229,61 @@ void loop() {
       faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS");
     }
 
+
+    // -- Get Faults -- //
+
+    // Get voltage sense errors
+    if (VoltageSensorVOUT.isUndervoltage() && OutputEnabled) {
+        faultManager.assertFault("VOUT_UNDERVOLTAGE", "SLLS");
+    }
+    if (VoltageSensorVOUT.isOvervoltage()) {
+        faultManager.assertFault("VOUT_OVERVOLTAGE", "SLLL");
+    }
+    if (VoltageSensorVIN.isUndervoltage()) {
+        faultManager.assertFault("VIN_UNDERVOLTAGE", "SLSS");
+    }
+    if (VoltageSensorVIN.isOvervoltage()) {
+        faultManager.assertFault("VIN_OVERVOLTAGE", "SLSL");
+    }
+
+
+    // // Temperature Sensor Faults
+    // if (Phase1TempSense.getFault()) {
+    //     faultManager.assertFault("TEMPSENSE_1_OUT_OF_RANGE", "SSLS");
+    // }
+    // if (Phase2TempSense.getFault()) {
+    //     faultManager.assertFault("TEMPSENSE_2_OUT_OF_RANGE", "SSLL");
+    // }
+
+
+    // Current sense faults
+    if (Phase1CurrentSense.getError()) {
+        faultManager.assertFault("PHASE_A_OVERCURRENT", "LSSS");
+    }
+    if (Phase2CurrentSense.getError()) {
+        faultManager.assertFault("PHASE_B_OVERCURRENT", "LSSL");
+    }
+
+
+    // ---- CANBUS FAULT CHECK ---- //
+    if (canController.getError()) {
+        faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
+    }
+
+
+
+    // Debugging ignore errors, always keep output on for debugging.
+    if (IGNORE_ERRORS) {
+      faultManager.resetFaults();
+      OutputEnabled = true;
+    }
+
     // Check that there are no errors, and disable output if there are
     if (faultManager.getFaultCount() != 0) {
       OutputEnabled = false;
     }
     IndicatorOutput.SetState(OutputEnabled);
-    digitalWrite(OUTPUT_ENABLE_PIN, OutputEnabled);
+    digitalWrite(OUTPUT_ENABLE_PIN, !OutputEnabled); // invert output enabled as the low state activates the output
 
     // Clear and forget auto-reset faults
     faultManager.clearAutoResetFaults();
