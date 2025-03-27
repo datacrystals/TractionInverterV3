@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HCPL_316J_500E'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Avago Technologies", "HCPL-316J-500E" (!) = "", "SOIC127P1036X391-16N", "Small Outline Packages", "630-HCPL-316J-500E", "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCPL-316J-500E?qs=s%252BgfxR24RQ5bfr5kc6yRkw%3D%3D", "2.5A Gate Driver Optical Coupling 5000Vrms 1 Channel 16-SO", "https://docs.broadcom.com/doc/AV02-0717EN", "3.911 mm"
+END_PART
+
+END.

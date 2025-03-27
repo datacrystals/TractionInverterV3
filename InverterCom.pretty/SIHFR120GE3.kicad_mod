@@ -1,7 +1,7 @@
 (footprint "SIHFR120GE3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SIHFR120-GE3")
 	(tags "MOSFET (N-Channel)")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d95a07ef-fc41-41e4-924f-ca7366588fd8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -211,22 +199,23 @@
 	(pad "1" smd rect
 		(at -2.286 3.345)
 		(size 1.397 2.286)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61bcbffe-b8b6-4423-9034-d7df92512363")
 	)
 	(pad "2" smd rect
 		(at 2.286 3.345)
 		(size 1.397 2.286)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f371416-be03-49aa-a0f0-eae6ca0877bf")
 	)
 	(pad "3" smd rect
 		(at 0 -3.054)
 		(size 5.69 6.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb43e531-d9f5-4fbc-b8b9-e048b84f04d8")
 	)
-	(model "SIHFR120-GE3.stp"
+	(embedded_fonts no)
+	(model "../../../3D/SIHFR120-GE3.stp"
 		(offset
 			(xyz 0 1.710000012 1.450000026)
 		)

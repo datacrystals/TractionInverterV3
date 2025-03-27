@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_805362"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-19-14:38:23)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "677-15ABPE")
+)
+
+
+(pinAssign "ECS_805362"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-19-14:38:23)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_805362")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "677-15ABPE")
+)
+
+
+(part "677-15ABPE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-19-14:38:23)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "677-15ABPE")
+    (pinAssignRef "ECS_805362")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "H")
+    (property "description" "Heat Sinks High Performance, High Power Heat Sink for Vertical Board Mounting for TO-220, TO-247, TO-218, 15-LEAD MULTIWATT, 38.1mm Height/002")
+    (property "Mouser_Part_Number" "567-677-15ABPE")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/677-15ABPE?qs=IxdtNV%2F4IV2Xq6Oa6Jy%2FmQ%3D%3D")
+    (property "Manufacturer_Name" "Wakefield Thermal")
+    (property "Manufacturer_Part_Number" "677-15ABPE")
+    (property "Datasheet_Link" "http://www.wakefield-vette.com/Portals/0/resources/datasheets/677.pdf")
+    (property "compAreaTopHeight" 38.1)
+)
+
+

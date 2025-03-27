@@ -37,20 +37,22 @@
 
 // Temperature and fan speed settings
 #define MIN_TEMP -20.0         // Minimum temperature for fan speed adjustment
-#define MAX_TEMP 60.0         // Maximum temperature for fan speed adjustment
+#define MAX_TEMP 65.0         // Maximum temperature for fan speed adjustment
+#define TEMP_EXPONENT 2     // Fan exponent
+#define NUM_SAMPLES 10        // Number of samples to use to base the temp off of
 #define BASE_FAN_SPEED 25     // Base fan speed (0-255)
 
 // Voltage Sensor settings
-#define VIN_MIN_V 15
+#define VIN_MIN_V 20
 #define VIN_MAX_V 185
-#define VOUT_MIN_V 24
-#define VOUT_MAX_V 360
+#define VOUT_MIN_V 20
+#define VOUT_MAX_V 400
 #define VSENSE_GRACE_TIME_MS 2000 // Time which voltage is allowed to be out of spec before error is asserted
 
 // Current Sensor Settings
 #define PHASE_1_CURRENT_SENSE_PIN A0 // Pin which is used to sample the current for phase 1
 #define PHASE_2_CURRENT_SENSE_PIN A1 // Pin which is used to sample the current for phase 2
-#define CURRENT_MIN_VALUE_A -5       // Min current value below which current error thrown
+#define CURRENT_MIN_VALUE_A -180     // Min current value below which current error thrown
 #define CURRENT_MAX_VALUE_A 180      // Max current value above which current error thrown
 
 // Fault management constants
@@ -70,7 +72,7 @@
 #define ENABLE_SERIAL_PRINT
 
 #define FIRMWARE_VERSION "V0.5"
-#define IGNORE_ERRORS true
+bool IGNORE_ERRORS = false;
 
 
 
@@ -409,100 +411,145 @@ class VoltageSensor {
       bool error_;               // Error flag indicating if voltage is out of range
 };
 
+
 class FanController {
-    public:
-        // Constructor
-        FanController(int rpmPin, int pwmPin)
-            : rpmPin(rpmPin), pwmPin(pwmPin), rpm(0), lastTime(0), pulseCount(0),
-              lastAirflowUpdate(0), cachedAirflowLFM(0) {
-            pinMode(rpmPin, INPUT_PULLUP);
-            pinMode(pwmPin, OUTPUT);
-            attachInterrupt(digitalPinToInterrupt(rpmPin), rpmInterruptStatic, FALLING);
+public:
+    // Constructor
+    FanController(int rpmPin, int pwmPin, float exponent, int sampleSize)
+        : rpmPin(rpmPin), pwmPin(pwmPin), rpm(0), lastTime(0), pulseCount(0),
+          lastAirflowUpdate(0), cachedAirflowLFM(0), exponent(exponent),
+          sampleSize(sampleSize), temperatureQueue(nullptr), head(0), tail(0), count(0) {
+        pinMode(rpmPin, INPUT_PULLUP);
+        pinMode(pwmPin, OUTPUT);
+        attachInterrupt(digitalPinToInterrupt(rpmPin), rpmInterruptStatic, FALLING);
+        instance = this;
+        temperatureQueue = new float[sampleSize];
+    }
+
+    // Destructor
+    ~FanController() {
+        delete[] temperatureQueue;
+    }
+
+    // Set the fan speed (0-255)
+    void setSpeed(int speed) {
+        if (speed < 0) speed = 0;
+        if (speed > 255) speed = 255;
+        analogWrite(pwmPin, speed);
+    }
+
+    // Adjust fan speed based on temperature
+    void setFanSpeed(float currentTemp) {
+        // Add the current temperature to the queue
+        addTemperatureSample(currentTemp);
+
+        // Calculate the average temperature from the last n samples
+        float avgTemp = calculateAverageTemperature();
+
+        int speed = BASE_FAN_SPEED;
+        if (avgTemp > MAX_TEMP) {
+            speed = 255;
+        } else if (avgTemp > MIN_TEMP) {
+            // Exponential fan curve
+            float tempRange = MAX_TEMP - MIN_TEMP;
+            float normalizedTemp = (avgTemp - MIN_TEMP) / tempRange;
+            speed = BASE_FAN_SPEED + (255 - BASE_FAN_SPEED) * pow(normalizedTemp, exponent);
         }
+        setSpeed(speed);
+    }
 
-        // Set the fan speed (0-255)
-        void setSpeed(int speed) {
-            if (speed < 0) speed = 0;
-            if (speed > 255) speed = 255;
-            analogWrite(pwmPin, speed);
+    // Get the current RPM
+    int getRPM() {
+        noInterrupts(); // Disable interrupts to read shared variables
+        unsigned long now = millis();
+        rpm = (pulseCount * 60000) / (now - lastTime);
+        lastTime = now;
+        pulseCount = 0;
+        interrupts(); // Re-enable interrupts
+        return rpm;
+    }
+
+    // Get the current airflow in LFM
+    int getAirflowLFM() {
+        updateAirflowLFM();
+        return cachedAirflowLFM;
+    }
+
+    // Calculate and print airflow in LFM
+    void printAirflowLFM() {
+        updateAirflowLFM();
+        Serial.print("Airflow: ");
+        Serial.print(cachedAirflowLFM);
+        Serial.println(" LFM");
+    }
+
+    // Check if the airflow is within the acceptable range
+    bool checkError() {
+        updateAirflowLFM();
+        return (cachedAirflowLFM < MIN_AIRFLOW_LFM) || (cachedAirflowLFM > MAX_AIRFLOW_LFM);
+    }
+
+    // Public static instance pointer
+    static FanController* instance;
+
+private:
+    int rpmPin;
+    int pwmPin;
+    volatile int rpm;
+    volatile unsigned long lastTime;
+    volatile int pulseCount;
+    unsigned long lastAirflowUpdate;
+    float cachedAirflowLFM;
+    float exponent;
+    int sampleSize;
+    float* temperatureQueue;
+    int head;
+    int tail;
+    int count;
+
+    // Update the cached airflow value every half second
+    void updateAirflowLFM() {
+        unsigned long currentMillis = millis();
+        if (currentMillis - lastAirflowUpdate >= 500) {
+            lastAirflowUpdate = currentMillis;
+            int currentRPM = getRPM();
+            float airflowCFM = (currentRPM / (float)MAX_RPM) * MAX_AIRFLOW_CFM;
+            cachedAirflowLFM = airflowCFM / DUCT_AREA_SQFT;
         }
+    }
 
-        // Adjust fan speed based on temperature
-        void setFanSpeed(float currentTemp) {
-            int speed = BASE_FAN_SPEED;
-            if (currentTemp > MAX_TEMP) {
-                speed = 255;
-            } else if (currentTemp > MIN_TEMP) {
-                speed = map(currentTemp, MIN_TEMP, MAX_TEMP, BASE_FAN_SPEED, 255);
-            }
-            setSpeed(speed);
+    // Static ISR wrapper
+    static void rpmInterruptStatic() {
+        // Call the actual ISR on the instance
+        instance->rpmInterrupt();
+    }
+
+    // Interrupt service routine for RPM measurement
+    void rpmInterrupt() {
+        pulseCount++;
+    }
+
+    // Add a temperature sample to the queue
+    void addTemperatureSample(float temp) {
+        temperatureQueue[head] = temp;
+        head = (head + 1) % sampleSize;
+        if (count < sampleSize) {
+            count++;
+        } else {
+            tail = (tail + 1) % sampleSize;
         }
+    }
 
-        // Get the current RPM
-        int getRPM() {
-            noInterrupts(); // Disable interrupts to read shared variables
-            unsigned long now = millis();
-            rpm = (pulseCount * 60000) / (now - lastTime);
-            lastTime = now;
-            pulseCount = 0;
-            interrupts(); // Re-enable interrupts
-            return rpm;
+    // Calculate the average temperature from the queue
+    float calculateAverageTemperature() {
+        float sum = 0;
+        for (int i = 0; i < count; i++) {
+            sum += temperatureQueue[(tail + i) % sampleSize];
         }
-
-        // Get the current airflow in LFM
-        int getAirflowLFM() {
-          updateAirflowLFM();
-          return cachedAirflowLFM;
-        }
-
-        // Calculate and print airflow in LFM
-        void printAirflowLFM() {
-            updateAirflowLFM();
-            Serial.print("Airflow: ");
-            Serial.print(cachedAirflowLFM);
-            Serial.println(" LFM");
-        }
-
-        // Check if the airflow is within the acceptable range
-        bool checkError() {
-            updateAirflowLFM();
-            return (cachedAirflowLFM < MIN_AIRFLOW_LFM) || (cachedAirflowLFM > MAX_AIRFLOW_LFM);
-        }
-
-        // Public static instance pointer
-        static FanController* instance;
-
-    private:
-        int rpmPin;
-        int pwmPin;
-        volatile int rpm;
-        volatile unsigned long lastTime;
-        volatile int pulseCount;
-        unsigned long lastAirflowUpdate;
-        float cachedAirflowLFM;
-
-        // Update the cached airflow value every half second
-        void updateAirflowLFM() {
-            unsigned long currentMillis = millis();
-            if (currentMillis - lastAirflowUpdate >= 500) {
-                lastAirflowUpdate = currentMillis;
-                int currentRPM = getRPM();
-                float airflowCFM = (currentRPM / (float)MAX_RPM) * MAX_AIRFLOW_CFM;
-                cachedAirflowLFM = airflowCFM / DUCT_AREA_SQFT;
-            }
-        }
-
-        // Static ISR wrapper
-        static void rpmInterruptStatic() {
-            // Call the actual ISR on the instance
-            instance->rpmInterrupt();
-        }
-
-        // Interrupt service routine for RPM measurement
-        void rpmInterrupt() {
-            pulseCount++;
-        }
+        return sum / count;
+    }
 };
+
 
 // Define the static member
 FanController* FanController::instance = nullptr;
@@ -773,7 +820,7 @@ TMP36Sensor Phase2TempSense(PHASE_2_TEMP_SENSOR_PIN, MIN_TEMP, MAX_TEMP);
 ACS758CurrentSensor Phase1CurrentSense(PHASE_1_CURRENT_SENSE_PIN);
 ACS758CurrentSensor Phase2CurrentSense(PHASE_2_CURRENT_SENSE_PIN);
 
-FanController SystemFan(FAN_TACH, FAN_PWM);
+FanController SystemFan(FAN_TACH, FAN_PWM, TEMP_EXPONENT, NUM_SAMPLES);
 
 FaultManager faultManager;
 
@@ -1276,6 +1323,12 @@ void loop() {
     if (IGNORE_ERRORS) {
       faultManager.resetFaults();
       OutputEnabled = true;
+    }
+    // We need to double check the voltage isnt too high *even* if we ignore errors
+    // had a board already blow up which woldnt have happened with this check
+    if (VoltageSensorVOUT.readVoltage() > VOUT_MAX_V) {
+      OutputEnabled = false;
+      IGNORE_ERRORS = false;
     }
 
     // Check that there are no errors, and disable output if there are

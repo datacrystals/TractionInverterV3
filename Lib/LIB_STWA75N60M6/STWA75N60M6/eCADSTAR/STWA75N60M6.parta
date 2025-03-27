@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_2251823"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-06-17:15:24)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "STWA75N60M6")
+)
+
+
+(pinAssign "ECS_2251823"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-06-17:15:24)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2251823")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "STWA75N60M6")
+)
+
+
+(part "STWA75N60M6"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-06-17:15:24)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "STWA75N60M6")
+    (pinAssignRef "ECS_2251823")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "N-channel 600 V, 32 mOhm typ., 72 A MDmesh M6 Power MOSFET in a TO-247 long leads package")
+    (property "Mouser_Part_Number" "511-STWA75N60M6")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STWA75N60M6?qs=%252BEew9%252B0nqrCXcHfSF9fhZA%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "STWA75N60M6")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/stwa75n60m6.pdf")
+    (property "compAreaTopHeight" 5.1)
+)
+
+

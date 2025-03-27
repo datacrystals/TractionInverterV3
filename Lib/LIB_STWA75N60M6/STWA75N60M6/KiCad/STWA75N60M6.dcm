@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STWA75N60M6
+D N-channel 600 V, 32 mOhm typ., 72 A MDmesh M6 Power MOSFET in a TO-247 long leads package
+K
+F https://www.st.com/resource/en/datasheet/stwa75n60m6.pdf
+$ENDCMP
+#
+#End Doc Library

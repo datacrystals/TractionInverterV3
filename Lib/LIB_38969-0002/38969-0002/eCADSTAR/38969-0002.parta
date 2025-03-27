@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1300426"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-28-14:49:29)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "38969-0002")
+)
+
+
+(pinAssign "ECS_1300426"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-28-14:49:29)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1300426")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "38969-0002")
+)
+
+
+(part "38969-0002"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-28-14:49:29)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "38969-0002")
+    (pinAssignRef "ECS_1300426")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Barrier Terminal Blocks")
+    (property "Mouser_Part_Number" "538-38969-0002")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D")
+    (property "Manufacturer_Name" "Molex")
+    (property "Manufacturer_Part_Number" "38969-0002")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 21.9)
+)
+
+

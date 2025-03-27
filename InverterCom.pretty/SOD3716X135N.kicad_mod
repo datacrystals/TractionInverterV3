@@ -1,7 +1,7 @@
 (footprint "SOD3716X135N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOD-123")
 	(tags "Zener Diode")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "86d45ec4-dc21-4582-b122-994132274198")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -189,16 +177,17 @@
 	(pad "1" smd rect
 		(at -1.8 0 90)
 		(size 0.85 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "80ca0090-22e6-453c-8aa6-7622b5d17eed")
 	)
 	(pad "2" smd rect
 		(at 1.8 0 90)
 		(size 0.85 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3d62cef7-4de5-491c-a713-446029b05298")
 	)
-	(model "MMSZ5231B-TP.stp"
+	(embedded_fonts no)
+	(model "../../../3D/MMSZ5231B-TP.stp"
 		(offset
 			(xyz -0.279999997 2.79999991 0.7200000178)
 		)

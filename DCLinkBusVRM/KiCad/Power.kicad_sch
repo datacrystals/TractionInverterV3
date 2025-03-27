@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f9ac54c2-1ad6-4ec6-acb6-ae53779cd8bd")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	)
 	(lib_symbols
 		(symbol "InverterCom:ALH82A750CB600"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -142,7 +144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 0) (xy 7.62 0)
+						(xy 7.112 2.54) (xy 7.112 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -154,7 +156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
+						(xy 7.112 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -201,9 +203,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:RC2512JK-071ML"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -353,9 +358,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:SLPX331M200A1P3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -493,16 +501,15 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -517,15 +524,16 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -565,12 +573,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -630,18 +643,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -658,6 +659,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -733,7 +746,80 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 222.25 30.48)
+		(end 281.94 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06e638ec-789b-461d-b9a6-7dbd73207d04)
+	)
+	(rectangle
+		(start 13.97 66.04)
+		(end 34.29 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1373ee2d-f269-4ab9-8fe7-5cedc653b6b0)
+	)
+	(rectangle
+		(start 191.77 52.07)
+		(end 219.71 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47964810-2a5e-4665-a8bb-a75c84896ce6)
+	)
+	(rectangle
+		(start 13.97 12.7)
+		(end 43.18 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50fca9ca-ecdd-4786-9624-aba68fc447b1)
+	)
+	(rectangle
+		(start 147.32 73.66)
+		(end 40.64 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 746fc282-8e44-42eb-9a39-bacd40aa576d)
+	)
+	(rectangle
+		(start 219.71 46.99)
+		(end 193.04 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a65d0fd-fcfb-419a-b2ba-a121509d4577)
 	)
 	(junction
 		(at 97.79 92.71)
@@ -1190,78 +1276,6 @@
 			(type default)
 		)
 		(uuid "fbc440cf-d8a3-4977-9b60-4f4da7e4ee00")
-	)
-	(rectangle
-		(start 222.25 30.48)
-		(end 281.94 73.66)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 06e638ec-789b-461d-b9a6-7dbd73207d04)
-	)
-	(rectangle
-		(start 13.97 66.04)
-		(end 34.29 97.79)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1373ee2d-f269-4ab9-8fe7-5cedc653b6b0)
-	)
-	(rectangle
-		(start 191.77 52.07)
-		(end 219.71 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 47964810-2a5e-4665-a8bb-a75c84896ce6)
-	)
-	(rectangle
-		(start 13.97 12.7)
-		(end 43.18 59.69)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 50fca9ca-ecdd-4786-9624-aba68fc447b1)
-	)
-	(rectangle
-		(start 147.32 73.66)
-		(end 40.64 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 746fc282-8e44-42eb-9a39-bacd40aa576d)
-	)
-	(rectangle
-		(start 219.71 46.99)
-		(end 193.04 13.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8a65d0fd-fcfb-419a-b2ba-a121509d4577)
 	)
 	(label "VBus In Filter Caps"
 		(at 41.91 72.39 0)

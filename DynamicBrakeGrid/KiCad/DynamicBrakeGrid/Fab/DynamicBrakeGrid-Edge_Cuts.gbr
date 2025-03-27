@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
+%TF.CreationDate,2025-03-25T18:07:07-07:00*%
+%TF.ProjectId,DynamicBrakeGrid,44796e61-6d69-4634-9272-616b65477269,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-03-25 18:07:07*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X30000000Y-40000000D02*
+X270000000Y-40000000D01*
+X270000000Y-160000000D01*
+X30000000Y-160000000D01*
+X30000000Y-40000000D01*
+M02*

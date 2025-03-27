@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HCPL-316J-500E
+D 2.5A Gate Driver Optical Coupling 5000Vrms 1 Channel 16-SO
+K
+F https://docs.broadcom.com/doc/AV02-0717EN
+$ENDCMP
+#
+#End Doc Library

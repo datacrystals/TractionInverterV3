@@ -1,0 +1,16 @@
+.P6SMB18CA-Q :1 ;P6SMB-Q Transient Voltage Suppressor Diode Series, Bi-Directional
+DIONM5443X244N
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN P6SMB18CA-Q
+~!Mouser Part Number (652-P6SMB18CA-Q)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/P6SMB18CA-Q?qs=%252B6g0mu59x7J8pA%252B%2FYZXG8Q%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (P6SMB18CA-Q)
+~!Link Datasheet (https://www.bourns.com/docs/product-datasheets/p6smb-q.pdf?sfvrsn=a8c47bf6_59)
+~!Height (2.44mm)
+~!3D_Model (P6SMB18CA-Q)
+P6SMB18CA-Q
+1.1!U 2.1!U 

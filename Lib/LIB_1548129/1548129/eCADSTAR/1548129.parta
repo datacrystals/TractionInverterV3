@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_19659533"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-29-10:38:59)
+    (utime 2024-12-09-03:51:37)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "1548129")
+)
+
+
+(pinAssign "ECS_19659533"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-29-10:38:59)
+    (utime 2024-12-09-03:51:37)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19659533")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1548129")
+)
+
+
+(part "1548129"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-29-10:38:59)
+    (utime 2024-12-09-03:51:37)
+    (packageRef "1548129")
+    (pinAssignRef "ECS_19659533")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE")
+    (property "Mouser_Part_Number" "651-1548129")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D")
+    (property "Manufacturer_Name" "Phoenix Contact")
+    (property "Manufacturer_Part_Number" "1548129")
+    (property "Datasheet_Link" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129")
+    (property "compAreaTopHeight" 10.15)
+)
+
+
