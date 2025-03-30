@@ -762,8 +762,8 @@
 		(uuid 06e638ec-789b-461d-b9a6-7dbd73207d04)
 	)
 	(rectangle
-		(start 13.97 66.04)
-		(end 34.29 97.79)
+		(start 19.05 31.75)
+		(end 39.37 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -786,20 +786,8 @@
 		(uuid 47964810-2a5e-4665-a8bb-a75c84896ce6)
 	)
 	(rectangle
-		(start 13.97 12.7)
-		(end 43.18 59.69)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 50fca9ca-ecdd-4786-9624-aba68fc447b1)
-	)
-	(rectangle
-		(start 147.32 73.66)
-		(end 40.64 111.76)
+		(start 152.4 39.37)
+		(end 45.72 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -822,7 +810,7 @@
 		(uuid 8a65d0fd-fcfb-419a-b2ba-a121509d4577)
 	)
 	(junction
-		(at 97.79 92.71)
+		(at 102.87 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2191fa20-5df1-4b3e-9749-1c23fd299c46")
@@ -834,25 +822,25 @@
 		(uuid "41272436-3cfa-43a0-a2d8-a556f0122916")
 	)
 	(junction
-		(at 55.88 92.71)
+		(at 60.96 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41ce0270-3a97-45a1-9182-8742803e0972")
 	)
 	(junction
-		(at 104.14 92.71)
+		(at 109.22 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611871aa-e5e5-4c58-872b-8eefaadeb0fe")
 	)
 	(junction
-		(at 90.17 92.71)
+		(at 95.25 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73edf571-8cf6-46f7-b1fe-8d60e60d0830")
 	)
 	(junction
-		(at 67.31 92.71)
+		(at 72.39 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774db476-fd40-462b-9ca5-a70410b98744")
@@ -864,7 +852,7 @@
 		(uuid "9515b351-f36a-4d4b-ad84-ada8cf14f4f0")
 	)
 	(junction
-		(at 33.02 62.23)
+		(at 38.1 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9afce856-b353-4054-aa1d-8ebb4e813d42")
@@ -876,7 +864,7 @@
 		(uuid "c15cfb19-3608-4c38-8147-edb66ce8665a")
 	)
 	(junction
-		(at 78.74 92.71)
+		(at 83.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83f5755-4b27-40f7-98a0-6ce85fb42923")
@@ -899,16 +887,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 45.72) (xy 33.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08dcb719-bfa9-4d63-a752-a3eb96eb0e96")
-	)
-	(wire
-		(pts
 			(xy 213.36 22.86) (xy 213.36 25.4)
 		)
 		(stroke
@@ -916,16 +894,6 @@
 			(type default)
 		)
 		(uuid "09c6994a-54cf-46f0-af32-58a32b977309")
-	)
-	(wire
-		(pts
-			(xy 15.24 53.34) (xy 15.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e54103e-6cbe-4459-8997-f9406aa7a96c")
 	)
 	(wire
 		(pts
@@ -959,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 67.31 92.71)
+			(xy 83.82 58.42) (xy 72.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -999,16 +967,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 22.86) (xy 15.24 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9696f2-15f5-4639-952e-bad750ff5248")
-	)
-	(wire
-		(pts
 			(xy 213.36 72.39) (xy 213.36 80.01)
 		)
 		(stroke
@@ -1019,7 +977,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 78.74) (xy 33.02 86.36)
+			(xy 38.1 44.45) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 71.12) (xy 15.24 78.74)
+			(xy 20.32 36.83) (xy 20.32 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 86.36) (xy 15.24 91.44)
+			(xy 20.32 52.07) (xy 20.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 92.71) (xy 104.14 92.71)
+			(xy 102.87 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1109,33 +1067,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 55.88 92.71)
+			(xy 72.39 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9106d8e1-7374-4fcc-ad2a-577eb0749430")
-	)
-	(wire
-		(pts
-			(xy 15.24 38.1) (xy 15.24 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2cbe93-c958-4751-95e7-85e85c37cc43")
-	)
-	(wire
-		(pts
-			(xy 33.02 62.23) (xy 33.02 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f2a999c-9a2b-430a-b1e7-6505bcd16c50")
 	)
 	(wire
 		(pts
@@ -1149,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 104.14 92.71)
+			(xy 120.65 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1159,17 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 15.24) (xy 33.02 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adebb6a5-f0e8-4f87-b4e6-4b422a924059")
-	)
-	(wire
-		(pts
-			(xy 24.13 62.23) (xy 33.02 62.23)
+			(xy 29.21 27.94) (xy 38.1 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 91.44) (xy 16.51 91.44)
+			(xy 20.32 57.15) (xy 21.59 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1189,27 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 33.02 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18ffc31-5f85-449b-88d7-56b2f5a9ba54")
-	)
-	(wire
-		(pts
-			(xy 36.83 16.51) (xy 36.83 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6446d59-8624-43b1-bd1c-958607669ca0")
-	)
-	(wire
-		(pts
-			(xy 97.79 92.71) (xy 90.17 92.71)
+			(xy 102.87 58.42) (xy 95.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 78.74 92.71)
+			(xy 95.25 58.42) (xy 83.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 97.79 62.23)
+			(xy 38.1 27.94) (xy 102.87 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 33.02 71.12)
+			(xy 38.1 27.94) (xy 38.1 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 62.23) (xy 97.79 92.71)
+			(xy 102.87 27.94) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1186,7 @@
 		(uuid "fbc440cf-d8a3-4977-9b60-4f4da7e4ee00")
 	)
 	(label "VBus In Filter Caps"
-		(at 41.91 72.39 0)
+		(at 46.99 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1206,7 @@
 		(uuid "2fdf7c64-1f7d-4d8f-9211-de8bc84ea16d")
 	)
 	(label "Bleed Resistor"
-		(at 15.24 96.52 0)
+		(at 20.32 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1306,16 +1214,6 @@
 			(justify left bottom)
 		)
 		(uuid "31c9c053-5bf4-4ecd-bd74-52d654b00518")
-	)
-	(label "VBus Input Voltage Sense (PWM Controller)"
-		(at 41.91 57.15 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "baa700f0-c491-4fc3-9bfc-6e772c4e6229")
 	)
 	(label "VBus Out Sense (TI Controller)"
 		(at 218.44 83.82 90)
@@ -1336,28 +1234,6 @@
 			(justify left bottom)
 		)
 		(uuid "c23f62e8-3563-4398-8386-e8624a2c6c4b")
-	)
-	(global_label "+VBus_In_Sense"
-		(shape input)
-		(at 36.83 16.51 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05343259-1c5e-49c3-81a3-eaec8c607d12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 34.8561 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "+VBus_Out_Sense"
 		(shape input)
@@ -1383,7 +1259,7 @@
 	)
 	(global_label "+VBus_In"
 		(shape input)
-		(at 24.13 62.23 180)
+		(at 29.21 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1393,7 +1269,7 @@
 		)
 		(uuid "6746ea18-685e-4cb0-b1c1-305efe99717f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.3153 62.23 0)
+			(at 17.3953 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1425,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 86.36 180)
+		(at 38.1 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1558,7 +1434,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b7e77c6-5123-4f19-b02b-0fe6affcdb3e")
 		(property "Reference" "R9"
-			(at 24.13 82.55 0)
+			(at 29.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1442,7 @@
 			)
 		)
 		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 88.9 90)
+			(at 27.9401 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1452,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -9.83 0)
+			(at 24.13 -44.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1462,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -109.83 0)
+			(at 24.13 -144.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1472,7 @@
 			)
 		)
 		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 86.36 0)
+			(at 38.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1481,7 @@
 			)
 		)
 		(property "Height" "0.65"
-			(at 19.05 -309.83 0)
+			(at 24.13 -344.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +1491,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -409.83 0)
+			(at 24.13 -444.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1501,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -509.83 0)
+			(at 24.13 -544.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1511,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -609.83 0)
+			(at 24.13 -644.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1521,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -709.83 0)
+			(at 24.13 -744.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1669,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 78.74 105.41 0)
+		(at 83.82 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1802,7 +1678,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ffcafbc-b0e4-4110-9886-c2d1d8608701")
 		(property "Reference" "#PWR056"
-			(at 78.74 110.49 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1687,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 78.613 109.22 0)
+			(at 83.693 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 106.68 0)
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 106.68 0)
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 78.74 105.41 0)
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1735,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 90.17 80.01 180)
+		(at 95.25 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1868,7 +1744,7 @@
 		(fields_autoplaced yes)
 		(uuid "12064c21-da5e-4a9c-99b9-eafbc1e1ac6a")
 		(property "Reference" "#PWR054"
-			(at 90.17 74.93 0)
+			(at 95.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1753,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 90.297 76.2 0)
+			(at 95.377 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 78.74 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 78.74 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 90.17 80.01 0)
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,130 +1866,8 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "196922bf-c97e-4131-9a46-19fc3bd67b7e")
-		(property "Reference" "R1"
-			(at 24.13 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -42.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -142.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -342.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -442.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -542.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -642.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -742.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7083c532-4543-4481-b529-116260ffeb09")
-		)
-		(pin "2"
-			(uuid "555709f6-2fde-4ea0-969f-054caac16f70")
-		)
-		(instances
-			(project ""
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 55.88 105.41 0)
+		(at 60.96 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2122,7 +1876,7 @@
 		(fields_autoplaced yes)
 		(uuid "265ff383-e20e-40ea-9a54-fade560e3c0b")
 		(property "Reference" "#PWR060"
-			(at 55.88 110.49 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +1885,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 55.753 109.22 0)
+			(at 60.833 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +1893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 106.68 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +1902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 106.68 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +1911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 55.88 105.41 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2055,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 104.14 80.01 180)
+		(at 109.22 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2310,7 +2064,7 @@
 		(fields_autoplaced yes)
 		(uuid "376c7dbd-b1e7-4d36-8fcd-78e3ef76a20c")
 		(property "Reference" "#PWR046"
-			(at 104.14 74.93 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2073,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 104.267 76.2 0)
+			(at 109.347 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 78.74 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 78.74 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 104.14 80.01 0)
+			(at 109.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,128 +2114,6 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3994bfc1-81c7-4687-a764-8ff7d0f6ead5")
-		(property "Reference" "R2"
-			(at 24.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -50.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -150.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -350.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -450.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -550.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -650.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -750.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f3de4a6-149a-4124-af45-ea756f3746db")
-		)
-		(pin "2"
-			(uuid "15214198-f81c-4801-85f7-3e27b05868e5")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2309,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 78.74 80.01 180)
+		(at 83.82 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2686,7 +2318,7 @@
 		(fields_autoplaced yes)
 		(uuid "4daf39e7-8287-407b-870a-45748c163bf0")
 		(property "Reference" "#PWR055"
-			(at 78.74 74.93 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2327,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 78.867 76.2 0)
+			(at 83.947 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 78.74 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 78.74 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2353,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 78.74 80.01 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2441,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 16.51 91.44 90)
+		(at 21.59 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2818,7 +2450,7 @@
 		(fields_autoplaced yes)
 		(uuid "54d4b40f-403c-43cb-b549-4588e4b85aea")
 		(property "Reference" "#PWR017"
-			(at 21.59 91.44 0)
+			(at 26.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2459,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 20.32 91.5669 90)
+			(at 25.4 57.2769 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 91.44 0)
+			(at 22.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 91.44 0)
+			(at 22.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 16.51 91.44 0)
+			(at 21.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,372 +2501,6 @@
 			(project ""
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 15.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a1f9887-a89c-4e65-b848-4d0bee36e653")
-		(property "Reference" "R6"
-			(at 24.13 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -80.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -180.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -380.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -480.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -580.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -680.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -780.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c383d65f-6e68-44a8-818d-ef8a59d95d19")
-		)
-		(pin "2"
-			(uuid "e772e8f2-6ddd-4db0-853b-15d8c5384884")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e8a34b4-bbaa-472a-9998-e0478e4ab6cf")
-		(property "Reference" "R3"
-			(at 24.13 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -58.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -158.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -358.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -458.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -558.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -658.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -758.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc5283b1-c24e-4954-8ca6-32151da68849")
-		)
-		(pin "2"
-			(uuid "17a49933-28f2-4c02-b963-d403ef43b599")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74750e6b-9fa2-4621-9bdf-665c8746c58d")
-		(property "Reference" "R4"
-			(at 24.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -65.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -165.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -365.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -465.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -565.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -665.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -765.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "489def6d-92a7-4edd-9c35-f724540b95c6")
-		)
-		(pin "2"
-			(uuid "6745d17e-bc2f-4724-8bcc-794718313d3e")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3364,7 +2630,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 55.88 92.71 270)
+		(at 60.96 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3373,7 +2639,7 @@
 		(fields_autoplaced yes)
 		(uuid "85a5c933-91e5-4b50-9905-52ac76fdb364")
 		(property "Reference" "C55"
-			(at 52.07 100.3301 90)
+			(at 57.15 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +2648,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 52.07 97.7901 90)
+			(at 57.15 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +2657,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at -40.31 101.6 0)
+			(at -35.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +2667,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at -140.31 101.6 0)
+			(at -135.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +2677,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 55.88 92.71 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +2686,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at -340.31 101.6 0)
+			(at -335.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +2696,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at -440.31 101.6 0)
+			(at -435.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +2706,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at -540.31 101.6 0)
+			(at -535.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +2716,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at -640.31 101.6 0)
+			(at -635.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +2726,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at -740.31 101.6 0)
+			(at -735.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +2874,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 78.74 180)
+		(at 38.1 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3617,7 +2883,7 @@
 		(fields_autoplaced yes)
 		(uuid "915e14c2-da7e-441b-9d6f-7169cbd0b505")
 		(property "Reference" "R8"
-			(at 24.13 74.93 0)
+			(at 29.21 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +2891,7 @@
 			)
 		)
 		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 81.28 90)
+			(at 27.9401 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -17.45 0)
+			(at 24.13 -51.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +2911,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -117.45 0)
+			(at 24.13 -151.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +2921,7 @@
 			)
 		)
 		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 78.74 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +2930,7 @@
 			)
 		)
 		(property "Height" "0.65"
-			(at 19.05 -317.45 0)
+			(at 24.13 -351.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +2940,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -417.45 0)
+			(at 24.13 -451.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +2950,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -517.45 0)
+			(at 24.13 -551.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +2960,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -617.45 0)
+			(at 24.13 -651.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +2970,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -717.45 0)
+			(at 24.13 -751.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +2996,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 78.74 92.71 90)
+		(at 83.82 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3739,7 +3005,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e048f1-5227-4cdd-ac41-0351caf557a8")
 		(property "Reference" "C51"
-			(at 74.93 87.6301 90)
+			(at 80.01 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3014,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 74.93 85.0901 90)
+			(at 80.01 50.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3023,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 174.93 83.82 0)
+			(at 180.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3033,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 274.93 83.82 0)
+			(at 280.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 78.74 92.71 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3052,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 474.93 83.82 0)
+			(at 480.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3062,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 574.93 83.82 0)
+			(at 580.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3072,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 674.93 83.82 0)
+			(at 680.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3082,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 774.93 83.82 0)
+			(at 780.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3092,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 874.93 83.82 0)
+			(at 880.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3118,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 104.14 92.71 90)
+		(at 109.22 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3127,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b6bae96-9231-4748-8c59-e2c2f8cc5220")
 		(property "Reference" "C44"
-			(at 107.95 85.0899 90)
+			(at 113.03 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3136,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 107.95 87.6299 90)
+			(at 113.03 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3145,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 200.33 83.82 0)
+			(at 205.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3155,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 300.33 83.82 0)
+			(at 305.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3165,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 104.14 92.71 0)
+			(at 109.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3174,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 500.33 83.82 0)
+			(at 505.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3184,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 600.33 83.82 0)
+			(at 605.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3194,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 700.33 83.82 0)
+			(at 705.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3204,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 800.33 83.82 0)
+			(at 805.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +3214,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 900.33 83.82 0)
+			(at 905.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +3484,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 55.88 80.01 180)
+		(at 60.96 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4227,7 +3493,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae41f06-6997-4af0-8fa1-c360022a3b5c")
 		(property "Reference" "#PWR059"
-			(at 55.88 74.93 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +3502,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 56.007 76.2 0)
+			(at 61.087 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +3510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 78.74 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 78.74 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +3528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 55.88 80.01 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +3550,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 78.74 92.71 270)
+		(at 83.82 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4293,7 +3559,7 @@
 		(fields_autoplaced yes)
 		(uuid "aba319d6-489d-482e-82b5-6b9fa9659aa1")
 		(property "Reference" "C52"
-			(at 74.93 100.3301 90)
+			(at 80.01 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +3568,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 74.93 97.7901 90)
+			(at 80.01 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at -17.45 101.6 0)
+			(at -12.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +3587,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at -117.45 101.6 0)
+			(at -112.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +3597,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 78.74 92.71 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +3606,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at -317.45 101.6 0)
+			(at -312.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +3616,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at -417.45 101.6 0)
+			(at -412.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +3626,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at -517.45 101.6 0)
+			(at -512.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +3636,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at -617.45 101.6 0)
+			(at -612.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +3646,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at -717.45 101.6 0)
+			(at -712.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +3672,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 115.57 80.01 180)
+		(at 120.65 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4415,7 +3681,7 @@
 		(fields_autoplaced yes)
 		(uuid "abb6e2d0-06af-45e2-819f-73123d18aa26")
 		(property "Reference" "#PWR048"
-			(at 115.57 74.93 0)
+			(at 120.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +3690,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 115.697 76.2 0)
+			(at 120.777 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +3698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 78.74 0)
+			(at 120.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +3707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 78.74 0)
+			(at 120.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +3716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 115.57 80.01 0)
+			(at 120.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +3860,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 90.17 92.71 270)
+		(at 95.25 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4603,7 +3869,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3fde50a-2e5d-4ab1-af8f-72325a179b26")
 		(property "Reference" "C45"
-			(at 93.98 97.7899 90)
+			(at 99.06 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +3878,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 93.98 100.3299 90)
+			(at 99.06 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +3887,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at -6.02 101.6 0)
+			(at -0.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at -106.02 101.6 0)
+			(at -100.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 90.17 92.71 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +3916,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at -306.02 101.6 0)
+			(at -300.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +3926,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at -406.02 101.6 0)
+			(at -400.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +3936,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at -506.02 101.6 0)
+			(at -500.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +3946,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at -606.02 101.6 0)
+			(at -600.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +3956,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at -706.02 101.6 0)
+			(at -700.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +3982,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 71.12 180)
+		(at 38.1 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4725,7 +3991,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5ada286-5d3c-44bf-8f6e-fa38ff992301")
 		(property "Reference" "R7"
-			(at 24.13 67.31 0)
+			(at 29.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +3999,7 @@
 			)
 		)
 		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 73.66 90)
+			(at 27.9401 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4009,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -25.07 0)
+			(at 24.13 -59.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -125.07 0)
+			(at 24.13 -159.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4029,7 @@
 			)
 		)
 		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 71.12 0)
+			(at 38.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4038,7 @@
 			)
 		)
 		(property "Height" "0.65"
-			(at 19.05 -325.07 0)
+			(at 24.13 -359.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4048,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -425.07 0)
+			(at 24.13 -459.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4058,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -525.07 0)
+			(at 24.13 -559.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4068,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -625.07 0)
+			(at 24.13 -659.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4078,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -725.07 0)
+			(at 24.13 -759.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,130 +4225,8 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:RC2512JK-071ML")
-		(at 33.02 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1b64eb9-c752-4bd7-9766-4ef4e61a5f8d")
-		(property "Reference" "R5"
-			(at 24.13 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC2512JK-071ML"
-			(at 22.8601 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "InverterCom:RESC6431X65N"
-			(at 19.05 -73.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 -173.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film"
-			(at 33.02 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 19.05 -373.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC2512JK-071ML"
-			(at 19.05 -473.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D"
-			(at 19.05 -573.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 19.05 -673.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC2512JK-071ML"
-			(at 19.05 -773.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "567cf4d4-4fd7-4fa5-9f4f-6f289266b257")
-		)
-		(pin "2"
-			(uuid "5940ae88-7770-44d7-bd55-e454e868717b")
-		)
-		(instances
-			(project "InverterBoostConverter"
-				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/ffe64959-1892-4d86-883d-faf1db434ad6"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 55.88 92.71 90)
+		(at 60.96 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5091,7 +4235,7 @@
 		(fields_autoplaced yes)
 		(uuid "c245aa49-f241-4970-9063-7acd7763626f")
 		(property "Reference" "C56"
-			(at 52.07 87.6301 90)
+			(at 57.15 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +4244,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 52.07 85.0901 90)
+			(at 57.15 50.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +4253,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 152.07 83.82 0)
+			(at 157.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +4263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 252.07 83.82 0)
+			(at 257.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +4273,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 55.88 92.71 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +4282,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 452.07 83.82 0)
+			(at 457.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +4292,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 552.07 83.82 0)
+			(at 557.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +4302,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 652.07 83.82 0)
+			(at 657.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +4312,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 752.07 83.82 0)
+			(at 757.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +4322,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 852.07 83.82 0)
+			(at 857.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +4480,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 90.17 92.71 90)
+		(at 95.25 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5345,7 +4489,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca5a0e68-4a5c-485d-98e0-9479e582b663")
 		(property "Reference" "C50"
-			(at 86.36 87.6301 90)
+			(at 91.44 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +4498,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 86.36 85.0901 90)
+			(at 91.44 50.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +4507,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 186.36 83.82 0)
+			(at 191.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +4517,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 286.36 83.82 0)
+			(at 291.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 90.17 92.71 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +4536,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 486.36 83.82 0)
+			(at 491.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +4546,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 586.36 83.82 0)
+			(at 591.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +4556,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 686.36 83.82 0)
+			(at 691.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +4566,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 786.36 83.82 0)
+			(at 791.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +4576,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 886.36 83.82 0)
+			(at 891.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +4602,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 115.57 92.71 90)
+		(at 120.65 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5467,7 +4611,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd2237a2-9fc0-44e5-b180-c7833264a534")
 		(property "Reference" "C46"
-			(at 119.38 85.0899 90)
+			(at 124.46 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +4620,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 119.38 87.6299 90)
+			(at 124.46 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +4629,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 211.76 83.82 0)
+			(at 216.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +4639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 311.76 83.82 0)
+			(at 316.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 115.57 92.71 0)
+			(at 120.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +4658,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 511.76 83.82 0)
+			(at 516.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +4668,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 611.76 83.82 0)
+			(at 616.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +4678,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 711.76 83.82 0)
+			(at 716.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +4688,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 811.76 83.82 0)
+			(at 816.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +4698,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 911.76 83.82 0)
+			(at 916.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +4790,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 67.31 105.41 0)
+		(at 72.39 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5655,7 +4799,7 @@
 		(fields_autoplaced yes)
 		(uuid "d540330b-9ef8-45fb-ad5d-7b8e44fd309f")
 		(property "Reference" "#PWR058"
-			(at 67.31 110.49 0)
+			(at 72.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +4808,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 67.183 109.22 0)
+			(at 72.263 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +4816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 106.68 0)
+			(at 72.39 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 106.68 0)
+			(at 72.39 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +4834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 67.31 105.41 0)
+			(at 72.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 90.17 105.41 0)
+		(at 95.25 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6153,7 +5297,7 @@
 		(fields_autoplaced yes)
 		(uuid "e81c2d22-eca9-4d47-998e-b29072d8208c")
 		(property "Reference" "#PWR049"
-			(at 90.17 110.49 0)
+			(at 95.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +5306,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 90.043 109.22 0)
+			(at 95.123 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 106.68 0)
+			(at 95.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 106.68 0)
+			(at 95.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 90.17 105.41 0)
+			(at 95.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +5354,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 67.31 92.71 270)
+		(at 72.39 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6219,7 +5363,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9abf782-68de-4e91-ae2b-d17c671fa97a")
 		(property "Reference" "C53"
-			(at 63.5 100.3301 90)
+			(at 68.58 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +5372,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 63.5 97.7901 90)
+			(at 68.58 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at -28.88 101.6 0)
+			(at -23.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +5391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at -128.88 101.6 0)
+			(at -123.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +5401,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 67.31 92.71 0)
+			(at 72.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +5410,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at -328.88 101.6 0)
+			(at -323.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +5420,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at -428.88 101.6 0)
+			(at -423.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +5430,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at -528.88 101.6 0)
+			(at -523.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +5440,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at -628.88 101.6 0)
+			(at -623.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +5450,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at -728.88 101.6 0)
+			(at -723.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 67.31 80.01 180)
+		(at 72.39 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6463,7 +5607,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb714886-fda4-423b-9fca-0f984999e180")
 		(property "Reference" "#PWR057"
-			(at 67.31 74.93 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +5616,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 67.437 76.2 0)
+			(at 72.517 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +5624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 78.74 0)
+			(at 72.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +5633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 78.74 0)
+			(at 72.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +5642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 67.31 80.01 0)
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +5786,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:SLPX331M200A1P3")
-		(at 67.31 92.71 90)
+		(at 72.39 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6651,7 +5795,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd944e9e-5a30-428a-bf61-3567f60ccdfc")
 		(property "Reference" "C54"
-			(at 63.5 87.6301 90)
+			(at 68.58 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +5804,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 63.5 85.0901 90)
+			(at 68.58 50.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +5813,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:CAPPRD1000W190D2250H2700"
-			(at 163.5 83.82 0)
+			(at 168.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +5823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics"
-			(at 263.5 83.82 0)
+			(at 268.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +5833,7 @@
 			)
 		)
 		(property "Description" "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C"
-			(at 67.31 92.71 0)
+			(at 72.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +5842,7 @@
 			)
 		)
 		(property "Height" "27"
-			(at 463.5 83.82 0)
+			(at 468.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +5852,7 @@
 			)
 		)
 		(property "Mouser Part Number" "598-SLPX331M200A1P3"
-			(at 563.5 83.82 0)
+			(at 568.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +5862,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D"
-			(at 663.5 83.82 0)
+			(at 668.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +5872,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cornell Dubilier"
-			(at 763.5 83.82 0)
+			(at 768.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +5882,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SLPX331M200A1P3"
-			(at 863.5 83.82 0)
+			(at 868.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

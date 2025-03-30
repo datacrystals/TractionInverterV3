@@ -2297,13 +2297,19 @@
 		(uuid "0c266b77-70bc-4e6f-9ce8-cc13031bd2b1")
 	)
 	(junction
-		(at 245.11 113.03)
+		(at 223.52 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d612773-60b6-49a9-8380-9302581c306f")
+	)
+	(junction
+		(at 260.35 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "136db6ad-21af-483a-8b2b-332fb2dc77d8")
 	)
 	(junction
-		(at 245.11 99.06)
+		(at 260.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "179f526b-2a7b-4fe2-b1c1-09fc18eaa4bd")
@@ -2333,13 +2339,13 @@
 		(uuid "260b4a53-18b3-4853-a78d-318298ccdc44")
 	)
 	(junction
-		(at 245.11 80.01)
+		(at 260.35 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a394531-79fe-4900-84c6-6b560746e470")
 	)
 	(junction
-		(at 255.27 124.46)
+		(at 270.51 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b8b48b6-e357-4304-bec0-a581153d8c66")
@@ -2351,7 +2357,7 @@
 		(uuid "2cc9a2bb-b0eb-4d9a-83ca-6358c2ad8d34")
 	)
 	(junction
-		(at 255.27 96.52)
+		(at 270.51 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3484aa20-d4c5-4b57-abd6-cc31ecda3d54")
@@ -2381,13 +2387,13 @@
 		(uuid "4923ca91-b828-455c-9305-bef949c47cba")
 	)
 	(junction
-		(at 245.11 121.92)
+		(at 260.35 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ddba820-5095-4b38-974f-325b702384c0")
 	)
 	(junction
-		(at 255.27 68.58)
+		(at 270.51 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e24b777-a8e9-467e-a281-afaf08e7b65b")
@@ -2405,13 +2411,13 @@
 		(uuid "627eadc8-14f2-4747-8c6c-ac8348651f5b")
 	)
 	(junction
-		(at 255.27 82.55)
+		(at 270.51 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6702918f-0d40-428b-9997-e80c41a041e6")
 	)
 	(junction
-		(at 245.11 107.95)
+		(at 260.35 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "783eaa10-c23d-48ae-8eb0-a116fd59f412")
@@ -2447,7 +2453,7 @@
 		(uuid "89f6aca0-e5e7-46d1-84f5-08a7da9c12b2")
 	)
 	(junction
-		(at 245.11 95.25)
+		(at 260.35 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a0ecd38-d1cf-4f71-8fb9-9e720d06e88c")
@@ -2465,7 +2471,7 @@
 		(uuid "97366edd-d061-4abf-ab59-0a2c59b835a6")
 	)
 	(junction
-		(at 245.11 127)
+		(at 260.35 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b295da-0d19-4bdf-8975-067ba4b1281e")
@@ -2483,28 +2489,28 @@
 		(uuid "a418b056-9994-459d-ac85-770cfcd01cdd")
 	)
 	(junction
-		(at 245.11 93.98)
+		(at 260.35 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0372bfb-aa63-4f2c-8ca2-a0bd7805af0f")
 	)
 	(junction
-		(at 245.11 135.89)
+		(at 260.35 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be545c5a-07b4-4d1b-9b57-77d6d4c4df07")
 	)
 	(junction
-		(at 255.27 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4d06ea1-db36-485d-a4bf-9c1334112df4")
-	)
-	(junction
 		(at 214.63 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c605e520-f104-449f-be82-11abced65df4")
+		(uuid "c0ce9354-8a05-4c45-b7ea-101a83f8d23d")
+	)
+	(junction
+		(at 270.51 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4d06ea1-db36-485d-a4bf-9c1334112df4")
 	)
 	(junction
 		(at 43.18 66.04)
@@ -2519,7 +2525,7 @@
 		(uuid "cf053439-d926-4152-85be-8a140212e218")
 	)
 	(junction
-		(at 245.11 85.09)
+		(at 260.35 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbb735b9-d519-4458-a4b4-1e42b4d1e29a")
@@ -2537,7 +2543,7 @@
 		(uuid "e295b3ed-0f52-4f3b-a564-4987ed621bee")
 	)
 	(junction
-		(at 245.11 71.12)
+		(at 260.35 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f59b300b-dfba-48b5-8388-3fe1505e4814")
@@ -2554,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 85.09) (xy 245.11 80.01)
+			(xy 260.35 85.09) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 54.61) (xy 222.25 54.61)
+			(xy 214.63 50.8) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2581,16 +2587,6 @@
 			(type default)
 		)
 		(uuid "0cb45d8d-ddf0-445f-85f9-584bcfc2f936")
-	)
-	(wire
-		(pts
-			(xy 214.63 67.31) (xy 222.25 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dae919b-dbe5-4f2d-8eb0-a4ec945ca616")
 	)
 	(wire
 		(pts
@@ -2621,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "12efaff6-c7ce-4713-8da1-713041a68e41")
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14842d12-3805-4762-80e2-912f64898ecf")
 	)
 	(wire
 		(pts
@@ -2674,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 113.03) (xy 245.11 121.92)
+			(xy 260.35 113.03) (xy 260.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 96.52) (xy 255.27 110.49)
+			(xy 270.51 96.52) (xy 270.51 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2830,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 95.25) (xy 245.11 99.06)
+			(xy 223.52 67.31) (xy 222.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf7a8a9-86e7-46be-850e-43aaa93e40aa")
+	)
+	(wire
+		(pts
+			(xy 260.35 95.25) (xy 260.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 93.98) (xy 245.11 95.25)
+			(xy 260.35 93.98) (xy 260.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 82.55) (xy 255.27 68.58)
+			(xy 270.51 82.55) (xy 270.51 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 82.55) (xy 255.27 96.52)
+			(xy 270.51 82.55) (xy 270.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2971,6 +2987,16 @@
 			(type default)
 		)
 		(uuid "569260e1-b879-406d-b40c-b66a11d4ee22")
+	)
+	(wire
+		(pts
+			(xy 237.49 67.31) (xy 223.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d02187a-a7bb-4e6b-89bd-01e7d57d1937")
 	)
 	(wire
 		(pts
@@ -2991,16 +3017,6 @@
 			(type default)
 		)
 		(uuid "5f8a2a7c-aac4-4958-a1b2-074124f09d7b")
-	)
-	(wire
-		(pts
-			(xy 255.27 96.52) (xy 265.43 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614bfc27-4dfe-4917-a88a-b6298f22b962")
 	)
 	(wire
 		(pts
@@ -3034,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 80.01) (xy 245.11 71.12)
+			(xy 260.35 80.01) (xy 260.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3114,13 +3130,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 135.89) (xy 245.11 140.97)
+			(xy 260.35 135.89) (xy 260.35 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "831d2507-6544-420d-8001-8a23c38dcc66")
+	)
+	(wire
+		(pts
+			(xy 278.13 96.52) (xy 270.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850f77aa-e70c-4dc4-b388-00abdd3846f0")
 	)
 	(wire
 		(pts
@@ -3164,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 85.09) (xy 245.11 93.98)
+			(xy 260.35 85.09) (xy 260.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 24.13) (xy 255.27 68.58)
+			(xy 270.51 24.13) (xy 270.51 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3244,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 99.06) (xy 245.11 107.95)
+			(xy 260.35 99.06) (xy 260.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 124.46) (xy 255.27 138.43)
+			(xy 270.51 124.46) (xy 270.51 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3271,6 +3297,26 @@
 			(type default)
 		)
 		(uuid "9dc1e013-67ae-4a18-84a7-2e1d18142b4e")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 260.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0d8114-8627-447c-905c-952d35bfb5fa")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 251.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3238796-940b-4ffe-91f1-bfd37cfa525f")
 	)
 	(wire
 		(pts
@@ -3304,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 24.13) (xy 255.27 24.13)
+			(xy 53.34 24.13) (xy 270.51 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3414,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 71.12) (xy 245.11 66.04)
+			(xy 260.35 71.12) (xy 260.35 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 121.92) (xy 245.11 127)
+			(xy 260.35 121.92) (xy 260.35 127)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 110.49) (xy 255.27 124.46)
+			(xy 270.51 110.49) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3464,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 95.25) (xy 245.11 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd16b0e5-5dbb-4e83-92b1-8bb1949ac669")
-	)
-	(wire
-		(pts
 			(xy 43.18 57.15) (xy 43.18 66.04)
 		)
 		(stroke
@@ -3484,7 +3520,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 245.11 135.89)
+			(xy 278.13 95.25) (xy 278.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d659be8b-43c7-483b-953c-a4e26070f078")
+	)
+	(wire
+		(pts
+			(xy 260.35 127) (xy 260.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3524,6 +3570,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 67.31) (xy 251.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddd71c9-e7ad-470a-b73c-e8a966f01bd4")
+	)
+	(wire
+		(pts
 			(xy 81.28 143.51) (xy 81.28 140.97)
 		)
 		(stroke
@@ -3554,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 107.95) (xy 245.11 113.03)
+			(xy 260.35 107.95) (xy 260.35 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3618,7 +3674,7 @@
 	)
 	(global_label "Ph2_CurrentSense"
 		(shape input)
-		(at 222.25 54.61 0)
+		(at 222.25 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3628,7 +3684,7 @@
 		)
 		(uuid "1d39c062-c340-4c9a-971c-ac9b8d858c32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3498 54.61 0)
+			(at 242.3498 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3762,7 @@
 	)
 	(global_label "+VBus_Out"
 		(shape input)
-		(at 265.43 96.52 0)
+		(at 278.13 95.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3716,7 +3772,7 @@
 		)
 		(uuid "409e4854-c778-40e8-af4a-5f27700d635a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.6961 96.52 0)
+			(at 278.13 81.9839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,22 +3828,22 @@
 	)
 	(global_label "Arduino_Ph2Curr"
 		(shape input)
-		(at 222.25 67.31 0)
+		(at 251.46 71.12 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eeed6fe2-0c2e-43d2-a580-cb8de0d7b16b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.8983 67.31 0)
+			(at 251.46 89.7683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3997,6 +4053,142 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
 					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0387f175-e983-4dd8-92dd-428be76ea8f3")
+		(property "Reference" "C86"
+			(at 227.33 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 227.33 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 224.4852 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3799393-00fb-43c5-9fc8-0f0d9da67ee3")
+		)
+		(pin "2"
+			(uuid "6c627d71-0197-431f-acda-eb9055187a3c")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07753447-3897-4ad6-9b66-65ee49b6ede0")
+		(property "Reference" "#PWR0118"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6afaee7-cc2c-45a1-96ae-3d8a811bbcf5")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -4269,6 +4461,74 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
 					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130896ec-8a8e-43ae-b8c4-218296570164")
+		(property "Reference" "R89"
+			(at 218.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 218.44 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 218.44 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396b7f96-753a-4a6a-b5d5-04417eda648f")
+		)
+		(pin "2"
+			(uuid "46f18d59-199b-4da1-89ca-4d46e3e113f1")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -4597,6 +4857,76 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
 					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21387df5-abf3-49ce-b42e-844fe6919bf0")
+		(property "Reference" "C87"
+			(at 227.33 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF"
+			(at 227.33 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 222.5548 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9140279-dff7-4741-800c-4cad4e1d8fb3")
+		)
+		(pin "2"
+			(uuid "7ba555f9-81b3-4cfd-880b-bed7c098753b")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -5836,7 +6166,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 82.55 0)
+		(at 265.43 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5845,7 +6175,7 @@
 		(fields_autoplaced yes)
 		(uuid "828d1965-f534-4d86-8f1e-b3bd8a57f1e0")
 		(property "Reference" "D14"
-			(at 250.1265 73.66 0)
+			(at 265.3665 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6183,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 76.2 0)
+			(at 265.3665 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +6191,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 82.55 0)
+			(at 266.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +6200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 82.55 0)
+			(at 266.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6209,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 82.55 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +6218,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 477.47 0)
+			(at 307.34 477.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6228,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 577.47 0)
+			(at 307.34 577.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +6238,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 677.47 0)
+			(at 307.34 677.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +6248,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 777.47 0)
+			(at 307.34 777.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6258,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 877.47 0)
+			(at 307.34 877.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,6 +6354,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 241.3 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f6971eb-499d-4416-a5f2-945db1046ded")
+		(property "Reference" "FB6"
+			(at 241.2492 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FBMJ1608HS220NTR"
+			(at 241.2492 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:BEADC1608X100N"
+			(at 241.3 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 636.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-FBMJ1608HS220NTR"
+			(at 736.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D"
+			(at 836.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 936.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FBMJ1608HS220NTR"
+			(at 1036.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "736d864b-1d8a-4d79-9391-a92a29c8f3fd")
+		)
+		(pin "1"
+			(uuid "6f28944b-4574-44bc-9489-1d42b47decf0")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 69.85 180)
 		(unit 1)
@@ -6091,7 +6539,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 68.58 0)
+		(at 265.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6100,7 +6548,7 @@
 		(fields_autoplaced yes)
 		(uuid "93452e59-875a-4656-a7f0-883818a3eec2")
 		(property "Reference" "D13"
-			(at 250.1265 59.69 0)
+			(at 265.3665 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6556,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 62.23 0)
+			(at 265.3665 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 68.58 0)
+			(at 266.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 68.58 0)
+			(at 266.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6582,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6591,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 463.5 0)
+			(at 307.34 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6601,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 563.5 0)
+			(at 307.34 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +6611,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 663.5 0)
+			(at 307.34 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6621,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 763.5 0)
+			(at 307.34 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6631,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 863.5 0)
+			(at 307.34 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,8 +7125,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7961e0b-b25b-40ee-9a40-0ef9b8a6c0dc")
+		(property "Reference" "#PWR0117"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd581a47-6a61-4197-aea5-c1cdbe7f8c8d")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/6b8c86c7-5ef6-49d8-97f5-34ef0211a71f"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 124.46 0)
+		(at 265.43 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6687,7 +7201,7 @@
 		(fields_autoplaced yes)
 		(uuid "c263f6bd-db26-4d78-a5d2-eb54210f0cb9")
 		(property "Reference" "D17"
-			(at 250.1265 115.57 0)
+			(at 265.3665 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +7209,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 118.11 0)
+			(at 265.3665 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +7217,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 124.46 0)
+			(at 266.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 124.46 0)
+			(at 266.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +7235,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 124.46 0)
+			(at 265.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7244,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 519.38 0)
+			(at 307.34 519.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7254,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 619.38 0)
+			(at 307.34 619.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +7264,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 719.38 0)
+			(at 307.34 719.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +7274,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 819.38 0)
+			(at 307.34 819.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +7284,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 919.38 0)
+			(at 307.34 919.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7593,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 110.49 0)
+		(at 265.43 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7088,7 +7602,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbef805e-765a-4333-ad03-7f10fcf2bea8")
 		(property "Reference" "D16"
-			(at 250.1265 101.6 0)
+			(at 265.3665 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7610,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 104.14 0)
+			(at 265.3665 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7618,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 110.49 0)
+			(at 266.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 110.49 0)
+			(at 266.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7636,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 110.49 0)
+			(at 265.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7645,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 505.41 0)
+			(at 307.34 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7655,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 605.41 0)
+			(at 307.34 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7665,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 705.41 0)
+			(at 307.34 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7675,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 805.41 0)
+			(at 307.34 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7685,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 905.41 0)
+			(at 307.34 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7714,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 96.52 0)
+		(at 265.43 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7209,7 +7723,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdabb01c-f67f-42e5-ac4a-09981a0846c6")
 		(property "Reference" "D15"
-			(at 250.1265 87.63 0)
+			(at 265.3665 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7731,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 90.17 0)
+			(at 265.3665 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 96.52 0)
+			(at 266.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 96.52 0)
+			(at 266.7 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 96.52 0)
+			(at 265.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7766,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 491.44 0)
+			(at 307.34 491.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7776,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 591.44 0)
+			(at 307.34 591.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7786,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 691.44 0)
+			(at 307.34 691.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7796,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 791.44 0)
+			(at 307.34 791.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7806,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 891.44 0)
+			(at 307.34 891.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +8299,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 250.19 138.43 0)
+		(at 265.43 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7794,7 +8308,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee9dde6a-8a3e-4bc7-9f1c-f5caf5fad572")
 		(property "Reference" "D20"
-			(at 250.1265 129.54 0)
+			(at 265.3665 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +8316,7 @@
 			)
 		)
 		(property "Value" "VS-30CDU06HM3_I"
-			(at 250.1265 132.08 0)
+			(at 265.3665 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:VS30CDU06HM3I"
-			(at 251.46 138.43 0)
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 138.43 0)
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +8342,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 1"
-			(at 250.19 138.43 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +8351,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 292.1 533.35 0)
+			(at 307.34 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +8361,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-VS-30CDU06HM3I"
-			(at 292.1 633.35 0)
+			(at 307.34 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8371,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D"
-			(at 292.1 733.35 0)
+			(at 307.34 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +8381,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 292.1 833.35 0)
+			(at 307.34 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7877,7 +8391,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VS-30CDU06HM3/I"
-			(at 292.1 933.35 0)
+			(at 307.34 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

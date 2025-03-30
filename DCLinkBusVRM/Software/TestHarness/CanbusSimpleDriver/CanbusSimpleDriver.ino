@@ -255,7 +255,7 @@ void readCANResponse() {
       // Filter for acknowledgment packet (CAN ID 0x31)
       if (canMsg.can_id == 0x31 && canMsg.can_dlc == 1 && canMsg.data[0] == 0x01) {
         // Serial.print("Acknowledgment received: ");
-        Serial.println(canMsg.data[0], HEX);
+        // Serial.println(canMsg.data[0], HEX);
       } else {
         Serial.print("Response received: ");
         for (int i = 0; i < canMsg.can_dlc; i++) {

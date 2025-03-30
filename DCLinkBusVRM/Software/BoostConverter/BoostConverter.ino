@@ -32,8 +32,8 @@
 #define DUCT_AREA_SQFT 0.15   // Cross-sectional area of the duct in square feet
 
 // Thresholds for airflow in LFM
-#define MIN_AIRFLOW_LFM 50.0  // Minimum acceptable airflow in LFM
-#define MAX_AIRFLOW_LFM 2500.0 // Maximum acceptable airflow in LFM
+#define MIN_AIRFLOW_LFM -12000.0  // Minimum acceptable airflow in LFM
+#define MAX_AIRFLOW_LFM 12000.0 // Maximum acceptable airflow in LFM
 
 // Temperature and fan speed settings
 #define MIN_TEMP -20.0         // Minimum temperature for fan speed adjustment
@@ -783,12 +783,19 @@ class ACS758CurrentSensor {
       }
 
       // Read the current from the sensor
-      float getCurrent() {
-          int sensorValue = analogRead(voutPin);
-          float voltage = sensorValue * (5.0 / 1023.0); // Convert to voltage
-          float current = ((voltage - quiescentVoltage) * 1000.0) / sensitivity_mVA;
-          return current;
+      float getCurrent(int n = 5) {
+          float totalCurrent = 0.0;
+          for (int i = 0; i < n; i++) {
+              int sensorValue = analogRead(voutPin);
+              float voltage = sensorValue * (5.0 / 1023.0); // Convert to voltage
+              float current = ((voltage - quiescentVoltage) * 1000.0) / sensitivity_mVA;
+              totalCurrent += abs(current); // Take the absolute value of the current
+          }
+          float averageCurrent = totalCurrent / n;
+          return averageCurrent;
       }
+
+
 
       // Check if the current is within the acceptable range
       bool getError() {
@@ -828,7 +835,7 @@ CANController canController(CAN_CS_PIN, CAN_INT_PIN);
 
 
 
-bool OutputEnabled = true; // Indicates if the output has been enabled or not
+bool OutputEnabled = false; // Indicates if the output has been enabled or not
 bool HeartbeatOutput = false; // If true, a heartbeat must be recieved every n ms, else output is disabled.
 
 float CurrentTemp_C = 30.0; // Temperature which is used to drive the fan control
@@ -1133,10 +1140,12 @@ void setup() {
     IndicatorPower.SetState(true);
 
     // Fan Baseline Duty Cycle
-    SystemFan.setSpeed(BASE_FAN_SPEED);
+    // SystemFan.setSpeed(BASE_FAN_SPEED);
+    SystemFan.setSpeed(175);
 
     // Setup Output Enable Pin
     pinMode(OUTPUT_ENABLE_PIN, OUTPUT);
+    digitalWrite(OUTPUT_ENABLE_PIN, true); // disable output immediately (active low)
 
     // Init Current Sensors
     Phase1CurrentSense.setCurrentRange(CURRENT_MIN_VALUE_A, CURRENT_MAX_VALUE_A);
@@ -1166,7 +1175,12 @@ void loop() {
 
 
     // Adjust fan speed based on temperature
-    SystemFan.setFanSpeed(CurrentTemp_C);
+    if (!OutputEnabled) {
+      SystemFan.setFanSpeed(CurrentTemp_C);
+    } else {
+      SystemFan.setSpeed(160); // for now just peg the fan, the temp sense is screwed when output is on due to noise
+    }
+
 
     // Print airflow in LFM every second
     static unsigned long lastPrintTime = 0;

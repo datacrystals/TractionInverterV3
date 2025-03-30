@@ -2637,6 +2637,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "InverterCom:TMP275AIDR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TMP275AIDR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/TMP275"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "+/-0.5C Temperature Sensor with I2C/SMBus Interface in Industry Std LM75 Form Factor & Pinout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TMP275AIDR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP275AIDR?qs=7kv20MEVUlg8zTOvEWj%252BhA%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TMP275AIDR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TMP275AIDR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "InverterCom:UVY1E102MPD1TD"
 			(pin_names
 				(hide yes)
@@ -4203,6 +4463,12 @@
 		(uuid "133c6276-8b6c-41b2-917b-d9b67f2ca351")
 	)
 	(junction
+		(at 17.78 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "147e7065-0bcc-46f5-8cf3-f9ede50a7a0a")
+	)
+	(junction
 		(at 204.47 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4255,6 +4521,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b3f4631-ec03-42e9-844a-d16d20279350")
+	)
+	(junction
+		(at 20.32 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e8b6dba-741d-41eb-9fc0-ee4e0bd26e40")
 	)
 	(junction
 		(at 278.13 48.26)
@@ -4317,6 +4589,12 @@
 		(uuid "75033c89-e4ad-46dd-9dc3-8984a4f45eae")
 	)
 	(junction
+		(at 101.6 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c59b0a-7ee5-4215-b70d-574cac329c94")
+	)
+	(junction
 		(at 24.13 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4353,10 +4631,22 @@
 		(uuid "8b9058cf-cd85-4501-9550-851cfcdb2d3e")
 	)
 	(junction
+		(at 101.6 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "929945cc-2476-4f37-b65e-031b108af049")
+	)
+	(junction
 		(at 88.9 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92d57ea0-e5f4-4acb-a468-8a60502855f8")
+	)
+	(junction
+		(at 27.94 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79835f3-006c-4793-9055-0ade6dd56399")
 	)
 	(junction
 		(at 270.51 48.26)
@@ -4420,6 +4710,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 49.53) (xy 27.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00aacf5f-d53e-4b11-bba7-422a95cb8d87")
+	)
+	(wire
+		(pts
 			(xy 269.24 48.26) (xy 270.51 48.26)
 		)
 		(stroke
@@ -4460,6 +4760,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 43.18) (xy 27.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05eedef7-c12b-422d-ad3e-d128f4ed7a4e")
+	)
+	(wire
+		(pts
 			(xy 74.93 44.45) (xy 83.82 44.45)
 		)
 		(stroke
@@ -4487,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "08e07b7c-7200-4efb-97c8-50d87e034823")
+	)
+	(wire
+		(pts
+			(xy 17.78 50.8) (xy 17.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ec911c-712d-4f42-abd3-dd2a0ffdff95")
 	)
 	(wire
 		(pts
@@ -4537,6 +4857,16 @@
 			(type default)
 		)
 		(uuid "13f94901-715e-4d58-b18b-7b001075149d")
+	)
+	(wire
+		(pts
+			(xy 101.6 170.18) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143bf5ad-c8dc-455f-8667-7899391bb11f")
 	)
 	(wire
 		(pts
@@ -4870,6 +5200,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 76.2) (xy 16.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e00c18-fb76-4240-8b82-5877d0afffcb")
+	)
+	(wire
+		(pts
 			(xy 184.15 48.26) (xy 218.44 48.26)
 		)
 		(stroke
@@ -4957,16 +5297,6 @@
 			(type default)
 		)
 		(uuid "559ea1be-ceff-4880-8778-dd3a20d82eb3")
-	)
-	(wire
-		(pts
-			(xy 43.18 52.07) (xy 49.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5640f466-bc22-4324-8b12-20e317130706")
 	)
 	(wire
 		(pts
@@ -5080,6 +5410,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a13211-81a1-4b61-89a4-281342fca3e8")
+	)
+	(wire
+		(pts
+			(xy 101.6 173.99) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625a1438-27b0-4391-8f26-1520519dcbc0")
+	)
+	(wire
+		(pts
 			(xy 158.75 43.18) (xy 158.75 39.37)
 		)
 		(stroke
@@ -5130,6 +5480,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 171.45) (xy 106.68 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68882105-8b48-4e12-8aaa-663dd456ddaf")
+	)
+	(wire
+		(pts
 			(xy 261.62 111.76) (xy 261.62 115.57)
 		)
 		(stroke
@@ -5157,6 +5517,16 @@
 			(type default)
 		)
 		(uuid "6a1d8f03-60d1-4ba4-8d8e-c51667b12dce")
+	)
+	(wire
+		(pts
+			(xy 16.51 52.07) (xy 17.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d45208a-f823-4168-8395-baf355925c9e")
 	)
 	(wire
 		(pts
@@ -5560,6 +5930,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 52.07) (xy 27.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24c1843-3182-4892-8adf-e1e1b7625aa3")
+	)
+	(wire
+		(pts
 			(xy 251.46 48.26) (xy 251.46 41.91)
 		)
 		(stroke
@@ -5617,6 +5997,16 @@
 			(type default)
 		)
 		(uuid "abb5c22e-3f2f-4b68-9ce3-edd7c93dc6ad")
+	)
+	(wire
+		(pts
+			(xy 101.6 173.99) (xy 106.68 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc095e7-aef6-4d31-aee5-80af823c9758")
 	)
 	(wire
 		(pts
@@ -5730,6 +6120,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 67.31) (xy 16.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc5ef0b-91a1-4d5a-8160-d719651efccb")
+	)
+	(wire
+		(pts
 			(xy 269.24 48.26) (xy 269.24 69.85)
 		)
 		(stroke
@@ -5747,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "c01d3ca9-8f3d-4eab-b3f9-0231e1201e28")
+	)
+	(wire
+		(pts
+			(xy 17.78 52.07) (xy 20.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a306f2-e58f-48c1-bd59-be8841aed52b")
 	)
 	(wire
 		(pts
@@ -6398,7 +6808,7 @@
 	)
 	(global_label "FanTach"
 		(shape input)
-		(at 43.18 52.07 180)
+		(at 16.51 76.2 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6408,7 +6818,7 @@
 		)
 		(uuid "133fc2ff-974e-4ac7-ae2c-bbf85b7ac6e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.454 52.07 0)
+			(at 16.51 86.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6984,7 @@
 	)
 	(global_label "CanH_External"
 		(shape input)
-		(at 101.6 171.45 0)
+		(at 106.68 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6584,7 +6994,7 @@
 		)
 		(uuid "2d195d85-d94a-45d8-8b39-bc25d545c7d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1921 171.45 0)
+			(at 123.2721 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,6 +7220,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 20.32 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "612bee8e-9590-45dd-9978-27a69a164533")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 66.5457 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7058,7 +7490,7 @@
 	)
 	(global_label "CanL_External"
 		(shape input)
-		(at 101.6 173.99 0)
+		(at 106.68 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7068,7 +7500,7 @@
 		)
 		(uuid "bec72014-932e-4a10-b8e2-02801596aab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8897 173.99 0)
+			(at 122.9697 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,6 +9566,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 17.78 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "35cc6f4c-fe11-4838-8770-4d61fd705bae")
+		(property "Reference" "C82"
+			(at 21.59 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 18.7452 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 17.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff69514a-10e1-4e34-8d22-dc4b7ec3622c")
+		)
+		(pin "2"
+			(uuid "96f8e88d-f29e-466a-8aa4-a96ca78bb884")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 111.76 0)
 		(unit 1)
@@ -9655,6 +10156,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 101.6 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43272c41-086a-47b0-b0e0-5fa47ff579ce")
+		(property "Reference" "C83"
+			(at 105.41 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 105.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 102.5652 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50977ea6-da8d-4b78-81cf-bedaa2388d85")
+		)
+		(pin "2"
+			(uuid "b314b90a-e889-4faa-8706-e032ab111f2c")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 91.44 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10103,6 +10673,73 @@
 			(project ""
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5c0f3c-c46e-49f1-a69c-8e6d2f58bc6d")
+		(property "Reference" "#PWR0113"
+			(at 107.95 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d25235a-2e41-4f91-a7e6-52fa150108a4")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -10743,6 +11380,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 20.32 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69233679-a2fd-438b-80b6-b6535c838484")
+		(property "Reference" "R36"
+			(at 22.86 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 22.86 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 22.098 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e815be0-6f6a-4f2a-a35a-95e5917d62d8")
+		)
+		(pin "2"
+			(uuid "0bfcb6fe-a4df-4dc8-b208-425265d9fbf6")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 24.13 21.59 0)
 		(unit 1)
@@ -11015,6 +11722,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "747507cf-9ec3-47f8-92ce-c50b395b483f")
+		(property "Reference" "#PWR0114"
+			(at 107.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71fbfafd-9e1e-478f-b4fd-b009f8086df0")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 38.1 151.13 0)
 		(unit 1)
@@ -11215,6 +11989,72 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab8bfcd-f897-42f0-85f8-07eb012dc2cd")
+		(property "Reference" "#PWR0111"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b877dd1b-0fc1-443e-9094-1add594b8e92")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -11662,6 +12502,72 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a20dd68-316f-49f5-9365-e920a289c0ca")
+		(property "Reference" "#PWR0112"
+			(at 17.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1b82df-2fde-490b-9b14-2ac5f6f6abae")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -12504,6 +13410,144 @@
 		)
 	)
 	(symbol
+		(lib_id "InverterCom:TMP275AIDR")
+		(at 212.09 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a006cd9f-db92-402d-a13b-40de7830e90e")
+		(property "Reference" "IC10"
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMP275AIDR"
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 236.22 254.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/TMP275"
+			(at 236.22 354.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "+/-0.5C Temperature Sensor with I2C/SMBus Interface in Industry Std LM75 Form Factor & Pinout"
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 236.22 554.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TMP275AIDR"
+			(at 236.22 654.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP275AIDR?qs=7kv20MEVUlg8zTOvEWj%252BhA%3D%3D"
+			(at 236.22 754.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 236.22 854.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMP275AIDR"
+			(at 236.22 954.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f829ab9-fb81-4c2a-b336-fc122c84dce9")
+		)
+		(pin "8"
+			(uuid "e3a3e3db-6bcf-41f6-b7d8-c095e543560e")
+		)
+		(pin "6"
+			(uuid "6f336bb8-a8a6-497e-96a9-e6d8d0440f60")
+		)
+		(pin "4"
+			(uuid "415bb4e1-e1df-42dc-9157-34434a359b0c")
+		)
+		(pin "3"
+			(uuid "c53690f6-7a9e-4e40-8a29-72e4b2aabe7a")
+		)
+		(pin "2"
+			(uuid "92a4d9b7-e6a4-4bd5-bd2c-135cf2c5945f")
+		)
+		(pin "1"
+			(uuid "559d55d0-9c40-46bd-9c8d-22254bf9f513")
+		)
+		(pin "7"
+			(uuid "60c26c12-2405-47fb-8c16-3d520d718268")
+		)
+		(instances
+			(project ""
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "IC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 156.21 140.97 0)
 		(unit 1)
@@ -13292,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 91.44 121.92 90)
 			(effects
 				(font
@@ -13713,6 +14757,76 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 16.51 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca0e0897-9ec7-4fea-b63c-c5fef23f5043")
+		(property "Reference" "R83"
+			(at 19.05 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 19.05 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 18.288 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 16.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2210dcad-ef75-4f72-8a4c-4b270a8b7f87")
+		)
+		(pin "2"
+			(uuid "884f2548-0151-45e5-a45c-9a7c7e3b46e8")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -14147,6 +15261,75 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "dd587e2b-9b91-4728-a4ba-8440d2cd3a88")
+		(property "Reference" "C81"
+			(at 31.75 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 28.9052 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b780a4-a86e-4462-971f-d53f3d896ccc")
+		)
+		(pin "2"
+			(uuid "a665d939-691c-4f89-9312-41849b885018")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -15142,6 +16325,75 @@
 			(project "InverterBoostConverter"
 				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec166e34-4d92-4a3c-a1b6-6f6652ec4434")
+		(property "Reference" "C84"
+			(at 105.41 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 102.5652 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f314fc-0d39-4765-96c3-5bd929fea511")
+		)
+		(pin "2"
+			(uuid "88d4f431-d786-4b20-8ae6-745a9653e49d")
+		)
+		(instances
+			(project "InverterBoostConverter"
+				(path "/2b0bf6ef-6fb8-4b0f-8d72-c07d92ef1505/527e7d2b-3639-4aaf-83b8-d008756c8827"
+					(reference "C84")
 					(unit 1)
 				)
 			)
