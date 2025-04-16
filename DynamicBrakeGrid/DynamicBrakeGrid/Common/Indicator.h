@@ -1,3 +1,9 @@
+// Constants for blink durations
+#define SHORT_BLINK_DURATION 200  // ms
+#define LONG_BLINK_DURATION 600   // ms
+#define BLINK_GAP_DURATION 200    // ms
+#define END_GAP_DURATION 1000     // ms
+
 
 class Indicator {
 public:

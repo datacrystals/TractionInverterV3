@@ -1,64 +1,68 @@
 
-
 class FanController {
 public:
-    // Constructor
-    FanController(int rpmPin, int pwmPin, float exponent, int sampleSize)
+    // Constructor for both tach and non-tach fans
+    FanController(int pwmPin, float exponent, int sampleSize, int rpmPin = -1)
     : rpmPin(rpmPin), pwmPin(pwmPin), rpm(0), lastTime(0), pulseCount(0),
     lastAirflowUpdate(0), cachedAirflowLFM(0), exponent(exponent),
     sampleSize(sampleSize), temperatureQueue(nullptr), head(0), tail(0), count(0) {
-        pinMode(rpmPin, INPUT_PULLUP);
         pinMode(pwmPin, OUTPUT);
-        attachInterrupt(digitalPinToInterrupt(rpmPin), rpmInterruptStatic, FALLING);
-        instance = this;
         temperatureQueue = new float[sampleSize];
+
+        if (rpmPin != -1) {
+            pinMode(rpmPin, INPUT_PULLUP);
+            attachInterrupt(digitalPinToInterrupt(rpmPin), rpmInterruptStatic, FALLING);
+            instance = this;
+        }
     }
 
     // Destructor
     ~FanController() {
         delete[] temperatureQueue;
+        if (rpmPin != -1) {
+            detachInterrupt(digitalPinToInterrupt(rpmPin));
+        }
+    }
+
+    void SetStats(int MaxCFM, int NumFans) {
+        numFans = NumFans;
+        maxCFM = MaxCFM;
+    }
+
+    float getCFM() {
+        return (float)numFans * (float)maxCFM * (float)currentSpeed / 255.0;
     }
 
     // Set the fan speed (0-255)
     void setSpeed(int speed) {
+
+
         if (speed < 0) speed = 0;
         if (speed > 255) speed = 255;
+        currentSpeed = speed;
+
+
+        speed = 255 - speed; // convert speed for inverted fan FanControl
+
         analogWrite(pwmPin, speed);
     }
 
-    // Adjust fan speed based on temperature
-    void setFanSpeed(float currentTemp) {
-        // Add the current temperature to the queue
-        addTemperatureSample(currentTemp);
-
-        // Calculate the average temperature from the last n samples
-        float avgTemp = calculateAverageTemperature();
-
-        int speed = BASE_FAN_SPEED;
-        if (avgTemp > MAX_TEMP) {
-            speed = 255;
-        } else if (avgTemp > MIN_TEMP) {
-            // Exponential fan curve
-            float tempRange = MAX_TEMP - MIN_TEMP;
-            float normalizedTemp = (avgTemp - MIN_TEMP) / tempRange;
-            speed = BASE_FAN_SPEED + (255 - BASE_FAN_SPEED) * pow(normalizedTemp, exponent);
-        }
-        setSpeed(speed);
-    }
-
-    // Get the current RPM
+    // Get the current RPM (returns -1 if no tachometer)
     int getRPM() {
-        noInterrupts(); // Disable interrupts to read shared variables
+        if (rpmPin == -1) return -1;
+
+        noInterrupts();
         unsigned long now = millis();
         rpm = (pulseCount * 60000) / (now - lastTime);
         lastTime = now;
         pulseCount = 0;
-        interrupts(); // Re-enable interrupts
+        interrupts();
         return rpm;
     }
 
-    // Get the current airflow in LFM
+    // Get airflow (returns -1 if no tachometer)
     int getAirflowLFM() {
+        if (rpmPin == -1) return -1;
         updateAirflowLFM();
         return cachedAirflowLFM;
     }
@@ -83,6 +87,9 @@ public:
 private:
     int rpmPin;
     int pwmPin;
+    int numFans;
+    int maxCFM;
+    int currentSpeed;
     volatile int rpm;
     volatile unsigned long lastTime;
     volatile int pulseCount;
@@ -95,8 +102,10 @@ private:
     int tail;
     int count;
 
-    // Update the cached airflow value every half second
+    // Update the cached airflow value every half second (only if tach available)
     void updateAirflowLFM() {
+        if (rpmPin == -1) return;
+
         unsigned long currentMillis = millis();
         if (currentMillis - lastAirflowUpdate >= 500) {
             lastAirflowUpdate = currentMillis;
@@ -105,6 +114,7 @@ private:
             cachedAirflowLFM = airflowCFM / DUCT_AREA_SQFT;
         }
     }
+
 
     // Static ISR wrapper
     static void rpmInterruptStatic() {
