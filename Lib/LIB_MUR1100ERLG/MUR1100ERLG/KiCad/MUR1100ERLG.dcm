@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MUR1100ERLG
-D 10 mjoules Avalanche Energy Guaranteed; Excellent Protection Against Voltage Transients in Switching Inductive Load Circuits; Ultrafast 75 Nanosecond Recovery Time; 175C Operating Junction Temperature; Low Forward Voltage; Low Leakage Current; High Temperature Glass Passivated Junction; Reverse Voltage to 1000 Volts Mechanical Characteristics:; Case: Epoxy, Molded; Weight: 0.4 gram (approximately); Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead Temperature
-K
-F https://www.onsemi.com/pub/Collateral/MUR180E-D.PDF
-$ENDCMP
-#
-#End Doc Library

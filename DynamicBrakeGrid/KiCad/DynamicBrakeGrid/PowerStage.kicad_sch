@@ -2401,6 +2401,12 @@
 		(uuid "0a1ba6f2-7fe5-43cb-b60a-c50b9c5ffac4")
 	)
 	(junction
+		(at 35.56 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14533190-d410-409c-8f32-bff33b53ba31")
+	)
+	(junction
 		(at 185.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2423,6 +2429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233b2d5d-a7a2-403d-a00f-ac66e87e10a7")
+	)
+	(junction
+		(at 40.64 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "262c860c-cef1-4b78-90d1-891d00add2bd")
 	)
 	(junction
 		(at 201.93 31.75)
@@ -2495,6 +2507,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83a9791-c23e-4532-859a-3c791a9de40a")
+	)
+	(junction
+		(at 95.25 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa3b966-0cee-4d6b-af23-56cd07c96777")
+	)
+	(junction
+		(at 100.33 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcf4c96-ef32-405b-ad05-9611765482a5")
 	)
 	(junction
 		(at 204.47 111.76)
@@ -2718,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 97.79) (xy 49.53 97.79)
+			(xy 35.56 97.79) (xy 40.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2808,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 106.68) (xy 40.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a28e530-b7f4-450a-8d75-40e958ce5cfa")
+	)
+	(wire
+		(pts
 			(xy 20.32 109.22) (xy 20.32 106.68)
 		)
 		(stroke
@@ -2815,6 +2849,16 @@
 			(type default)
 		)
 		(uuid "3cc2b239-98d4-48a3-b84c-1ce4257ed097")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 100.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f56b52b-8083-4d78-af8b-8839f6062041")
 	)
 	(wire
 		(pts
@@ -2968,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 109.22) (xy 35.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a54cfdb-681c-477f-92e5-ff7c04ce73dc")
+	)
+	(wire
+		(pts
 			(xy 179.07 77.47) (xy 179.07 76.2)
 		)
 		(stroke
@@ -3118,6 +3172,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 97.79) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb71abd-8adc-427e-b5e9-e291bcf87316")
+	)
+	(wire
+		(pts
+			(xy 40.64 97.79) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d336760-66e8-49f7-909b-cd57f1d861ad")
+	)
+	(wire
+		(pts
 			(xy 171.45 31.75) (xy 177.8 31.75)
 		)
 		(stroke
@@ -3248,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 109.22 97.79)
+			(xy 95.25 97.79) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3612,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 106.68) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1887a06-a983-45c4-b4a1-41c298fde9e5")
+	)
+	(wire
+		(pts
 			(xy 242.57 105.41) (xy 248.92 105.41)
 		)
 		(stroke
@@ -3545,6 +3629,16 @@
 			(type default)
 		)
 		(uuid "e1e32c09-d89b-4056-9060-77d0c95ff7bc")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1300e9-be5b-49c9-94eb-8db47a6ebf75")
 	)
 	(wire
 		(pts
@@ -3645,6 +3739,16 @@
 			(type default)
 		)
 		(uuid "fe0a18a7-68b5-40fe-986c-efc77295e08e")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8c08aa-0add-4989-8635-0cccc8e2fac7")
 	)
 	(label "MOSFET Gate Driver"
 		(at 15.24 59.69 0)
@@ -4352,7 +4456,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
-		(at 201.93 30.48 90)
+		(at 201.93 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4366,7 +4470,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ALH82A750CB600"
@@ -4375,11 +4479,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "InverterCom:ALH82A750CB600"
-			(at 298.12 21.59 0)
+			(at 105.74 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 398.12 21.59 0)
+			(at 5.74 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4503,7 @@
 			)
 		)
 		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 201.93 30.48 0)
+			(at 201.93 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4512,7 @@
 			)
 		)
 		(property "Height" "32"
-			(at 598.12 21.59 0)
+			(at -194.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4522,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 698.12 21.59 0)
+			(at -294.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4532,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 798.12 21.59 0)
+			(at -394.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4542,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 898.12 21.59 0)
+			(at -494.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4552,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 998.12 21.59 0)
+			(at -594.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,6 +4759,76 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b1e5dc-f922-489e-b460-b182030f71d3")
+		(property "Reference" "C40"
+			(at 104.14 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 104.14 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 99.3648 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424f580d-2928-4660-961a-3461e16e3796")
+		)
+		(pin "2"
+			(uuid "b066dd3f-126b-4c3d-b7ee-7caf79f47c2f")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5654,7 +5828,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
-		(at 250.19 30.48 90)
+		(at 250.19 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5668,7 +5842,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ALH82A750CB600"
@@ -5677,11 +5851,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "InverterCom:ALH82A750CB600"
-			(at 346.38 21.59 0)
+			(at 154 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5865,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 446.38 21.59 0)
+			(at 54 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5875,7 @@
 			)
 		)
 		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 250.19 30.48 0)
+			(at 250.19 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5884,7 @@
 			)
 		)
 		(property "Height" "32"
-			(at 646.38 21.59 0)
+			(at -146 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5894,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 746.38 21.59 0)
+			(at -246 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5904,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 846.38 21.59 0)
+			(at -346 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5914,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 946.38 21.59 0)
+			(at -446 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5924,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 1046.38 21.59 0)
+			(at -546 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6823,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
-		(at 177.8 30.48 90)
+		(at 177.8 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6663,7 +6837,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ALH82A750CB600"
@@ -6672,11 +6846,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "InverterCom:ALH82A750CB600"
-			(at 273.99 21.59 0)
+			(at 81.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 373.99 21.59 0)
+			(at -18.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6870,7 @@
 			)
 		)
 		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 177.8 30.48 0)
+			(at 177.8 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6879,7 @@
 			)
 		)
 		(property "Height" "32"
-			(at 573.99 21.59 0)
+			(at -218.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6889,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 673.99 21.59 0)
+			(at -318.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6899,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 773.99 21.59 0)
+			(at -418.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6909,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 873.99 21.59 0)
+			(at -518.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6919,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 973.99 21.59 0)
+			(at -618.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7219,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
-		(at 226.06 30.48 90)
+		(at 226.06 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7059,7 +7233,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ALH82A750CB600"
@@ -7068,11 +7242,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "InverterCom:ALH82A750CB600"
-			(at 322.25 21.59 0)
+			(at 129.87 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7256,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
-			(at 422.25 21.59 0)
+			(at 29.87 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7266,7 @@
 			)
 		)
 		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
-			(at 226.06 30.48 0)
+			(at 226.06 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7275,7 @@
 			)
 		)
 		(property "Height" "32"
-			(at 622.25 21.59 0)
+			(at -170.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7285,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-ALH82A750CB600"
-			(at 722.25 21.59 0)
+			(at -270.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7295,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
-			(at 822.25 21.59 0)
+			(at -370.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7305,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 922.25 21.59 0)
+			(at -470.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7315,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ALH82A750CB600"
-			(at 1022.25 21.59 0)
+			(at -570.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,6 +7334,76 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab05d53c-8231-4139-8af5-00ecd1bb85d7")
+		(property "Reference" "C39"
+			(at 44.45 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 44.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 39.6748 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e032c02-972f-468f-87ff-5da365c6576f")
+		)
+		(pin "2"
+			(uuid "5de6fd93-1dda-42f0-abeb-1acc81e74217")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8046,6 +8290,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 105.41 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e871e12f-f427-4aa2-8eda-d595ceb65644")
+		(property "Reference" "R54"
+			(at 105.41 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "58"
+			(at 105.41 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 105.41 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e6d3a47-8c68-4534-8783-df4444e38935")
+		)
+		(pin "2"
+			(uuid "f904c024-2c76-4a14-85c3-85b8a28a45a5")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 95.25 102.87 180)
 		(unit 1)
@@ -8176,6 +8488,74 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f432b552-6be5-4b0f-9797-5b888b8b58e3")
+		(property "Reference" "R53"
+			(at 45.72 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "58"
+			(at 45.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 45.72 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8adf9e8-a3e1-4d52-8bd1-3ed012af3b51")
+		)
+		(pin "2"
+			(uuid "20a4864a-5c03-4003-96dc-10ba057bfa50")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "R53")
 					(unit 1)
 				)
 			)

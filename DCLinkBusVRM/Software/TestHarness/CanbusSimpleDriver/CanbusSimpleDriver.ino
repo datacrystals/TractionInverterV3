@@ -49,7 +49,7 @@ void setup() {
     Serial.println("Error resetting MCP2515.");
     while (1);
   }
-  if (mcp2515.setBitrate(CAN_1000KBPS) != MCP2515::ERROR_OK) { // Updated to 500 kbps
+  if (mcp2515.setBitrate(CAN_250KBPS) != MCP2515::ERROR_OK) { // Updated to 500 kbps
     Serial.println("Error setting CAN bitrate.");
     while (1);
   }

@@ -141,6 +141,17 @@ public:
         }
     }
 
+    bool getMostRecentFaultName(char* faultName, int maxLength) {
+        faultName[0] = '\0';
+        for (int i = FAULT_BUFFER_SIZE - 1; i >= 0; i--) {
+            if (faultBuffer[i].name[0] != '\0' && faultBuffer[i].isActive) {
+                strncpy(faultName, faultBuffer[i].name, maxLength);
+                return true;
+            }
+        }
+        return false;
+    }
+
     // Get the blink code of the most recent fault
     void getMostRecentFaultBlinkCode(char* blinkCode, int maxLength) {
         blinkCode[0] = '\0';

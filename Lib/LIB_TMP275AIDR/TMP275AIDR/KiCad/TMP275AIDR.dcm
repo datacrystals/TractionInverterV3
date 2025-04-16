@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TMP275AIDR
-D +/-0.5C Temperature Sensor with I2C/SMBus Interface in Industry Std LM75 Form Factor & Pinout
-K
-F http://www.ti.com/lit/gpn/TMP275
-$ENDCMP
-#
-#End Doc Library

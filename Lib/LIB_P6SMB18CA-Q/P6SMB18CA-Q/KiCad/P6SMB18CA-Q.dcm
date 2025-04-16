@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP P6SMB18CA-Q
-D P6SMB-Q Transient Voltage Suppressor Diode Series, Bi-Directional
-K
-F https://www.bourns.com/docs/product-datasheets/p6smb-q.pdf?sfvrsn=a8c47bf6_59
-$ENDCMP
-#
-#End Doc Library

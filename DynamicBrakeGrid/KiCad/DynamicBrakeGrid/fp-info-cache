@@ -1,4 +1,4 @@
-48763933215105
+62712340280043
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64540,6 +64540,13 @@ Connector
 2
 2
 InverterCom
+ACT45B1012PTL003
+ACT45B
+Filter
+0
+4
+4
+InverterCom
 ALH82A750CB600
 ALH82A750CB600-1
 Capacitor
@@ -64582,6 +64589,13 @@ Capacitor Polarised
 2
 2
 InverterCom
+DE09PAM1
+DE09-PA-M1-1
+Connector
+0
+9
+9
+InverterCom
 IHDM1008BCEV2R2M20
 25.53mm x 20.73mm x 21.75mm
 Inductor
@@ -64610,6 +64624,13 @@ Resistor
 2
 2
 InverterCom
+RFMM0505S
+RFMM
+Power Supply
+0
+4
+4
+InverterCom
 SIHFR120GE3
 SIHFR120-GE3
 MOSFET (N-Channel)
@@ -64626,6 +64647,13 @@ Zener Diode
 InverterCom
 SOIC127P600X175-8N
 D
+Integrated Circuit
+0
+8
+8
+InverterCom
+SOIC127P1150X280-8N
+DWV0008A
 Integrated Circuit
 0
 8
@@ -64651,6 +64679,34 @@ Undefined or Miscellaneous
 0
 3
 3
+InverterCom
+Silkscreen_Char_RibbonsAlmark
+
+
+0
+0
+0
+InverterCom
+Silkscreen_Logo_CelstialBeing
+
+
+0
+0
+0
+InverterCom
+Silkscreen_Logo_CelstialBeing_L
+
+
+0
+0
+0
+InverterCom
+Silkscreen_Logo_CelstialBeing_S
+
+
+0
+0
+0
 InverterCom
 TO127P1500X470-8N-2-V1
 
