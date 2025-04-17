@@ -24,6 +24,16 @@
 
 MCP2515 mcp2515(CAN_CS_PIN);
 volatile bool canMessageReceived = false;
+bool pollingActive = false;
+unsigned long lastPollTime = 0;
+const unsigned long pollInterval = 500; // 500ms = 0.5 second
+
+// Variables to store polled values
+float inputVoltage = 0.0;
+float temperature = 0.0;
+float power = 0.0;
+float fanSpeed = 0.0;
+bool newDataAvailable = false;
 
 void setup() {
   Serial.begin(9600);
@@ -65,6 +75,30 @@ void loop() {
     readCANResponse();
     canMessageReceived = false;
   }
+
+  // Handle polling if active
+  if (pollingActive && millis() - lastPollTime >= pollInterval) {
+    pollStats();
+    lastPollTime = millis();
+  }
+
+  // Print collected data if new data is available
+  if (newDataAvailable) {
+    printPolledData();
+    newDataAvailable = false;
+  }
+}
+
+void printPolledData() {
+  Serial.print("Vin: ");
+  Serial.print(inputVoltage, 2);
+  Serial.print("V | Temp: ");
+  Serial.print(temperature, 1);
+  Serial.print("°C | Power: ");
+  Serial.print(power, 2);
+  Serial.print("W | Fan: ");
+  Serial.print(fanSpeed, 0);
+  Serial.println(" RPM");
 }
 
 void processCommand(String cmd) {
@@ -111,9 +145,30 @@ void processCommand(String cmd) {
     float voltage = cmd.substring(4).toFloat();
     setVoltage(voltage);
   }
+  else if (cmd == "poll") {
+    pollingActive = !pollingActive; // Toggle polling state
+    Serial.print("Polling ");
+    Serial.println(pollingActive ? "started" : "stopped");
+    if (pollingActive) {
+      lastPollTime = millis() - pollInterval; // Force immediate poll
+      // Clear previous values
+      inputVoltage = 0;
+      temperature = 0;
+      power = 0;
+      fanSpeed = 0;
+    }
+  }
   else {
     Serial.println("Unknown command. Type 'help' for options.");
   }
+}
+
+void pollStats() {
+  // Request all stats
+  getVoltageIn();
+  getTemperature();
+  getPower();
+  getFanSpeed();
 }
 
 void sendCANCommand(uint8_t cmd, uint8_t* data = nullptr, uint8_t len = 0) {
@@ -125,16 +180,18 @@ void sendCANCommand(uint8_t cmd, uint8_t* data = nullptr, uint8_t len = 0) {
     memcpy(frame.data, data, len);
   }
 
-  Serial.print("Sending CAN command: 0x");
-  Serial.print(cmd, HEX);
-  if (len > 0) {
-    Serial.print(" Data:");
-    for (int i = 0; i < len; i++) {
-      Serial.print(" 0x");
-      Serial.print(data[i], HEX);
+  if (!pollingActive) { // Only print command details when not polling
+    Serial.print("Sending CAN command: 0x");
+    Serial.print(cmd, HEX);
+    if (len > 0) {
+      Serial.print(" Data:");
+      for (int i = 0; i < len; i++) {
+        Serial.print(" 0x");
+        Serial.print(data[i], HEX);
+      }
     }
+    Serial.println();
   }
-  Serial.println();
 
   if (mcp2515.sendMessage(&frame) != MCP2515::ERROR_OK) {
     Serial.println("Error sending command");
@@ -147,31 +204,79 @@ void readCANResponse() {
     uint8_t commandId = frame.can_id & 0x1F;  // Extract command ID from lower 5 bits
     uint8_t deviceId = frame.can_id >> 5;     // Extract device ID from upper bits
     
-    Serial.print("Device ID: 0x");
-    Serial.print(deviceId, HEX);
-    Serial.print(" | Response to CMD 0x");
-    Serial.print(commandId, HEX);
-    Serial.print(": ");
+    if (!pollingActive) {
+      Serial.print("Device ID: 0x");
+      Serial.print(deviceId, HEX);
+      Serial.print(" | Response to CMD 0x");
+      Serial.print(commandId, HEX);
+      Serial.print(": ");
+    }
     
     switch(commandId) {
-      case CMD_GET_CURRENT:  // 0x08
+      case CMD_GET_VOLTAGE_IN:
+        if(frame.can_dlc == 4) {
+          memcpy(&inputVoltage, frame.data, 4);
+          if (!pollingActive) {
+            Serial.print("Input Voltage: ");
+            Serial.print(inputVoltage, 2);
+            Serial.println(" V");
+          }
+          newDataAvailable = true;
+        }
+        break;
+        
+      case CMD_GET_TEMPERATURE:
+        if(frame.can_dlc == 4) {
+          memcpy(&temperature, frame.data, 4);
+          if (!pollingActive) {
+            Serial.print("Temperature: ");
+            Serial.print(temperature, 1);
+            Serial.println(" °C");
+          }
+          newDataAvailable = true;
+        }
+        break;
+        
+      case CMD_GET_POWER:
+        if(frame.can_dlc == 4) {
+          memcpy(&power, frame.data, 4);
+          if (!pollingActive) {
+            Serial.print("Power: ");
+            Serial.print(power, 2);
+            Serial.println(" W");
+          }
+          newDataAvailable = true;
+        }
+        break;
+        
+      case CMD_GET_FAN_SPEED:
+        if(frame.can_dlc == 2) {
+          fanSpeed = (frame.data[0] << 8) | frame.data[1];
+          if (!pollingActive) {
+            Serial.print("Fan Speed: ");
+            Serial.print(fanSpeed, 0);
+            Serial.println(" RPM");
+          }
+          newDataAvailable = true;
+        } else if(frame.can_dlc == 4) {
+          memcpy(&fanSpeed, frame.data, 4);
+          if (!pollingActive) {
+            Serial.print("Fan Speed: ");
+            Serial.print(fanSpeed, 0);
+            Serial.println(" RPM");
+          }
+          newDataAvailable = true;
+        }
+        break;
+        
+      // Other command handlers remain unchanged
+      case CMD_GET_CURRENT:
         if(frame.can_dlc == 4) {
           float current;
           memcpy(&current, frame.data, 4);
           Serial.print("Current: ");
           Serial.print(current, 3);
           Serial.println(" A");
-          
-          // Debug output of raw bytes
-          Serial.print("Raw bytes: ");
-          for(int i = 0; i < 4; i++) {
-            Serial.print(frame.data[i], HEX);
-            Serial.print(" ");
-          }
-          Serial.println();
-        } else {
-          Serial.print("Unexpected data length for current: ");
-          Serial.println(frame.can_dlc);
         }
         break;
         
@@ -184,16 +289,6 @@ void readCANResponse() {
         Serial.println(frame.data[0]);
         break;
         
-      case CMD_GET_VOLTAGE_IN:
-        if(frame.can_dlc == 4) {
-          float voltage;
-          memcpy(&voltage, frame.data, 4);
-          Serial.print("Input Voltage: ");
-          Serial.print(voltage, 2);
-          Serial.println(" V");
-        }
-        break;
-        
       case CMD_GET_VOLTAGE_OUT:
         if(frame.can_dlc == 4) {
           float voltage;
@@ -201,42 +296,6 @@ void readCANResponse() {
           Serial.print("Output Voltage: ");
           Serial.print(voltage, 2);
           Serial.println(" V");
-        }
-        break;
-        
-        
-      case CMD_GET_POWER:
-        if(frame.can_dlc == 4) {
-          float power;
-          memcpy(&power, frame.data, 4);
-          Serial.print("Power: ");
-          Serial.print(power, 2);
-          Serial.println(" W");
-        }
-        break;
-        
-      case CMD_GET_TEMPERATURE:
-        if(frame.can_dlc == 4) {
-          float temp;
-          memcpy(&temp, frame.data, 4);
-          Serial.print("Temperature: ");
-          Serial.print(temp, 1);
-          Serial.println(" °C");
-        }
-        break;
-        
-      case CMD_GET_FAN_SPEED:
-        if(frame.can_dlc == 2) {
-          uint16_t rpm = (frame.data[0] << 8) | frame.data[1];
-          Serial.print("Fan Speed: ");
-          Serial.print(rpm);
-          Serial.println(" RPM");
-        } else if(frame.can_dlc == 4) {
-          float rpm;
-          memcpy(&rpm, frame.data, 4);
-          Serial.print("Fan Speed: ");
-          Serial.print(rpm, 0);
-          Serial.println(" RPM");
         }
         break;
         
@@ -251,18 +310,19 @@ void readCANResponse() {
         break;
         
       default:
-        // Print raw data for unhandled responses
-        Serial.print("Raw data: ");
-        for (int i = 0; i < frame.can_dlc; i++) {
-          Serial.print(frame.data[i], HEX);
-          Serial.print(" ");
+        if (!pollingActive) {
+          Serial.print("Raw data: ");
+          for (int i = 0; i < frame.can_dlc; i++) {
+            Serial.print(frame.data[i], HEX);
+            Serial.print(" ");
+          }
+          Serial.println();
         }
-        Serial.println();
     }
   }
 }
 
-// Command implementations (unchanged from original)
+// Rest of the command implementations remain unchanged
 void enableOutput() {
   sendCANCommand(CMD_ENABLE_OUTPUT);
 }
@@ -335,6 +395,7 @@ void printHelp() {
   Serial.println("  fan          - Get fan speed");
   Serial.println("  power        - Get power");
   Serial.println("  set [value]  - Set voltage (e.g., 'set 24.5')");
+  Serial.println("  poll         - Toggle continuous polling of stats");
   Serial.println("  help         - Show this help");
 }
 
