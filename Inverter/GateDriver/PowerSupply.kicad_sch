@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RKE1205SH"
+		(property "Footprint" "InverterCom:RKE1205SH"
 			(at 96.52 121.59 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RFMM0505S"
+		(property "Footprint" "InverterCom:RFMM0505S"
 			(at 59.69 202.87 0)
 			(effects
 				(font

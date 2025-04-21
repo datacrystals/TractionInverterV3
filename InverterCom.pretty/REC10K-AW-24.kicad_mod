@@ -223,4 +223,15 @@
 		(uuid "9edd125a-da7a-43ac-abb0-ade6dbdd3090")
 	)
 	(embedded_fonts no)
+	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/REC10K-2415SAW_H2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )

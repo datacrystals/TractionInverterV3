@@ -2136,12 +2136,6 @@
 		(uuid "0fe9d15f-7a18-41ed-9fcb-a9419d4fe260")
 	)
 	(junction
-		(at 41.91 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "124f60ca-a7aa-43d8-b94b-066542c71771")
-	)
-	(junction
 		(at 54.61 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2358,12 +2352,6 @@
 		(uuid "94bc6e17-06b0-423d-ac0e-38336d9ac56e")
 	)
 	(junction
-		(at 41.91 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dd3b322-fa17-4f9b-8192-b64bb0fb7e63")
-	)
-	(junction
 		(at 100.33 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2392,12 +2380,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af34d61d-20be-4dee-bdfb-0f9ea3e76177")
-	)
-	(junction
-		(at 41.91 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b80266da-63e3-49d0-b5f5-54f10a08f87b")
 	)
 	(junction
 		(at 38.1 142.24)
@@ -2576,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "0ab69e0f-be9e-43e2-b64a-99a04c88edef")
-	)
-	(wire
-		(pts
-			(xy 29.21 173.99) (xy 29.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0e548b-784d-434f-ad30-d8722c40266d")
 	)
 	(wire
 		(pts
@@ -2999,16 +2971,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 187.96) (xy 29.21 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af1905a-374f-42ae-97f7-0bddaeeb3639")
-	)
-	(wire
-		(pts
 			(xy 242.57 142.24) (xy 242.57 153.67)
 		)
 		(stroke
@@ -3259,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 179.07) (xy 41.91 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58672d49-5dd2-4043-94c8-a6b9bc9ababe")
-	)
-	(wire
-		(pts
 			(xy 156.21 144.78) (xy 229.87 144.78)
 		)
 		(stroke
@@ -3376,16 +3328,6 @@
 			(type default)
 		)
 		(uuid "6c887654-9f5f-401e-b04e-59d775e0ece6")
-	)
-	(wire
-		(pts
-			(xy 29.21 165.1) (xy 41.91 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70557f78-4690-4cd1-af50-fb281befe661")
 	)
 	(wire
 		(pts
@@ -3886,16 +3828,6 @@
 			(type default)
 		)
 		(uuid "ad7d45f1-9452-465a-aa78-671716a41bae")
-	)
-	(wire
-		(pts
-			(xy 41.91 173.99) (xy 29.21 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd8d270-93ec-48ea-9aa3-351e36d77123")
 	)
 	(wire
 		(pts
@@ -4426,16 +4358,6 @@
 			(type default)
 		)
 		(uuid "eff5534f-f0a7-4c87-ad43-8fa40508d7fb")
-	)
-	(wire
-		(pts
-			(xy 41.91 187.96) (xy 29.21 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f07acf78-f170-42c7-b815-6d852be808b4")
 	)
 	(wire
 		(pts
@@ -5685,75 +5607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 29.21 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10cedef0-6ca2-4206-8c62-d1f10430eeff")
-		(property "Reference" "C78"
-			(at 25.4 170.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 25.4 167.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 28.2448 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c79ccfde-05a7-426f-945e-166cf422bfc2")
-		)
-		(pin "2"
-			(uuid "df2abda7-7a69-4314-ab16-8ba4fa693529")
-		)
-		(instances
-			(project "GateDriver"
-				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/1bc976e6-b528-442f-ac6e-fc04c941083d"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 227.33 52.07 270)
 		(unit 1)
@@ -6004,75 +5857,6 @@
 			(project ""
 				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/1bc976e6-b528-442f-ac6e-fc04c941083d"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 29.21 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "222380df-9478-45c2-ba25-d8f8372aee30")
-		(property "Reference" "C63"
-			(at 25.4 184.1501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 25.4 181.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 28.2448 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55d86d2b-049f-4ad3-a80e-9d7f66f53b32")
-		)
-		(pin "2"
-			(uuid "2bb22abe-e475-4807-99a6-7623002be280")
-		)
-		(instances
-			(project "GateDriver"
-				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/1bc976e6-b528-442f-ac6e-fc04c941083d"
-					(reference "C63")
 					(unit 1)
 				)
 			)

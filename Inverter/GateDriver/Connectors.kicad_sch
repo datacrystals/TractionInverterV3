@@ -343,7 +343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "InverterCom:DE09-PA-M1"
+		(symbol "InverterCom:5-106505-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -356,7 +356,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "DE09-PA-M1"
+			(property "Value" "5-106505-2"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -365,7 +365,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "DE09PAM1"
+			(property "Footprint" "5-106505-2_3"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -375,7 +375,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-106505-2&DocFormat=pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -385,8 +385,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C"
-				(at -1.016 11.176 0)
+			(property "Description" "Body Features: Primary Product Color Black | Shell Plating Material Tin | Connector Profile Standard | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 9 | Number of Rows 2 | Contact Features: Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness .76 MICM | Contact Shape & Form Round | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Current Rating (Max) 6 AMP | Contact Base Material Phosphor Bronze | PCB Cont"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -394,7 +394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "12.4714"
+			(property "Height" ""
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -404,7 +404,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "737-DE09-PA-M1"
+			(property "Mouser Part Number" "571-5-106505-2"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -414,7 +414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/DE09-PA-M1?qs=HoCaDK9Nz5dJl%252BJp%252BOux4g%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-106505-2?qs=MQMItlSumdeqtmm5RcerVg%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -424,7 +424,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Adam Tech"
+			(property "Manufacturer_Name" "TE Connectivity"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -434,7 +434,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DE09-PA-M1"
+			(property "Manufacturer_Part_Number" "5-106505-2"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -444,10 +444,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DE09-PA-M1_1_1"
+			(symbol "5-106505-2_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -12.7)
+					(end 15.24 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -458,78 +458,6 @@
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -547,7 +475,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -565,7 +493,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -583,7 +511,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -7.62 180)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -601,7 +529,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -10.16 180)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -611,6 +539,340 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:CM600HA-24H-Gate"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CM600HA-24H-Gate_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.413) (xy 0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.413) (xy 0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CM600HA-24H-Gate_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1260,6 +1522,12 @@
 		(uuid "0b3519f2-31c1-46b5-98be-b81c21a2c28e")
 	)
 	(junction
+		(at 53.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5776ea12-42f0-4c4d-b96b-7a936209eb3e")
+	)
+	(junction
 		(at 88.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1273,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 33.02) (xy 53.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7b823d-8210-405a-b47a-54d70c9021fe")
+	)
+	(wire
+		(pts
 			(xy 85.09 52.07) (xy 88.9 52.07)
 		)
 		(stroke
@@ -1283,23 +1561,43 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 25.4) (xy 57.15 25.4)
+			(xy 35.56 30.48) (xy 33.02 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1de1dd19-e291-4987-8646-03defe51e3d3")
+		(uuid "26791d7f-65c7-409b-8e7e-f046830848cd")
 	)
 	(wire
 		(pts
-			(xy 34.29 30.48) (xy 36.83 30.48)
+			(xy 33.02 33.02) (xy 35.56 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f5439e4-04e1-45f9-83f8-5b15bd5241f1")
+		(uuid "274b9778-d0a0-4b36-8df9-fa94b1356093")
+	)
+	(wire
+		(pts
+			(xy 55.88 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dc3f84-562a-4009-9c30-886aa12b5875")
+	)
+	(wire
+		(pts
+			(xy 33.02 22.86) (xy 35.56 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f6a263-ad47-4573-879e-45c1f0fc05f8")
 	)
 	(wire
 		(pts
@@ -1333,43 +1631,53 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 22.86) (xy 36.83 22.86)
+			(xy 58.42 30.48) (xy 55.88 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "620364ec-78c9-41a3-b762-870b24c63601")
+		(uuid "5a05966a-2bf6-490a-b97c-5e151ad009cb")
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 59.69 33.02)
+			(xy 147.32 22.86) (xy 151.13 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67c2cf53-0187-4854-a1d7-6ab379bc2350")
+		(uuid "5d24fcb5-69ab-49e2-a6ce-2008fa9edeb4")
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 59.69 30.48)
+			(xy 151.13 38.1) (xy 151.13 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75b4dfab-9554-4c1d-bfe7-cfbf7e1f44ba")
+		(uuid "68dadfd5-f1c1-49ed-84fb-3a4308202d13")
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 34.29 25.4)
+			(xy 149.86 38.1) (xy 151.13 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79d2a615-0c6e-47b0-8ca0-74be1e6113e7")
+		(uuid "8931cadf-e2e4-40b5-8462-a36ed7754517")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9033b307-a44c-491d-9f30-c6f25bab43e3")
 	)
 	(wire
 		(pts
@@ -1383,13 +1691,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 34.29 27.94)
+			(xy 53.34 33.02) (xy 54.61 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95a13a91-b4ff-4a14-b7a4-54581b99538f")
+		(uuid "9c87af58-1d9e-4db4-a871-03912c78cb6c")
 	)
 	(wire
 		(pts
@@ -1403,6 +1711,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 33.02) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a691d1f1-b4ae-4757-bbc3-bcc97b89f805")
+	)
+	(wire
+		(pts
 			(xy 33.02 45.72) (xy 36.83 45.72)
 		)
 		(stroke
@@ -1413,13 +1731,33 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 57.15 27.94)
+			(xy 35.56 27.94) (xy 33.02 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddcf9b0a-c962-4685-93e3-c5f0c2d40ef6")
+		(uuid "bfa88253-1ee7-4dc6-89d6-90218abf02a4")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 151.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d505d63a-2c63-4d54-a186-4757dc385335")
+	)
+	(wire
+		(pts
+			(xy 55.88 22.86) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db59e6f2-e6d8-4426-b51f-820ea35a1116")
 	)
 	(wire
 		(pts
@@ -1430,6 +1768,16 @@
 			(type default)
 		)
 		(uuid "e335f84a-4cda-40f7-9b5c-ce7a8f36265e")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 55.88 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3eb7a6a-51a3-4071-ada6-316df1796bf0")
 	)
 	(wire
 		(pts
@@ -1451,34 +1799,24 @@
 		)
 		(uuid "f972adb3-1eda-49ca-a845-7677c3019fcb")
 	)
-	(wire
-		(pts
-			(xy 34.29 33.02) (xy 36.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc003c8-fa55-4525-84c0-bb3389153f0a")
-	)
-	(global_label "FAULT"
+	(global_label "SDO"
 		(shape input)
-		(at 34.29 22.86 180)
+		(at 58.42 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0f7aede7-65f6-4496-bcbd-8a804e9ac5b9")
+		(uuid "03d8c08e-4600-4d8d-92cf-9c5707554179")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8014 22.86 0)
+			(at 65.2152 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1527,6 +1865,28 @@
 			)
 		)
 	)
+	(global_label "SPI_CLK"
+		(shape input)
+		(at 58.42 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c0db94f-aaa3-4f12-8905-00f030f9e9c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0252 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANALOG_INPUT_1"
 		(shape input)
 		(at 33.02 45.72 180)
@@ -1540,50 +1900,6 @@
 		(uuid "248f1a7e-4404-420c-b982-630786a14000")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.2504 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IGBT_EMITTER"
-		(shape input)
-		(at 92.71 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2bc396f2-2ea8-4ca9-913c-5166f7ba065a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0854 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IGBT_GATE"
-		(shape input)
-		(at 92.71 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3130303e-686c-4e22-af14-c40adb9b29d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.1696 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,9 +1931,31 @@
 			)
 		)
 	)
-	(global_label "IGBT_COLLECTOR"
+	(global_label "SPI_CS"
 		(shape input)
-		(at 92.71 27.94 180)
+		(at 58.42 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3faa76a5-a76e-46e9-a6e4-958547587403")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.9366 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE_DRIVE-"
+		(shape input)
+		(at 33.02 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1625,58 +1963,14 @@
 			)
 			(justify right)
 		)
-		(uuid "4718cdbf-3539-4c25-b3b2-7c671b054a14")
+		(uuid "520324f2-6d92-499f-b851-0fce15c4bb2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.001 27.94 0)
+			(at 17.6372 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDO"
-		(shape input)
-		(at 59.69 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "689a9978-497b-4352-b844-4b3d03012d29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4852 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CLK"
-		(shape input)
-		(at 59.69 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "733b933b-372e-41e0-be47-a1223ce59ce7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2952 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1705,7 +1999,7 @@
 	)
 	(global_label "GATE_DRIVE+"
 		(shape input)
-		(at 34.29 27.94 180)
+		(at 33.02 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1713,9 +2007,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9b2e02b7-a634-4f0b-b3c7-aabd28d6d3f9")
+		(uuid "7d311b4d-8b90-4588-8278-8c6678f13904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9072 27.94 0)
+			(at 17.6372 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,31 +2019,9 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
+	(global_label "FAULT"
 		(shape input)
-		(at 59.69 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ba0dce3-2c76-4af5-b24d-04a906782e50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.2066 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE_DRIVE-"
-		(shape input)
-		(at 34.29 25.4 180)
+		(at 33.02 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1757,9 +2029,31 @@
 			)
 			(justify right)
 		)
-		(uuid "d2e2884a-46ba-4065-8d41-4d8a427e21fa")
+		(uuid "7d7975ec-c423-4be9-b650-64e9ccb323d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9072 25.4 0)
+			(at 24.5314 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IGBT_GATE"
+		(shape input)
+		(at 143.51 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1361b72-4b16-4d44-9110-6c22bdd45f04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.9696 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2065,7 @@
 	)
 	(global_label "SDI"
 		(shape input)
-		(at 59.69 33.02 0)
+		(at 58.42 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1779,9 +2073,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d5f0c1db-5c4e-4348-afe1-4dadc501969a")
+		(uuid "c418c930-19be-411a-8b4a-36fec5482828")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7595 33.02 0)
+			(at 64.4895 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,70 +2085,47 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 95.25 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
+	(global_label "IGBT_EMITTER"
+		(shape input)
+		(at 149.86 38.1 180)
 		(fields_autoplaced yes)
-		(uuid "06068d2c-ebfb-4f8e-a44a-d98470dcf95c")
-		(property "Reference" "H2"
-			(at 99.06 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 99.06 29.2099 90)
+		(uuid "d186716e-c9f3-44d8-9696-cc55658ce201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.2354 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 27.94 0)
+	)
+	(global_label "IGBT_COLLECTOR"
+		(shape input)
+		(at 147.32 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d374ef5a-f612-4be2-8b22-78b90d82b0cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.611 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 95.25 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "205e50d4-0905-463f-8cf6-f675009205c9")
-		)
-		(instances
-			(project "GateDriver"
-				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
-					(reference "H2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1926,35 +2197,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 34.29 30.48 270)
+		(lib_id "InverterCom:CM600HA-24H-Gate")
+		(at 148.59 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "189154fe-5041-460f-bb1c-e98a6bca2f5c")
-		(property "Reference" "#PWR036"
-			(at 27.94 30.48 0)
+		(uuid "142b7c97-e8d9-401e-b21b-8bbfae75372a")
+		(property "Reference" "Q1"
+			(at 153.67 29.8449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 30.48 30.4799 90)
+		(property "Value" "~"
+			(at 153.67 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 30.48 0)
+		(property "Footprint" "InverterCom:CM600HA-24H-Gate"
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2234,80 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 30.48 0)
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6301b1b3-36ce-4c51-806c-e9b81d523a10")
+		)
+		(pin "3"
+			(uuid "bf98d123-f2d6-4b73-93ed-4464b6e50a45")
+		)
+		(pin "2"
+			(uuid "38aefac7-889a-4c1b-b1cb-f3159cc5f85f")
+		)
+		(instances
+			(project ""
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189154fe-5041-460f-bb1c-e98a6bca2f5c")
+		(property "Reference" "#PWR036"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +2316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 30.48 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,6 +2331,153 @@
 			(project "GateDriver"
 				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:5-106505-2")
+		(at 35.56 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f65e70d-adad-464e-bb5c-6ca4d6c0f5b5")
+		(property "Reference" "J4"
+			(at 45.72 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5-106505-2"
+			(at 45.72 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5-106505-2_3"
+			(at 52.07 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-106505-2&DocFormat=pdf"
+			(at 52.07 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Shell Plating Material Tin | Connector Profile Standard | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 9 | Number of Rows 2 | Contact Features: Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness .76 MICM | Contact Shape & Form Round | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Current Rating (Max) 6 AMP | Contact Base Material Phosphor Bronze | PCB Cont"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 52.07 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-5-106505-2"
+			(at 52.07 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-106505-2?qs=MQMItlSumdeqtmm5RcerVg%3D%3D"
+			(at 52.07 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 52.07 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5-106505-2"
+			(at 52.07 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "bdc21149-59d1-49ec-b3f5-96ae57a4c00b")
+		)
+		(pin "5"
+			(uuid "48cd3a90-07e7-4d29-9c3c-0eba019f722a")
+		)
+		(pin "6"
+			(uuid "f090c07c-760e-4c70-97f4-7985f441cd35")
+		)
+		(pin "1"
+			(uuid "b3214ab3-6df4-4bbe-ba3f-04449dc30eae")
+		)
+		(pin "4"
+			(uuid "0387f40f-19df-480d-a099-5786af89da69")
+		)
+		(pin "3"
+			(uuid "1137be26-48dc-4cd0-9298-e3da72acb2b6")
+		)
+		(pin "2"
+			(uuid "22ca2bf4-e299-4296-810b-49334697dc47")
+		)
+		(pin "7"
+			(uuid "3c1fcb65-a700-41ae-beb4-a1191c7704ef")
+		)
+		(pin "8"
+			(uuid "707064fe-f20c-4b52-97ba-2c80e7661ce5")
+		)
+		(pin "10"
+			(uuid "5932325a-195c-421a-8df6-c582a332c20c")
+		)
+		(pin "11"
+			(uuid "397e41de-6af5-4550-8f04-34a0513c129c")
+		)
+		(instances
+			(project ""
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2060,13 +2551,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 165.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61aa0853-c3f6-43b3-bdd3-b23937b48cc9")
+		(property "Reference" "H5"
+			(at 167.64 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 167.64 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "cb99a607-bd2d-45bf-a9eb-c6f896addb85")
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3452e4-e321-49ad-8217-3b1e60778498")
+		(property "Reference" "#PWR038"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f3bcac-0c5c-44c2-84af-bfdb5de252b8")
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InverterCom:1987724")
 		(at 88.9 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74eac8b4-e5d3-4a36-9f0b-84021d80c9e0")
 		(property "Reference" "J6"
@@ -2087,7 +2711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1987724"
+		(property "Footprint" "InverterCom:1987724"
 			(at 105.41 49.53 0)
 			(effects
 				(font
@@ -2198,7 +2822,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "791a3cef-66b6-495d-90d4-2eeaff71dd10")
 		(property "Reference" "J5"
@@ -2219,7 +2843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1987724"
+		(property "Footprint" "InverterCom:1987724"
 			(at 105.41 40.64 0)
 			(effects
 				(font
@@ -2351,7 +2975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1548129"
+		(property "Footprint" "InverterCom:1548129"
 			(at 53.34 152.07 0)
 			(effects
 				(font
@@ -2516,147 +3140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:DE09-PA-M1")
-		(at 57.15 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a95230d3-a02f-424c-946d-d6571db7d2d6")
-		(property "Reference" "J2"
-			(at 46.99 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DE09-PA-M1"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:DE09PAM1"
-			(at 40.64 -61.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf"
-			(at 40.64 -161.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C"
-			(at 58.166 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.4714"
-			(at 40.64 -361.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "737-DE09-PA-M1"
-			(at 40.64 -461.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/DE09-PA-M1?qs=HoCaDK9Nz5dJl%252BJp%252BOux4g%3D%3D"
-			(at 40.64 -561.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Adam Tech"
-			(at 40.64 -661.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DE09-PA-M1"
-			(at 40.64 -761.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6218db1d-7e94-4905-aecb-3c4151ef06de")
-		)
-		(pin "4"
-			(uuid "095e1eae-8ba4-4217-9514-c02009d849d4")
-		)
-		(pin "5"
-			(uuid "898a40aa-53e1-4e22-9305-a751afae8fbe")
-		)
-		(pin "9"
-			(uuid "7743db50-4288-4cff-b04d-b49d1c8c0767")
-		)
-		(pin "8"
-			(uuid "1f709b8f-74c6-4e12-b0f5-237f79a36e4d")
-		)
-		(pin "2"
-			(uuid "102aeb84-2751-4faf-8c68-cc205496b5ab")
-		)
-		(pin "7"
-			(uuid "7d49766e-9378-4aa7-afec-8373d439ef0b")
-		)
-		(pin "6"
-			(uuid "129658b0-f911-47d1-b00c-6ac6396f8e41")
-		)
-		(pin "3"
-			(uuid "9d6a7063-6ea7-4de9-817d-4fb8993a617c")
-		)
-		(instances
-			(project "GateDriver"
-				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 36.83 59.69 270)
 		(unit 1)
@@ -2725,16 +3208,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 95.25 22.86 270)
+		(at 165.1 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddb6e1c2-71ee-489a-9956-3f0ff4993665")
-		(property "Reference" "H3"
-			(at 99.06 21.5899 90)
+		(uuid "daeec9b0-5ec8-4608-9c97-904f66a848b3")
+		(property "Reference" "H4"
+			(at 167.64 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +3226,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 99.06 24.1299 90)
+			(at 167.64 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,8 +3234,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 22.86 0)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 22.86 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 95.25 22.86 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,12 +3262,12 @@
 			)
 		)
 		(pin "MP"
-			(uuid "77184471-5119-4a75-bdc1-6da1778529ba")
+			(uuid "9145ed1f-f661-4d3e-b60e-fa6cfd99af6e")
 		)
 		(instances
-			(project "GateDriver"
+			(project ""
 				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2818,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1548129"
+		(property "Footprint" "InverterCom:1548129"
 			(at 53.34 140.64 0)
 			(effects
 				(font
@@ -2922,7 +3405,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e2431dfb-250e-40b2-8552-ed260277b5ea")
 		(property "Reference" "J7"
@@ -2943,7 +3426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1987724"
+		(property "Footprint" "InverterCom:1987724"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -3048,8 +3531,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 165.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e61be93a-a233-4ff0-bd41-4526cddaa76b")
+		(property "Reference" "H6"
+			(at 167.64 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 167.64 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "1f2175ae-417a-46ff-a137-9932e5ff7d4d")
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 34.29 33.02 90)
+		(at 33.02 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3058,7 +3608,7 @@
 		(fields_autoplaced yes)
 		(uuid "e67e4330-32cf-4a6d-be4e-6a898868d397")
 		(property "Reference" "#PWR037"
-			(at 38.1 33.02 0)
+			(at 36.83 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3617,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 30.48 33.0199 90)
+			(at 29.21 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 33.02 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 33.02 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 34.29 33.02 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,73 +3659,6 @@
 			(project "GateDriver"
 				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 95.25 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdbeca84-edd6-48e2-acd8-7088ff1b9b23")
-		(property "Reference" "H1"
-			(at 99.06 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 99.06 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 95.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "46bbd956-9c75-410e-9892-54e06a40392e")
-		)
-		(instances
-			(project ""
-				(path "/828a4e3e-b28a-4325-b316-e46b70892a13/9c8152b5-518b-4c97-a5b8-de788e259de8"
-					(reference "H1")
 					(unit 1)
 				)
 			)

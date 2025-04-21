@@ -1588,7 +1588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -6.02 148.59 0)
 			(effects
 				(font
@@ -1710,7 +1710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 18.11 97.79 0)
 			(effects
 				(font
@@ -1832,7 +1832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 18.11 148.59 0)
 			(effects
 				(font
@@ -2021,7 +2021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 42.24 148.59 0)
 			(effects
 				(font
@@ -2210,7 +2210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -30.15 97.79 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 66.37 97.79 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 45.72 63.5 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -54.28 148.59 0)
 			(effects
 				(font
@@ -2646,7 +2646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -6.02 124.46 0)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 100.33 63.5 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -30.15 124.46 0)
 			(effects
 				(font
@@ -3030,7 +3030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 18.11 124.46 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 42.24 97.79 0)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -6.02 97.79 0)
 			(effects
 				(font
@@ -3396,7 +3396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -30.15 148.59 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -54.28 97.79 0)
 			(effects
 				(font
@@ -3707,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 66.37 148.59 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 66.37 124.46 0)
 			(effects
 				(font
@@ -4021,7 +4021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at -54.28 124.46 0)
 			(effects
 				(font
@@ -4143,7 +4143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALH82A750CB600"
+		(property "Footprint" "InverterCom:ALH82A750CB600"
 			(at 42.24 124.46 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
 			(at 73.66 63.5 0)
 			(effects
 				(font

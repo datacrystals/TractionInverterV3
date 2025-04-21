@@ -52,7 +52,7 @@
 #define FAN_EXPONENT         1.5
 #define BASE_FAN_SPEED       50
 #define MIN_TEMP            25.0
-#define MAX_TEMP            60.0
+#define MAX_TEMP            45.0
 #define MIN_AIRFLOW_LFM     50
 #define MAX_AIRFLOW_LFM    200
 #define MAX_RPM            3000
@@ -63,7 +63,7 @@
 #define DELTA_TEMP_RAMP_END   30 // Kelvin
 #define NUM_DISCRETE_STEPS 14  // Define the number of discrete steps for fan speed
 
-#define AIRFLOW_PER_FAN 100 // CFM
+#define AIRFLOW_PER_FAN 220 // CFM
 #define NUM_FANS 4
 
 // Control Parameters
@@ -72,16 +72,16 @@
 #define BASE_MAX_DUTY_CHANGE 30
 #define EMERGENCY_DUTY_CHANGE 1000
 
-#define CURRENT_SOFT_LIMIT      30.0f    // Soft current threshold
+#define CURRENT_SOFT_LIMIT      35.0f    // Soft current threshold
 #define CURRENT_HARD_LIMIT      40.0f    // Hard current threshold (replaces CURRENT_MAX)
-#define POWER_SOFT_LIMIT        1500.0f  // Soft power threshold (adjust as needed)
-#define POWER_HARD_LIMIT        2000.0f  // Hard power threshold
+#define POWER_SOFT_LIMIT        3500.0f  // Soft power threshold (adjust as needed)
+#define POWER_HARD_LIMIT        4000.0f  // Hard power threshold
 
 // Constants
 #define SPECIFIC_HEAT_CAPACITY 1005.0 // J/(kg·K)
 #define DENSITY 1.225 // kg/m^3
 #define CFM_TO_CMS 0.00047194744 // Conversion factor from cfm to m³/s
-
+#define CURRENT_ROLLING_AVERAGE_WINDOW 10
 
 
 #include "Common/VoltageSensor.h"
@@ -299,7 +299,8 @@ private:
     int dutyCycle_ = 0;
     float voltageSamples_[SAMPLE_WINDOW_SIZE] = {};
     uint8_t sampleIndex_ = 0;
-
+    float current_rolling_avg[CURRENT_ROLLING_AVERAGE_WINDOW] = {0.0};
+    int current_rolling_avg_i = 0;
     // Power queue for rolling average
     float* powerQueue;
     int powerHead;
@@ -367,19 +368,19 @@ private:
     }
 
     void UpdateFrequencyStep() {
-        float dutyPercent = (dutyCycle_ / 255.0f) * 100.0f;
-        
-//
-//        if (dutyPercent <= 25.0f) {
-//            PwmController::SetFrequency(1000);
-//        } else if (dutyPercent <= 50.0f) {
-//            PwmController::SetFrequency(2000);
-//        } else if (dutyPercent <= 75.0f) {
-//            PwmController::SetFrequency(3000);
-//        } else {
-//            PwmController::SetFrequency(4000);
-//        }
-        //PwmController::SetFrequency(map(constrain(dutyPercent, 0, 100), 0, 100, 1000, 4000));
+        // float dutyPercent = (dutyCycle_ / 255.0f) * 100.0f;
+      //   float Current_A = GetCurrent();
+      
+      // (this->current_rolling_avg)[this->current_rolling_avg_i] = Current_A;
+      // this->current_rolling_avg_i = (this->current_rolling_avg_i + 1) % CURRENT_ROLLING_AVERAGE_WINDOW;
+      //  if (Current_A <= 5.0f) {
+      //      PwmController::SetFrequency(4000);
+      //  } else if (Current_A <= 12.0f) {
+      //      PwmController::SetFrequency(2000);
+      //  } else {
+      //      PwmController::SetFrequency(1000);
+      //  }
+        // PwmController::SetFrequency(map(constrain(dutyPercent, 0, 100), 0, 100, 1250, 1024));
     
         // Generate a random frequency between 1000 Hz and 4000 Hz
 //        int randomFrequency = random(1000, 4001);
@@ -387,6 +388,15 @@ private:
 //        PwmController::SetFrequency(randomFrequency);
 
         PwmController::SetFrequency(1024);
+    }
+
+    float get_avg_current() {
+      float sum = 0.0;
+      for (int i = 0; i < CURRENT_ROLLING_AVERAGE_WINDOW; i++) {
+        sum += this->current_rolling_avg[i];
+      }
+
+      return sum / ((float) CURRENT_ROLLING_AVERAGE_WINDOW);
     }
 
     void CheckFaults() {

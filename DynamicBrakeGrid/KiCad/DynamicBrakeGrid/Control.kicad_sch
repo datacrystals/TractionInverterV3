@@ -5902,50 +5902,6 @@
 			)
 		)
 	)
-	(global_label "FAN_PWM"
-		(shape input)
-		(at 43.18 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09933526-0361-49c8-8ff9-9ff9be63a3dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5467 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE_PWM"
-		(shape input)
-		(at 43.18 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a3592e9-beec-4747-84af-9613942b2ebd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.5792 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CANBUS_ISO_5V"
 		(shape input)
 		(at 87.63 156.21 0)
@@ -6166,6 +6122,28 @@
 			)
 		)
 	)
+	(global_label "GATE_PWM"
+		(shape input)
+		(at 43.18 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5083d135-ee46-4742-ad35-0a9b296262a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5792 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANBUS_ISO_GND"
 		(shape input)
 		(at 119.38 194.31 0)
@@ -6289,6 +6267,28 @@
 		(uuid "6f272047-ada8-4be6-8122-46469ca89146")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.4948 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 43.18 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "703e6543-c01e-4206-a690-7d9748bba87d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5467 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
