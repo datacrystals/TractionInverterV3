@@ -864,28 +864,6 @@
 			)
 		)
 	)
-	(global_label "PHASE_V_ISOLATED_VSENSE"
-		(shape input)
-		(at 77.47 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c61344a-3ca8-4714-83e5-9034b6e5b966")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2784 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PHASE_W_OUT"
 		(shape input)
 		(at 38.1 76.2 180)
@@ -908,31 +886,9 @@
 			)
 		)
 	)
-	(global_label "PHASE_W_ISOLATED_VSENSE"
-		(shape input)
-		(at 77.47 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b43088b-b51d-4ff4-b832-4387ab7144ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.6412 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PHASE_W_ISENSE"
 		(shape input)
-		(at 78.74 58.42 0)
+		(at 86.36 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -942,29 +898,7 @@
 		)
 		(uuid "6b3e533c-5e18-4f8e-b34a-5187e2d70a6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.8117 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DC_LINK_BUS_ISOLATED_VSENSE"
-		(shape input)
-		(at 77.47 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e7736db-6ddb-4359-a3fb-0d568f8fcb7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.6932 78.74 0)
+			(at 105.4317 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +910,7 @@
 	)
 	(global_label "DC_LINK_BUS_CURRENT_SENSE"
 		(shape input)
-		(at 78.74 50.8 0)
+		(at 86.36 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -986,7 +920,7 @@
 		)
 		(uuid "8331c843-796d-4087-9c44-07e7fd19a033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8141 50.8 0)
+			(at 118.4341 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +932,7 @@
 	)
 	(global_label "PHASE_U_ISENSE"
 		(shape input)
-		(at 78.74 53.34 0)
+		(at 86.36 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1008,7 +942,29 @@
 		)
 		(uuid "9852fef6-6573-4c3f-8783-80de0f69269d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6908 53.34 0)
+			(at 105.3108 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U_VSENSE"
+		(shape input)
+		(at 86.36 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf9924fb-8862-492b-a3d7-30a9daeedfd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.7946 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +998,7 @@
 	)
 	(global_label "PHASE_V_ISENSE"
 		(shape input)
-		(at 78.74 55.88 0)
+		(at 86.36 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1052,7 +1008,7 @@
 		)
 		(uuid "d1c7e0e5-30d5-460c-baed-937e119500ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4489 55.88 0)
+			(at 105.0689 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,9 +1018,9 @@
 			)
 		)
 	)
-	(global_label "PHASE_U_ISOLATED_VSENSE"
+	(global_label "PHASE_W_VSENSE"
 		(shape input)
-		(at 77.47 76.2 0)
+		(at 86.36 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,9 +1028,53 @@
 			)
 			(justify left)
 		)
-		(uuid "faf094fb-dd65-4550-94a0-9f37cb6a6633")
+		(uuid "dac40d0b-cca1-42bc-a680-1e8f00984e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5203 76.2 0)
+			(at 105.9155 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_V_VSENSE"
+		(shape input)
+		(at 86.36 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8d2ba88-54b2-40d2-af36-44afede55884")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.5527 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS_VSENSE"
+		(shape input)
+		(at 86.36 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8ea8c65-f7ae-417d-859a-8fb1bc4dd02a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9675 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:BusBarConnection"
 			(at 45.212 54.356 0)
 			(effects
 				(font
@@ -1246,7 +1246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RKE1205SH"
+		(property "Footprint" "InverterCom:RKE1205SH"
 			(at 102.87 116.51 0)
 			(effects
 				(font
@@ -1441,7 +1441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:BusBarConnection"
 			(at 45.212 67.056 0)
 			(effects
 				(font
@@ -1508,7 +1508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:BusBarConnection"
 			(at 45.212 41.656 0)
 			(effects
 				(font
@@ -1575,7 +1575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:BusBarConnection"
 			(at 45.212 79.756 0)
 			(effects
 				(font
@@ -1709,7 +1709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:BusBarConnection"
 			(at 45.212 28.956 0)
 			(effects
 				(font
