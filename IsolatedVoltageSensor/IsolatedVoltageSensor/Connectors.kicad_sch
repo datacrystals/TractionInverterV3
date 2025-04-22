@@ -1003,75 +1003,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "PHASE_U_ISOLATED_VSENSE"
-		(shape input)
-		(at 30.48 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "067ed6fc-4a26-464d-b274-6215d6aca76b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5303 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DC_LINK_BUS_ISOLATED_VSENSE"
-		(shape input)
-		(at 30.48 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1254db7e-092f-4d1c-a09b-756c6ef70932")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7032 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PHASE_W_VSENSE"
-		(shape input)
-		(at 81.28 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27060e92-a3df-414e-9598-6b9c91c4cd7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8355 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PHASE_V_VSENSE"
 		(shape input)
-		(at 81.28 40.64 0)
+		(at 30.48 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1079,53 +1013,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5fd6b499-d639-41a5-a6dd-8aaf715636d6")
+		(uuid "4d5d326f-4a4d-4398-8511-2c46f86b8bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4727 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DC_LINK_BUS_VSENSE"
-		(shape input)
-		(at 81.28 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8882ddba-eaa4-4c1b-a914-66cbe1cb7313")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.8875 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PHASE_U_VSENSE"
-		(shape input)
-		(at 81.28 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfcfd08f-32e3-4e81-81c3-0538e996f630")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.7146 35.56 0)
+			(at 49.6727 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1027,7 @@
 	)
 	(global_label "PHASE_W_ISOLATED_VSENSE"
 		(shape input)
-		(at 30.48 33.02 0)
+		(at 81.28 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1145,9 +1035,75 @@
 			)
 			(justify left)
 		)
-		(uuid "ea3f5e4a-4fc8-4a66-a14d-2a15ab84c18c")
+		(uuid "5a694f8e-6831-4a61-9d60-bd7b7b6fe560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.6512 33.02 0)
+			(at 110.4512 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W_VSENSE"
+		(shape input)
+		(at 30.48 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b9cd34-356e-495a-8325-a90890fcb0a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0355 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U_ISOLATED_VSENSE"
+		(shape input)
+		(at 81.28 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91a8c49f-6997-417e-944c-c4bf983432a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.3303 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS_VSENSE"
+		(shape input)
+		(at 30.48 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cab0a3cd-3d12-493a-86fb-91b389416ffa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.0875 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1115,7 @@
 	)
 	(global_label "PHASE_V_ISOLATED_VSENSE"
 		(shape input)
-		(at 30.48 38.1 0)
+		(at 81.28 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1167,9 +1123,53 @@
 			)
 			(justify left)
 		)
-		(uuid "f22870c8-a81e-488d-a1af-45ec62592bb4")
+		(uuid "ea1203d6-f7a3-4b75-a4ac-4fd067ca1a9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2884 38.1 0)
+			(at 110.0884 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS_ISOLATED_VSENSE"
+		(shape input)
+		(at 81.28 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f25c9d72-fcaf-4469-a6e0-28e500f14ce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5032 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U_VSENSE"
+		(shape input)
+		(at 30.48 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7680b5d-2d1b-429f-996c-8b8575b0afe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9146 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
