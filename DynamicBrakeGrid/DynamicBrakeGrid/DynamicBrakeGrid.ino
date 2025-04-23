@@ -9,9 +9,7 @@
 #include "Common/FaultManager.h"
 #include "Common/FanController.h"
 #include "Common/Constants.h"
-
-#include "Easy-CANopen/Src/Hardware/Hardware.h"
-#include "Easy-CANopen/Src/Easy_CANopen/Easy_CANopen.h"
+#include "src/Easy-CANopen/Src/Easy_CANopen/Easy_CANopen.h"
 #include <mcp2515.h> // https://github.com/autowp/arduino-MCP2515/archive/master.zip
 
 // CAN Bus Constants

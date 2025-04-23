@@ -1,0 +1,3 @@
+[submodule "DynamicBrakeGrid/DynamicBrakeGrid/src/Easy-CANopen"]
+	path = DynamicBrakeGrid/DynamicBrakeGrid/src/Easy-CANopen
+	url = https://github.com/CPTforever/Easy-CANopen.git
