@@ -10,9 +10,8 @@
 #include "Common/FanController.h"
 #include "Common/Constants.h"
 
-#include "Easy-CANopen/Src/CANopen/CANopen_User.h"
+#include "Easy-CANopen/Src/Easy_CANopen/Easy_CANopen.h"
 #include <mcp2515.h> // https://github.com/autowp/arduino-MCP2515/archive/master.zip
-
 
 // CAN Bus Constants
 #define CAN_BAUDRATE         CAN_500KBPS
