@@ -1,7 +1,7 @@
 (footprint "1987724"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1987724-1")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "674b9676-15e9-4610-8301-2de5dc9f4fe5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -212,7 +200,8 @@
 		(remove_unused_layers no)
 		(uuid "46ff23a7-964e-46db-a471-80c9f63adfc4")
 	)
-	(model "1987724.stp"
+	(embedded_fonts no)
+	(model "../../../3D/1987724.stp"
 		(offset
 			(xyz 16.36000036 -21.87999883 -45.6399987)
 		)

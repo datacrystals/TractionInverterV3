@@ -1,7 +1,11 @@
 *PADS-LIBRARY-PART-TYPES-V9*
 
 5442251 5442251 I CON 7 1 0 0 0
+<<<<<<< HEAD
 TIMESTAMP 2025.03.21.12.04.08
+=======
+TIMESTAMP 2025.03.25.06.06.29
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 "Mouser Part Number" 651-5442251
 "Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D
 "Manufacturer_Name" Phoenix Contact

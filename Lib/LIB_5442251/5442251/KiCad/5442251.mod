@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 PCBNEW-LibModule-V1  2025-03-21 12:04:08
+=======
+PCBNEW-LibModule-V1  2025-03-25 06:06:29
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 # encoding utf-8
 Units mm
 $INDEX
 5442251
 $EndINDEX
 $MODULE 5442251
+<<<<<<< HEAD
 Po 0 0 0 15 67dd55b8 00000000 ~~
+=======
+Po 0 0 0 15 67e247e5 00000000 ~~
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 Li 5442251
 Cd 5442251-2
 Kw Connector

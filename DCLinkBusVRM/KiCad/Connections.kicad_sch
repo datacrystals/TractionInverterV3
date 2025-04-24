@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "30e8921a-2485-4815-a738-61e53e518686")
 	(paper "A4")
 	(title_block
@@ -15,7 +15,9 @@
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -89,16 +91,26 @@
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -113,26 +125,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -172,10 +174,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -241,18 +246,6 @@
 				)
 			)
 			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -265,12 +258,24 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -288,12 +293,12 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -339,9 +344,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -460,6 +468,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:1987724"
 			(pin_names
@@ -627,9 +636,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:1SMB2EZ15_R1_00001"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -781,18 +793,6 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
 					)
 					(stroke
@@ -801,6 +801,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -840,9 +852,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:UVY1E102MPD1TD"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -980,16 +995,15 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -1004,15 +1018,16 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1052,6 +1067,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "InverterCom:WireSolderJoint"
 			(exclude_from_sim no)
@@ -1134,6 +1150,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Motor:Fan_4pin"
 			(pin_names
@@ -1206,30 +1223,6 @@
 				)
 			)
 			(symbol "Fan_4pin_0_0"
-				(arc
-					(start -5.588 1.524)
-					(mid -5.08 1.0182)
-					(end -4.572 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 2.032)
-					(mid -5.4392 1.8832)
-					(end -5.588 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 2.032) (xy -5.334 2.159)
@@ -1254,6 +1247,30 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -4.572 1.524)
+					(mid -5.08 1.0182)
+					(end -5.588 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.588 1.524)
+					(mid -5.4392 1.8832)
+					(end -5.08 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
@@ -1268,10 +1285,11 @@
 				)
 			)
 			(symbol "Fan_4pin_0_1"
-				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
+				(polyline
+					(pts
+						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
+						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1294,7 +1312,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
+						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1304,22 +1322,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.2352) (xy 0 -2.6416)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
-					)
+				(arc
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1342,20 +1348,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
-						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+						(xy 0 4.2672) (xy 0 4.6228)
 					)
 					(stroke
 						(width 0)
@@ -1377,9 +1370,33 @@
 					)
 				)
 				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
 					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1390,8 +1407,8 @@
 				)
 				(arc
 					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1402,42 +1419,6 @@
 				)
 			)
 			(symbol "Fan_4pin_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1474,13 +1455,54 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1571,12 +1593,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1636,18 +1663,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -1664,6 +1679,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1739,7 +1766,116 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 88.9 74.93)
+		(end 130.81 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 13ef9506-4fdf-4845-9e6f-ab3ecf04e8f8)
+	)
+	(rectangle
+		(start 205.74 13.97)
+		(end 231.14 33.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37e9a5ea-d907-40c2-b013-16ffe6546ccc)
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 77.47 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41de9a85-41f0-4723-a90c-6a9f0a7c7701)
+	)
+	(rectangle
+		(start 161.29 13.97)
+		(end 204.47 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d89a3ca-83e3-4a86-81df-7b91b4e8bd0b)
+	)
+	(rectangle
+		(start 78.74 13.97)
+		(end 115.57 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9145b1af-be9f-4b07-92f1-6f05802b0ef4)
+	)
+	(rectangle
+		(start 54.61 59.69)
+		(end 87.63 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid abb52b22-1883-416a-8913-f47feffba38b)
+	)
+	(rectangle
+		(start 88.9 59.69)
+		(end 130.81 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c28a0123-1243-4ff2-b809-7ec2678dfb20)
+	)
+	(rectangle
+		(start 116.84 13.97)
+		(end 160.02 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e57c2d36-9ea2-4ffc-aad1-0578d763ec6d)
+	)
+	(rectangle
+		(start 13.97 59.69)
+		(end 53.34 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f880b8ce-ff69-4652-accd-a413baae0c7a)
 	)
 	(junction
 		(at 39.37 33.02)
@@ -1839,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 33.02) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27227792-c92e-4eda-ad45-d718c4a3dc2d")
+	)
+	(wire
+		(pts
 			(xy 39.37 33.02) (xy 44.45 33.02)
 		)
 		(stroke
@@ -1859,7 +2005,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 24.13) (xy 92.71 24.13)
+			(xy 101.6 33.02) (xy 100.33 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6b500e-d6e6-461a-82cf-dd780ee60497")
+	)
+	(wire
+		(pts
+			(xy 90.17 24.13) (xy 93.98 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 17.78) (xy 100.33 19.05)
+			(xy 101.6 17.78) (xy 101.6 19.05)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 17.78) (xy 100.33 17.78)
+			(xy 90.17 17.78) (xy 101.6 17.78)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 31.75) (xy 100.33 34.29)
+			(xy 101.6 31.75) (xy 101.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1986,6 +2142,16 @@
 			(type default)
 		)
 		(uuid "9ec6aa4c-9b1b-49ed-a87a-150996f2e2c8")
+	)
+	(wire
+		(pts
+			(xy 100.33 33.02) (xy 100.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ca853b-9147-4f86-8183-6d54cd7542e4")
 	)
 	(wire
 		(pts
@@ -2129,16 +2295,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 29.21) (xy 92.71 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb2688e-6c80-4e01-9768-c2dbf2f5418b")
-	)
-	(wire
-		(pts
 			(xy 55.88 34.29) (xy 55.88 36.83)
 		)
 		(stroke
@@ -2156,114 +2312,6 @@
 			(type default)
 		)
 		(uuid "ffe96a02-a7e8-417a-a6c9-039008222dab")
-	)
-	(rectangle
-		(start 88.9 74.93)
-		(end 130.81 88.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 13ef9506-4fdf-4845-9e6f-ab3ecf04e8f8)
-	)
-	(rectangle
-		(start 205.74 13.97)
-		(end 231.14 33.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 37e9a5ea-d907-40c2-b013-16ffe6546ccc)
-	)
-	(rectangle
-		(start 13.97 13.97)
-		(end 77.47 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 41de9a85-41f0-4723-a90c-6a9f0a7c7701)
-	)
-	(rectangle
-		(start 161.29 13.97)
-		(end 204.47 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4d89a3ca-83e3-4a86-81df-7b91b4e8bd0b)
-	)
-	(rectangle
-		(start 78.74 13.97)
-		(end 115.57 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9145b1af-be9f-4b07-92f1-6f05802b0ef4)
-	)
-	(rectangle
-		(start 54.61 59.69)
-		(end 87.63 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid abb52b22-1883-416a-8913-f47feffba38b)
-	)
-	(rectangle
-		(start 88.9 59.69)
-		(end 130.81 73.66)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c28a0123-1243-4ff2-b809-7ec2678dfb20)
-	)
-	(rectangle
-		(start 116.84 13.97)
-		(end 160.02 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e57c2d36-9ea2-4ffc-aad1-0578d763ec6d)
-	)
-	(rectangle
-		(start 13.97 59.69)
-		(end 53.34 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f880b8ce-ff69-4652-accd-a413baae0c7a)
 	)
 	(label "CANBUS Connector 2"
 		(at 90.17 78.74 0)
@@ -2543,7 +2591,7 @@
 	)
 	(global_label "FanPWM"
 		(shape input)
-		(at 90.17 29.21 180)
+		(at 93.98 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2553,7 +2601,7 @@
 		)
 		(uuid "76cca650-0eb7-4a2d-86b0-9102f21210ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6254 29.21 0)
+			(at 93.98 43.5646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2921,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
-		(at 100.33 26.67 0)
+		(at 101.6 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2882,7 +2930,7 @@
 		(fields_autoplaced yes)
 		(uuid "3076bd6f-1d7c-4f37-a6fe-6dc3af4773a2")
 		(property "Reference" "M1"
-			(at 105.41 25.3999 0)
+			(at 106.68 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2939,7 @@
 			)
 		)
 		(property "Value" "Fan_4pin"
-			(at 105.41 27.9399 0)
+			(at 106.68 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2948,7 @@
 			)
 		)
 		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 100.33 26.416 0)
+			(at 101.6 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2957,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 100.33 26.416 0)
+			(at 101.6 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2966,7 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 100.33 26.67 0)
+			(at 101.6 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

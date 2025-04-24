@@ -1,7 +1,7 @@
 (footprint "RESC6431X65N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2512 (6432 Metric)_2024-1")
 	(tags "Resistor")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d50034f2-9778-40e8-b9e0-d9e87208eec4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -169,16 +157,17 @@
 	(pad "1" smd rect
 		(at -3 0)
 		(size 1.2 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4fafa1b5-fc2a-4202-81cd-1b1442d062c2")
 	)
 	(pad "2" smd rect
 		(at 3 0)
 		(size 1.2 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32aacd9b-93d7-4a88-a824-e6ed3db6184a")
 	)
-	(model "RC2512JK-071ML.stp"
+	(embedded_fonts no)
+	(model "../../../3D/RC2512JK-071ML.stp"
 		(offset
 			(xyz 0 0 0)
 		)

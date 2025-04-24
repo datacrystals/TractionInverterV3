@@ -450,6 +450,7 @@
 		)
 	)
 	(rectangle
+<<<<<<< HEAD
 		(start 191.77 105.41)
 		(end 226.06 134.62)
 		(stroke
@@ -462,6 +463,8 @@
 		(uuid 004c3939-45d1-4bcb-906a-a19a18ed12be)
 	)
 	(rectangle
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(start 13.97 44.45)
 		(end 48.26 73.66)
 		(stroke
@@ -474,6 +477,7 @@
 		(uuid 0435e5ce-1b73-416c-ac62-c6910e51d6c3)
 	)
 	(rectangle
+<<<<<<< HEAD
 		(start 191.77 74.93)
 		(end 226.06 104.14)
 		(stroke
@@ -678,6 +682,8 @@
 		(uuid 769c546a-1d91-4c4c-a057-ad0b3512ad2b)
 	)
 	(rectangle
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(start 85.09 13.97)
 		(end 119.38 43.18)
 		(stroke
@@ -690,6 +696,7 @@
 		(uuid 863e1eb9-4924-49d1-81d6-9c43bcf07e28)
 	)
 	(rectangle
+<<<<<<< HEAD
 		(start 120.65 44.45)
 		(end 154.94 73.66)
 		(stroke
@@ -702,6 +709,8 @@
 		(uuid 8bdad76b-adaf-4b29-9172-7555c2e14a3d)
 	)
 	(rectangle
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(start 49.53 13.97)
 		(end 83.82 43.18)
 		(stroke
@@ -714,6 +723,7 @@
 		(uuid 9016556d-1fa6-4b03-9710-b6fb81413fc2)
 	)
 	(rectangle
+<<<<<<< HEAD
 		(start 49.53 135.89)
 		(end 83.82 165.1)
 		(stroke
@@ -798,6 +808,8 @@
 		(uuid e1719539-091e-4e29-9cc5-82a1bee896b8)
 	)
 	(rectangle
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(start 13.97 13.97)
 		(end 48.26 43.18)
 		(stroke
@@ -809,6 +821,7 @@
 		)
 		(uuid e3835771-8f13-4e3f-880c-6fbeb60024a9)
 	)
+<<<<<<< HEAD
 	(rectangle
 		(start 191.77 135.89)
 		(end 226.06 165.1)
@@ -939,6 +952,8 @@
 		)
 		(uuid "0cb884bd-1b17-4384-a168-1a45d8f50251")
 	)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(wire
 		(pts
 			(xy 33.02 46.99) (xy 33.02 48.26)
@@ -951,6 +966,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 104.14 77.47) (xy 104.14 78.74)
 		)
 		(stroke
@@ -971,6 +987,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 22.86 46.99) (xy 33.02 46.99)
 		)
 		(stroke
@@ -981,6 +999,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 161.29 60.96) (xy 161.29 58.42)
 		)
 		(stroke
@@ -1071,6 +1090,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 19.05 58.42) (xy 25.4 58.42)
 		)
 		(stroke
@@ -1081,6 +1102,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 58.42 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -1271,6 +1293,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 90.17 27.94) (xy 96.52 27.94)
 		)
 		(stroke
@@ -1281,6 +1305,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 165.1 83.82) (xy 167.64 83.82)
 		)
 		(stroke
@@ -1291,6 +1316,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 93.98 22.86) (xy 96.52 22.86)
 		)
 		(stroke
@@ -1311,6 +1338,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 246.38 152.4) (xy 246.38 154.94)
 		)
 		(stroke
@@ -1331,6 +1359,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 19.05 30.48) (xy 19.05 27.94)
 		)
 		(stroke
@@ -1341,6 +1371,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 19.05 88.9) (xy 25.4 88.9)
 		)
 		(stroke
@@ -1391,6 +1422,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 19.05 60.96) (xy 19.05 58.42)
 		)
 		(stroke
@@ -1401,6 +1434,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 210.82 107.95) (xy 210.82 109.22)
 		)
 		(stroke
@@ -1801,6 +1835,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 19.05 27.94) (xy 25.4 27.94)
 		)
 		(stroke
@@ -1811,6 +1847,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 90.17 58.42) (xy 96.52 58.42)
 		)
 		(stroke
@@ -1871,6 +1908,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 104.14 30.48) (xy 104.14 33.02)
 		)
 		(stroke
@@ -1881,6 +1920,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 175.26 152.4) (xy 175.26 154.94)
 		)
 		(stroke
@@ -1901,6 +1941,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 93.98 16.51) (xy 104.14 16.51)
 		)
 		(stroke
@@ -1911,6 +1953,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 125.73 88.9) (xy 132.08 88.9)
 		)
 		(stroke
@@ -1941,6 +1984,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 58.42 16.51) (xy 68.58 16.51)
 		)
 		(stroke
@@ -1951,6 +1996,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 232.41 121.92) (xy 232.41 119.38)
 		)
 		(stroke
@@ -1981,6 +2027,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 22.86 22.86) (xy 25.4 22.86)
 		)
 		(stroke
@@ -1991,6 +2039,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 90.17 119.38) (xy 96.52 119.38)
 		)
 		(stroke
@@ -2011,6 +2060,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 58.42 22.86) (xy 60.96 22.86)
 		)
 		(stroke
@@ -2031,6 +2082,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 246.38 121.92) (xy 246.38 124.46)
 		)
 		(stroke
@@ -2181,6 +2233,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 54.61 27.94) (xy 60.96 27.94)
 		)
 		(stroke
@@ -2191,6 +2245,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 139.7 30.48) (xy 139.7 33.02)
 		)
 		(stroke
@@ -2221,6 +2276,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 33.02 16.51) (xy 33.02 17.78)
 		)
 		(stroke
@@ -2231,6 +2288,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 93.98 138.43) (xy 104.14 138.43)
 		)
 		(stroke
@@ -2261,6 +2319,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 33.02 30.48) (xy 33.02 33.02)
 		)
 		(stroke
@@ -2271,6 +2331,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 68.58 60.96) (xy 68.58 63.5)
 		)
 		(stroke
@@ -2361,6 +2422,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 33.02 60.96) (xy 33.02 63.5)
 		)
 		(stroke
@@ -2371,6 +2434,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 125.73 27.94) (xy 132.08 27.94)
 		)
 		(stroke
@@ -2451,6 +2515,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 54.61 30.48) (xy 54.61 27.94)
 		)
 		(stroke
@@ -2461,6 +2527,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 200.66 53.34) (xy 203.2 53.34)
 		)
 		(stroke
@@ -2741,6 +2808,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 104.14 16.51) (xy 104.14 17.78)
 		)
 		(stroke
@@ -2751,6 +2820,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 161.29 27.94) (xy 167.64 27.94)
 		)
 		(stroke
@@ -2771,6 +2841,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 22.86 53.34) (xy 25.4 53.34)
 		)
 		(stroke
@@ -2781,6 +2853,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 22.86 77.47) (xy 33.02 77.47)
 		)
 		(stroke
@@ -2811,6 +2884,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 22.86 16.51) (xy 33.02 16.51)
 		)
 		(stroke
@@ -2821,6 +2896,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 236.22 144.78) (xy 238.76 144.78)
 		)
 		(stroke
@@ -2881,6 +2957,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 90.17 30.48) (xy 90.17 27.94)
 		)
 		(stroke
@@ -2889,6 +2967,7 @@
 		)
 		(uuid "eea9f33c-104b-4320-9438-bf1e76776be3")
 	)
+<<<<<<< HEAD
 	(wire
 		(pts
 			(xy 232.41 30.48) (xy 232.41 27.94)
@@ -3233,6 +3312,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(global_label "FAN_PWM"
 		(shape input)
 		(at 19.05 60.96 270)
@@ -3257,6 +3338,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
+<<<<<<< HEAD
 		(at 54.61 152.4 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3279,6 +3361,8 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 90.17 30.48 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3301,6 +3385,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
+<<<<<<< HEAD
 		(at 161.29 30.48 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3389,6 +3474,8 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 54.61 30.48 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3409,6 +3496,7 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(global_label "FAN_PWM"
 		(shape input)
 		(at 161.29 121.92 270)
@@ -3475,6 +3563,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(global_label "+12V"
 		(shape input)
 		(at 22.86 46.99 180)
@@ -3499,6 +3589,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
+<<<<<<< HEAD
 		(at 129.54 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3917,6 +4008,8 @@
 	)
 	(global_label "+12V"
 		(shape input)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 22.86 16.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3939,6 +4032,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
+<<<<<<< HEAD
 		(at 93.98 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4027,6 +4121,8 @@
 	)
 	(global_label "+12V"
 		(shape input)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 93.98 16.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4091,6 +4187,7 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(global_label "+12V"
 		(shape input)
 		(at 165.1 16.51 180)
@@ -5351,6 +5448,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(symbol
 		(lib_id "Motor:Fan_4pin")
 		(at 33.02 25.4 0)
@@ -5429,6 +5528,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
+<<<<<<< HEAD
 		(at 139.7 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5647,6 +5747,8 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 104.14 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5722,6 +5824,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "Motor:Fan_4pin")
 		(at 246.38 25.4 0)
 		(unit 1)
@@ -5874,6 +5977,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "power:GND")
 		(at 33.02 63.5 0)
 		(unit 1)
@@ -6006,6 +6111,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "Motor:Fan_4pin")
 		(at 33.02 86.36 0)
 		(unit 1)
@@ -6082,6 +6188,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "power:GND")
 		(at 68.58 33.02 0)
 		(unit 1)
@@ -6148,6 +6256,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 175.26 63.5 0)
 		(unit 1)
@@ -6706,6 +6815,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "Motor:Fan_4pin")
 		(at 68.58 25.4 0)
 		(unit 1)
@@ -6783,6 +6894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< HEAD
 		(at 33.02 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6925,6 +7037,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 33.02 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6990,6 +7104,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 139.7 63.5 0)
 		(unit 1)
@@ -8892,6 +9007,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "Motor:Fan_4pin")
 		(at 33.02 55.88 0)
 		(unit 1)
@@ -8967,6 +9084,7 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(symbol
 		(lib_id "power:GND")
 		(at 139.7 124.46 0)
@@ -9479,4 +9597,6 @@
 			)
 		)
 	)
+=======
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 )

@@ -1,7 +1,7 @@
 (footprint "1SMB2EZ15_R1_00001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1SMB2EZ15_R1_00001-2")
 	(tags "Zener Diode")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c22f627a-ae16-49cd-a168-7b6aed28f1fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -221,16 +209,17 @@
 	(pad "1" smd rect
 		(at -2.025 0)
 		(size 2.29 2.72)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd637e76-0e63-42a8-8155-9e764f97be75")
 	)
 	(pad "2" smd rect
 		(at 2.025 0)
 		(size 2.29 2.72)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0361551d-deca-46cc-981a-bcd9a1ed8817")
 	)
-	(model "1SMB2EZ15_R1_00001.stp"
+	(embedded_fonts no)
+	(model "../../../3D/1SMB2EZ15_R1_00001.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "ALH82A750CB600"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ALH82A750CB600-1")
 	(tags "Capacitor")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "341a0ab4-7c73-4234-947e-37b13cdf3f6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -149,45 +137,16 @@
 		(layer "F.SilkS")
 		(uuid "ff4a6380-1ea5-496e-8b10-252206368199")
 	)
-	(fp_line
-		(start -11 -16)
-		(end 21 -16)
+	(fp_circle
+		(center 5 0)
+		(end 21 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "77f0197c-898b-4693-a0ab-29eff51b532e")
-	)
-	(fp_line
-		(start -11 16)
-		(end -11 -16)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b5737879-5bd4-4fbf-b912-6fc2879ed794")
-	)
-	(fp_line
-		(start 21 -16)
-		(end 21 16)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d14fae34-aa41-43f9-8c3b-d6137eedc192")
-	)
-	(fp_line
-		(start 21 16)
-		(end -11 16)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "99103614-f8b6-44db-aaab-03bae441e0c1")
+		(uuid "f096a549-5028-4c64-9e83-1f01ab5fb719")
 	)
 	(fp_line
 		(start -10 0)
@@ -271,6 +230,7 @@
 		(remove_unused_layers no)
 		(uuid "b9450745-e221-428e-98d4-4bed63d6a2d9")
 	)
+	(embedded_fonts no)
 	(model "ALH82A750CB600.stp"
 		(offset
 			(xyz 0 0 0)

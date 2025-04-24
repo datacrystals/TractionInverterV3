@@ -1,7 +1,7 @@
 (footprint "SOIC127P600X175-8N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "D")
 	(tags "Integrated Circuit")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5dd8832-a9dc-4f39-aa9a-2a02ded7234e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -219,52 +207,53 @@
 	(pad "1" smd rect
 		(at -2.711 -1.905 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb6f0664-af09-4ee6-a5e0-1ce5f7821dde")
 	)
 	(pad "2" smd rect
 		(at -2.711 -0.635 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "da537da0-9348-4f92-a656-efad7ff32eaa")
 	)
 	(pad "3" smd rect
 		(at -2.711 0.635 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "18c26df2-0995-49bd-841b-c57fd32d4f73")
 	)
 	(pad "4" smd rect
 		(at -2.711 1.905 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e05e9de3-1a87-42cc-b263-5945cd242abf")
 	)
 	(pad "5" smd rect
 		(at 2.711 1.905 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "132e2aa4-b3d9-4163-90e8-31464d6bc215")
 	)
 	(pad "6" smd rect
 		(at 2.711 0.635 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ff0aebc-2384-46db-813f-b1a814025dd6")
 	)
 	(pad "7" smd rect
 		(at 2.711 -0.635 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3728dc1a-22fd-46f0-8bc6-b5f14a831cae")
 	)
 	(pad "8" smd rect
 		(at 2.711 -1.905 90)
 		(size 0.65 1.528)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "961ef825-7b20-4d9e-a81b-bea1312a1d37")
 	)
-	(model "UCC27424QDRQ1.stp"
+	(embedded_fonts no)
+	(model "../../../3D/UCC27424QDRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
