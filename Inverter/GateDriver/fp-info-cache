@@ -1,4 +1,4 @@
-87105749364270
+94087418004750
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65282,6 +65282,13 @@ Zener Diode
 2
 2
 InverterCom
+5-106505-2_3
+5-106505-2_3
+Connector
+0
+11
+11
+InverterCom
 67715ABPE
 677-15ABPE-2
 Hardware
@@ -65316,6 +65323,13 @@ Connector
 0
 2
 2
+InverterCom
+ACS772ECB200BPFFT
+PFF_2021
+Integrated Circuit
+0
+35
+35
 InverterCom
 ACT45B1012PTL003
 ACT45B
@@ -65365,6 +65379,13 @@ Capacitor Polarised
 0
 2
 2
+InverterCom
+CM600HA-24H-Gate
+
+
+0
+3
+3
 InverterCom
 CM600HA-24H-PWR
 
@@ -65438,6 +65459,13 @@ Resistor
 InverterCom
 RFMM0505S
 RFMM
+Power Supply
+0
+4
+4
+InverterCom
+RKE1205SH
+RKE/H-1
 Power Supply
 0
 4

@@ -1,4 +1,4 @@
-78412954224102
+94124276992587
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65282,6 +65282,13 @@ Zener Diode
 2
 2
 InverterCom
+5-106505-2_3
+5-106505-2_3
+Connector
+0
+11
+11
+InverterCom
 67715ABPE
 677-15ABPE-2
 Hardware
@@ -65345,6 +65352,20 @@ Arduino UNO R3
 32
 32
 InverterCom
+B32652__18_x_9_
+B32652_(18_x_9)
+Capacitor
+0
+2
+2
+InverterCom
+B32774X__31.5_x_12.5_
+B32774X_(31.5_x_12.5)
+Capacitor
+0
+2
+2
+InverterCom
 BEADC1608X100N
 FBMJ1608HS220NTR
 Ferrite Bead
@@ -65358,6 +65379,13 @@ BusBarConnection
 0
 1
 1
+InverterCom
+C4AQNBW5200M3LJ
+C4AQNBW5200M3LJ-2
+Capacitor (4-Pin)
+0
+4
+4
 InverterCom
 CAPPRD500W60D1025H1750
 10*16
@@ -65373,6 +65401,13 @@ Capacitor Polarised
 2
 2
 InverterCom
+CM600HA-24H-Gate
+
+
+0
+3
+3
+InverterCom
 CM600HA-24H-PWR
 
 
@@ -65386,6 +65421,13 @@ Char_TieriaErde
 0
 0
 0
+InverterCom
+D25S33E4PA00LF
+D25S33E4PA00LF-2
+Connector
+0
+27
+27
 InverterCom
 DE09PAM1
 DE09-PA-M1-1
@@ -65414,6 +65456,13 @@ MOSFET (N-Channel)
 0
 3
 3
+InverterCom
+L717SDB25PA4CH3R
+L717SDB25PA4CH3R-2
+Connector
+0
+27
+27
 InverterCom
 LEDC3216X120N
 SMD Package
@@ -65450,6 +65499,13 @@ Power Supply
 4
 4
 InverterCom
+RKE1205SH
+RKE/H-1
+Power Supply
+0
+4
+4
+InverterCom
 SIHFR120GE3
 SIHFR120-GE3
 MOSFET (N-Channel)
@@ -65477,6 +65533,13 @@ Integrated Circuit
 0
 8
 8
+InverterCom
+SOIC127P1030X265-16N
+16-SOIC
+Attenuator or Isolator
+0
+16
+16
 InverterCom
 SOIC127P1150X280-8N
 DWV0008A
