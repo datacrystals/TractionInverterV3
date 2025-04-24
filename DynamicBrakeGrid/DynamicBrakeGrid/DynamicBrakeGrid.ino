@@ -91,7 +91,7 @@
 #include "Common/FanController.h"
 
 #include <mcp2515.h> // https://github.com/autowp/arduino-MCP2515/archive/master.zip
-
+#include "CANFramework/src/CANBusManager.h"
 
 // CAN Bus Constants
 #define CAN_BAUDRATE         CAN_500KBPS
@@ -644,65 +644,56 @@ CANController* CANController::instance = nullptr;
 
 CANController canController(CAN_CS_PIN, CAN_INT_PIN);
 
-void handleCANMessage(struct can_frame* frame) {
-    uint8_t commandId = frame->can_id & 0x1F; // Extract command ID
-    
-    switch(commandId) {
-        case CMD_EMERGENCY_STOP:
-        case CMD_DISABLE_OUTPUT:
+// CAN Bus Manager instance
+CANBusManager canManager(DEVICE_ID, CAN_CS_PIN, CAN_INT_PIN);
+
+void handleCANMessage(const CANMessage& msg) {
+    switch (msg.code) {
+        case MessageCode::EMERGENCY_STOP:
+        case MessageCode::REGULAR_STOP:
             voltageController.SetSetpoint(VOLTAGE_MAX);
             voltageController.SetDutyCycle(0); // Hard disable
-            sendAck();
+            canManager.SendCode(MessageCode::HEARTBEAT); // Acknowledge
             break;
-            
-        case CMD_ENABLE_OUTPUT:
-            sendAck(); // Will use last setpoint
+
+        case MessageCode::ENABLE_OUTPUT:
+            canManager.SendCode(MessageCode::EMPTY); // Acknowledge
             break;
-            
-        case CMD_RESET_FAULTS:
+
+        case MessageCode::RESET_FAULTS:
             faultManager.resetFaults();
-            sendAck();
+            canManager.SendCode(MessageCode::EMPTY); // Acknowledge
             break;
-            
-        case CMD_GET_FAULT_COUNT:
-            sendFaultCount();
+
+        case MessageCode::GET_FAULT_COUNT:
+            canManager.SendInt(MessageCode::GET_FAULT_COUNT, faultManager.getFaultCount());
             break;
-            
-        case CMD_GET_FAULT_LIST:
-            sendFaultList();
+
+        case MessageCode::GET_FAULT_LIST:
+            // Send fault list as a string
+            char allFaults[FAULT_BUFFER_SIZE * (FAULT_NAME_LENGTH + 2)] = {0};
+            faultManager.getFaultNames(allFaults, sizeof(allFaults));
+            canManager.SendString(MessageCode::GET_FAULT_LIST, allFaults);
             break;
-            
-        case CMD_GET_VOLTAGE_IN:
-            sendVoltageIn();
+
+        case MessageCode::GET_VIN_VOLTAGE:
+            canManager.SendFloat(MessageCode::GET_VIN_VOLTAGE, voltageController.GetVoltage());
             break;
-            
-        case CMD_GET_VOLTAGE_OUT:
-            sendVoltageOut();
+
+        case MessageCode::GET_VOUT_VOLTAGE:
+            canManager.SendFloat(MessageCode::GET_VOUT_VOLTAGE, voltageController.GetVoltage());
             break;
-            
-        case CMD_GET_CURRENT:
-            sendCurrent();
+
+        case MessageCode::GET_PHASE1_CURRENT:
+            canManager.SendFloat(MessageCode::GET_PHASE1_CURRENT, voltageController.GetCurrent());
             break;
-            
-        case CMD_GET_TEMPERATURE:
-            sendTemperature();
+
+        case MessageCode::GET_POWER:
+            canManager.SendFloat(MessageCode::GET_POWER, voltageController.GetPower());
             break;
-            
-        case CMD_GET_FAN_SPEED:
-            sendFanSpeed();
-            break;
-            
-        case CMD_GET_POWER:
-            sendPower();
-            break;
-            
-        case CMD_SET_VOLTAGE:
-            if(frame->can_dlc == 4) {
-                float newVoltage;
-                memcpy(&newVoltage, frame->data, 4);
-                voltageController.SetSetpoint(newVoltage);
-                sendAck();
-            }
+
+        default:
+            Serial.println("Unhandled CAN message code");
             break;
     }
 }
@@ -828,6 +819,10 @@ void setup() {
     voltageController.SetSetpoint(DEFAULT_V_SETPOINT);
     fanController.SetStats(AIRFLOW_PER_FAN, NUM_FANS);
 
+    // Initialize CAN Manager
+    canManager.Begin();
+    canManager.SetCallback(handleCANMessage);
+
     Serial.println(SYSTEM_NAME " initialized");
 }
 
@@ -897,4 +892,7 @@ void loop() {
         Serial.print(fanController.getRollingCFMAvg());
         Serial.println(" CFM");
     }
+
+    // Update CAN Manager
+    canManager.Update();
 }
