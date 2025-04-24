@@ -1,10 +1,6 @@
 {
   "board": {
-<<<<<<< HEAD
-    "active_layer": 0,
-=======
-    "active_layer": 7,
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -24,11 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-<<<<<<< HEAD
-      "lockedItems": false,
-=======
       "lockedItems": true,
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -57,11 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-<<<<<<< HEAD
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-=======
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ff55558f",
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
+    "visible_layers": "ffffffff_ffffffff_ffffd575_ff55552f",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,11 +62,6 @@
     "version": 5
   },
   "net_inspector_panel": {
-<<<<<<< HEAD
-    "col_hidden": [],
-    "col_order": [],
-    "col_widths": [],
-=======
     "col_hidden": [
       false,
       false,
@@ -121,7 +104,6 @@
       0,
       0
     ],
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -132,11 +114,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-<<<<<<< HEAD
-    "sorting_column": -1
-=======
     "sorting_column": 0
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
   },
   "open_jobsets": [],
   "project": {

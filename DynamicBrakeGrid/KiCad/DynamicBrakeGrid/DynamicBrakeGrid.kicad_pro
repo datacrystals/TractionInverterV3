@@ -2,14 +2,6 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
-<<<<<<< HEAD
-      "defaults": {},
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {},
-      "track_widths": [],
-      "via_dimensions": []
-=======
       "defaults": {
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
@@ -230,7 +222,6 @@
         }
       ],
       "zones_allow_external_fillets": false
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
     },
     "ipc2581": {
       "dist": "",
@@ -508,17 +499,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-<<<<<<< HEAD
-      "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
-=======
       "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../Mechanical/DynamicBrakeGrid.step",
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
       "svg": "",
       "vrml": ""
     },

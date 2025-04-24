@@ -268,8 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-=======
 		(symbol "InverterCom:1548129"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -440,7 +438,6 @@
 			)
 			(embedded_fonts no)
 		)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(symbol "InverterCom:1987724"
 			(pin_names
 				(offset 0.762)
@@ -825,8 +822,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-=======
 		(symbol "InverterCom:38969-0002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -979,7 +974,6 @@
 			)
 			(embedded_fonts no)
 		)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(symbol "InverterCom:5442251"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1365,8 +1359,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-=======
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1474,7 +1466,6 @@
 			)
 			(embedded_fonts no)
 		)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1576,12 +1567,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-	)
-	(rectangle
-		(start 137.16 59.69)
-		(end 213.36 101.6)
-=======
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -1771,7 +1756,6 @@
 	(rectangle
 		(start 91.44 60.96)
 		(end 167.64 166.37)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(stroke
 			(width 0)
 			(type default)
@@ -1782,13 +1766,8 @@
 		(uuid 77f17d25-c1b3-45d5-95cf-8ad85a7898ba)
 	)
 	(rectangle
-<<<<<<< HEAD
-		(start 13.97 74.93)
-		(end 58.42 88.9)
-=======
 		(start 222.25 38.1)
 		(end 266.7 58.42)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(stroke
 			(width 0)
 			(type default)
@@ -1799,10 +1778,6 @@
 		(uuid 7cd38553-3435-4c00-bcb4-4956da222a74)
 	)
 	(rectangle
-<<<<<<< HEAD
-		(start 59.69 59.69)
-		(end 135.89 101.6)
-=======
 		(start 168.91 13.97)
 		(end 220.98 58.42)
 		(stroke
@@ -1817,7 +1792,6 @@
 	(rectangle
 		(start 13.97 60.96)
 		(end 90.17 166.37)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(stroke
 			(width 0)
 			(type default)
@@ -1829,11 +1803,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-<<<<<<< HEAD
-		(end 283.21 58.42)
-=======
 		(end 167.64 58.42)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(stroke
 			(width 0)
 			(type default)
@@ -1844,13 +1814,8 @@
 		(uuid b938a173-1e2e-4086-86de-1ff11692cef5)
 	)
 	(rectangle
-<<<<<<< HEAD
-		(start 13.97 59.69)
-		(end 58.42 73.66)
-=======
 		(start 222.25 13.97)
 		(end 266.7 35.56)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(stroke
 			(width 0)
 			(type default)
@@ -1860,22 +1825,6 @@
 		)
 		(uuid e1891662-ce6f-44df-bae5-c552081b8221)
 	)
-<<<<<<< HEAD
-	(junction
-		(at 209.55 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03a441d5-9c4e-4f83-ad87-20e5e9c0c9c6")
-	)
-	(junction
-		(at 167.64 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cb0485e-336c-461f-8490-8f4406566a51")
-	)
-	(junction
-		(at 160.02 86.36)
-=======
 	(text "SNUBBER CAPACITORS, PLACE HERE"
 		(exclude_from_sim no)
 		(at 214.376 103.124 0)
@@ -1932,17 +1881,12 @@
 	)
 	(junction
 		(at 114.3 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2516d516-052b-4961-a684-ba9f6fdbd565")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 82.55 86.36)
-=======
 		(at 36.83 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ebe4b15-7c3c-4fd6-8ea7-773de13acbc0")
@@ -1954,40 +1898,18 @@
 		(uuid "2f8e19de-bede-49b6-9e69-015c0db02a40")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 95.25 86.36)
-=======
 		(at 49.53 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fcf191-3c08-466c-9cac-e22b32e2d210")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 153.67 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3880e1de-5987-4bd8-80a1-0e8069a18f36")
-	)
-	(junction
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 44.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3becf8fa-9064-41f4-b7b9-b0cc519a781c")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 111.76 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42c88c6a-205a-45d5-b16c-907c4639a376")
-	)
-	(junction
-		(at 223.52 36.83)
-=======
 		(at 191.77 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2001,21 +1923,11 @@
 	)
 	(junction
 		(at 125.73 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5707512e-b966-4b65-b6a9-27dba88cd794")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 139.7 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ac1141f-2b93-4aed-9beb-e283e0edc78e")
-	)
-	(junction
-		(at 95.25 74.93)
-=======
 		(at 191.77 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2023,31 +1935,17 @@
 	)
 	(junction
 		(at 49.53 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f794b24-d0ff-4ba0-a7d2-c8b54907fccb")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 195.58 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "778cbeff-18ab-434e-aa63-f0892175b5c7")
-	)
-	(junction
-		(at 172.72 74.93)
-=======
 		(at 127 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89c84c38-23cf-445a-bb51-fdd0394eb92f")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 172.72 86.36)
-=======
 		(at 208.28 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,27 +1953,11 @@
 	)
 	(junction
 		(at 127 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96f4cc67-68b5-4afc-99ef-efd6ec3fa76f")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 246.38 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "990920f9-a045-4d2a-8f87-893e9c4a07b2")
-	)
-	(junction
-		(at 181.61 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e3cd0e9-fc6d-4118-a9c6-bfec84dfc0fc")
-	)
-	(junction
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 69.85 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2088,23 +1970,12 @@
 		(uuid "a8c955af-4201-4b83-8cd0-73ecc6ed20a7")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 271.78 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a97114a4-7b92-44b0-af14-11bfcd8dba70")
-	)
-	(junction
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 39.37 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa3c2bec-f814-403d-9999-3c4ce9d4cf5b")
 	)
 	(junction
-<<<<<<< HEAD
-=======
 		(at 233.68 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2117,16 +1988,12 @@
 		(uuid "b3d7b96b-953c-4c02-b40b-7f6c4e78b82e")
 	)
 	(junction
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(at 36.83 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5442944-0622-411c-bcf9-d246c9ef7938")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 234.95 36.83)
-=======
 		(at 191.77 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2140,7 +2007,6 @@
 	)
 	(junction
 		(at 137.16 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe5edab-4fcc-44f7-b06a-7c6d3c0d9895")
@@ -2152,15 +2018,6 @@
 		(uuid "f206f5f8-e95a-4aad-8f25-4fe09b2d4110")
 	)
 	(junction
-<<<<<<< HEAD
-		(at 125.73 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4115bb0-fcb5-48dc-b2d6-63c0132514bc")
-	)
-	(junction
-		(at 259.08 36.83)
-=======
 		(at 220.98 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,15 +2031,12 @@
 	)
 	(junction
 		(at 148.59 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc561df7-cd42-41a4-9594-8ae3c055203c")
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
 			(xy 110.49 106.68) (xy 113.03 106.68)
 		)
 		(stroke
@@ -2193,7 +2047,6 @@
 	)
 	(wire
 		(pts
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 69.85 36.83) (xy 83.82 36.83)
 		)
 		(stroke
@@ -2204,21 +2057,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 167.64 34.29) (xy 167.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03719f18-56e5-483b-a5e1-2c6aadadeb7d")
-	)
-	(wire
-		(pts
-			(xy 234.95 36.83) (xy 234.95 39.37)
-=======
 			(xy 137.16 36.83) (xy 137.16 39.37)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2228,47 +2067,27 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 209.55 36.83) (xy 209.55 39.37)
-=======
 			(xy 110.49 161.29) (xy 113.03 161.29)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "09980bf4-0a64-4d19-be51-af6e07e303a7")
-	)
-	(wire
-		(pts
-			(xy 153.67 36.83) (xy 153.67 39.37)
-=======
 		(uuid "071a7448-f7e4-40fa-a1ee-0a59beb8e02d")
 	)
 	(wire
 		(pts
 			(xy 218.44 87.63) (xy 220.98 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "0b122287-637e-4848-a62a-2b25d82f9296")
-	)
-	(wire
-		(pts
-			(xy 95.25 74.93) (xy 77.47 74.93)
-=======
 		(uuid "0d8ba505-c798-44ed-b6d1-49434f591af0")
 	)
 	(wire
 		(pts
 			(xy 49.53 76.2) (xy 31.75 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2278,8 +2097,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
 			(xy 110.49 123.19) (xy 113.03 123.19)
 		)
 		(stroke
@@ -2300,7 +2117,6 @@
 	)
 	(wire
 		(pts
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 20.32 33.02) (xy 39.37 33.02)
 		)
 		(stroke
@@ -2311,21 +2127,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 181.61 36.83) (xy 181.61 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d88970-3398-442e-9a26-075c2431eab9")
-	)
-	(wire
-		(pts
-			(xy 95.25 76.2) (xy 95.25 74.93)
-=======
 			(xy 49.53 77.47) (xy 49.53 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2335,8 +2137,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
 			(xy 233.68 76.2) (xy 233.68 73.66)
 		)
 		(stroke
@@ -2357,7 +2157,6 @@
 	)
 	(wire
 		(pts
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 83.82 36.83) (xy 97.79 36.83)
 		)
 		(stroke
@@ -2368,8 +2167,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
 			(xy 191.77 78.74) (xy 191.77 87.63)
 		)
 		(stroke
@@ -2380,7 +2177,6 @@
 	)
 	(wire
 		(pts
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 20.32 30.48) (xy 20.32 33.02)
 		)
 		(stroke
@@ -2391,19 +2187,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 246.38 36.83) (xy 246.38 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259adc8b-c0dd-492a-b351-ae3dec03b365")
-	)
-	(wire
-		(pts
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 39.37 33.02) (xy 39.37 30.48)
 		)
 		(stroke
@@ -2414,23 +2197,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 209.55 34.29) (xy 209.55 36.83)
-=======
 			(xy 233.68 96.52) (xy 233.68 93.98)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "278b2af0-5deb-476b-b114-7c867bd68a60")
-	)
-	(wire
-		(pts
-			(xy 80.01 80.01) (xy 77.47 80.01)
-=======
 		(uuid "2ddde7ee-66ae-4f69-8230-3c50ba7026de")
 	)
 	(wire
@@ -2446,7 +2218,6 @@
 	(wire
 		(pts
 			(xy 34.29 81.28) (xy 31.75 81.28)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2456,11 +2227,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 154.94 77.47) (xy 165.1 77.47)
-=======
 			(xy 109.22 78.74) (xy 119.38 78.74)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2470,9 +2237,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 271.78 36.83) (xy 274.32 36.83)
-=======
 			(xy 189.23 73.66) (xy 191.77 73.66)
 		)
 		(stroke
@@ -2504,7 +2268,6 @@
 	(wire
 		(pts
 			(xy 148.59 36.83) (xy 156.21 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2514,23 +2277,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 125.73 36.83) (xy 139.7 36.83)
-=======
 			(xy 233.68 87.63) (xy 233.68 78.74)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "3c629fbb-8516-43a0-badc-6c016ce1e034")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.47) (xy 165.1 78.74)
-=======
 		(uuid "37b5018e-5568-4324-b686-359c8027e4fc")
 	)
 	(wire
@@ -2546,7 +2298,6 @@
 	(wire
 		(pts
 			(xy 119.38 78.74) (xy 119.38 80.01)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2556,19 +2307,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 181.61 36.83) (xy 195.58 36.83)
-=======
 			(xy 233.68 76.2) (xy 236.22 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "44118882-f2c0-46ce-be1b-7627efada905")
-=======
 		(uuid "3d68dc38-2832-40a0-8143-cad8b3df13e2")
 	)
 	(wire
@@ -2590,7 +2334,6 @@
 			(type default)
 		)
 		(uuid "42c1c16a-782a-4387-8b8b-c4397ab6ff78")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -2604,11 +2347,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 234.95 36.83) (xy 234.95 34.29)
-=======
 			(xy 137.16 36.83) (xy 137.16 34.29)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2618,31 +2357,13 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 139.7 36.83) (xy 153.67 36.83)
-=======
 			(xy 191.77 87.63) (xy 191.77 91.44)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "4ddd078e-cf17-485e-980c-826c6084df1a")
-	)
-	(wire
-		(pts
-			(xy 259.08 36.83) (xy 271.78 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "552043c6-f68c-4d47-892e-121100128c1f")
-=======
 		(uuid "4bf65bf9-71b6-4a35-bc45-686f8a1528a9")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -2656,11 +2377,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 80.01 86.36) (xy 80.01 80.01)
-=======
 			(xy 34.29 87.63) (xy 34.29 81.28)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2670,11 +2387,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 95.25 74.93) (xy 105.41 74.93)
-=======
 			(xy 49.53 76.2) (xy 59.69 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2684,9 +2397,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 82.55 86.36) (xy 80.01 86.36)
-=======
 			(xy 110.49 128.27) (xy 113.03 128.27)
 		)
 		(stroke
@@ -2698,7 +2408,6 @@
 	(wire
 		(pts
 			(xy 36.83 87.63) (xy 34.29 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2718,21 +2427,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 167.64 36.83) (xy 181.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639400c0-8fdc-4626-9773-8437154a727b")
-	)
-	(wire
-		(pts
-			(xy 234.95 36.83) (xy 246.38 36.83)
-=======
 			(xy 137.16 36.83) (xy 148.59 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2742,9 +2437,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 160.02 86.36) (xy 172.72 86.36)
-=======
 			(xy 191.77 91.44) (xy 191.77 93.98)
 		)
 		(stroke
@@ -2766,7 +2458,6 @@
 	(wire
 		(pts
 			(xy 114.3 87.63) (xy 127 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2776,55 +2467,32 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 271.78 36.83) (xy 271.78 39.37)
-=======
 			(xy 220.98 99.06) (xy 220.98 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "6b5457fc-442f-4f73-ab49-59b949d85cbb")
-	)
-	(wire
-		(pts
-			(xy 139.7 34.29) (xy 139.7 36.83)
-=======
 		(uuid "6be6b7f7-9d08-4393-ac44-0ac94ae34b2f")
 	)
 	(wire
 		(pts
 			(xy 208.28 87.63) (xy 208.28 99.06)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "758fb8da-4d7b-419a-965e-5daf8973b990")
-	)
-	(wire
-		(pts
-			(xy 111.76 36.83) (xy 111.76 39.37)
-=======
 		(uuid "6f1d6016-90e0-435d-861a-808d4e898a3f")
 	)
 	(wire
 		(pts
 			(xy 233.68 91.44) (xy 233.68 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "79341eb5-0720-42eb-bc64-32b7c9a22b89")
-=======
 		(uuid "710d7fb5-705d-4ad3-bcde-b89a804ccc21")
 	)
 	(wire
@@ -2856,7 +2524,6 @@
 			(type default)
 		)
 		(uuid "78a5fe57-043b-44e1-9327-d07be7cf24bf")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -2870,11 +2537,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 223.52 36.83) (xy 223.52 39.37)
-=======
 			(xy 125.73 36.83) (xy 125.73 39.37)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2894,11 +2557,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 82.55 86.36) (xy 95.25 86.36)
-=======
 			(xy 36.83 87.63) (xy 49.53 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2908,23 +2567,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 246.38 36.83) (xy 259.08 36.83)
-=======
 			(xy 233.68 78.74) (xy 236.22 78.74)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "80ae3509-8cce-4d8c-b61a-33898c513832")
-	)
-	(wire
-		(pts
-			(xy 157.48 86.36) (xy 157.48 80.01)
-=======
 		(uuid "80e32bc4-1a3c-4833-ba23-318cc09ff87b")
 	)
 	(wire
@@ -2970,7 +2618,6 @@
 	(wire
 		(pts
 			(xy 111.76 87.63) (xy 111.76 81.28)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2980,11 +2627,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 259.08 36.83) (xy 259.08 39.37)
-=======
 			(xy 148.59 36.83) (xy 148.59 39.37)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -2994,55 +2637,32 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 139.7 36.83) (xy 139.7 39.37)
-=======
 			(xy 191.77 73.66) (xy 191.77 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "9182d840-a0a3-48d4-b51a-4e84e4bc5027")
-	)
-	(wire
-		(pts
-			(xy 153.67 36.83) (xy 167.64 36.83)
-=======
 		(uuid "8c2a5f09-47a5-4cff-bbee-0cee88cfe8b8")
 	)
 	(wire
 		(pts
 			(xy 210.82 87.63) (xy 208.28 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "95eab965-ef42-4237-b89b-436b3b72abd8")
-	)
-	(wire
-		(pts
-			(xy 195.58 36.83) (xy 195.58 39.37)
-=======
 		(uuid "90b3eded-9ffc-4c78-aabb-e5d8bde7816a")
 	)
 	(wire
 		(pts
 			(xy 189.23 78.74) (xy 191.77 78.74)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "96ead03b-15fc-46c2-b605-28f77134c9a9")
-=======
 		(uuid "962904e2-1b18-4da9-88d2-341011d75b8e")
 	)
 	(wire
@@ -3064,7 +2684,6 @@
 			(type default)
 		)
 		(uuid "99fd24ed-c549-4c75-839f-9eded5fc6a68")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -3078,39 +2697,23 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 271.78 34.29) (xy 271.78 36.83)
-=======
 			(xy 191.77 93.98) (xy 189.23 93.98)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "a1c31d8f-0330-4e69-ab6c-5668439754f1")
-	)
-	(wire
-		(pts
-			(xy 125.73 36.83) (xy 125.73 39.37)
-=======
 		(uuid "a2fe72ca-bea3-4753-b9ad-030b4506adda")
 	)
 	(wire
 		(pts
 			(xy 189.23 76.2) (xy 191.77 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "a4e7df9b-c7a3-4b6f-817b-b68f4d4004cd")
-=======
 		(uuid "a3cf9e30-9244-4b92-bd17-b942b212d86a")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -3124,11 +2727,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 172.72 76.2) (xy 172.72 74.93)
-=======
 			(xy 127 77.47) (xy 127 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3138,9 +2737,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 87.63 77.47) (xy 87.63 78.74)
-=======
 			(xy 31.75 154.94) (xy 34.29 154.94)
 		)
 		(stroke
@@ -3172,7 +2768,6 @@
 	(wire
 		(pts
 			(xy 41.91 78.74) (xy 41.91 80.01)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3182,39 +2777,23 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 246.38 36.83) (xy 246.38 34.29)
-=======
 			(xy 218.44 99.06) (xy 220.98 99.06)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "bc831404-02ec-4a4d-b669-90fe4831921f")
-	)
-	(wire
-		(pts
-			(xy 195.58 34.29) (xy 195.58 36.83)
-=======
 		(uuid "bbe213c2-256f-4c16-b33f-b533239e5cf6")
 	)
 	(wire
 		(pts
 			(xy 31.75 138.43) (xy 34.29 138.43)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "bd51d803-1b34-4819-b817-6f30af2a43ce")
-=======
 		(uuid "bd837d88-71c0-4550-b201-91f1b219c04c")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -3238,11 +2817,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 223.52 36.83) (xy 234.95 36.83)
-=======
 			(xy 125.73 36.83) (xy 137.16 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3252,19 +2827,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 153.67 34.29) (xy 153.67 36.83)
-=======
 			(xy 31.75 121.92) (xy 34.29 121.92)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "bfd104da-8838-41c0-ad41-ef3911f47b1c")
-=======
 		(uuid "bfde340e-ec3b-47e5-896d-6cd4409f1545")
 	)
 	(wire
@@ -3286,7 +2854,6 @@
 			(type default)
 		)
 		(uuid "c2a74a90-7431-46f7-844a-6e555e26e8cb")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -3300,9 +2867,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 95.25 83.82) (xy 95.25 86.36)
-=======
 			(xy 31.75 143.51) (xy 34.29 143.51)
 		)
 		(stroke
@@ -3314,7 +2878,6 @@
 	(wire
 		(pts
 			(xy 49.53 85.09) (xy 49.53 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3324,11 +2887,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 95.25 86.36) (xy 104.14 86.36)
-=======
 			(xy 49.53 87.63) (xy 58.42 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3338,23 +2897,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 111.76 34.29) (xy 111.76 36.83)
-=======
 			(xy 31.75 157.48) (xy 34.29 157.48)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "c93ad1a0-9a44-4d1d-94b2-f9ae3ebf190a")
-	)
-	(wire
-		(pts
-			(xy 172.72 86.36) (xy 181.61 86.36)
-=======
 		(uuid "c78a4aff-45d2-4dd1-8fa0-f1848fc34570")
 	)
 	(wire
@@ -3380,7 +2928,6 @@
 	(wire
 		(pts
 			(xy 127 87.63) (xy 135.89 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3400,11 +2947,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 157.48 80.01) (xy 154.94 80.01)
-=======
 			(xy 111.76 81.28) (xy 109.22 81.28)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3424,11 +2967,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 172.72 74.93) (xy 182.88 74.93)
-=======
 			(xy 127 76.2) (xy 137.16 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3438,21 +2977,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 181.61 34.29) (xy 181.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75b3c3e-1bee-4c86-8e9e-9d2d74eb893c")
-	)
-	(wire
-		(pts
-			(xy 111.76 36.83) (xy 125.73 36.83)
-=======
 			(xy 97.79 36.83) (xy 125.73 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3462,19 +2987,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 125.73 34.29) (xy 125.73 36.83)
-=======
 			(xy 191.77 93.98) (xy 191.77 96.52)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "e1a17722-e500-4f78-ac0e-0941b59fc0a3")
-=======
 		(uuid "db3fbbcc-00ad-4e06-b472-715991007438")
 	)
 	(wire
@@ -3496,7 +3014,6 @@
 			(type default)
 		)
 		(uuid "e208dc7f-8093-4180-8d92-245269fdfe33")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(wire
 		(pts
@@ -3520,8 +3037,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
 			(xy 110.49 156.21) (xy 113.03 156.21)
 		)
 		(stroke
@@ -3532,7 +3047,6 @@
 	)
 	(wire
 		(pts
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(xy 36.83 36.83) (xy 44.45 36.83)
 		)
 		(stroke
@@ -3543,11 +3057,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 172.72 83.82) (xy 172.72 86.36)
-=======
 			(xy 127 85.09) (xy 127 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3557,11 +3067,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 259.08 34.29) (xy 259.08 36.83)
-=======
 			(xy 148.59 34.29) (xy 148.59 36.83)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3571,47 +3077,27 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 195.58 36.83) (xy 209.55 36.83)
-=======
 			(xy 189.23 91.44) (xy 191.77 91.44)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "ee9ea3bb-6f85-48cf-bcc5-c260f666fb74")
-	)
-	(wire
-		(pts
-			(xy 167.64 36.83) (xy 167.64 39.37)
-=======
 		(uuid "ee862211-46b8-426e-816c-801dc8b25c5c")
 	)
 	(wire
 		(pts
 			(xy 31.75 127) (xy 34.29 127)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "f27e7e0b-e826-4912-b554-b0811c834479")
-	)
-	(wire
-		(pts
-			(xy 77.47 77.47) (xy 87.63 77.47)
-=======
 		(uuid "f1dab743-2f80-4db5-9563-aa49f516c644")
 	)
 	(wire
 		(pts
 			(xy 31.75 78.74) (xy 41.91 78.74)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3621,21 +3107,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 209.55 36.83) (xy 223.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f20eca-00fe-4492-bfd3-e1691e9ba2a8")
-	)
-	(wire
-		(pts
-			(xy 172.72 74.93) (xy 154.94 74.93)
-=======
 			(xy 127 76.2) (xy 109.22 76.2)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3645,11 +3117,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 160.02 86.36) (xy 157.48 86.36)
-=======
 			(xy 114.3 87.63) (xy 111.76 87.63)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3659,29 +3127,17 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 97.79 36.83) (xy 111.76 36.83)
-=======
 			(xy 233.68 73.66) (xy 236.22 73.66)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "fb45d5c9-21b9-445b-b67d-a2da9d9ac3b9")
-	)
-	(wire
-		(pts
-			(xy 223.52 36.83) (xy 223.52 34.29)
-=======
 		(uuid "fafe54cf-3272-4a0b-8524-0ab92e85209f")
 	)
 	(wire
 		(pts
 			(xy 125.73 36.83) (xy 125.73 34.29)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(stroke
 			(width 0)
@@ -3689,10 +3145,6 @@
 		)
 		(uuid "fbc3e811-324a-4fdd-b616-8c6e1b0177b1")
 	)
-<<<<<<< HEAD
-	(label "CANBUS Connector 1"
-		(at 15.24 63.5 0)
-=======
 	(wire
 		(pts
 			(xy 233.68 93.98) (xy 236.22 93.98)
@@ -3705,7 +3157,6 @@
 	)
 	(label "CANBUS Connector 1"
 		(at 223.52 17.78 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3715,11 +3166,7 @@
 		(uuid "636ec59c-ea73-4c0f-a8ce-c23a02bacca1")
 	)
 	(label "Dallas Temp (Ambient Sensors)"
-<<<<<<< HEAD
-		(at 60.96 63.5 0)
-=======
 		(at 15.24 64.77 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3729,11 +3176,7 @@
 		(uuid "6f44bcd9-abbd-4842-b207-465d7678b97e")
 	)
 	(label "Dallas Temp (Exhaust Sensors)"
-<<<<<<< HEAD
-		(at 138.43 63.5 0)
-=======
 		(at 92.71 64.77 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,11 +3186,7 @@
 		(uuid "75ca0785-f1a1-4eb1-975d-bef95804e32d")
 	)
 	(label "CANBUS Connector 2"
-<<<<<<< HEAD
-		(at 15.24 78.74 0)
-=======
 		(at 223.52 41.91 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3766,37 +3205,9 @@
 		)
 		(uuid "b9f1634a-4885-44d2-91d4-c5da1a467b26")
 	)
-<<<<<<< HEAD
-	(global_label "CanH_External"
-		(shape input)
-		(at 31.75 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "014acfa2-b3ff-4c30-8f63-0fc8a5998e43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.1579 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 181.61 86.36 0)
-=======
 	(global_label "+5V"
 		(shape input)
 		(at 113.03 111.76 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3804,11 +3215,6 @@
 			)
 			(justify left)
 		)
-<<<<<<< HEAD
-		(uuid "4c5653e4-b582-43e0-a811-0b0c46d85058")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4657 86.36 0)
-=======
 		(uuid "1220c4c3-82b3-45ca-9c5e-8a659f6f7824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.8857 111.76 0)
@@ -3834,7 +3240,6 @@
 		(uuid "2239d172-1805-476c-9255-7c0df8e98c55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.8857 144.78 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,11 +3251,7 @@
 	)
 	(global_label "CanL_External"
 		(shape input)
-<<<<<<< HEAD
-		(at 31.75 67.31 180)
-=======
 		(at 243.84 44.45 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3858,15 +3259,9 @@
 			)
 			(justify right)
 		)
-<<<<<<< HEAD
-		(uuid "674d33e3-4bec-46ea-9c7a-5c2a98fa66f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.4603 67.31 0)
-=======
 		(uuid "27f93484-0d78-44e0-9e83-29b52b0dea36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.5503 44.45 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,15 +3271,9 @@
 			)
 		)
 	)
-<<<<<<< HEAD
-	(global_label "CanL_External"
-		(shape input)
-		(at 31.75 82.55 180)
-=======
 	(global_label "CANBUS_ISO_GND"
 		(shape input)
 		(at 246.38 26.67 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3892,37 +3281,9 @@
 			)
 			(justify right)
 		)
-<<<<<<< HEAD
-		(uuid "78fdcc6d-cd00-4ca6-89b8-206c7c2fb3c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.4603 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POWER_VIN"
-		(shape input)
-		(at 49.53 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "852cd2f5-8dde-4ed7-b9ae-56d6ab0966af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0824 119.38 0)
-=======
 		(uuid "28c6ffe1-9ba5-4222-b0c5-a7f89b4bbf8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.9452 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,11 +3295,7 @@
 	)
 	(global_label "EXHAUST_TEMPSENSE_1WIRE"
 		(shape input)
-<<<<<<< HEAD
-		(at 182.88 74.93 0)
-=======
 		(at 113.03 123.19 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3946,81 +3303,9 @@
 			)
 			(justify left)
 		)
-<<<<<<< HEAD
-		(uuid "a50b906d-f0d2-4036-8ef5-77247440b443")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6558 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AMBIENT_TEMPSENSE_1WIRE"
-		(shape input)
-		(at 105.41 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1f4267b-3eda-4d6d-9795-adcf99b59211")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7625 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CanH_External"
-		(shape input)
-		(at 31.75 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6b959ef-dbb6-46d5-ad27-14a95b2579a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.1579 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12V"
-		(shape input)
-		(at 274.32 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efb88e88-1c9f-400b-8ae3-0c1487f0c21a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.3852 36.83 0)
-=======
 		(uuid "49438c27-dd90-4803-942a-8bc0e634bce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.8058 123.19 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,9 +3317,6 @@
 	)
 	(global_label "+5V"
 		(shape input)
-<<<<<<< HEAD
-		(at 104.14 86.36 0)
-=======
 		(at 135.89 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4564,7 +3846,6 @@
 	(global_label "+5V"
 		(shape input)
 		(at 58.42 87.63 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4574,11 +3855,7 @@
 		)
 		(uuid "fcc463e2-568d-43c1-9ba7-ed94bf379bbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-<<<<<<< HEAD
-			(at 110.9957 86.36 0)
-=======
 			(at 65.2757 87.63 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,26 +3867,16 @@
 	)
 	(symbol
 		(lib_id "InverterCom:5442251")
-<<<<<<< HEAD
-		(at 77.47 80.01 180)
-=======
 		(at 31.75 127 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "04a7d651-e07f-47ce-99e5-2279d8ef3d5b")
-		(property "Reference" "J5"
-			(at 67.31 67.31 0)
-=======
 		(uuid "03a2cb77-936d-48da-8e87-697fcb05340f")
 		(property "Reference" "J8"
 			(at 21.59 114.3 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,24 +3884,15 @@
 			)
 		)
 		(property "Value" "5442251"
-<<<<<<< HEAD
-			(at 67.31 69.85 0)
-=======
 			(at 21.59 116.84 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "5442251"
-			(at 60.96 -14.91 0)
-=======
 		(property "Footprint" "InverterCom:5442251"
 			(at 15.24 32.08 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,11 +3902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251"
-<<<<<<< HEAD
-			(at 60.96 -114.91 0)
-=======
 			(at 15.24 -67.92 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,11 +3912,7 @@
 			)
 		)
 		(property "Description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH"
-<<<<<<< HEAD
-			(at 75.184 89.916 0)
-=======
 			(at 29.464 136.906 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,11 +3921,7 @@
 			)
 		)
 		(property "Height" "8.65"
-<<<<<<< HEAD
-			(at 60.96 -314.91 0)
-=======
 			(at 15.24 -267.92 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,11 +3931,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-5442251"
-<<<<<<< HEAD
-			(at 60.96 -414.91 0)
-=======
 			(at 15.24 -367.92 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,11 +3941,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D"
-<<<<<<< HEAD
-			(at 60.96 -514.91 0)
-=======
 			(at 15.24 -467.92 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,11 +3951,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-<<<<<<< HEAD
-			(at 60.96 -614.91 0)
-=======
 			(at 15.24 -567.92 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,9 +3961,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "5442251"
-<<<<<<< HEAD
-			(at 60.96 -714.91 0)
-=======
 			(at 15.24 -667.92 0)
 			(effects
 				(font
@@ -4854,7 +4085,6 @@
 		)
 		(property "Manufacturer_Part_Number" "5442251"
 			(at 15.24 -713.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,8 +4112,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-=======
 		(lib_id "InverterCom:5442251")
 		(at 110.49 111.76 180)
 		(unit 1)
@@ -5130,7 +4358,6 @@
 		)
 	)
 	(symbol
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "InverterCom:UVY1E102MPD1TD")
 		(at 69.85 39.37 270)
 		(unit 1)
@@ -5254,11 +4481,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 223.52 43.18 0)
-=======
 		(at 125.73 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5267,11 +4490,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab5cf1d-74e3-4463-b21c-b0e2abb2c19b")
 		(property "Reference" "C26"
-<<<<<<< HEAD
-			(at 227.33 41.9099 0)
-=======
 			(at 129.54 41.9099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,11 +4499,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 227.33 44.4499 0)
-=======
 			(at 129.54 44.4499 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,11 +4508,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 224.4852 46.99 0)
-=======
 			(at 126.6952 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,11 +4517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 223.52 43.18 0)
-=======
 			(at 125.73 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,11 +4526,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 223.52 43.18 0)
-=======
 			(at 125.73 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,18 +4550,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Device:C")
-		(at 259.08 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11d748db-a60c-4e44-b05f-450191315fc4")
-		(property "Reference" "C32"
-			(at 262.89 41.9099 0)
-=======
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 115.57 0)
 		(unit 1)
@@ -5370,7 +4561,6 @@
 		(uuid "10fdbaa4-a516-4ac5-ba08-36612f5a6561")
 		(property "Reference" "H2"
 			(at 201.93 113.0299 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,13 +4568,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "100nF"
-			(at 262.89 44.45 0)
-=======
 		(property "Value" "MountingHole_Pad"
 			(at 201.93 115.5699 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,13 +4577,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 260.0452 46.99 0)
-=======
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 199.39 115.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,9 +4587,6 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 259.08 43.18 0)
-=======
 			(at 199.39 115.57 0)
 			(effects
 				(font
@@ -5477,7 +4654,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 148.59 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,11 +4662,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 259.08 43.18 0)
-=======
 			(at 148.59 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,79 +4752,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 271.78 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a67f73-ea2c-4da7-8fb7-2ca0ef5fa3e1")
-		(property "Reference" "#PWR079"
-			(at 271.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b93a6866-bab8-4417-b2a9-743482ae8055")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 95.25 90.17 0)
-=======
 		(lib_id "Device:C")
 		(at 49.53 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5661,11 +4762,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ee2585-8af8-44ca-aa05-c2756d3a9ef1")
 		(property "Reference" "C71"
-<<<<<<< HEAD
-			(at 99.06 88.8999 0)
-=======
 			(at 53.34 90.1699 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,11 +4771,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 99.06 91.4399 0)
-=======
 			(at 53.34 92.7099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,11 +4780,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 96.2152 93.98 0)
-=======
 			(at 50.4952 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,11 +4789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 95.25 90.17 0)
-=======
 			(at 49.53 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,11 +4798,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 95.25 90.17 0)
-=======
 			(at 49.53 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,11 +4823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 234.95 26.67 180)
-=======
 		(at 137.16 26.67 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5755,11 +4832,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ead71dc-53a0-413e-a1d8-d87881c62bc5")
 		(property "Reference" "#PWR076"
-<<<<<<< HEAD
-			(at 234.95 20.32 0)
-=======
 			(at 137.16 20.32 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,11 +4841,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 234.95 21.59 0)
-=======
 			(at 137.16 21.59 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,11 +4849,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 234.95 26.67 0)
-=======
 			(at 137.16 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,11 +4858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 234.95 26.67 0)
-=======
 			(at 137.16 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,11 +4867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 234.95 26.67 0)
-=======
 			(at 137.16 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,124 +4888,33 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 139.7 21.59 180)
-=======
 		(lib_id "InverterCom:5442251")
 		(at 31.75 143.51 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "233eedb1-a060-4d6f-ba11-58d7f3884793")
-		(property "Reference" "#PWR017"
-			(at 139.7 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 16.51 0)
-=======
 		(uuid "2504d0bc-f8ec-4f19-8ab1-1da63da30bac")
 		(property "Reference" "J9"
 			(at 21.59 130.81 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 139.7 21.59 0)
-=======
 		(property "Value" "5442251"
 			(at 21.59 133.35 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4c18bb6-c734-43f7-921b-b7874759f293")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 111.76 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25873d07-6671-486e-ae4d-09f25e590ba5")
-		(property "Reference" "C11"
-			(at 115.57 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 115.57 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 15.57 48.26 0)
-=======
 			)
 		)
 		(property "Footprint" "InverterCom:5442251"
 			(at 15.24 48.59 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,13 +4923,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -84.43 48.26 0)
-=======
 		(property "Datasheet" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251"
 			(at 15.24 -51.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,13 +4933,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 111.76 39.37 0)
-=======
 		(property "Description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH"
 			(at 29.464 153.416 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,13 +4942,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at -284.43 48.26 0)
-=======
 		(property "Height" "8.65"
 			(at 15.24 -251.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,13 +4952,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -384.43 48.26 0)
-=======
 		(property "Mouser Part Number" "651-5442251"
 			(at 15.24 -351.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,13 +4962,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -484.43 48.26 0)
-=======
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D"
 			(at 15.24 -451.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,13 +4972,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Name" "Nichicon"
-			(at -584.43 48.26 0)
-=======
 		(property "Manufacturer_Name" "Phoenix Contact"
 			(at 15.24 -551.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,13 +4982,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -684.43 48.26 0)
-=======
 		(property "Manufacturer_Part_Number" "5442251"
 			(at 15.24 -651.41 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,13 +4992,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(pin "2"
-			(uuid "ee943b64-9a4f-42cb-8f1d-bef0b923cc83")
-		)
-		(pin "1"
-			(uuid "2ffde72a-532f-48dc-939a-f79c88d15c17")
-=======
 		(pin "3"
 			(uuid "1ae6c860-dc80-4b1d-9a61-cbedc3a5966e")
 		)
@@ -6076,16 +5000,11 @@
 		)
 		(pin "1"
 			(uuid "7fc3173b-c636-453c-88d2-3b071cf74ef5")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C11")
-=======
 					(reference "J9")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -6158,201 +5077,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 246.38 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26f67798-201c-43a5-a548-b990fd70df2a")
-		(property "Reference" "#PWR078"
-			(at 246.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "814afb35-bc97-4da4-8b13-82f8c77e1ccb")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 153.67 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "271bd768-1f33-44f4-a19c-2231062d5a70")
-		(property "Reference" "C17"
-			(at 157.48 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 157.48 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 57.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -42.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 153.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at -242.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -342.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -442.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -542.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -642.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ed81354-1757-4567-8b24-ae842867ec1a")
-		)
-		(pin "1"
-			(uuid "23a96b60-e949-460e-81b0-96d84b65238e")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 90.17 0)
-=======
 		(lib_id "Device:C")
 		(at 114.3 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6360,11 +5086,7 @@
 		(dnp no)
 		(uuid "27f81e6a-bf39-4c1d-a4b4-8236af54bf7b")
 		(property "Reference" "C72"
-<<<<<<< HEAD
-			(at 163.83 88.8999 0)
-=======
 			(at 118.11 90.1699 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,11 +5095,7 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< HEAD
-			(at 163.83 91.44 0)
-=======
 			(at 118.11 92.71 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,11 +5104,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 160.9852 93.98 0)
-=======
 			(at 115.2652 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,11 +5113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 160.02 90.17 0)
-=======
 			(at 114.3 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,11 +5122,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 160.02 90.17 0)
-=======
 			(at 114.3 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,26 +5147,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 125.73 21.59 180)
-=======
 		(at 113.03 125.73 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "3188f9cf-0a0f-4eda-9fe2-1e259f58f5d7")
-		(property "Reference" "#PWR015"
-			(at 125.73 15.24 0)
-=======
 		(uuid "2a9d0f01-e0d4-4274-aaf1-d33656f1f941")
 		(property "Reference" "#PWR0120"
 			(at 119.38 125.73 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,27 +5165,16 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 125.73 16.51 0)
-=======
 			(at 116.84 125.7299 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 21.59 0)
-=======
 				(justify right)
 			)
 		)
 		(property "Footprint" ""
 			(at 113.03 125.73 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,11 +5183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 125.73 21.59 0)
-=======
 			(at 113.03 125.73 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,11 +5192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 125.73 21.59 0)
-=======
 			(at 113.03 125.73 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,18 +5201,11 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "58d33f39-6c96-43c0-9801-d89e3c59b070")
-=======
 			(uuid "4a45d5f7-0f92-4ac8-9196-ed935179ba8e")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "#PWR015")
-=======
 					(reference "#PWR0120")
 					(unit 1)
 				)
@@ -6660,7 +5330,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "J24")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -6734,11 +5403,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 234.95 43.18 0)
-=======
 		(at 137.16 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6747,11 +5412,7 @@
 		(fields_autoplaced yes)
 		(uuid "32367cba-0e99-4310-a2a2-924e243671c9")
 		(property "Reference" "C27"
-<<<<<<< HEAD
-			(at 238.76 41.9099 0)
-=======
 			(at 140.97 41.9099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,11 +5421,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 238.76 44.4499 0)
-=======
 			(at 140.97 44.4499 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,11 +5430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 235.9152 46.99 0)
-=======
 			(at 138.1252 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,11 +5439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 234.95 43.18 0)
-=======
 			(at 137.16 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,11 +5448,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 234.95 43.18 0)
-=======
 			(at 137.16 43.18 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,201 +5472,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 181.61 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3472bb5e-d821-479e-9169-da5bb5eb31b6")
-		(property "Reference" "C20"
-			(at 185.42 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 185.42 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 277.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 377.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 181.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 577.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 677.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 777.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 877.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 977.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c15572c9-ea1a-4a6e-818e-549d973c42d6")
-		)
-		(pin "2"
-			(uuid "81e181ef-b0c8-4b95-9aca-9fd953c5feb9")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "395ca90a-1d13-4b2c-96b5-8e1031e655d8")
-		(property "Reference" "#PWR026"
-			(at 195.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c977158-0542-4a78-b1c6-b28984a6fe4d")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 46.99 0)
-=======
 		(lib_id "power:GND")
 		(at 125.73 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7030,11 +5482,7 @@
 		(fields_autoplaced yes)
 		(uuid "39b27c84-facd-421a-b57e-7500f20d7d83")
 		(property "Reference" "#PWR073"
-<<<<<<< HEAD
-			(at 223.52 53.34 0)
-=======
 			(at 125.73 53.34 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,11 +5491,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 223.52 52.07 0)
-=======
 			(at 125.73 52.07 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,11 +5499,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 223.52 46.99 0)
-=======
 			(at 125.73 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,11 +5508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 223.52 46.99 0)
-=======
 			(at 125.73 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,11 +5517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 223.52 46.99 0)
-=======
 			(at 125.73 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,60 +5670,33 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 209.55 39.37 270)
-=======
 		(lib_id "InverterCom:38969-0002")
 		(at 185.42 27.94 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "3d07f3ff-1e7d-442e-9664-ada9c5d02715")
-		(property "Reference" "C25"
-			(at 213.36 44.4499 90)
-=======
 		(uuid "40127f0f-9c96-468d-a878-2998e672a974")
 		(property "Reference" "J13"
 			(at 195.58 20.32 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 213.36 46.9899 90)
-=======
 			)
 		)
 		(property "Value" "38969-0002"
 			(at 195.58 22.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 113.36 48.26 0)
-=======
 			)
 		)
 		(property "Footprint" "InverterCom:389690002"
 			(at 201.93 122.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,13 +5705,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 13.36 48.26 0)
-=======
 		(property "Datasheet" ""
 			(at 201.93 222.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,13 +5715,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 209.55 39.37 0)
-=======
 		(property "Description" "Barrier Terminal Blocks"
 			(at 190.246 21.59 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,13 +5724,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at -186.64 48.26 0)
-=======
 		(property "Height" "21.9"
 			(at 201.93 422.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,13 +5734,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -286.64 48.26 0)
-=======
 		(property "Mouser Part Number" "538-38969-0002"
 			(at 201.93 522.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,13 +5744,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -386.64 48.26 0)
-=======
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
 			(at 201.93 622.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,13 +5754,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Name" "Nichicon"
-			(at -486.64 48.26 0)
-=======
 		(property "Manufacturer_Name" "Molex"
 			(at 201.93 722.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,135 +5764,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -586.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b464be7d-0126-48e9-bd2e-274d4615936f")
-		)
-		(pin "1"
-			(uuid "6a160754-31d5-4046-8291-bb5f4e02f545")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 153.67 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "414dc2b5-39b3-41f3-ac41-3929744729b7")
-		(property "Reference" "C16"
-			(at 157.48 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 157.48 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 249.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 349.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 153.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 549.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 649.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 749.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 849.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 949.86 25.4 0)
-=======
 		(property "Manufacturer_Part_Number" "38969-0002"
 			(at 201.93 822.86 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,17 +5775,6 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "7981b002-90fe-458c-8391-bebf767f8d6e")
-		)
-		(pin "2"
-			(uuid "3f7d153e-ae65-4b32-bb68-8732146f70be")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C16")
-=======
 			(uuid "38af4e67-1615-4583-a2cd-e947377d6c22")
 		)
 		(pin "2"
@@ -7547,7 +5784,6 @@
 			(project ""
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "J13")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -7555,11 +5791,7 @@
 	)
 	(symbol
 		(lib_id "InverterCom:5442251")
-<<<<<<< HEAD
-		(at 154.94 80.01 180)
-=======
 		(at 109.22 81.28 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7568,11 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "43d5f2ef-3a88-409a-96ab-6c684c740408")
 		(property "Reference" "J6"
-<<<<<<< HEAD
-			(at 144.78 67.31 0)
-=======
 			(at 99.06 68.58 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,24 +5808,15 @@
 			)
 		)
 		(property "Value" "5442251"
-<<<<<<< HEAD
-			(at 144.78 69.85 0)
-=======
 			(at 99.06 71.12 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "5442251"
-			(at 138.43 -14.91 0)
-=======
 		(property "Footprint" "InverterCom:5442251"
 			(at 92.71 -13.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,11 +5826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251"
-<<<<<<< HEAD
-			(at 138.43 -114.91 0)
-=======
 			(at 92.71 -113.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,11 +5836,7 @@
 			)
 		)
 		(property "Description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH"
-<<<<<<< HEAD
-			(at 152.654 89.916 0)
-=======
 			(at 106.934 91.186 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,11 +5845,7 @@
 			)
 		)
 		(property "Height" "8.65"
-<<<<<<< HEAD
-			(at 138.43 -314.91 0)
-=======
 			(at 92.71 -313.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,11 +5855,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-5442251"
-<<<<<<< HEAD
-			(at 138.43 -414.91 0)
-=======
 			(at 92.71 -413.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,11 +5865,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D"
-<<<<<<< HEAD
-			(at 138.43 -514.91 0)
-=======
 			(at 92.71 -513.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,11 +5875,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-<<<<<<< HEAD
-			(at 138.43 -614.91 0)
-=======
 			(at 92.71 -613.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,11 +5885,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "5442251"
-<<<<<<< HEAD
-			(at 138.43 -714.91 0)
-=======
 			(at 92.71 -713.64 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,44 +5913,25 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 167.64 21.59 180)
-=======
 		(lib_id "Device:C")
 		(at 214.63 87.63 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "4490e0cb-1ad5-4099-b3c3-56d6a45c71e9")
-		(property "Reference" "#PWR021"
-			(at 167.64 15.24 0)
-=======
 		(uuid "440a9d33-7c43-4490-b3c5-ef606ef5331c")
 		(property "Reference" "C1"
 			(at 214.63 80.01 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 16.51 0)
-=======
 			)
 		)
 		(property "Value" "100nF"
 			(at 214.63 82.55 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,11 +5939,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 167.64 21.59 0)
-=======
 			(at 218.44 86.6648 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,13 +5947,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" ""
-			(at 167.64 21.59 0)
-=======
 		(property "Datasheet" "~"
 			(at 214.63 87.63 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,13 +5956,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 21.59 0)
-=======
 		(property "Description" "Unpolarized capacitor"
 			(at 214.63 87.63 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,15 +5965,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(pin "1"
-			(uuid "da662ec2-853b-43ea-a89e-8a6964e8a91c")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR021")
-=======
 		(pin "2"
 			(uuid "746dd104-92cf-42d4-aa0c-01f101e2660a")
 		)
@@ -7826,7 +5975,6 @@
 			(project ""
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "C1")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -7955,79 +6103,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 125.73 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48cbcf81-984d-44a7-9c8c-578d93034557")
-		(property "Reference" "#PWR016"
-			(at 125.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b0309cf-952b-4131-8810-514e296ee7dc")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 80.01 0)
-=======
 		(lib_id "Device:R")
 		(at 49.53 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8036,11 +6113,7 @@
 		(fields_autoplaced yes)
 		(uuid "497417cc-fe18-4728-a0f6-85ca1c62f8f5")
 		(property "Reference" "R1"
-<<<<<<< HEAD
-			(at 97.79 78.7399 0)
-=======
 			(at 52.07 80.0099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,11 +6122,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-<<<<<<< HEAD
-			(at 97.79 81.2799 0)
-=======
 			(at 52.07 82.5499 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,13 +6130,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 93.472 80.01 90)
-=======
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 47.752 81.28 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,11 +6140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 95.25 80.01 0)
-=======
 			(at 49.53 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,11 +6149,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-<<<<<<< HEAD
-			(at 95.25 80.01 0)
-=======
 			(at 49.53 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,8 +6173,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-=======
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 175.26 115.57 0)
 		(unit 1)
@@ -8186,7 +6240,6 @@
 		)
 	)
 	(symbol
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "InverterCom:1987724")
 		(at 36.83 30.48 90)
 		(unit 1)
@@ -8319,19 +6372,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 209.55 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e96794-1aa9-4f00-a658-4d0548eca05a")
-		(property "Reference" "#PWR027"
-			(at 209.55 15.24 0)
-=======
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 124.46 0)
 		(unit 1)
@@ -8361,7 +6401,6 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 199.39 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,21 +6408,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "GND"
-			(at 209.55 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 21.59 0)
-=======
 		(property "Datasheet" "~"
 			(at 199.39 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,22 +6417,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" ""
-			(at 209.55 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 21.59 0)
-=======
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,20 +6427,12 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "21855666-017a-4cd5-8946-be295fc7fe06")
-=======
 			(uuid "fd6e0559-f16d-458c-abf8-03d55f27d15e")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "#PWR027")
-=======
 					(reference "H8")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -8436,11 +6440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 160.02 93.98 0)
-=======
 		(at 114.3 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8449,11 +6449,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f9adba-ea50-46a9-ae5f-4f4d2adf4e36")
 		(property "Reference" "#PWR098"
-<<<<<<< HEAD
-			(at 160.02 100.33 0)
-=======
 			(at 114.3 101.6 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,11 +6458,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 160.02 99.06 0)
-=======
 			(at 114.3 100.33 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,11 +6466,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 160.02 93.98 0)
-=======
 			(at 114.3 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,11 +6475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 160.02 93.98 0)
-=======
 			(at 114.3 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,11 +6484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 160.02 93.98 0)
-=======
 			(at 114.3 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,11 +6506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 223.52 30.48 180)
-=======
 		(at 125.73 30.48 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8538,11 +6514,7 @@
 		(dnp no)
 		(uuid "539a74db-2e75-4946-92ef-8cdd6bfc95f7")
 		(property "Reference" "C28"
-<<<<<<< HEAD
-			(at 230.886 31.242 0)
-=======
 			(at 133.096 31.242 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,11 +6523,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 230.886 28.702 0)
-=======
 			(at 133.096 28.702 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,11 +6532,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 222.5548 26.67 0)
-=======
 			(at 124.7648 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,11 +6541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 223.52 30.48 0)
-=======
 			(at 125.73 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,11 +6550,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 223.52 30.48 0)
-=======
 			(at 125.73 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,24 +6574,14 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 209.55 34.29 90)
-=======
 		(lib_id "power:GNDPWR")
 		(at 207.01 27.94 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "5746e80b-3bda-4e25-afdd-79f8e0e77c33")
-		(property "Reference" "C24"
-			(at 213.36 26.6699 90)
-=======
 		(uuid "5c83b1fa-5986-4a9c-ae76-8c968176d367")
 		(property "Reference" "#PWR015"
 			(at 212.09 27.94 0)
@@ -8648,7 +6594,6 @@
 		)
 		(property "Value" "GNDPWR"
 			(at 210.82 28.0669 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,42 +6601,8 @@
 				(justify right)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "1000uF"
-			(at 213.36 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 305.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 405.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 209.55 34.29 0)
-=======
 		(property "Footprint" ""
 			(at 208.28 27.94 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,79 +6610,25 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at 605.74 25.4 0)
-=======
 		(property "Datasheet" ""
 			(at 208.28 27.94 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 705.74 25.4 0)
-=======
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 207.01 27.94 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 805.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 905.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 1005.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 				(hide yes)
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "07519911-4370-47e8-9302-472ebe76f52f")
-		)
-		(pin "2"
-			(uuid "a7611e8a-1d97-4841-b240-f3b2070974cf")
-=======
 			(uuid "e6449606-07b0-437c-a79d-0ef8430749f4")
 		)
 		(instances
@@ -8840,14 +6697,10 @@
 		)
 		(pin "1"
 			(uuid "43f29919-9378-4aa7-a31b-f9bb54f52bcd")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C24")
-=======
 					(reference "#PWR0127")
 					(unit 1)
 				)
@@ -8974,7 +6827,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "J15")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -9104,11 +6956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 82.55 90.17 0)
-=======
 		(at 36.83 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9116,11 +6964,7 @@
 		(dnp no)
 		(uuid "618785c7-bba2-4083-a130-86bd6c8b287c")
 		(property "Reference" "C70"
-<<<<<<< HEAD
-			(at 86.36 88.8999 0)
-=======
 			(at 40.64 90.1699 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,11 +6973,7 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< HEAD
-			(at 86.36 91.44 0)
-=======
 			(at 40.64 92.71 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,11 +6982,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 83.5152 93.98 0)
-=======
 			(at 37.7952 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,11 +6991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 82.55 90.17 0)
-=======
 			(at 36.83 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,11 +7000,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 82.55 90.17 0)
-=======
 			(at 36.83 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,441 +7024,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 139.7 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "618a938d-410d-4adf-b506-b306c10f2c48")
-		(property "Reference" "C15"
-			(at 143.51 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 143.51 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 43.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -56.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at -256.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -356.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -456.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -556.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -656.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d020d52c-a6c7-4b09-ba22-df8f5f817ba5")
-		)
-		(pin "1"
-			(uuid "34d76474-6cce-48b2-80bd-7599fef59a45")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61d6b61d-fab4-4990-8fd9-141178103fdd")
-		(property "Reference" "#PWR024"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1adef301-a1c4-4ada-ae46-b0d482f8e84a")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 167.64 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6316cd62-5d22-410b-bdcf-3fdeb91f8ea7")
-		(property "Reference" "C19"
-			(at 171.45 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 171.45 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 71.45 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -28.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 167.64 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at -228.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -328.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -428.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -528.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -628.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2612c36-c08d-448c-9b99-7ab42f4f6944")
-		)
-		(pin "1"
-			(uuid "56c03bf9-ff6a-4050-bb5a-149b22ed4129")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 167.64 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63d9052f-9aa6-4857-b7f5-613907f7083f")
-		(property "Reference" "C18"
-			(at 171.45 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 171.45 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 263.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 363.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 167.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 563.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 663.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 763.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 863.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 963.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74d2678e-f556-4c8a-b8f8-a1ab735f8ab0")
-		)
-		(pin "2"
-			(uuid "15f4e0c7-31d2-4365-b632-9c3b922efdfc")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "power:GND")
 		(at 97.79 21.59 180)
 		(unit 1)
@@ -9697,46 +7090,17 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Device:C")
-		(at 246.38 43.18 0)
-=======
 		(lib_id "power:GND")
 		(at 34.29 107.95 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "6743d9d7-83ea-4e83-871e-33dd5e949f22")
-		(property "Reference" "C31"
-			(at 250.19 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 250.19 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 247.3452 46.99 0)
-=======
 		(uuid "68d36ff3-ae3d-419e-826e-344f82fba1be")
 		(property "Reference" "#PWR0116"
 			(at 40.64 107.95 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,10 +7108,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" "~"
-			(at 246.38 43.18 0)
-=======
 		(property "Value" "GND"
 			(at 38.1 107.9499 90)
 			(effects
@@ -9759,7 +7119,6 @@
 		)
 		(property "Footprint" ""
 			(at 34.29 107.95 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,10 +7126,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Unpolarized capacitor"
-			(at 246.38 43.18 0)
-=======
 		(property "Datasheet" ""
 			(at 34.29 107.95 0)
 			(effects
@@ -9782,7 +7137,6 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 107.95 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9791,21 +7145,11 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "888cc9f0-1dd4-4d5a-b261-751d94c50487")
-		)
-		(pin "2"
-			(uuid "126bea56-7b1c-424a-83ec-0d35a5375f61")
-=======
 			(uuid "223f0b51-b066-4f7c-be7e-762031b485df")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C31")
-=======
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -10187,7 +7531,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "J25")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -10260,145 +7603,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:1987724")
-		(at 31.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "704c5525-aafe-423d-83f5-6f45c2335a13")
-		(property "Reference" "J4"
-			(at 48.26 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1987724"
-			(at 48.26 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:1987724"
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/1075322.pdf"
-			(at 48.26 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phoenix Contact PT 2.5/ 2-5.0-V PCB Terminal Block, 2 Way/Pole, Screw Terminals, 20  10 AWG Through Hole,"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phoenix Contact PT 2.5/ 2-5.0-V PCB Terminal Block, 2 Way/Pole, Screw Terminals, 20  10 AWG Through Hole,"
-			(at 48.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.15"
-			(at 48.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1987724"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1987724?qs=gjk32EaArKIePzXcIKo3jg%3D%3D"
-			(at 48.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 48.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1987724"
-			(at 48.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a45028-309d-4044-b524-7558cde78c24")
-		)
-		(pin "2"
-			(uuid "de4435dc-635d-40d0-a31b-c96e84f290e4")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 46.99 0)
-=======
 		(lib_id "power:GND")
 		(at 137.16 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10407,11 +7613,7 @@
 		(fields_autoplaced yes)
 		(uuid "77d67639-c683-41b9-9be2-b67c4b1107ab")
 		(property "Reference" "#PWR074"
-<<<<<<< HEAD
-			(at 234.95 53.34 0)
-=======
 			(at 137.16 53.34 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,11 +7622,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 234.95 52.07 0)
-=======
 			(at 137.16 52.07 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,11 +7630,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 234.95 46.99 0)
-=======
 			(at 137.16 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,11 +7639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 234.95 46.99 0)
-=======
 			(at 137.16 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,11 +7648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 234.95 46.99 0)
-=======
 			(at 137.16 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10549,60 +7735,33 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 125.73 39.37 270)
-=======
 		(lib_id "InverterCom:5442251")
 		(at 110.49 128.27 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "7e1ef5e6-53eb-4f30-9f3e-d694784e72e0")
-		(property "Reference" "C13"
-			(at 129.54 44.4499 90)
-=======
 		(uuid "8324336a-5d55-47a8-845b-71cdc7b2068e")
 		(property "Reference" "J11"
 			(at 100.33 115.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 129.54 46.9899 90)
-=======
 			)
 		)
 		(property "Value" "5442251"
 			(at 100.33 118.11 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 29.54 48.26 0)
-=======
 			)
 		)
 		(property "Footprint" "InverterCom:5442251"
 			(at 93.98 33.35 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,13 +7770,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -70.46 48.26 0)
-=======
 		(property "Datasheet" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251"
 			(at 93.98 -66.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,13 +7780,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 125.73 39.37 0)
-=======
 		(property "Description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH"
 			(at 108.204 138.176 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,13 +7789,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at -270.46 48.26 0)
-=======
 		(property "Height" "8.65"
 			(at 93.98 -266.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10655,13 +7799,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -370.46 48.26 0)
-=======
 		(property "Mouser Part Number" "651-5442251"
 			(at 93.98 -366.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,13 +7809,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -470.46 48.26 0)
-=======
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D"
 			(at 93.98 -466.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,13 +7819,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Name" "Nichicon"
-			(at -570.46 48.26 0)
-=======
 		(property "Manufacturer_Name" "Phoenix Contact"
 			(at 93.98 -566.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,13 +7829,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -670.46 48.26 0)
-=======
 		(property "Manufacturer_Part_Number" "5442251"
 			(at 93.98 -666.65 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,13 +7839,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(pin "2"
-			(uuid "a79b7d7c-4924-4ab8-b855-679722bdc899")
-		)
-		(pin "1"
-			(uuid "953413c4-fc5e-4d4f-8743-478cf63d8387")
-=======
 		(pin "3"
 			(uuid "dc1bd735-68cf-4fc8-b8d1-d628968c5425")
 		)
@@ -10730,82 +7847,11 @@
 		)
 		(pin "1"
 			(uuid "f143fd33-874e-4112-9052-0e56595f6a3c")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "817aa6a8-bda9-4fa4-9e59-f489ebcacb8b")
-		(property "Reference" "#PWR028"
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bdf7e68-7013-49ac-afd9-9db3bb771ffe")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR028")
-=======
 					(reference "J11")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -11000,10 +8046,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 87.63 78.74 0)
-=======
 		(lib_id "Device:C")
 		(at 214.63 99.06 90)
 		(unit 1)
@@ -11074,7 +8116,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 41.91 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11083,11 +8124,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e04bdf3-f831-4c4a-87ba-e585472d975f")
 		(property "Reference" "#PWR097"
-<<<<<<< HEAD
-			(at 87.63 85.09 0)
-=======
 			(at 41.91 86.36 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,11 +8133,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 87.63 83.82 0)
-=======
 			(at 41.91 85.09 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,11 +8141,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 87.63 78.74 0)
-=======
 			(at 41.91 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,11 +8150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 87.63 78.74 0)
-=======
 			(at 41.91 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,11 +8159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 87.63 78.74 0)
-=======
 			(at 41.91 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,93 +8180,14 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Device:C")
-		(at 271.78 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ecb8a5a-da8b-4886-be13-c4efd6406d66")
-		(property "Reference" "C35"
-			(at 279.908 30.9881 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 279.908 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 270.8148 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4311c1f2-f811-47e6-9c58-7610673946b7")
-		)
-		(pin "2"
-			(uuid "446d0848-58bb-4576-9a43-1ddd120961d2")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 125.73 34.29 90)
-=======
 		(lib_id "power:GND")
 		(at 34.29 140.97 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "90050e23-df05-4c41-b143-5b678f2ba8cd")
-		(property "Reference" "C12"
-			(at 129.54 26.6699 90)
-=======
 		(uuid "96dc60e4-f998-4a7f-a4b6-4e6432741f2a")
 		(property "Reference" "#PWR0118"
 			(at 40.64 140.97 0)
@@ -11258,7 +8200,6 @@
 		)
 		(property "Value" "GND"
 			(at 38.1 140.9699 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,42 +8207,8 @@
 				(justify right)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "1000uF"
-			(at 129.54 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 221.92 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 321.92 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 125.73 34.29 0)
-=======
 		(property "Footprint" ""
 			(at 34.29 140.97 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,334 +8216,31 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at 521.92 25.4 0)
-=======
 		(property "Datasheet" ""
 			(at 34.29 140.97 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 621.92 25.4 0)
-=======
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 140.97 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 721.92 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 821.92 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 921.92 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-=======
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 				(hide yes)
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "2bd8b690-2799-4a9c-9f8f-29cf21e5aa1b")
-		)
-		(pin "2"
-			(uuid "58937756-2239-490c-a9a1-6d8f061bb79b")
-=======
 			(uuid "dc3779f3-2bb0-4a5b-bfd8-74ab3c8e3c19")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 139.7 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98683ae9-aa57-40ff-af8a-171dfa4deccc")
-		(property "Reference" "C14"
-			(at 143.51 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 143.51 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 235.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 335.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 139.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 535.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 635.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 735.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 835.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 935.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be940af2-064d-477a-8cd7-c6c16995767a")
-		)
-		(pin "2"
-			(uuid "d131c015-dc6e-49d4-abcd-551c38280364")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 111.76 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a54f64a0-d927-492d-ae94-c72b322d7b0c")
-		(property "Reference" "C10"
-			(at 115.57 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 115.57 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 207.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 307.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 111.76 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 507.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 607.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 707.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 807.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 907.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65f18f62-bfcd-4e4f-ad7a-da77aa3b5ac9")
-		)
-		(pin "2"
-			(uuid "4018639c-a093-48a5-b89c-f80ec1c3f204")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C10")
-=======
 					(reference "#PWR0118")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -11832,11 +8436,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 172.72 90.17 0)
-=======
 		(at 127 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11845,11 +8445,7 @@
 		(fields_autoplaced yes)
 		(uuid "a971ba6c-2ba9-453f-a2eb-69bfcbc2f74c")
 		(property "Reference" "C73"
-<<<<<<< HEAD
-			(at 176.53 88.8999 0)
-=======
 			(at 130.81 90.1699 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,11 +8454,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 176.53 91.4399 0)
-=======
 			(at 130.81 92.7099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,11 +8463,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 173.6852 93.98 0)
-=======
 			(at 127.9652 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,11 +8472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 172.72 90.17 0)
-=======
 			(at 127 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,11 +8481,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 172.72 90.17 0)
-=======
 			(at 127 91.44 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,11 +8506,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 95.25 93.98 0)
-=======
 		(at 49.53 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11939,11 +8515,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa9f38da-58f4-4bc6-bcd6-0a4127416624")
 		(property "Reference" "#PWR096"
-<<<<<<< HEAD
-			(at 95.25 100.33 0)
-=======
 			(at 49.53 101.6 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,11 +8524,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 95.25 99.06 0)
-=======
 			(at 49.53 100.33 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,11 +8532,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 95.25 93.98 0)
-=======
 			(at 49.53 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,11 +8541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 95.25 93.98 0)
-=======
 			(at 49.53 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,11 +8550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 95.25 93.98 0)
-=======
 			(at 49.53 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,85 +8571,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 195.58 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acd2d14f-4783-40f8-8216-61cc4c2780f5")
-		(property "Reference" "#PWR025"
-			(at 195.58 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93a0b4f2-aa10-4aea-b303-cea8cd1f8d30")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:1987724")
-		(at 31.75 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aefc735f-924e-4af1-812c-8fccbbfcca24")
-		(property "Reference" "J3"
-			(at 48.26 67.3099 0)
-=======
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 175.26 124.46 0)
 		(unit 1)
@@ -12105,7 +8582,6 @@
 		(uuid "b19a8e43-f800-4d40-bf80-5c9edbb92e7a")
 		(property "Reference" "H7"
 			(at 177.8 121.9199 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,13 +8589,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "1987724"
-			(at 48.26 69.8499 0)
-=======
 		(property "Value" "MountingHole_Pad"
 			(at 177.8 124.4599 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12127,210 +8598,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "InverterCom:1987724"
-			(at 48.26 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/1075322.pdf"
-			(at 48.26 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phoenix Contact PT 2.5/ 2-5.0-V PCB Terminal Block, 2 Way/Pole, Screw Terminals, 20  10 AWG Through Hole,"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phoenix Contact PT 2.5/ 2-5.0-V PCB Terminal Block, 2 Way/Pole, Screw Terminals, 20  10 AWG Through Hole,"
-			(at 48.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.15"
-			(at 48.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1987724"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1987724?qs=gjk32EaArKIePzXcIKo3jg%3D%3D"
-			(at 48.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1987724"
-			(at 48.26 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93975558-10e4-4fd7-b5d6-2e3bfc6719b5")
-		)
-		(pin "2"
-			(uuid "94fd3a47-ba0c-4140-bbfc-17dc28dccdc2")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af2be25c-13ef-4fad-b862-b43a9b93b0d9")
-		(property "Reference" "#PWR023"
-			(at 181.61 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d18959c8-d50a-41ed-b0e0-315484c8882e")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 271.78 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1a47789-0380-43a7-8b96-3e8f98490512")
-		(property "Reference" "C33"
-			(at 275.59 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 275.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 272.7452 46.99 0)
-=======
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 175.26 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12339,11 +8608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 271.78 43.18 0)
-=======
 			(at 175.26 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,13 +8616,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 43.18 0)
-=======
 		(property "Description" "Mounting Hole with connection"
 			(at 175.26 124.46 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,277 +8626,12 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "c2cc96d7-a8f6-4f4b-9048-fda6fc8c5fcc")
-		)
-		(pin "2"
-			(uuid "6596fce1-c787-4ebf-9838-63142af0fb77")
-=======
 			(uuid "b4e5b884-561e-4407-a171-f09adf1fb422")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7019836-bb8a-45b4-85da-62c3dc1cff9f")
-		(property "Reference" "#PWR077"
-			(at 246.38 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b025a20c-a152-423e-af6c-fa7fb2cd413a")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 195.58 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8702958-f48d-4968-85e4-9ac7c76470ea")
-		(property "Reference" "C23"
-			(at 199.39 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 199.39 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 99.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -0.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at -200.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -300.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -400.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -500.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -600.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "385a4f28-5b3a-4da0-a1df-ca5bc54f9c2f")
-		)
-		(pin "1"
-			(uuid "2cb4b59d-553b-4bfc-ae6b-bd674aea4674")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9641e9e-580e-484c-8484-227178629a46")
-		(property "Reference" "#PWR022"
-			(at 167.64 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c526662-130b-46db-aa43-9441a0d15114")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR022")
-=======
 					(reference "H7")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -12765,79 +8760,8 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 111.76 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcbf6561-f346-4b80-912f-9e06c817e907")
-		(property "Reference" "#PWR014"
-			(at 111.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c40c892d-55fc-4594-9aed-ecc10f794bc8")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 30.48 180)
-=======
 		(lib_id "Device:C")
 		(at 137.16 30.48 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12845,11 +8769,7 @@
 		(dnp no)
 		(uuid "bd19560e-b7ee-4a84-a9b3-9806394ec638")
 		(property "Reference" "C29"
-<<<<<<< HEAD
-			(at 242.316 31.242 0)
-=======
 			(at 144.526 31.242 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,11 +8778,7 @@
 			)
 		)
 		(property "Value" "10uF"
-<<<<<<< HEAD
-			(at 242.316 28.702 0)
-=======
 			(at 144.526 28.702 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12871,11 +8787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 233.9848 26.67 0)
-=======
 			(at 136.1948 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12884,11 +8796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 234.95 30.48 0)
-=======
 			(at 137.16 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12897,11 +8805,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 234.95 30.48 0)
-=======
 			(at 137.16 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12925,8 +8829,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-=======
 		(lib_id "power:GND")
 		(at 34.29 157.48 90)
 		(unit 1)
@@ -13117,7 +9019,6 @@
 		)
 	)
 	(symbol
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(lib_id "InverterCom:UVY1E102MPD1TD")
 		(at 55.88 34.29 90)
 		(unit 1)
@@ -13241,11 +9142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 223.52 26.67 180)
-=======
 		(at 125.73 26.67 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13254,11 +9151,7 @@
 		(fields_autoplaced yes)
 		(uuid "c011a1af-8994-4094-80c6-25a88bbe7b33")
 		(property "Reference" "#PWR075"
-<<<<<<< HEAD
-			(at 223.52 20.32 0)
-=======
 			(at 125.73 20.32 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13267,11 +9160,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 223.52 21.59 0)
-=======
 			(at 125.73 21.59 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,11 +9168,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 223.52 26.67 0)
-=======
 			(at 125.73 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13292,11 +9177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 223.52 26.67 0)
-=======
 			(at 125.73 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,11 +9186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 223.52 26.67 0)
-=======
 			(at 125.73 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,11 +9208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 82.55 93.98 0)
-=======
 		(at 36.83 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13344,11 +9217,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3aed163-1521-43ef-abb9-71249f21141e")
 		(property "Reference" "#PWR095"
-<<<<<<< HEAD
-			(at 82.55 100.33 0)
-=======
 			(at 36.83 101.6 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,11 +9226,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 82.55 99.06 0)
-=======
 			(at 36.83 100.33 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,11 +9234,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 82.55 93.98 0)
-=======
 			(at 36.83 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,11 +9243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 82.55 93.98 0)
-=======
 			(at 36.83 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,11 +9252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 82.55 93.98 0)
-=======
 			(at 36.83 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,11 +9274,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< HEAD
-		(at 259.08 30.48 180)
-=======
 		(at 148.59 30.48 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13433,11 +9282,7 @@
 		(dnp no)
 		(uuid "c4d1c0b3-0ccd-4309-881b-14f15edb95cf")
 		(property "Reference" "C34"
-<<<<<<< HEAD
-			(at 267.208 30.9881 0)
-=======
 			(at 156.718 30.9881 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13446,11 +9291,7 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< HEAD
-			(at 267.208 28.448 0)
-=======
 			(at 156.718 28.448 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,11 +9300,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-<<<<<<< HEAD
-			(at 258.1148 26.67 0)
-=======
 			(at 147.6248 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,11 +9309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 259.08 30.48 0)
-=======
 			(at 148.59 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,11 +9318,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 259.08 30.48 0)
-=======
 			(at 148.59 30.48 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,24 +9475,14 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 153.67 21.59 180)
-=======
 		(lib_id "InverterCom:1548129")
 		(at 189.23 96.52 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "cea454d7-2694-4d18-9775-1f87e441152c")
-		(property "Reference" "#PWR019"
-			(at 153.67 15.24 0)
-=======
 		(uuid "d19e1e66-2187-4e21-b45c-173b17c1bfeb")
 		(property "Reference" "J17"
 			(at 179.07 83.82 0)
@@ -13703,7 +9522,6 @@
 		)
 		(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
 			(at 185.166 101.346 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13711,190 +9529,32 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "GND"
-			(at 153.67 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 21.59 0)
-=======
 		(property "Height" "10.15"
 			(at 172.72 -298.4 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 21.59 0)
-=======
 				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "651-1548129"
 			(at 172.72 -398.4 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 21.59 0)
-=======
 				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
 			(at 172.72 -498.4 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94953ca4-7ce6-4a94-857f-fc0d448fe68a")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 195.58 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa4e72c-7cf6-4eeb-9ff3-c83fd82a9ae4")
-		(property "Reference" "C22"
-			(at 199.39 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 199.39 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 291.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at 391.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 195.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 591.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at 691.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at 791.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 891.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at 991.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef11f0f3-414f-41c9-92c0-87d91154f312")
-		)
-		(pin "2"
-			(uuid "70e6cc8d-36cd-476c-9281-be34e53d1407")
-=======
 				(justify left top)
 				(hide yes)
 			)
@@ -13927,82 +9587,11 @@
 		)
 		(pin "2"
 			(uuid "0a0d5a95-ebb1-4e86-b78a-88ba06f0f2cd")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0f893b7-843f-4e59-8fc6-539763e6e016")
-		(property "Reference" "#PWR020"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26fbeba-3daa-48cf-a1c7-675305a9318a")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR020")
-=======
 					(reference "J17")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -14132,77 +9721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 271.78 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3a88c1a-373c-4486-976f-1a6d507b35e9")
-		(property "Reference" "#PWR090"
-			(at 271.78 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "980a8234-2fff-461c-9a7a-5a9f55d059c1")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 46.99 0)
-=======
 		(at 148.59 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14211,11 +9730,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3c70d9d-b74f-42bb-b821-38976ed2a1d8")
 		(property "Reference" "#PWR072"
-<<<<<<< HEAD
-			(at 259.08 53.34 0)
-=======
 			(at 148.59 53.34 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,11 +9739,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 259.08 52.07 0)
-=======
 			(at 148.59 52.07 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,11 +9747,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 259.08 46.99 0)
-=======
 			(at 148.59 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,11 +9756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 259.08 46.99 0)
-=======
 			(at 148.59 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14262,11 +9765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 259.08 46.99 0)
-=======
 			(at 148.59 46.99 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,129 +9907,33 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Device:C")
-		(at 246.38 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d75a2a8f-6e07-4002-8ebd-a716291e8ab8")
-		(property "Reference" "C30"
-			(at 253.746 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 253.746 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 245.4148 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 246.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bad507c3-f099-49c9-b7dc-71e82bb300cf")
-		)
-		(pin "2"
-			(uuid "a686e5a8-bf39-47ff-b1e6-2b7871bffac8")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UVY1E102MPD1TD")
-		(at 181.61 39.37 270)
-=======
 		(lib_id "InverterCom:5442251")
 		(at 31.75 110.49 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "d952b07a-26f3-44a3-915d-c17f7d89967a")
-		(property "Reference" "C21"
-			(at 185.42 44.4499 90)
-=======
 		(uuid "d86db68b-5bf7-46d1-bdea-4b494fe28ac3")
 		(property "Reference" "J7"
 			(at 21.59 97.79 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 185.42 46.9899 90)
-=======
 			)
 		)
 		(property "Value" "5442251"
 			(at 21.59 100.33 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< HEAD
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPPRD500W60D1025H1750"
-			(at 85.42 48.26 0)
-=======
 			)
 		)
 		(property "Footprint" "InverterCom:5442251"
 			(at 15.24 15.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14539,13 +9942,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"
-			(at -14.58 48.26 0)
-=======
 		(property "Datasheet" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251"
 			(at 15.24 -84.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14554,13 +9952,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"
-			(at 181.61 39.37 0)
-=======
 		(property "Description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH"
 			(at 29.464 120.396 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,13 +9961,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Height" "17.5"
-			(at -214.58 48.26 0)
-=======
 		(property "Height" "8.65"
 			(at 15.24 -284.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,13 +9971,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Part Number" "647-UVY1E102MPD1TD"
-			(at -314.58 48.26 0)
-=======
 		(property "Mouser Part Number" "651-5442251"
 			(at 15.24 -384.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,13 +9981,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"
-			(at -414.58 48.26 0)
-=======
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D"
 			(at 15.24 -484.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14613,13 +9991,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Name" "Nichicon"
-			(at -514.58 48.26 0)
-=======
 		(property "Manufacturer_Name" "Phoenix Contact"
 			(at 15.24 -584.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,13 +10001,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Manufacturer_Part_Number" "UVY1E102MPD1TD"
-			(at -614.58 48.26 0)
-=======
 		(property "Manufacturer_Part_Number" "5442251"
 			(at 15.24 -684.43 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,13 +10011,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(pin "2"
-			(uuid "d3373c08-ff8a-4031-9c56-51a8af04c810")
-		)
-		(pin "1"
-			(uuid "fe7257d9-4d82-4c43-87c4-a76f5e685f23")
-=======
 		(pin "3"
 			(uuid "4ec37d5c-c90f-4abc-a7f9-87273c716502")
 		)
@@ -14658,16 +10019,11 @@
 		)
 		(pin "1"
 			(uuid "356303fd-edac-4013-9477-2944caf9112a")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "C21")
-=======
 					(reference "J7")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)
@@ -14675,11 +10031,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-<<<<<<< HEAD
-		(at 172.72 80.01 0)
-=======
 		(at 127 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14688,11 +10040,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd0eb7db-0785-466f-8ba9-aaf1884e5843")
 		(property "Reference" "R2"
-<<<<<<< HEAD
-			(at 175.26 78.7399 0)
-=======
 			(at 129.54 80.0099 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14701,11 +10049,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-<<<<<<< HEAD
-			(at 175.26 81.2799 0)
-=======
 			(at 129.54 82.5499 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,13 +10057,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 170.942 80.01 90)
-=======
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 125.222 81.28 90)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,11 +10067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< HEAD
-			(at 172.72 80.01 0)
-=======
 			(at 127 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14741,11 +10076,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-<<<<<<< HEAD
-			(at 172.72 80.01 0)
-=======
 			(at 127 81.28 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14769,10 +10100,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 165.1 78.74 0)
-=======
 		(lib_id "InverterCom:1548129")
 		(at 189.23 78.74 180)
 		(unit 1)
@@ -14898,7 +10225,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 119.38 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14907,11 +10233,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1121721-d36f-44d0-ab7f-96a839cb865c")
 		(property "Reference" "#PWR099"
-<<<<<<< HEAD
-			(at 165.1 85.09 0)
-=======
 			(at 119.38 86.36 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,11 +10242,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 165.1 83.82 0)
-=======
 			(at 119.38 85.09 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,11 +10250,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 165.1 78.74 0)
-=======
 			(at 119.38 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14945,11 +10259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 165.1 78.74 0)
-=======
 			(at 119.38 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,11 +10268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 165.1 78.74 0)
-=======
 			(at 119.38 80.01 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14984,77 +10290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 111.76 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2caa140-7c06-4609-a2d2-fba3361b5e05")
-		(property "Reference" "#PWR013"
-			(at 111.76 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c32fce9d-c289-462a-9ff4-2dd53d79e3f6")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 93.98 0)
-=======
 		(at 127 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15063,11 +10299,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5227726-4363-499b-8f70-9f196d067d7d")
 		(property "Reference" "#PWR0100"
-<<<<<<< HEAD
-			(at 172.72 100.33 0)
-=======
 			(at 127 101.6 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15076,11 +10308,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 172.72 99.06 0)
-=======
 			(at 127 100.33 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,11 +10316,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 172.72 93.98 0)
-=======
 			(at 127 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15101,11 +10325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 172.72 93.98 0)
-=======
 			(at 127 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15114,11 +10334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 172.72 93.98 0)
-=======
 			(at 127 95.25 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,11 +10356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-<<<<<<< HEAD
-		(at 259.08 26.67 180)
-=======
 		(at 148.59 26.67 180)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15153,11 +10365,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3d6e3e5-7d7d-406c-af0e-96d0158c465d")
 		(property "Reference" "#PWR088"
-<<<<<<< HEAD
-			(at 259.08 20.32 0)
-=======
 			(at 148.59 20.32 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15166,11 +10374,7 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
-			(at 259.08 21.59 0)
-=======
 			(at 148.59 21.59 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,11 +10382,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 259.08 26.67 0)
-=======
 			(at 148.59 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,11 +10391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 259.08 26.67 0)
-=======
 			(at 148.59 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,11 +10400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-<<<<<<< HEAD
-			(at 259.08 26.67 0)
-=======
 			(at 148.59 26.67 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,19 +10421,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "power:GND")
-		(at 139.7 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb7af04c-5fa1-4d53-8290-477f220ef18e")
-		(property "Reference" "#PWR018"
-			(at 139.7 58.42 0)
-=======
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 247.65 115.57 0)
 		(unit 1)
@@ -15271,7 +10450,6 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 247.65 115.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15279,21 +10457,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "GND"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 52.07 0)
-=======
 		(property "Datasheet" "~"
 			(at 247.65 115.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,22 +10466,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" ""
-			(at 139.7 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 52.07 0)
-=======
 		(property "Description" "Mounting Hole with connection"
 			(at 247.65 115.57 0)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15325,18 +10476,11 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "5356fd02-d41b-4ab3-a0f3-d77bbe4f5ac4")
-=======
 			(uuid "70de8f18-5572-43f6-b3a0-19db71882f6c")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-<<<<<<< HEAD
-					(reference "#PWR018")
-=======
 					(reference "H4")
 					(unit 1)
 				)
@@ -15597,7 +10741,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "#PWR0119")
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 					(unit 1)
 				)
 			)

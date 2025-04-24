@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-(kicad_pcb (version 20241229) (generator "pcbnew") (generator_version "9.0")
-)
-=======
 (kicad_pcb
 	(version 20241229)
 	(generator "pcbnew")
@@ -62989,4 +62985,3 @@
 	)
 	(embedded_fonts no)
 )
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
