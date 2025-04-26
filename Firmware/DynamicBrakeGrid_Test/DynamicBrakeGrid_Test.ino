@@ -4,7 +4,7 @@
 // CAN Pins
 #define CAN_CS_PIN 10
 #define CAN_INT_PIN 2
-#define DEVICE_ID 0x01
+#define DEVICE_ID 0x02
 
 CANBusManager canManager(DEVICE_ID, CAN_CS_PIN, CAN_INT_PIN);
 
