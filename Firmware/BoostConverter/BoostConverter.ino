@@ -294,8 +294,13 @@ void OnCanMessage(const CANMessage& msg) {
     }
 }
 
+void OnCanStringMessage(MessageCode code, const char* message) {
+    Serial.print("Received string message with code ");
+    Serial.print((int)code);
+    Serial.print(": ");
+    Serial.println(message);
+}
 
-//-- System Run Modes --//
 void setup() {
 
 
@@ -310,6 +315,7 @@ void setup() {
     // Register Canbus Handler
     canBus.Begin();
     canBus.SetCallback(OnCanMessage);
+    canBus.SetStringCallback(OnCanStringMessage); // Register the string callback
 
     // Initialize serial communication
 #ifdef ENABLE_SERIAL_PRINT

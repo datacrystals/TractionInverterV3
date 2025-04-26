@@ -16,6 +16,13 @@ const long heartbeatInterval = 1000;      // Interval for sending heartbeat ping
 void OnMessage(const CANMessage& msg);
 void printHelpMessage();
 
+void OnCanStringMessage(MessageCode code, const char* message) {
+    Serial.print("Received string message with code ");
+    Serial.print((int)code);
+    Serial.print(": ");
+    Serial.println(message);
+}
+
 void setup() {
     // Initialize Serial for debugging
     Serial.begin(9600);
@@ -24,6 +31,7 @@ void setup() {
     // Initialize CANBusManager
     canBus.Begin();
     canBus.SetCallback(OnMessage);
+    canBus.SetStringCallback(OnCanStringMessage); // Register the string callback
 
     Serial.println("CAN bus initialized.");
     printHelpMessage();

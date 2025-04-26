@@ -82,12 +82,20 @@ void handleCANMessage(const CANMessage& msg) {
     }
 }
 
+void OnCanStringMessage(MessageCode code, const char* message) {
+    Serial.print("Received string message with code ");
+    Serial.print((int)code);
+    Serial.print(": ");
+    Serial.println(message);
+}
+
 void setup() {
     Serial.begin(9600);
     while (!Serial);
 
     canManager.Begin();
     canManager.SetCallback(handleCANMessage);
+    canManager.SetStringCallback(OnCanStringMessage); // Register the string callback
 
     Serial.println("Test Harness Ready");
     printHelp();

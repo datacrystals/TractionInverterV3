@@ -40,6 +40,7 @@ private:
     void ProcessMessage(const struct can_frame& frame);
     void SendStringStart(MessageCode code, uint16_t length);
     MCP2515 mcp;
+    int csPin;
     struct can_frame canMsg;
     uint32_t canID;
     MessageCallback messageCallback;
