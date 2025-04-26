@@ -2,7 +2,7 @@
 #include "CANBusManager.h"
 
 #define CAN_ID 0x20
-#define CAN_CS_PIN 9
+#define CAN_CS_PIN 10
 #define CAN_INT_PIN 2
 
 CANBusManager canBus(CAN_ID, CAN_CS_PIN, CAN_INT_PIN);
