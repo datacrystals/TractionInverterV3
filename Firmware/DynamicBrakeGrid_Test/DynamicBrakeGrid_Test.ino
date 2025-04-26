@@ -22,6 +22,8 @@ bool newDataAvailable = false;
 
 void handleCANMessage(const CANMessage& msg) {
     MessageCode code = CANBusManager::GetMessageCode(msg);
+    Serial.print("Received CAN message with code: ");
+    Serial.println(code);
     switch (code) {
         case MessageCode::GET_VIN_VOLTAGE:
             inputVoltage = CANBusManager::ReadFloat(msg);
