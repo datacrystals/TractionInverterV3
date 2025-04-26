@@ -132,15 +132,15 @@ void handleCANMessage(const CANMessage& msg) {
 
         case MessageCode::GET_VIN_VOLTAGE_RESPONSE:
             Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - start")); 
-            Delay(100);
+            delay(100);
             float vinVoltage = CANBusManager::ReadFloat(msg);
-            Delay(100);
+            delay(100);
             Serial.print(F("Vin Voltage Response: "));
-            Delay(100);
+            delay(100);
             Serial.println(vinVoltage, 2);    
-            Delay(100);
+            delay(100);
             Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - end"));        
-            Delay(100);
+            delay(100);
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE_RESPONSE:
