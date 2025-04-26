@@ -135,6 +135,87 @@ void handleCANMessage(const CANMessage& msg) {
             Serial.println("Firmware version request received");
             break;
 
+        case MessageCode::FIRMWARE_VERSION_RESPONSE:
+            if (msg.length > 0) {
+                char firmwareVersion[9] = {0};
+                memcpy(firmwareVersion, msg.data, msg.length);
+                Serial.print("Firmware Version: ");
+                Serial.println(firmwareVersion);
+            }
+            break;
+
+        case MessageCode::GET_FAULT_COUNT_RESPONSE:
+            if (msg.length == 4) {
+                uint32_t faultCount = CANBusManager::ReadInt(msg);
+                Serial.print("Fault Count Response: ");
+                Serial.println(faultCount);
+            }
+            break;
+
+        case MessageCode::GET_VIN_VOLTAGE_RESPONSE:
+            if (msg.length == 4) {
+                float vinVoltage = CANBusManager::ReadFloat(msg);
+                Serial.print("Vin Voltage Response: ");
+                Serial.println(vinVoltage, 2);
+            }
+            break;
+
+        case MessageCode::GET_VOUT_VOLTAGE_RESPONSE:
+            if (msg.length == 4) {
+                float voutVoltage = CANBusManager::ReadFloat(msg);
+                Serial.print("Vout Voltage Response: ");
+                Serial.println(voutVoltage, 2);
+            }
+            break;
+
+        case MessageCode::GET_PHASE1_CURRENT_RESPONSE:
+            if (msg.length == 4) {
+                float phase1Current = CANBusManager::ReadFloat(msg);
+                Serial.print("Phase 1 Current Response: ");
+                Serial.println(phase1Current, 2);
+            }
+            break;
+
+        case MessageCode::GET_PHASE2_CURRENT_RESPONSE:
+            if (msg.length == 4) {
+                float phase2Current = CANBusManager::ReadFloat(msg);
+                Serial.print("Phase 2 Current Response: ");
+                Serial.println(phase2Current, 2);
+            }
+            break;
+
+        case MessageCode::GET_PHASE1_TEMP_RESPONSE:
+            if (msg.length == 4) {
+                float phase1Temp = CANBusManager::ReadFloat(msg);
+                Serial.print("Phase 1 Temperature Response: ");
+                Serial.println(phase1Temp, 2);
+            }
+            break;
+
+        case MessageCode::GET_PHASE2_TEMP_RESPONSE:
+            if (msg.length == 4) {
+                float phase2Temp = CANBusManager::ReadFloat(msg);
+                Serial.print("Phase 2 Temperature Response: ");
+                Serial.println(phase2Temp, 2);
+            }
+            break;
+
+        case MessageCode::GET_POWER_RESPONSE:
+            if (msg.length == 4) {
+                float power = CANBusManager::ReadFloat(msg);
+                Serial.print("Power Response: ");
+                Serial.println(power, 2);
+            }
+            break;
+
+        case MessageCode::GET_FAN_SPEED_RESPONSE:
+            if (msg.length == 4) {
+                float fanSpeed = CANBusManager::ReadFloat(msg);
+                Serial.print("Fan Speed Response: ");
+                Serial.println(fanSpeed, 2);
+            }
+            break;
+
         default:
             Serial.println("Unhandled CAN message: " + String((int)code));
             break;
