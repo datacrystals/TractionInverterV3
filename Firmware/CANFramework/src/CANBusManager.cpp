@@ -6,6 +6,8 @@ CANBusManager::CANBusManager(uint32_t canID, uint8_t csPin, uint8_t intPin)
     : mcp(csPin), canID(canID), messageCallback(nullptr), stringCallback(nullptr), stringIndex(0), expectedLength(0), hasError(false) {}
 
 void CANBusManager::Begin() {
+    pinMode(csPin, OUTPUT);
+    digitalWrite(csPin, HIGH);
     SPI.begin();
     mcp.reset();
     mcp.setBitrate(CAN_500KBPS, MCP_8MHZ);
