@@ -3,7 +3,7 @@
 #define CAN_API_VERSION 1
 
 CANBusManager::CANBusManager(uint32_t canID, uint8_t csPin, uint8_t intPin)
-    : mcp(csPin), canID(canID), messageCallback(nullptr), stringCallback(nullptr), stringIndex(0), expectedLength(0), hasError(false) {}
+    : mcp(csPin), canID(canID), csPin(csPin), messageCallback(nullptr), stringCallback(nullptr), stringIndex(0), expectedLength(0), hasError(false) {}
 
 void CANBusManager::Begin() {
     pinMode(csPin, OUTPUT);
