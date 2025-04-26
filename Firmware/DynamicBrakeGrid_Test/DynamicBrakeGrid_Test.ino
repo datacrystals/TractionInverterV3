@@ -189,6 +189,7 @@ void handleCANMessage(const CANMessage& msg) {
             Serial.println(String(F("Unhandled CAN message: ")) + String((int)code));
             break;
     }
+    Serial.println(F("End of CAN message processing"));
 }
 
 void OnCanStringMessage(MessageCode code, const char* message) {
