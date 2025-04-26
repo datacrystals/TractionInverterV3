@@ -183,7 +183,7 @@ void OnMessage(const CANMessage& msg) {
             Serial.println(CANBusManager::ReadBool(msg) ? "Error" : "OK");
             break;
         default:
-            Serial.println("Unknown message received.");
+            Serial.println("Unhandled CAN message: " + String((int)code));
             break;
     }
 }

@@ -77,7 +77,7 @@ void handleCANMessage(const CANMessage& msg) {
             break;
 
         default:
-            Serial.println("Unhandled CAN message");
+            Serial.println("Unhandled CAN message: " + String((int)code));
             break;
     }
 }
