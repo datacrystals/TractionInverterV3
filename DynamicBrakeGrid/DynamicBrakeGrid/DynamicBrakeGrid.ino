@@ -24,7 +24,7 @@
 #define LOG_INTERVAL_MS      1000
 #define SAMPLE_WINDOW_SIZE   20
 
-#define DEFAULT_V_SETPOINT 300.0f
+#define DEFAULT_V_SETPOINT 345.0f
 
 
 // Indicator Constants
@@ -72,10 +72,10 @@
 #define BASE_MAX_DUTY_CHANGE 30
 #define EMERGENCY_DUTY_CHANGE 1000
 
-#define CURRENT_SOFT_LIMIT      35.0f    // Soft current threshold
-#define CURRENT_HARD_LIMIT      40.0f    // Hard current threshold (replaces CURRENT_MAX)
-#define POWER_SOFT_LIMIT        3500.0f  // Soft power threshold (adjust as needed)
-#define POWER_HARD_LIMIT        4000.0f  // Hard power threshold
+#define CURRENT_SOFT_LIMIT      40.0f    // Soft current threshold
+#define CURRENT_HARD_LIMIT      60.0f    // Hard current threshold (replaces CURRENT_MAX)
+#define POWER_SOFT_LIMIT        1000.0f  // Soft power threshold (adjust as needed)
+#define POWER_HARD_LIMIT        3000.0f  // Hard power threshold
 
 // Constants
 #define SPECIFIC_HEAT_CAPACITY 1005.0 // J/(kg·K)
@@ -244,7 +244,7 @@ uint16_t PwmController::currentTop_ = 0;
 
 class VoltageController {
 public:
-    VoltageController() : voltageSensor_(VOLTAGE_SENSOR_PIN, 6000.0f, 120.0f, VOLTAGE_MIN, VOLTAGE_MAX, 100),
+    VoltageController() : voltageSensor_(VOLTAGE_SENSOR_PIN, 6000.0f, 60.0f, VOLTAGE_MIN, VOLTAGE_MAX, 100),
                         currentSensor_(CURRENT_SENSOR_PIN, 20.0f, 0.6f),
                         powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0) {
         currentSensor_.setCurrentRange(0.0f, CURRENT_MAX);
@@ -409,6 +409,7 @@ private:
                                     "LLLS", false); // No auto-reset
             setpoint_ = VOLTAGE_MAX;
             SetDutyCycle(0); // Force duty cycle to 0
+            Serial.println("Error Overcurrent!");
         }
     
         // Existing checks

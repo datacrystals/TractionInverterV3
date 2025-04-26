@@ -2,8 +2,6 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-<<<<<<< HEAD
-=======
 	(symbol "1.5SMC530A"
 		(pin_names
 			(hide yes)
@@ -390,7 +388,6 @@
 		)
 		(embedded_fonts no)
 	)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(symbol "1987724"
 		(pin_names
 			(offset 0.762)
@@ -775,8 +772,6 @@
 		)
 		(embedded_fonts no)
 	)
-<<<<<<< HEAD
-=======
 	(symbol "38969-0002"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1243,7 +1238,6 @@
 		)
 		(embedded_fonts no)
 	)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	(symbol "5442251"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1413,8 +1407,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "677-15ABPE"
 		(exclude_from_sim no)
@@ -2823,7 +2815,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "ALH82A750CB600"
 		(pin_names
@@ -3016,8 +3007,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "AMC3330QDWERQ1"
 		(exclude_from_sim no)
@@ -4024,7 +4013,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "BSS138AKM-QYL"
 		(pin_names
@@ -4412,8 +4400,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "C4AQNBW5200M3LJ"
 		(pin_names
@@ -6075,7 +6061,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "FBMJ1608HS220NTR"
 		(exclude_from_sim no)
@@ -7589,8 +7574,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "ISO1042BDWVR"
 		(exclude_from_sim no)
@@ -8857,7 +8840,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "LM358DR"
 		(pin_names
@@ -10221,8 +10203,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "MBRA340T3G"
 		(pin_names
@@ -10441,7 +10421,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "MCP2515-e_ST"
 		(exclude_from_sim no)
@@ -12005,8 +11984,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "PMEG6010CEH,115"
 		(pin_names
@@ -13075,7 +13052,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "RC2512JK-071ML"
 		(pin_names
@@ -13231,8 +13207,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "REC10K-2409SAW_H2"
 		(exclude_from_sim no)
@@ -14057,7 +14031,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "SIHFR120-GE3"
 		(pin_names
@@ -14578,8 +14551,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "STWA75N60M6"
 		(pin_names
@@ -14885,7 +14856,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "TJA1050T_CM,118"
 		(exclude_from_sim no)
@@ -15316,8 +15286,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "TLV6001QDCKRQ1"
 		(exclude_from_sim no)
@@ -15524,7 +15492,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "TMP236A2DCKR"
 		(exclude_from_sim no)
@@ -15731,8 +15698,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "TMP275AIDR"
 		(exclude_from_sim no)
@@ -16361,7 +16326,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "UCC27424QDRQ1"
 		(exclude_from_sim no)
@@ -17446,8 +17410,6 @@
 			)
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
-=======
 	)
 	(symbol "UCC5871"
 		(exclude_from_sim no)
@@ -18200,7 +18162,6 @@
 			)
 		)
 		(embedded_fonts no)
->>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
 	)
 	(symbol "UVY1E102MPD1TD"
 		(pin_names

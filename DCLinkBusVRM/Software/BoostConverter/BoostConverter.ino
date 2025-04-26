@@ -602,7 +602,7 @@ void setup() {
 
 
 
-
+OutputEnabled = true;
 
     // Init done
     Serial.println(F("Initialization complete"));
@@ -633,7 +633,7 @@ void loop() {
     if (!OutputEnabled) {
       SystemFan.setFanSpeed(CurrentTemp_C);
     } else {
-      SystemFan.setSpeed(200); // for now just peg the fan, the temp sense is screwed when output is on due to noise
+      SystemFan.setSpeed(125); // for now just peg the fan, the temp sense is screwed when output is on due to noise
     }
 
 
@@ -740,10 +740,10 @@ void loop() {
 
 
     // Heartbeat Logic Check
-    if (millis() - lastKeepAliveTime > HEARTBEAT_SHUTDOWN_TIMER) {
-      OutputEnabled = false;
-      faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS");
-    }
+    // if (millis() - lastKeepAliveTime > HEARTBEAT_SHUTDOWN_TIMER) {
+    //   OutputEnabled = false;
+    //   faultManager.assertFault("CANBUS_HEARTBEAT_TIMEOUT", "LLSS");
+    // }
 
 
     // -- Get Faults -- //
@@ -782,9 +782,9 @@ void loop() {
 
 
     // ---- CANBUS FAULT CHECK ---- //
-    if (canController.getError()) {
-        faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
-    }
+    // if (canController.getError()) {
+    //     faultManager.assertFault("CANBUS_COMM_ERROR", "LSLS");
+    // }
 
 
 
