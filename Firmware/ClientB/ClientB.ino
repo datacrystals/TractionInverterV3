@@ -39,7 +39,7 @@ void OnStringReceived(MessageCode code, const char* str) {
 }
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     canBus.Begin();
     canBus.SetCallback(OnMessage);
     canBus.SetStringCallback(OnStringReceived);
