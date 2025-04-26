@@ -417,12 +417,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "InverterCom:677-15ABPE"
+		(symbol "InverterCom:1SMB2EZ15_R1_00001"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 16.51 7.62 0)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -430,8 +433,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "677-15ABPE"
-				(at 16.51 5.08 0)
+			(property "Value" "1SMB2EZ15_R1_00001"
+				(at 10.16 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -439,18 +442,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "67715ABPE"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.wakefield-vette.com/Portals/0/resources/datasheets/677.pdf"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "1SMB2EZ15_R1_00001"
+				(at 10.16 -93.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -459,17 +452,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Heat Sinks High Performance, High Power Heat Sink for Vertical Board Mounting for TO-220, TO-247, TO-218, 15-LEAD MULTIWATT, 38.1mm Height/002"
-				(at -1.778 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "38.1"
-				(at 16.51 -394.92 0)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf"
+				(at 10.16 -193.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -478,8 +462,17 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "567-677-15ABPE"
-				(at 16.51 -494.92 0)
+			(property "Description" "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.44"
+				(at 10.16 -393.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -488,8 +481,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/677-15ABPE?qs=IxdtNV%2F4IV2Xq6Oa6Jy%2FmQ%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "Mouser Part Number" "241-1SMB2EZ15R100001"
+				(at 10.16 -493.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -498,8 +491,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Wakefield Thermal"
-				(at 16.51 -694.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D"
+				(at 10.16 -593.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -508,8 +501,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "677-15ABPE"
-				(at 16.51 -794.92 0)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 10.16 -693.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -518,22 +511,93 @@
 					(hide yes)
 				)
 			)
-			(symbol "677-15ABPE_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
+			(property "Manufacturer_Part_Number" "1SMB2EZ15_R1_00001"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1SMB2EZ15_R1_00001_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 6.096 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -549,9 +613,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -744,6 +808,307 @@
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:FZ400R12KE4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FZ400R12KE4_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 1.905) (xy 5.334 -1.905) (xy 5.334 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.508) (xy 5.842 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.016) (xy 5.842 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.477 -2.159) (xy 6.731 -1.651) (xy 7.62 -2.413) (xy 6.477 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.239 1.905) (xy 6.985 2.413) (xy 6.096 1.651) (xy 7.239 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.413) (xy 5.842 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -0.889) (xy 5.842 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.413) (xy 5.842 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 11.43 -2.54) (xy 11.43 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 11.43 -1.27) (xy 12.7 -1.27) (xy 11.43 0) (xy 10.16 -1.27) (xy 11.43 -1.27)
+						(xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "FZ400R12KE4_1_1"
+				(text "IGBT, 1200V, 400A"
+					(at -3.048 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,311 +1613,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "InverterCom:STWA75N60M6"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "STWA75N60M6"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TO544P510X1580X2540-3P"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stwa75n60m6.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-channel 600 V, 32 mOhm typ., 72 A MDmesh M6 Power MOSFET in a TO-247 long leads package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5.1"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-STWA75N60M6"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STWA75N60M6?qs=%252BEew9%252B0nqrCXcHfSF9fhZA%3D%3D"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "STWA75N60M6"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "STWA75N60M6_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2346,7 +2406,7 @@
 	)
 	(rectangle
 		(start 157.48 12.7)
-		(end 276.86 63.5)
+		(end 276.86 64.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -2401,10 +2461,10 @@
 		(uuid "0a1ba6f2-7fe5-43cb-b60a-c50b9c5ffac4")
 	)
 	(junction
-		(at 35.56 109.22)
+		(at 177.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14533190-d410-409c-8f32-bff33b53ba31")
+		(uuid "0e9c606c-1175-4067-89b0-1804aca9a185")
 	)
 	(junction
 		(at 185.42 111.76)
@@ -2419,22 +2479,34 @@
 		(uuid "1e9bffd0-92c9-4ba4-b1fc-5a9b86e308ed")
 	)
 	(junction
-		(at 119.38 86.36)
+		(at 201.93 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ee620d3-5059-4c4a-8ff1-2227d3532ea6")
+		(uuid "1efa3ae3-bd84-4116-bbc8-5e6d29955107")
 	)
 	(junction
-		(at 20.32 97.79)
+		(at 177.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "221a3065-4696-4fb1-9d3c-c062b18e7509")
+	)
+	(junction
+		(at 29.21 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233b2d5d-a7a2-403d-a00f-ac66e87e10a7")
 	)
 	(junction
-		(at 40.64 97.79)
+		(at 45.72 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "262c860c-cef1-4b78-90d1-891d00add2bd")
+		(uuid "2912b477-f769-4f54-bdcc-5e42cbf8aafa")
+	)
+	(junction
+		(at 83.82 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3583a8-b314-4d56-8784-403afdfa739c")
 	)
 	(junction
 		(at 201.93 31.75)
@@ -2449,10 +2521,22 @@
 		(uuid "4030edea-5a79-415d-8ac1-936685688e8f")
 	)
 	(junction
+		(at 55.88 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "479bdcd1-40a7-49fc-9ace-60ac6095488f")
+	)
+	(junction
 		(at 257.81 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c082288-dfb4-462a-9b3b-f15e5350122b")
+	)
+	(junction
+		(at 45.72 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f2bf7f-4974-4e1d-a211-8e24685f7bf2")
 	)
 	(junction
 		(at 46.99 40.64)
@@ -2461,22 +2545,46 @@
 		(uuid "6342951a-6044-459a-89b3-8047ad96671a")
 	)
 	(junction
-		(at 20.32 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67d5ab2b-2c0c-41c7-861b-f14fc3e6ca68")
-	)
-	(junction
 		(at 128.27 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74ecf105-168d-4d2a-bbe7-845880eea2e9")
 	)
 	(junction
+		(at 201.93 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800f9617-7e4c-40fa-b609-4843054637df")
+	)
+	(junction
 		(at 242.57 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894be2fe-7345-4027-ab2f-59ff2b085e58")
+	)
+	(junction
+		(at 92.71 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "952736a6-5b17-475b-82fc-b295d34e1916")
+	)
+	(junction
+		(at 74.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "968afba8-d3c4-4319-84f4-594bcc713941")
+	)
+	(junction
+		(at 55.88 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41fcdea-c1d8-4509-baa9-daf93524f499")
+	)
+	(junction
+		(at 83.82 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab4c2787-b200-46ad-8907-7f729dbd2b11")
 	)
 	(junction
 		(at 245.11 68.58)
@@ -2509,22 +2617,16 @@
 		(uuid "b83a9791-c23e-4532-859a-3c791a9de40a")
 	)
 	(junction
-		(at 95.25 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baa3b966-0cee-4d6b-af23-56cd07c96777")
-	)
-	(junction
-		(at 100.33 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfcf4c96-ef32-405b-ad05-9611765482a5")
-	)
-	(junction
 		(at 204.47 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c095abac-dfdc-4ac2-97cc-e9e37d62c831")
+	)
+	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e464e0-bf9e-4c1b-9bd5-63565968447a")
 	)
 	(junction
 		(at 114.3 43.18)
@@ -2533,34 +2635,10 @@
 		(uuid "d2c6267e-4b20-406d-a47a-a96adfe2cc85")
 	)
 	(junction
-		(at 95.25 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d75c7708-a069-4736-a137-d249582abffb")
-	)
-	(junction
-		(at 35.56 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7a4225e-fd1d-49fe-bfee-c28027361d85")
-	)
-	(junction
 		(at 177.8 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d86e8af0-0df4-4115-b544-2192ed695db8")
-	)
-	(junction
-		(at 80.01 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e02fa078-b7aa-472c-9e5b-ecb598d127b2")
-	)
-	(junction
-		(at 80.01 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1b6fe00-7391-4ac4-bf57-fff91c2595c4")
 	)
 	(junction
 		(at 179.07 76.2)
@@ -2569,16 +2647,34 @@
 		(uuid "e28bf66b-3e35-40a1-b89f-83cb9786a518")
 	)
 	(junction
-		(at 55.88 54.61)
+		(at 110.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7fd059b-f907-49c9-8791-cec3d46aa6ea")
+		(uuid "e6a66c5e-1146-437f-88bd-50e79cbb232a")
+	)
+	(junction
+		(at 74.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda059e1-50ea-4520-bbaf-96bd78c55cf7")
 	)
 	(junction
 		(at 242.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0ee6385-17b6-4089-aa81-35995de7f36d")
+	)
+	(junction
+		(at 92.71 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3c661ad-1376-4878-b99c-0f45b220793c")
+	)
+	(junction
+		(at 226.06 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f77a96d3-8470-4451-a5ed-079bba83c2ce")
 	)
 	(wire
 		(pts
@@ -2622,16 +2718,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 43.18) (xy 55.88 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0832f924-036a-4b73-b5ad-c4a54b6a8eee")
-	)
-	(wire
-		(pts
 			(xy 215.9 95.25) (xy 215.9 99.06)
 		)
 		(stroke
@@ -2649,16 +2735,6 @@
 			(type default)
 		)
 		(uuid "0de1a345-0d72-4fca-8649-18ce61bdd71a")
-	)
-	(wire
-		(pts
-			(xy 87.63 97.79) (xy 80.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3e2d7a-139d-4964-a279-c4f213fb32a4")
 	)
 	(wire
 		(pts
@@ -2682,13 +2758,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 80.01 110.49)
+			(xy 172.72 38.1) (xy 177.8 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "176b6921-7ee8-4204-9ec6-8c5ea6c92145")
+		(uuid "130ef653-2d8f-467e-b86c-ca50a2e79d51")
+	)
+	(wire
+		(pts
+			(xy 102.87 100.33) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f74f53-129c-4ceb-a276-4f7767c11bae")
 	)
 	(wire
 		(pts
@@ -2702,16 +2788,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 59.69 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac96497-e69f-48a9-9cd1-0ce24d097fda")
-	)
-	(wire
-		(pts
 			(xy 226.06 31.75) (xy 250.19 31.75)
 		)
 		(stroke
@@ -2719,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "1f24ed7f-946e-40fb-b4bb-b82c882a9aa9")
-	)
-	(wire
-		(pts
-			(xy 95.25 109.22) (xy 80.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd60a3f-f3d9-413d-bb17-90007649e19f")
 	)
 	(wire
 		(pts
@@ -2742,16 +2808,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 97.79) (xy 40.64 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21eaa1d5-599f-4a7c-b0d1-3fabf1198cb1")
-	)
-	(wire
-		(pts
 			(xy 226.06 31.75) (xy 226.06 30.48)
 		)
 		(stroke
@@ -2762,13 +2818,33 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 80.01 106.68)
+			(xy 100.33 109.22) (xy 100.33 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27adee44-3398-4758-ad71-4113a78fd3f3")
+		(uuid "250af02e-856f-44a4-bc04-9eff7a8c05de")
+	)
+	(wire
+		(pts
+			(xy 250.19 38.1) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2719f3fb-c2a9-4799-9796-99986d55c048")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281ec06d-3483-468a-957e-46730058e5c3")
 	)
 	(wire
 		(pts
@@ -2802,16 +2878,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 35.56 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3237f587-4920-4c0b-a329-e1766918f2e1")
-	)
-	(wire
-		(pts
 			(xy 177.8 31.75) (xy 201.93 31.75)
 		)
 		(stroke
@@ -2832,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 106.68) (xy 40.64 109.22)
+			(xy 55.88 109.22) (xy 55.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2842,23 +2908,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 109.22) (xy 20.32 106.68)
+			(xy 29.21 120.65) (xy 29.21 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cc2b239-98d4-48a3-b84c-1ce4257ed097")
-	)
-	(wire
-		(pts
-			(xy 100.33 97.79) (xy 100.33 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f56b52b-8083-4d78-af8b-8839f6062041")
 	)
 	(wire
 		(pts
@@ -2882,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 97.79) (xy 20.32 95.25)
+			(xy 29.21 100.33) (xy 29.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2912,13 +2968,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 109.22 100.33)
+			(xy 100.33 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "489ec13a-57c2-43fe-9bfe-5adb7c67f42d")
+		(uuid "46f46e29-5a4b-4657-b937-e378b73227c2")
 	)
 	(wire
 		(pts
@@ -2932,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 53.34) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c71f2b2-0214-4310-9a15-a591099176bd")
+	)
+	(wire
+		(pts
 			(xy 257.81 68.58) (xy 269.24 68.58)
 		)
 		(stroke
@@ -2942,13 +3008,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 100.33) (xy 52.07 100.33)
+			(xy 201.93 53.34) (xy 201.93 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dbcc91b-4005-4fb3-9dc8-171337bc4286")
+		(uuid "4e6e6a26-d9d4-40b4-86a4-52bf8af9f485")
 	)
 	(wire
 		(pts
@@ -2962,23 +3028,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 97.79) (xy 20.32 97.79)
+			(xy 34.29 100.33) (xy 29.21 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "507eeb14-218e-4c42-91e1-cf82fb7d8f0f")
-	)
-	(wire
-		(pts
-			(xy 119.38 86.36) (xy 119.38 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570eccc5-19c5-4c20-ab22-e41d7808edeb")
 	)
 	(wire
 		(pts
@@ -3012,13 +3068,43 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 109.22) (xy 35.56 109.22)
+			(xy 55.88 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1df053-6941-4cb6-b1b9-0b4f32944828")
+	)
+	(wire
+		(pts
+			(xy 55.88 120.65) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a54cfdb-681c-477f-92e5-ff7c04ce73dc")
+	)
+	(wire
+		(pts
+			(xy 226.06 38.1) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad819ec-e987-4788-8e27-636379218f11")
+	)
+	(wire
+		(pts
+			(xy 55.88 120.65) (xy 60.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b34d384-2ab4-41d8-adfb-a3a9260eef55")
 	)
 	(wire
 		(pts
@@ -3062,13 +3148,43 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 106.68) (xy 95.25 109.22)
+			(xy 92.71 100.33) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6127d44d-d08a-4bd2-a070-0373b85d3189")
+		(uuid "603c0377-014c-494b-81ef-de35d3c64b2e")
+	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610e52c4-7bca-4dde-a207-a4208f542837")
+	)
+	(wire
+		(pts
+			(xy 45.72 109.22) (xy 45.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c0a614-f477-48d6-afa5-93d082954395")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65843389-80ed-46ac-a75d-3b6332b7917f")
 	)
 	(wire
 		(pts
@@ -3112,6 +3228,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 53.34) (xy 250.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd2ac20-f364-4148-be92-d0f089787578")
+	)
+	(wire
+		(pts
 			(xy 144.78 91.44) (xy 144.78 97.79)
 		)
 		(stroke
@@ -3152,6 +3278,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74945a88-b085-4c8f-a5d6-c1a4f583892a")
+	)
+	(wire
+		(pts
 			(xy 185.42 111.76) (xy 204.47 111.76)
 		)
 		(stroke
@@ -3172,23 +3308,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 97.79) (xy 40.64 99.06)
+			(xy 55.88 100.33) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7cb71abd-8adc-427e-b5e9-e291bcf87316")
-	)
-	(wire
-		(pts
-			(xy 40.64 97.79) (xy 41.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d336760-66e8-49f7-909b-cd57f1d861ad")
 	)
 	(wire
 		(pts
@@ -3222,6 +3348,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 39.37) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8327d775-60b4-44a8-be84-48eb795664bb")
+	)
+	(wire
+		(pts
+			(xy 201.93 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f635fa-19b3-4048-87fe-1f1c20895ae2")
+	)
+	(wire
+		(pts
 			(xy 62.23 38.1) (xy 58.42 38.1)
 		)
 		(stroke
@@ -3239,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "888056eb-a54a-4fea-9588-7fc1e2f4839d")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac93946-0f1a-4915-8f09-786e9dffc60c")
 	)
 	(wire
 		(pts
@@ -3262,13 +3418,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 80.01 118.11)
+			(xy 226.06 39.37) (xy 226.06 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ea86153-a886-4cc9-964a-01c510e984c3")
+		(uuid "901520c9-860c-4822-9144-17d650b8e399")
 	)
 	(wire
 		(pts
@@ -3292,23 +3448,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 109.22) (xy 20.32 109.22)
+			(xy 74.93 118.11) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95525d2f-70b7-41f7-9a88-cc3716a119ff")
+	)
+	(wire
+		(pts
+			(xy 29.21 120.65) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95d7fa83-a331-4e9f-af11-b0310aceeeeb")
-	)
-	(wire
-		(pts
-			(xy 80.01 97.79) (xy 80.01 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac03721-f3c7-4371-bdd3-9ce994af0c2b")
 	)
 	(wire
 		(pts
@@ -3322,13 +3478,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 100.33 97.79)
+			(xy 110.49 86.36) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9de78caa-53bd-416f-a619-00e0ce811b2b")
+		(uuid "9d0e8662-0bfa-4747-be73-573815e84bca")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7586be-943b-4147-a7c6-ba6fbd9368d1")
 	)
 	(wire
 		(pts
@@ -3402,13 +3568,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 119.38 86.36)
+			(xy 83.82 100.33) (xy 83.82 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9ad8e79-2bf0-4957-9fee-9169cf71f96e")
+		(uuid "ab915904-3620-4753-a8aa-964f6c4acd79")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc6a695-d6e1-40b9-900f-fed272037b50")
+	)
+	(wire
+		(pts
+			(xy 83.82 118.11) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af20d2d8-37e4-4c95-b16d-d10be85589ec")
 	)
 	(wire
 		(pts
@@ -3432,6 +3618,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2840679-d82d-4b79-87d6-36018fd0111c")
+	)
+	(wire
+		(pts
+			(xy 201.93 39.37) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28782c0-e555-470e-a125-915b337992be")
+	)
+	(wire
+		(pts
 			(xy 137.16 102.87) (xy 147.32 102.87)
 		)
 		(stroke
@@ -3452,33 +3658,33 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 120.65) (xy 20.32 120.65)
+			(xy 45.72 100.33) (xy 41.91 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6e38566-b36c-4114-b14c-f49c4c0058d4")
+		(uuid "b8cca186-ce44-4a09-9d7d-1e29a71ad60c")
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 95.25 97.79)
+			(xy 83.82 120.65) (xy 92.71 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b991448a-3fbe-4bb3-bbef-541559ef955b")
+		(uuid "ba8475b6-e2a0-4a4f-92be-4488adc00870")
 	)
 	(wire
 		(pts
-			(xy 109.22 100.33) (xy 109.22 97.79)
+			(xy 177.8 53.34) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bedae100-3b30-4a2d-b16f-e911ccba7529")
+		(uuid "bc4c30ad-95f0-4f3a-9e6c-32bf1379a55f")
 	)
 	(wire
 		(pts
@@ -3492,13 +3698,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 97.79) (xy 49.53 100.33)
+			(xy 74.93 120.65) (xy 68.58 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c46a21-cfca-49be-8249-242c2ebbe9e8")
+		(uuid "c358e498-414a-4078-a35d-2505b91bab76")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3822626-182e-4a82-9d6e-be0e5c6aedf2")
 	)
 	(wire
 		(pts
@@ -3512,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 97.79) (xy 20.32 99.06)
+			(xy 29.21 100.33) (xy 29.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3522,17 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbad61d7-3445-4e2a-bf39-dfe081c91e6d")
-	)
-	(wire
-		(pts
-			(xy 35.56 99.06) (xy 35.56 97.79)
+			(xy 45.72 101.6) (xy 45.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3572,13 +3778,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 120.65) (xy 80.01 120.65)
+			(xy 74.93 100.33) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2a8424f-faa5-45e4-a7ad-2216d00dfe04")
+		(uuid "d6e1bb4b-34ad-49e0-aeeb-5d96b5d123e9")
+	)
+	(wire
+		(pts
+			(xy 250.19 39.37) (xy 250.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d825cc-1de3-4fcd-83b9-e942d7ab604f")
 	)
 	(wire
 		(pts
@@ -3602,6 +3818,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 118.11) (xy 92.71 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb90dc2-507a-43e9-8a93-54ea2960d4b7")
+	)
+	(wire
+		(pts
+			(xy 201.93 38.1) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfe523f-ab13-437e-8603-769a796691fb")
+	)
+	(wire
+		(pts
 			(xy 250.19 17.78) (xy 250.19 16.51)
 		)
 		(stroke
@@ -3609,16 +3845,6 @@
 			(type default)
 		)
 		(uuid "e0a21e14-30d8-47a1-94da-56b097684a9f")
-	)
-	(wire
-		(pts
-			(xy 100.33 106.68) (xy 100.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1887a06-a983-45c4-b4a1-41c298fde9e5")
 	)
 	(wire
 		(pts
@@ -3632,13 +3858,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 101.6 97.79)
+			(xy 110.49 118.11) (xy 110.49 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb1300e9-be5b-49c9-94eb-8db47a6ebf75")
+		(uuid "e66d8a1e-c82d-4fe6-8879-53383e43374f")
+	)
+	(wire
+		(pts
+			(xy 45.72 100.33) (xy 55.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80ce597-be73-4c7d-87b6-5206bd971d08")
 	)
 	(wire
 		(pts
@@ -3662,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 120.65) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5ed937-61f7-44be-8685-b1d3cf637891")
+	)
+	(wire
+		(pts
 			(xy 213.36 102.87) (xy 217.17 102.87)
 		)
 		(stroke
@@ -3682,13 +3928,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 120.65) (xy 20.32 118.11)
+			(xy 226.06 53.34) (xy 250.19 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa172964-579b-4459-b29e-56cdecf9fa66")
+		(uuid "fb05a6a3-2919-43b5-9dc1-4260505d227f")
 	)
 	(wire
 		(pts
@@ -3702,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 57.15) (xy 55.88 54.61)
+			(xy 55.88 43.18) (xy 55.88 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3722,33 +3968,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 109.22) (xy 20.32 110.49)
+			(xy 69.85 100.33) (xy 74.93 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc3ada3b-da00-46fb-b5a2-967e7a292df3")
-	)
-	(wire
-		(pts
-			(xy 80.01 97.79) (xy 80.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0a18a7-68b5-40fe-986c-efc77295e08e")
-	)
-	(wire
-		(pts
-			(xy 100.33 109.22) (xy 95.25 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8c08aa-0add-4989-8635-0cccc8e2fac7")
+		(uuid "ff671b14-2a12-4ce8-952e-9da5d0870d9b")
 	)
 	(label "MOSFET Gate Driver"
 		(at 15.24 59.69 0)
@@ -3770,7 +3996,7 @@
 		)
 		(uuid "97a22b85-8570-4b09-ad82-2427342ac4c7")
 	)
-	(global_label "Gate1"
+	(global_label "Gate"
 		(shape input)
 		(at 97.79 40.64 0)
 		(fields_autoplaced yes)
@@ -3780,9 +4006,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2144d4e8-8ab2-46fe-9450-b7b1296ee5b7")
+		(uuid "037d2af9-e31a-46c0-9dc6-21a4c1007bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.218 40.64 0)
+			(at 105.0085 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,9 +4040,9 @@
 			)
 		)
 	)
-	(global_label "Gate1"
+	(global_label "Gate"
 		(shape input)
-		(at 20.32 95.25 90)
+		(at 29.21 97.79 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3826,29 +4052,7 @@
 		)
 		(uuid "4d1232fb-a717-4574-9398-66dd9ff4130e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 86.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Gate2"
-		(shape input)
-		(at 80.01 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "561832fc-9538-4804-860d-0115376f9076")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 86.822 90)
+			(at 29.21 90.5715 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,28 +4106,6 @@
 			)
 		)
 	)
-	(global_label "Gate2"
-		(shape input)
-		(at 97.79 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "691a04f4-0980-4baf-80e6-d24d05853f9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.218 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+12V"
 		(shape input)
 		(at 140.97 43.18 0)
@@ -3964,6 +4146,72 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHOPPER_DRAIN"
+		(shape input)
+		(at 55.88 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9adb7573-a08f-41dc-b369-11e8196c0a97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.4733 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_V+"
+		(shape input)
+		(at 172.72 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad9ad3f3-3f60-49f6-a6b5-853ca9c7a3dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.3652 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Gate"
+		(shape input)
+		(at 97.79 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b142a1fa-44a2-4cb3-920b-d6760060757a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0085 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4127,198 +4375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:677-15ABPE")
-		(at 48.26 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3ca9ad-5db4-4b94-83b3-4710e95e2d13")
-		(property "Reference" "H5"
-			(at 64.77 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "677-15ABPE"
-			(at 64.77 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:67715ABPE"
-			(at 64.77 211.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.wakefield-vette.com/Portals/0/resources/datasheets/677.pdf"
-			(at 64.77 311.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heat Sinks High Performance, High Power Heat Sink for Vertical Board Mounting for TO-220, TO-247, TO-218, 15-LEAD MULTIWATT, 38.1mm Height/002"
-			(at 46.482 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "38.1"
-			(at 64.77 511.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "567-677-15ABPE"
-			(at 64.77 611.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/677-15ABPE?qs=IxdtNV%2F4IV2Xq6Oa6Jy%2FmQ%3D%3D"
-			(at 64.77 711.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wakefield Thermal"
-			(at 64.77 811.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "677-15ABPE"
-			(at 64.77 911.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cfb213c-d060-4a82-ad5f-56307aedf4fd")
-		)
-		(pin "2"
-			(uuid "9dcb06c9-2c4d-4a30-bced-f44f3e423dc4")
-		)
-		(instances
-			(project ""
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15acebea-9923-4208-992b-a5f05da6705f")
-		(property "Reference" "R55"
-			(at 82.55 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 82.55 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 78.232 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e908e25-1726-4d9d-9a7a-ef837f170463")
-		)
-		(pin "2"
-			(uuid "f3a6bc7c-ac46-4879-9756-1eabae8f8f2d")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 245.11 73.66 0)
 		(unit 1)
@@ -4383,6 +4439,72 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb7ed1e-f66f-4582-a597-41cec96361e4")
+		(property "Reference" "#PWR0124"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e1a486c-26be-4dc3-b486-8287ddd789cb")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 31.75 97.79 90)
+		(at 66.04 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4657,7 +4779,7 @@
 		(fields_autoplaced yes)
 		(uuid "242821ec-41ea-42df-9889-19ffbd3a259e")
 		(property "Reference" "FB1"
-			(at 31.6992 90.17 90)
+			(at 65.9892 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4787,7 @@
 			)
 		)
 		(property "Value" "FBMJ1608HS220NTR"
-			(at 31.6992 92.71 90)
+			(at 65.9892 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4795,7 @@
 			)
 		)
 		(property "Footprint" "InverterCom:BEADC1608X100N"
-			(at 31.75 99.568 90)
+			(at 66.04 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 97.79 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4813,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 31.75 97.79 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4822,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 426.67 81.28 0)
+			(at 460.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4832,7 @@
 			)
 		)
 		(property "Mouser Part Number" "963-FBMJ1608HS220NTR"
-			(at 526.67 81.28 0)
+			(at 560.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4842,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D"
-			(at 626.67 81.28 0)
+			(at 660.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4852,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 726.67 81.28 0)
+			(at 760.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4862,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FBMJ1608HS220NTR"
-			(at 826.67 81.28 0)
+			(at 860.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,448 +4881,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26b1e5dc-f922-489e-b460-b182030f71d3")
-		(property "Reference" "C40"
-			(at 104.14 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 104.14 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 99.3648 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "424f580d-2928-4660-961a-3461e16e3796")
-		)
-		(pin "2"
-			(uuid "b066dd3f-126b-4c3d-b7ee-7caf79f47c2f")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:677-15ABPE")
-		(at 113.03 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c91d6a-ef23-4adc-b6b8-d98e6cbfe3f4")
-		(property "Reference" "H6"
-			(at 129.54 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "677-15ABPE"
-			(at 129.54 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:67715ABPE"
-			(at 129.54 214.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.wakefield-vette.com/Portals/0/resources/datasheets/677.pdf"
-			(at 129.54 314.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heat Sinks High Performance, High Power Heat Sink for Vertical Board Mounting for TO-220, TO-247, TO-218, 15-LEAD MULTIWATT, 38.1mm Height/002"
-			(at 111.252 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "38.1"
-			(at 129.54 514.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "567-677-15ABPE"
-			(at 129.54 614.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/677-15ABPE?qs=IxdtNV%2F4IV2Xq6Oa6Jy%2FmQ%3D%3D"
-			(at 129.54 714.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wakefield Thermal"
-			(at 129.54 814.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "677-15ABPE"
-			(at 129.54 914.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f077b33-60bd-4d5e-9be6-7556e5b63107")
-		)
-		(pin "2"
-			(uuid "2cea527f-e4bc-4c32-a14a-d11ec22ce11f")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:STWA75N60M6")
-		(at 111.76 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ed3c504-8fb5-41b3-8fe1-dfac5c849116")
-		(property "Reference" "Q2"
-			(at 123.19 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STWA75N60M6"
-			(at 123.19 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:TO544P510X1580X2540-3P"
-			(at 123.19 199.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stwa75n60m6.pdf"
-			(at 123.19 299.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-channel 600 V, 32 mOhm typ., 72 A MDmesh M6 Power MOSFET in a TO-247 long leads package"
-			(at 111.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.1"
-			(at 123.19 499.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-STWA75N60M6"
-			(at 123.19 599.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STWA75N60M6?qs=%252BEew9%252B0nqrCXcHfSF9fhZA%3D%3D"
-			(at 123.19 699.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 123.19 799.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STWA75N60M6"
-			(at 123.19 899.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23d04a5c-06aa-4419-8c73-210749e50427")
-		)
-		(pin "3"
-			(uuid "a73fe55f-9b71-491a-8772-4e579d5d719d")
-		)
-		(pin "2"
-			(uuid "a8c1af12-07a6-419d-9c46-271eeaff994e")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:STWA75N60M6")
-		(at 52.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fd54625-f895-447c-aee6-6011c04f8871")
-		(property "Reference" "Q1"
-			(at 63.5 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STWA75N60M6"
-			(at 63.5 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:TO544P510X1580X2540-3P"
-			(at 63.5 199.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stwa75n60m6.pdf"
-			(at 63.5 299.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-channel 600 V, 32 mOhm typ., 72 A MDmesh M6 Power MOSFET in a TO-247 long leads package"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.1"
-			(at 63.5 499.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-STWA75N60M6"
-			(at 63.5 599.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STWA75N60M6?qs=%252BEew9%252B0nqrCXcHfSF9fhZA%3D%3D"
-			(at 63.5 699.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 63.5 799.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STWA75N60M6"
-			(at 63.5 899.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "378623da-d2cb-4919-9495-4c179e5b1c31")
-		)
-		(pin "3"
-			(uuid "ac0d6167-5ded-47fb-8c11-671553110b14")
-		)
-		(pin "2"
-			(uuid "3b8938a0-caaa-4f09-be6a-2cccb2e50c57")
-		)
-		(instances
-			(project ""
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5268,6 +4948,204 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB2EZ15_R1_00001")
+		(at 83.82 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50add941-e804-4c68-a8e5-fb0e18865e04")
+		(property "Reference" "Z10"
+			(at 87.63 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB2EZ15_R1_00001"
+			(at 87.63 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1SMB2EZ15_R1_00001"
+			(at -9.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf"
+			(at -109.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)"
+			(at 83.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -309.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-1SMB2EZ15R100001"
+			(at -409.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D"
+			(at -509.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at -609.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB2EZ15_R1_00001"
+			(at -709.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2bc0160-bed9-4a6e-a741-419c7bae63bc")
+		)
+		(pin "2"
+			(uuid "331d5cf7-4961-4ff0-8bec-75aab8ad69da")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "Z10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:FZ400R12KE4")
+		(at 102.87 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51088bc5-3bdb-40ba-9c24-cca3d3d91e8f")
+		(property "Reference" "Q1"
+			(at 116.84 102.9941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.84 104.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd01496-ce20-4485-991c-eb74d8c9eec6")
+		)
+		(pin "5"
+			(uuid "8e40bec8-2dcf-499a-a070-dbda5268263f")
+		)
+		(pin "3"
+			(uuid "98bbe1f3-5232-4638-8a9b-2da2237affe9")
+		)
+		(pin "2"
+			(uuid "6e3921c4-afc5-4dae-835b-f8797265cad1")
+		)
+		(instances
+			(project ""
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5500,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 102.87 0)
+		(at 29.21 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5631,7 +5509,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f3eae6-2317-484f-8d7e-eccd1f06a96c")
 		(property "Reference" "R51"
-			(at 22.86 101.5999 0)
+			(at 31.75 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,8 +5517,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 22.86 104.1399 0)
+		(property "Value" "1k"
+			(at 31.75 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5527,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 18.542 102.87 90)
+			(at 27.432 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 102.87 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5545,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 20.32 102.87 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 102.87 180)
+		(at 45.72 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5767,7 +5645,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d463661-910a-45be-bd55-6e662fa4fb33")
 		(property "Reference" "C38"
-			(at 39.37 101.5999 0)
+			(at 49.53 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5654,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 39.37 104.1399 0)
+			(at 49.53 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5663,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 34.5948 99.06 0)
+			(at 44.7548 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 102.87 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5681,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 35.56 102.87 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,124 +5963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 91.44 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74bf3494-c1b8-4216-b92a-b677a456fb51")
-		(property "Reference" "FB3"
-			(at 91.3892 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FBMJ1608HS220NTR"
-			(at 91.3892 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:BEADC1608X100N"
-			(at 91.44 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 486.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "963-FBMJ1608HS220NTR"
-			(at 586.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D"
-			(at 686.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 786.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FBMJ1608HS220NTR"
-			(at 886.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35c838c1-068d-4246-aac5-90b4efa20ea6")
-		)
-		(pin "1"
-			(uuid "8d2f75a2-36ac-4366-9092-39561e259cea")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Current:ACS758xCB-200U-PFF")
 		(at 157.48 100.33 0)
 		(unit 1)
@@ -6281,7 +6041,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 114.3 0)
+		(at 64.77 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6290,25 +6050,23 @@
 		(fields_autoplaced yes)
 		(uuid "78673373-248e-4fa7-be2a-3efdfea63652")
 		(property "Reference" "R52"
-			(at 22.86 113.0299 0)
+			(at 64.77 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1"
-			(at 22.86 115.5699 0)
+			(at 64.77 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 18.542 114.3 90)
+			(at 64.77 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 114.3 0)
+			(at 64.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6084,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 20.32 114.3 0)
+			(at 64.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,73 +6238,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81fec41e-275f-4e52-ac46-5a5d44ea6d3a")
-		(property "Reference" "#PWR0123"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f14cc421-b250-46a6-8975-cba29d5dbdd2")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -7148,76 +6839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d9c0568-c74b-4b27-befb-beea4807370d")
-		(property "Reference" "R56"
-			(at 82.55 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1"
-			(at 82.55 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 78.232 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f09a85ce-c3b0-46b7-88ea-0f34d93c1476")
-		)
-		(pin "2"
-			(uuid "20a8d7a6-45ac-4a0b-a1d6-f561f8411803")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:ALH82A750CB600")
 		(at 226.06 17.78 270)
 		(unit 1)
@@ -7341,7 +6962,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 102.87 180)
+		(at 55.88 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7350,7 +6971,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab05d53c-8231-4139-8af5-00ecd1bb85d7")
 		(property "Reference" "C39"
-			(at 44.45 101.5999 0)
+			(at 59.69 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +6980,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 44.45 104.1399 0)
+			(at 59.69 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 39.6748 99.06 0)
+			(at 54.9148 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +6998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 102.87 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +7007,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 102.87 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,72 +7025,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 119.38 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe39a9d-a9c2-4f1d-b691-50cc357c7972")
-		(property "Reference" "#PWR0112"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 119.253 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 119.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "437e784b-5c0d-40f0-a34d-24ce436c6e2c")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7542,17 +7097,261 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 48.26 54.61 270)
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 250.19 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af89de9a-63af-4f48-949a-cd321b3f0c7c")
-		(property "Reference" "#PWR0102"
-			(at 43.18 54.61 0)
+		(uuid "aeb600d5-8f7b-4102-b24b-92e9aec6b265")
+		(property "Reference" "C19"
+			(at 254 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 254 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 154 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at 54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -146 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -246 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -346 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -446 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -546 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4afbbf6-b8f2-4510-9b5c-4658a5f8357c")
+		)
+		(pin "1"
+			(uuid "9a01d3d6-57cf-4754-969c-7a6f788f4b71")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB2EZ15_R1_00001")
+		(at 74.93 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1cba714-5eb1-4d50-aa1a-4025ab6a1e17")
+		(property "Reference" "Z9"
+			(at 78.74 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB2EZ15_R1_00001"
+			(at 78.74 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1SMB2EZ15_R1_00001"
+			(at -18.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf"
+			(at -118.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -318.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-1SMB2EZ15R100001"
+			(at -418.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D"
+			(at -518.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at -618.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB2EZ15_R1_00001"
+			(at -718.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708fc500-4562-4544-9e34-722085e5cc2b")
+		)
+		(pin "2"
+			(uuid "7cdab1e3-8eb9-4adf-8290-cffc2423ac10")
+		)
+		(instances
+			(project ""
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "Z9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 171.45 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e4ac4e-af44-4d95-b176-bb555979464d")
+		(property "Reference" "#PWR019"
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7360,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 44.45 54.4829 90)
+			(at 167.64 53.2129 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 54.61 0)
+			(at 170.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 54.61 0)
+			(at 170.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +7387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 48.26 54.61 0)
+			(at 171.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,79 +7396,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb8bdbc7-e474-4a13-84ea-4bfc38452485")
+			(uuid "19acb2b5-ce06-497e-bdcd-7d7ea22f5264")
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3078ff4-5c21-4511-bc34-524450462b6f")
-		(property "Reference" "#PWR0124"
-			(at 92.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e412ece3-e91d-4d52-bc96-7be44f0d9405")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "#PWR0124")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7736,6 +7468,128 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 226.06 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a4598b-8817-49f8-91bd-089ca8d74be4")
+		(property "Reference" "C18"
+			(at 229.87 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 229.87 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 129.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at 29.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 226.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -170.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -270.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -370.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -470.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -570.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f608476-9618-426e-8948-1f5f14368fe6")
+		)
+		(pin "1"
+			(uuid "de25fb88-0e8e-4403-898d-53874bef978b")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7950,7 +7804,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 59.69 105.41 0)
+		(at 110.49 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7959,7 +7813,7 @@
 		(fields_autoplaced yes)
 		(uuid "cceae7af-7d9f-4d9b-970e-c238a7d221d1")
 		(property "Reference" "#PWR0107"
-			(at 59.69 110.49 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +7822,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 59.563 109.22 0)
+			(at 110.363 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +7830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 106.68 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +7839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 106.68 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 59.69 105.41 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,74 +7863,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 52.07 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d343b863-b16d-451f-9e46-3f2709276522")
-		(property "Reference" "R58"
-			(at 52.07 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 52.07 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 52.07 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b4b18ac-1836-429c-8d3c-bf4e5ddf0532")
-		)
-		(pin "2"
-			(uuid "8d0c7d9f-1bc1-426a-9914-d86b172b7b3b")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -8147,6 +7933,128 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 177.8 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce54b5e-db80-4e94-a7e5-f81448eb24b5")
+		(property "Reference" "C16"
+			(at 181.61 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 181.61 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 81.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -18.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -218.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -318.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -418.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -518.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -618.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff6af148-abcc-47bb-9229-b125fce8cd42")
+		)
+		(pin "1"
+			(uuid "609e3b41-7046-4570-9b69-1480a1be3a53")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8290,144 +8198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e871e12f-f427-4aa2-8eda-d595ceb65644")
-		(property "Reference" "R54"
-			(at 105.41 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "58"
-			(at 105.41 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 105.41 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e6d3a47-8c68-4534-8783-df4444e38935")
-		)
-		(pin "2"
-			(uuid "f904c024-2c76-4a14-85c3-85b8a28a45a5")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 95.25 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef9aab72-7ab9-415b-8d78-23142a50f8ed")
-		(property "Reference" "C47"
-			(at 99.06 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 99.06 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 94.2848 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4494f6f-708d-4f5c-ad5e-f4deeb4a982d")
-		)
-		(pin "2"
-			(uuid "1699ca0f-ddf4-43ab-9977-c7923e80657c")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 166.37 85.09 0)
 		(unit 1)
@@ -8495,7 +8265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 97.79 90)
+		(at 38.1 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8504,7 +8274,7 @@
 		(fields_autoplaced yes)
 		(uuid "f432b552-6be5-4b0f-9797-5b888b8b58e3")
 		(property "Reference" "R53"
-			(at 45.72 91.44 90)
+			(at 38.1 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8282,7 @@
 			)
 		)
 		(property "Value" "58"
-			(at 45.72 93.98 90)
+			(at 38.1 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8290,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 45.72 99.568 90)
+			(at 38.1 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 97.79 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8308,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 97.79 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,6 +8394,250 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 201.93 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fadd7432-4b3d-40a1-acbd-0eb28597952a")
+		(property "Reference" "C17"
+			(at 205.74 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 205.74 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 105.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at 5.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 201.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -194.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -294.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -394.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -494.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -594.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb20f896-a39d-42ce-92fb-9d87b5e7181f")
+		)
+		(pin "1"
+			(uuid "ea4525ef-b586-4b05-95f3-44a91120bafb")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB2EZ15_R1_00001")
+		(at 92.71 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa17587-6b45-435e-8df7-22eb5951947a")
+		(property "Reference" "Z11"
+			(at 96.52 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB2EZ15_R1_00001"
+			(at 96.52 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1SMB2EZ15_R1_00001"
+			(at -0.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf"
+			(at -100.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -300.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-1SMB2EZ15R100001"
+			(at -400.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D"
+			(at -500.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at -600.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB2EZ15_R1_00001"
+			(at -700.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b3b321-0dd6-4e6b-b685-09dccd223627")
+		)
+		(pin "2"
+			(uuid "0f10b89f-5938-4e8a-924a-e0a8c6d9384b")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "Z11")
 					(unit 1)
 				)
 			)

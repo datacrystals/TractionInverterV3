@@ -132,6 +132,48 @@
 		)
 	)
 	(sheet
+		(at 177.8 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9de24265-2cf0-447a-be60-15cfff6a33e3")
+		(property "Sheetname" "TVS"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TVS.kicad_sch"
+			(at 177.8 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 25.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)

@@ -1,0 +1,3722 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d3d93164-b3ef-442d-9db8-58f41af6ba77")
+	(paper "A4")
+	(lib_symbols
+		(symbol "InverterCom:1SMB5956BT3G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1SMB5956BT3G"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM5436X247N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.47"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-1SMB5956BT3G"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1SMB5956BT3G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 6.096 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "PHASE_U"
+		(shape input)
+		(at 25.4 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b0c77f9-44de-4da8-a4c1-3410e4dda610")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 14.0691 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W"
+		(shape input)
+		(at 220.98 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c0191de-c10c-45c8-987f-fb322fc3cc13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 127.0218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_V"
+		(shape input)
+		(at 57.15 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24453205-7126-42ac-a598-d8b1c492d526")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 14.311 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U"
+		(shape input)
+		(at 194.31 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33f10edc-59b0-4e47-b561-ab32eeb13f9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 126.9009 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 246.38 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44c768fc-abeb-496c-a8ff-616b4b014aa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 37.8362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_V"
+		(shape input)
+		(at 246.38 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59d61e6e-4111-4c8e-8e7e-e463317c42c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 125.389 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 220.98 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9537bd3c-6ce5-462f-9d74-610db7d0ffb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 39.1062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W"
+		(shape input)
+		(at 88.9 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97e3b017-c07b-44ac-84da-dcfd2cbd8a41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 13.9482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 194.31 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af45364a-de47-4b54-8287-fb0ccfc2542d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 39.1062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 194.31 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06db5c30-a35e-4165-9aeb-1b986c07cb2e")
+		(property "Reference" "Z14"
+			(at 198.12 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 198.12 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 100.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 0.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -199.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -299.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -399.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -499.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -599.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74e25705-6bc1-4696-b3e4-9a54a979feec")
+		)
+		(pin "2"
+			(uuid "ce2c2126-6bd0-4276-8b99-1cfbc959f4ed")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 25.4 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5e0afc-7800-41f0-9be8-a3081a984574")
+		(property "Reference" "Z1"
+			(at 29.21 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 29.21 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -68.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -168.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 25.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -368.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -468.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -568.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -668.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -768.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512591dc-2e0a-4ee8-9eaa-fcd8750a61d4")
+		)
+		(pin "2"
+			(uuid "c76ba3ba-8d2b-4fb9-a266-61bce288ad1e")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 25.4 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "150a506b-74d5-48f1-966d-e0d2dae95b82")
+		(property "Reference" "Z3"
+			(at 29.21 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 29.21 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -68.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -168.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -368.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -468.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -568.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -668.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -768.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bbf16aa-b0c3-471a-961c-21b36cfdb4fe")
+		)
+		(pin "2"
+			(uuid "d474852a-26e6-4bf3-9a6b-2f0f98977d27")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 220.98 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167b8184-a749-4f35-98e5-b1a154693d52")
+		(property "Reference" "Z17"
+			(at 224.79 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 224.79 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 127.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 27.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 220.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -172.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -272.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -372.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -472.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -572.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c44cd1b-2c75-4544-80cb-95df0cbeb37c")
+		)
+		(pin "2"
+			(uuid "dfb2d0b4-801b-4f3f-a270-b9ae2c748aba")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 88.9 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "203e9fb0-acba-430e-a3f5-febfae534fd6")
+		(property "Reference" "Z9"
+			(at 92.71 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 92.71 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -4.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -104.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -304.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -404.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -504.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -604.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -704.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e83ee1c1-b388-411c-95c0-a1e9f8d17967")
+		)
+		(pin "2"
+			(uuid "988fc5d1-4b10-4679-a5f8-fc2615a7451e")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 57.15 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218971a2-7c06-4daa-b887-b3eaf75e6dc0")
+		(property "Reference" "Z6"
+			(at 60.96 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 60.96 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -36.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -136.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -336.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -436.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -536.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -636.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -736.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5fa26a4-81d5-4ca0-a3bb-1580754383bc")
+		)
+		(pin "2"
+			(uuid "5d436ee5-4b4d-428c-a568-6ff5859369d5")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 57.15 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "401d29b6-b3fe-4724-aad5-6b8206d8a985")
+		(property "Reference" "#PWR076"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 57.023 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b46ff6-7440-4de5-bcdf-70343b747ef4")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 220.98 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641864e1-53d8-4678-a2c2-a0f14872aeb3")
+		(property "Reference" "Z18"
+			(at 224.79 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 224.79 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 127.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 27.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -172.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -272.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -372.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -472.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -572.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d61b04-ef0d-4320-b4f1-835a81c41f6d")
+		)
+		(pin "2"
+			(uuid "943af0c2-5d4b-45ac-84ff-78d9a8d76a32")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 25.4 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6baa2e97-a282-4a3d-93b2-68682ed56704")
+		(property "Reference" "Z4"
+			(at 29.21 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 29.21 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -68.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -168.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -368.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -468.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -568.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -668.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -768.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f603da81-d32c-45cb-8ad5-0fe7808b464b")
+		)
+		(pin "2"
+			(uuid "f2543996-6aae-4cd8-9130-a781890be005")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 57.15 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7239f0-3367-40e3-9100-bfcca1db6830")
+		(property "Reference" "Z7"
+			(at 60.96 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 60.96 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -36.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -136.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -336.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -436.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -536.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -636.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -736.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b7a50bf-8877-4a61-b0dd-7623cc40f119")
+		)
+		(pin "2"
+			(uuid "541efe42-d7b1-4416-b04b-17bd5ed7a374")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 25.4 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "754d68c9-0923-4e26-a21e-55d3033ba501")
+		(property "Reference" "Z2"
+			(at 29.21 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 29.21 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -68.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -168.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -368.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -468.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -568.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -668.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -768.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eef89b4-452c-4d73-aecc-d7ae48850404")
+		)
+		(pin "2"
+			(uuid "fb58a7a4-2f2b-4745-84f8-adb75f9119b8")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 88.9 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b03217d-146d-4860-b00b-752f040ef8d2")
+		(property "Reference" "Z10"
+			(at 92.71 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 92.71 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -4.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -104.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -304.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -404.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -504.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -604.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -704.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92993b90-2159-4721-95d1-846df2572700")
+		)
+		(pin "2"
+			(uuid "b922420c-e7e2-4df4-81c5-49046dc5d9dc")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 220.98 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80a5c780-5955-4707-ac31-e810effaa21d")
+		(property "Reference" "Z19"
+			(at 224.79 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 224.79 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 127.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 27.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -172.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -272.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -372.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -472.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -572.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082ccc73-09fc-415a-a361-8e3e5380e3aa")
+		)
+		(pin "2"
+			(uuid "a1501fb5-d0b4-4c27-ae11-a6d6f07a4fd9")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 246.38 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8abaae4f-ab5d-4831-a6eb-db1b72548f42")
+		(property "Reference" "Z23"
+			(at 250.19 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 250.19 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 152.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 52.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -147.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -247.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -347.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -447.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -547.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5e91ebf-2865-4f7b-af51-d2456bfa117e")
+		)
+		(pin "2"
+			(uuid "201564ee-961b-4e69-8087-5d3680683682")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 57.15 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ade740a-1e74-4896-bb4a-bd9f3f7a95c9")
+		(property "Reference" "Z8"
+			(at 60.96 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 60.96 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -36.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -136.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -336.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -436.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -536.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -636.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -736.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42547cc5-3c16-4442-adab-27bb5b66453f")
+		)
+		(pin "2"
+			(uuid "3e753a8f-2e43-4ec5-8ff2-fb6189d811d1")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 25.4 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae23fc84-00ae-43ab-9533-3d88a70bd22a")
+		(property "Reference" "#PWR075"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 25.273 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c535680-2891-4362-b15a-9d8fcb4eb256")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 246.38 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2896476-ff31-4b28-a560-7ab5a25906cd")
+		(property "Reference" "Z24"
+			(at 250.19 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 250.19 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 152.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 52.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 246.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -147.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -247.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -347.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -447.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -547.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4891fc6e-b8a1-4ea7-b11c-4c68f516f041")
+		)
+		(pin "2"
+			(uuid "9f4faf9a-7455-4bbb-b2d1-cc1701a43bce")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 246.38 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b379309c-0d12-49f7-8054-e0a07b25d9b3")
+		(property "Reference" "Z21"
+			(at 250.19 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 250.19 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 152.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 52.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 246.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -147.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -247.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -347.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -447.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -547.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d2300bd-1748-4a78-87c7-71dffb1f38b0")
+		)
+		(pin "2"
+			(uuid "18b0e72a-c6c1-4d60-96e7-9aadba8652b5")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 220.98 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bc9c56-e88a-4074-8ee2-b26b2e31ea8f")
+		(property "Reference" "Z20"
+			(at 224.79 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 224.79 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 127.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 27.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -172.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -272.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -372.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -472.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -572.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7714029-1649-40b8-ba87-74d51b8a5d1e")
+		)
+		(pin "2"
+			(uuid "40663ef9-1c34-4a98-8572-7d93fa77c186")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 88.9 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c207036f-a008-4f80-b8c3-bd792cb10042")
+		(property "Reference" "Z12"
+			(at 92.71 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 92.71 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -4.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -104.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -304.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -404.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -504.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -604.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -704.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d1cd62e-9835-44fc-86a7-59b39e8f1b64")
+		)
+		(pin "2"
+			(uuid "4d8ddc35-ed70-4702-adb7-110dd263f9f4")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 57.15 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5be769-67f2-4e49-9dd4-ad0b70b101eb")
+		(property "Reference" "Z5"
+			(at 60.96 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 60.96 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -36.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -136.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -336.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -436.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -536.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -636.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -736.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0299ef02-b034-4636-9c6c-ee0f0b662c72")
+		)
+		(pin "2"
+			(uuid "46e0493d-af08-4ab5-aaf0-5649f5eac234")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 194.31 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7f2a7a-7969-41cf-a16f-19214dabf005")
+		(property "Reference" "Z13"
+			(at 198.12 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 198.12 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 100.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 0.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 194.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -199.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -299.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -399.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -499.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -599.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199c8549-0d9c-4774-a188-bd77d2006e33")
+		)
+		(pin "2"
+			(uuid "71bc996b-4b82-419d-b272-b7355aa16f4a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 88.9 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f0793d-76c3-4eac-b23e-2653fb854216")
+		(property "Reference" "#PWR077"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 88.773 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c277564b-23c4-446e-a269-1ee450fdc236")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 88.9 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd63f9d6-41ae-4d4c-8aaf-91b4439d2a1b")
+		(property "Reference" "Z11"
+			(at 92.71 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 92.71 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at -4.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at -104.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -304.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -404.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -504.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -604.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -704.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0e7c70-126a-42ac-829e-348c98f59e74")
+		)
+		(pin "2"
+			(uuid "b2207139-88cb-4d44-b31c-859be3eda46d")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 194.31 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2eb26e3-4437-4e37-baa9-6ee3bd3daee8")
+		(property "Reference" "Z16"
+			(at 198.12 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 198.12 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 100.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 0.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -199.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -299.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -399.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -499.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -599.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba4fbc9-59bc-4e82-9cf5-178270504a08")
+		)
+		(pin "2"
+			(uuid "72c89262-af41-40fb-a5aa-e99b83a8eed0")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 246.38 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaab3626-55da-4d8c-b8ec-08b28d7ce9ec")
+		(property "Reference" "Z22"
+			(at 250.19 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 250.19 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 152.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 52.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -147.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -247.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -347.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -447.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -547.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51fd1f32-c83c-4ff5-93b6-6dfabebbcea0")
+		)
+		(pin "2"
+			(uuid "0746e18a-bc75-4db1-8fb0-a0f4887f3c71")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:1SMB5956BT3G")
+		(at 194.31 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc891213-6769-4011-a834-4d179229c168")
+		(property "Reference" "Z15"
+			(at 198.12 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMB5956BT3G"
+			(at 198.12 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM5436X247N"
+			(at 100.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
+			(at 0.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.47"
+			(at -199.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-1SMB5956BT3G"
+			(at -299.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
+			(at -399.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -499.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
+			(at -599.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cbba62c-9c23-4513-9696-73bf0b55bc50")
+		)
+		(pin "2"
+			(uuid "8f5cbfe1-0835-4ed3-ab07-c4f446fc65ad")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/b34e29c8-27e9-41c6-b8f5-2c1b6147c1f3"
+					(reference "Z15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
