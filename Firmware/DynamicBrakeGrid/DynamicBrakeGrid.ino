@@ -131,39 +131,12 @@
  *   Byte 0:   Command (0x01 = reboot, 0x02 = factory reset)
  */
 
-// CAN Message IDs
-#define CAN_ID_STATUS         0x100
-#define CAN_ID_FAULT          0x101
-#define CAN_ID_SYSTEM_INFO    0x102
-#define CAN_ID_SET_SETPOINT   0x200
-#define CAN_ID_RESET_FAULTS   0x201
-#define CAN_ID_REQUEST_STATUS 0x202
-#define CAN_ID_SYSTEM_CMD     0x203
-#define CAN_ID_FAULT_LIST     0x103
-// Command IDs
-#define CMD_EMERGENCY_STOP   0x00
-#define CMD_DISABLE_OUTPUT   0x01
-#define CMD_ENABLE_OUTPUT    0x02
-#define CMD_RESET_FAULTS     0x03
-#define CMD_GET_FAULT_COUNT  0x04
-#define CMD_GET_FAULT_LIST   0x05
-#define CMD_GET_VOLTAGE_IN   0x06
-#define CMD_GET_VOLTAGE_OUT  0x07
-#define CMD_GET_CURRENT      0x08
-#define CMD_GET_TEMPERATURE  0x09
-#define CMD_GET_FAN_SPEED    0x0A
-#define CMD_GET_POWER        0x0B
-#define CMD_SET_VOLTAGE      0x0C
-#define CMD_HEARTBEAT        0x0D
-
-
 // Forward declarations
 class Indicator;
 class FanController;
 class FaultManager;
 class CANController;
 
-void sendAck();
 void sendFaultCount();
 void sendFaultList();
 void sendVoltageIn();
@@ -654,150 +627,68 @@ void handleCANMessage(const CANMessage& msg) {
         case MessageCode::REGULAR_STOP:
             voltageController.SetSetpoint(VOLTAGE_MAX);
             voltageController.SetDutyCycle(0); // Hard disable
-            canManager.SendCode(MessageCode::HEARTBEAT); // Acknowledge
+            canManager.SendBool(MessageCode::EMERGENCY_STOP, true); // Acknowledge
             break;
 
         case MessageCode::ENABLE_OUTPUT:
-            canManager.SendCode(MessageCode::EMPTY); // Acknowledge
+            canManager.SendBool(MessageCode::ENABLE_OUTPUT, true); // Acknowledge
             break;
 
         case MessageCode::RESET_FAULTS:
             faultManager.resetFaults();
-            canManager.SendCode(MessageCode::EMPTY); // Acknowledge
+            canManager.SendBool(MessageCode::RESET_FAULTS, true); // Acknowledge
             break;
 
         case MessageCode::GET_FAULT_COUNT:
-            canManager.SendInt(MessageCode::GET_FAULT_COUNT, faultManager.getFaultCount());
+            canManager.SendInt(MessageCode::GET_FAULT_COUNT_RESPONSE, faultManager.getFaultCount());
             break;
 
-        case MessageCode::GET_FAULT_LIST:
-            // Send fault list as a string
-            char allFaults[FAULT_BUFFER_SIZE * (FAULT_NAME_LENGTH + 2)] = {0};
-            faultManager.getFaultNames(allFaults, sizeof(allFaults));
-            canManager.SendString(MessageCode::GET_FAULT_LIST, allFaults);
+        case MessageCode::GET_FAULT_LIST: {
+            char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH] = {0};
+            faultManager.getFaultNames(faultNames, sizeof(faultNames));
+            if (!canManager.SendString(MessageCode::GET_FAULT_LIST_RESPONSE, faultNames)) {
+                Serial.println(F("Failed to send fault list, likely due to length."));
+            }
             break;
+        }
 
         case MessageCode::GET_VIN_VOLTAGE:
-            canManager.SendFloat(MessageCode::GET_VIN_VOLTAGE, voltageController.GetVoltage());
+            canManager.SendFloat(MessageCode::GET_VIN_VOLTAGE_RESPONSE, voltageController.GetVoltage());
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE:
-            canManager.SendFloat(MessageCode::GET_VOUT_VOLTAGE, voltageController.GetVoltage());
+            canManager.SendFloat(MessageCode::GET_VOUT_VOLTAGE_RESPONSE, voltageController.GetVoltage());
             break;
 
         case MessageCode::GET_PHASE1_CURRENT:
-            canManager.SendFloat(MessageCode::GET_PHASE1_CURRENT, voltageController.GetCurrent());
+            canManager.SendFloat(MessageCode::GET_PHASE1_CURRENT_RESPONSE, voltageController.GetCurrent());
             break;
 
         case MessageCode::GET_POWER:
-            canManager.SendFloat(MessageCode::GET_POWER, voltageController.GetPower());
+            canManager.SendFloat(MessageCode::GET_POWER_RESPONSE, voltageController.GetPower());
+            break;
+
+        case MessageCode::GET_PHASE1_TEMP:
+            canManager.SendFloat(MessageCode::GET_PHASE1_TEMP_RESPONSE, voltageController.GetTemperature());
+            break;
+
+        case MessageCode::GET_PHASE2_TEMP:
+            canManager.SendFloat(MessageCode::GET_PHASE2_TEMP_RESPONSE, voltageController.GetTemperature());
+            break;
+
+        case MessageCode::GET_FAN_SPEED:
+            canManager.SendFloat(MessageCode::GET_FAN_SPEED_RESPONSE, fanController.getRollingCFMAvg());
+            break;
+
+        case MessageCode::FIRMWARE_VERSION:
+            canManager.SendString(MessageCode::FIRMWARE_VERSION_RESPONSE, FW_VERSION);
             break;
 
         default:
-            Serial.println("Unhandled CAN message code");
+            Serial.println(F("Unhandled CAN message code"));
             break;
     }
 }
-
-// Implementation of all response functions
-void sendAck() {
-    uint8_t data[1] = {0x01};
-    canController.sendMessage((DEVICE_ID << 5) | 0x1F, data, 1);
-}
-
-void sendFaultCount() {
-    uint8_t data[1] = {faultManager.getFaultCount()};
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_FAULT_COUNT, data, 1);
-}
-
-void sendVoltageIn() {
-    uint8_t data[4];
-    float voltage = voltageController.GetVoltage();
-    memcpy(data, &voltage, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_VOLTAGE_IN, data, 4);
-}
-
-void sendVoltageOut() {
-    uint8_t data[4];
-    float voltage = voltageController.GetVoltage(); // Or specific output voltage if different
-    memcpy(data, &voltage, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_VOLTAGE_OUT, data, 4);
-}
-
-void sendCurrent() {
-    uint8_t data[4];
-    float current = voltageController.GetCurrent();
-    memcpy(data, &current, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_CURRENT, data, 4);
-}
-
-void sendTemperature() {
-    uint8_t data[4];
-    float temp = 25.0; // Replace with actual temperature reading
-    memcpy(data, &temp, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_TEMPERATURE, data, 4);
-}
-
-void sendFanSpeed() {
-    uint8_t data[4];
-    float cfm = fanController.getRollingCFMAvg();
-    memcpy(data, &cfm, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_FAN_SPEED, data, 4);
-}
-
-void sendPower() {
-    uint8_t data[4];
-    float power = voltageController.GetPower();
-    memcpy(data, &power, 4);
-    canController.sendMessage((DEVICE_ID << 5) | CMD_GET_POWER, data, 4);
-}
-
-// Status message (uses different message ID scheme)
-void sendCANStatus() {
-    uint8_t data[8];
-    float voltage = voltageController.GetVoltage();
-    float current = voltageController.GetCurrent();
-    uint16_t currentScaled = current * 100; // 0.01A resolution
-    
-    memcpy(&data[0], &voltage, 4);
-    memcpy(&data[4], &currentScaled, 2);
-    data[6] = voltageController.GetDutyCycle();
-    data[7] = faultManager.getFaultCount();
-    
-    canController.sendMessage(CAN_ID_STATUS, data, 8);
-}
-
-void sendCANFault() {
-    char faultName[FAULT_NAME_LENGTH];
-    if(faultManager.getMostRecentFaultName(faultName, FAULT_NAME_LENGTH)) {
-        uint8_t data[8] = {0};
-        memcpy(data, faultName, min(strlen(faultName), 8));
-        canController.sendMessage(CAN_ID_FAULT, data, 8);
-    }
-}
-
-void sendFaultList() {
-    char allFaults[FAULT_BUFFER_SIZE * (FAULT_NAME_LENGTH + 2)] = {0};
-    faultManager.getFaultNames(allFaults, sizeof(allFaults));
-    
-    int len = strlen(allFaults);
-    for (int i = 0; i < len; i += 8) {
-        uint8_t data[8] = {0};
-        int chunkLen = min(8, len - i);
-        memcpy(data, allFaults + i, chunkLen);
-        data[7] = (i + 8 >= len) ? 1 : 0; // End of message flag
-        canController.sendMessage(CAN_ID_FAULT_LIST, data, 8);
-    }
-}
-// Send system info over CAN
-void sendSystemInfo() {
-    uint8_t data[8];
-    memcpy(&data[0], FW_VERSION, 4);
-//    memcpy(&data[4], &systemUptime, 4);
-    canController.sendMessage(CAN_ID_SYSTEM_INFO, data, 8);
-}
-
-
 
 void setup() {
     Serial.begin(9600);

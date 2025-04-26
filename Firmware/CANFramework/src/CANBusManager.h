@@ -32,6 +32,7 @@ public:
     static int32_t ReadInt(const CANMessage& msg);
     static float ReadFloat(const CANMessage& msg);
 
+    void PrintChipStatus();
     bool HasError() const {
         return hasError;
     }

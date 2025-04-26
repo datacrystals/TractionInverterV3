@@ -3,7 +3,24 @@
 
 enum MessageCode : uint8_t {
 
+    NULL = 0, // No message code
     EMPTY = 1,
+
+    // Existing codes
+    ENABLE = 2,
+    VOLTAGE = 3,
+    HEARTBEAT = 4,
+    TOGGLE_LED = 5,
+    TEMPERATURE = 6,
+    STATUS_FLOAT = 7,
+    DESCRIPTION = 8,
+    
+    STRING_START = 10,
+    STRING_PART = 11,
+    STRING_END = 12,
+
+    API_VERSION_REQUEST = 13,
+    API_VERSION_RESPONSE = 14,
 
     // BOOST Converter things
     EMERGENCY_STOP   = 20,     // Emergency Stop (Disable Output)
@@ -24,23 +41,25 @@ enum MessageCode : uint8_t {
     GET_CAN_FAULT_STATUS = 35, // Get CAN Fault Status
     ENABLE_HEARTBEAT = 36,     // Enable Heartbeat Mode
     HEARTBEAT_PING = 37,       // Heartbeat Ping
-    // END BOOST Converter things
+    GET_FAULT_LIST_RESPONSE = 38, // Faults List Response
 
-    ENABLE = 2,
-    VOLTAGE = 3,
+    // DYNAMIC BRAKE things
+    DISABLE_OUTPUT = 40,
+    GET_VIN = 42,
+    GET_VOUT = 43,
+    SET_VOLTAGE = 44,
 
-    HEARTBEAT = 4,
-    TOGGLE_LED = 5,
-    TEMPERATURE = 6,
-    STATUS_FLOAT = 7,
-    DESCRIPTION = 8,
+    // Add equivalents for CAN IDs
+    REQUEST_STATUS = 50,      // 0x50 - Request Status
+    STATUS_MESSAGE = 51,      // 0x51 - Status Message
+    FAULT_MESSAGE = 52,       // 0x52 - Fault Message
+    SYSTEM_INFO = 53,         // 0x53 - System Info
+    SET_VOLTAGE_SETPOINT = 54,// 0x54 - Set Voltage Setpoint
+    RESET_FAULTS_CMD = 55,    // 0x55 - Reset Faults    
+    SYSTEM_COMMAND = 56,      // 0x56 - System Command
+    FIRMWARE_VERSION = 57,    // 0x57 - Firmware Version
+
     
-    STRING_START = 10,
-    STRING_PART = 11,
-    STRING_END = 12,
-
-    API_VERSION_REQUEST = 13,
-    API_VERSION_RESPONSE = 14,
 };
 
 #endif

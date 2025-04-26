@@ -232,7 +232,7 @@ void OnCanMessage(const CANMessage& msg) {
         case MessageCode::GET_FAULT_LIST: {
             char faultNames[FAULT_BUFFER_SIZE * FAULT_NAME_LENGTH] = {0};
             faultManager.getFaultNames(faultNames, sizeof(faultNames));
-            if (!canBus.SendString(MessageCode::GET_FAULT_LIST, faultNames)) {
+            if (!canBus.SendString(MessageCode::GET_FAULT_LIST_RESPONSE, faultNames)) {
                 Serial.println(F("Failed to send fault list, likely due to length."));
             }
             break;
