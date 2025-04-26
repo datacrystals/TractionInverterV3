@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "InverterCom")(type "KiCad")(uri "../InverterCom.kicad_sym")(options "")(descr ""))
+  (lib (name "InverterCom")(type "KiCad")(uri "${KIPRJMOD}/../InverterCom.kicad_sym")(options "")(descr ""))
 )
