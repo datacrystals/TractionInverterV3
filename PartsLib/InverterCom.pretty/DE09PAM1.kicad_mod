@@ -288,7 +288,7 @@
 		(uuid "4e6457a7-5663-467e-ac4d-a7b2a33eeb81")
 	)
 	(embedded_fonts no)
-	(model "DE09-PA-M1.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/DE09-PA-M1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

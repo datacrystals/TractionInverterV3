@@ -253,7 +253,7 @@
 		(uuid "961ef825-7b20-4d9e-a81b-bea1312a1d37")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/UCC27424QDRQ1.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/UCC27424QDRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

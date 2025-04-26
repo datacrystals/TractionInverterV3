@@ -187,7 +187,7 @@
 		(uuid "3d62cef7-4de5-491c-a713-446029b05298")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/MMSZ5231B-TP.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/MMSZ5231B-TP.stp"
 		(offset
 			(xyz -0.279999997 2.79999991 0.7200000178)
 		)

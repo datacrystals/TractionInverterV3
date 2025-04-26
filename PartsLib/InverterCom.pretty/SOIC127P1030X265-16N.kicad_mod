@@ -301,7 +301,7 @@
 		(uuid "918904c3-3254-4972-adde-24602e631e3d")
 	)
 	(embedded_fonts no)
-	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/AMC3330QDWERQ1.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/AMC3330QDWERQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

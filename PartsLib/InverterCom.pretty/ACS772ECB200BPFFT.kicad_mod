@@ -929,7 +929,7 @@
 		(uuid "30889b7f-6049-4278-9f4e-795ad0a228ef")
 	)
 	(embedded_fonts no)
-	(model "ACS772ECB-400B-PFF-T.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/ACS772ECB-400B-PFF-T.stp"
 		(offset
 			(xyz -3.259999942 7.079999817 -12.1000002)
 		)

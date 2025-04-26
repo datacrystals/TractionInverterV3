@@ -101,7 +101,7 @@
 		(uuid "9549ee7a-123d-4ad7-a428-3ddf128aa4e2")
 	)
 	(embedded_fonts no)
-	(model "/home/tliao/Downloads/Mitsubishi CM600HA-24H.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/CM600HA-24H.stp"
 		(offset
 			(xyz -53.5 -39 -38)
 		)

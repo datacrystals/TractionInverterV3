@@ -215,7 +215,7 @@
 		(uuid "fb43e531-d9f5-4fbc-b8b9-e048b84f04d8")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/SIHFR120-GE3.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/SIHFR120-GE3.stp"
 		(offset
 			(xyz 0 1.710000012 1.450000026)
 		)

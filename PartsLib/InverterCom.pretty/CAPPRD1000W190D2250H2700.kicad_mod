@@ -1,7 +1,7 @@
 (footprint "CAPPRD1000W190D2250H2700"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "22*25mm")
 	(tags "Capacitor Polarised")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9983e8d9-cea1-46a4-9b5f-622050b69454")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +60,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bbbd3c6d-c4c7-43c9-a99f-b2a0f8d3f56f")
 	)
@@ -83,7 +71,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "60ea0bcb-eb6d-4b21-afc7-0d5ab45a7fe4")
 	)
@@ -127,7 +115,8 @@
 		(remove_unused_layers no)
 		(uuid "592a8cde-6886-49af-9e58-e9eb49fb963e")
 	)
-	(model "SLPX331M200A1P3.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/SLPX331M200A1P3.stp"
 		(offset
 			(xyz 0 0 0)
 		)

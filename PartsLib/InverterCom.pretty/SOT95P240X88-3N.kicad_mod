@@ -212,7 +212,7 @@
 		(uuid "7ed82639-d862-495a-83b4-45f1b5160cc6")
 	)
 	(embedded_fonts no)
-	(model "SSM3K361R,LF.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/SSM3K361R,LF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

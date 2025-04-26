@@ -303,7 +303,7 @@
 		(uuid "5e1f4932-c536-4d4f-902e-baedbaa7f6d3")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/UCC28220D.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/UCC28220D.stp"
 		(offset
 			(xyz 0 0 0)
 		)

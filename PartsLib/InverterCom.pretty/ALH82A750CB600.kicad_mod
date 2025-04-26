@@ -231,26 +231,15 @@
 		(uuid "b9450745-e221-428e-98d4-4bed63d6a2d9")
 	)
 	(embedded_fonts no)
-	(model "ALH82A750CB600.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/ALH82A750CB600.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5 0 32)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/ALH82A750CB600.stp"
-		(offset
-			(xyz 5 0 33)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 90 0 45)
+			(xyz 90 -0 45)
 		)
 	)
 )

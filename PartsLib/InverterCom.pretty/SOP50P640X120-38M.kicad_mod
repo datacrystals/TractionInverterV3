@@ -422,7 +422,7 @@
 		(uuid "08e116c1-3017-47fe-8ff7-822a1ebdbd05")
 	)
 	(embedded_fonts no)
-	(model "../../3D/ADS8688AIDBT.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/ADS8688AIDBT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

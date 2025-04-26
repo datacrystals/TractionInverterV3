@@ -167,7 +167,7 @@
 		(uuid "32aacd9b-93d7-4a88-a824-e6ed3db6184a")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/RC2512JK-071ML.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/RC2512JK-071ML.stp"
 		(offset
 			(xyz 0 0 0)
 		)

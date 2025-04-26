@@ -269,7 +269,7 @@
 		(uuid "ab694cb6-85de-4d1a-af72-eed51fd31611")
 	)
 	(embedded_fonts no)
-	(model "RKE-1205S_H.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/RKE-1205S_H.stp"
 		(offset
 			(xyz 7.829999806 -2.309999908 0.4999999925)
 		)

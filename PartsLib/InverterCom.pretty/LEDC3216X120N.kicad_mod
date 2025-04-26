@@ -197,7 +197,7 @@
 		(uuid "b470b073-26a9-4063-b822-69ed2677b466")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/LTST-C230CKT.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/LTST-C230CKT.stp"
 		(offset
 			(xyz -0.02999999888 0 0)
 		)

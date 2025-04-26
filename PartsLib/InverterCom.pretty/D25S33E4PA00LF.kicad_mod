@@ -503,7 +503,7 @@
 		(uuid "589c30e6-aef1-4f5e-9847-e4ef9bcfaeac")
 	)
 	(embedded_fonts no)
-	(model "../3D/D25S33E4PA00LF.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/D25S33E4PA00LF.stp"
 		(offset
 			(xyz -16.55999922 -10.55000003 -0.04999999999)
 		)

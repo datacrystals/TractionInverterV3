@@ -223,7 +223,7 @@
 		(uuid "8538e0b8-fff9-4f0f-bf21-1c22924537f0")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/TL431AIDBZR.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/TL431AIDBZR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

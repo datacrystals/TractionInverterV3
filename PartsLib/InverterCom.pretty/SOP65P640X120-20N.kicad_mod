@@ -325,7 +325,7 @@
 		(uuid "dae392f4-8ed5-4547-a933-bc48fb0a9569")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/MCP2515-e_ST.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/MCP2515-e_ST.stp"
 		(offset
 			(xyz 0 0 0)
 		)

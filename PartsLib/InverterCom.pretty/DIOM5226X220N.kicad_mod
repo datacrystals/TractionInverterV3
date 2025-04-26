@@ -176,7 +176,7 @@
 		(uuid "657c3f4b-7977-4613-bdb5-3101455c873d")
 	)
 	(embedded_fonts no)
-	(model "MBRA340T3G.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/MBRA340T3G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

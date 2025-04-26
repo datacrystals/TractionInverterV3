@@ -464,7 +464,7 @@
 		(uuid "cf922e1e-539e-43af-97a3-a88514efd713")
 	)
 	(embedded_fonts no)
-	(model "../3D/L717SDB25PA4CH3R.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/L717SDB25PA4CH3R.stp"
 		(offset
 			(xyz 7.84 -27.55 -2.73)
 		)

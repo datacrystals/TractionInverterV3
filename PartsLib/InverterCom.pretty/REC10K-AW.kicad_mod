@@ -223,7 +223,7 @@
 		(uuid "cfe0b18e-3c4b-4ca0-9773-9afe06107254")
 	)
 	(embedded_fonts no)
-	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/REC10K-2415SAW_H2.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/REC10K-2415SAW_H2.stp"
 		(offset
 			(xyz 0 0 0)
 		)

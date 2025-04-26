@@ -1,7 +1,7 @@
 (footprint "IPB65R150CFDAATMA1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PG-TO 263")
 	(tags "MOSFET (N-Channel)")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3e2c50af-f331-423f-92c5-2c8d15f7054e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -211,19 +199,20 @@
 	(pad "1" smd rect
 		(at 8.294 2.55 90)
 		(size 1.35 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aecbaba7-4db9-41eb-bdac-2b84c987fe47")
 	)
 	(pad "2" smd rect
 		(at -0.856 0)
 		(size 9.4 10.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "82894ca5-fee6-4c98-92a7-2f2806b38cd3")
 	)
 	(pad "3" smd rect
 		(at 8.294 -2.55 90)
 		(size 1.35 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19c916a5-7105-4164-9090-6fcfd663769f")
 	)
+	(embedded_fonts no)
 )

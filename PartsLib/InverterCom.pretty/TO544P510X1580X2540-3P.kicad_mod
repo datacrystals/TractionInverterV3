@@ -209,7 +209,7 @@
 		(uuid "4e0a6fd1-bca8-4055-bb47-3063d5194fca")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/STWA75N60M6.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/STWA75N60M6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

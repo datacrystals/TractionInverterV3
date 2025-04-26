@@ -219,7 +219,7 @@
 		(uuid "0361551d-deca-46cc-981a-bcd9a1ed8817")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/1SMB2EZ15_R1_00001.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/1SMB2EZ15_R1_00001.stp"
 		(offset
 			(xyz 0 0 0)
 		)

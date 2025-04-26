@@ -250,7 +250,7 @@
 		(uuid "adc3b614-c52b-4ba5-bb44-1514df1ba051")
 	)
 	(embedded_fonts no)
-	(model "1N5956BRLG.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/1N5956BRLG.stp"
 		(offset
 			(xyz 0 0 0)
 		)

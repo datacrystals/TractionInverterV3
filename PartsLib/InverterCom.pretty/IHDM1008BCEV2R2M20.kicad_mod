@@ -1,7 +1,7 @@
 (footprint "IHDM1008BCEV2R2M20"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "25.53mm x 20.73mm x 21.75mm")
 	(tags "Inductor")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9548ae21-d0c8-4abe-a198-712de47d0f3f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -254,7 +242,8 @@
 		(remove_unused_layers no)
 		(uuid "9697d728-7d19-47f3-80fe-2a74a86e1ee2")
 	)
-	(model "IHDM1008BCEV2R2M20.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/IHDM1008BCEV2R2M20.stp"
 		(offset
 			(xyz 0 0 0)
 		)

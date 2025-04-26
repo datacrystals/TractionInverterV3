@@ -167,7 +167,7 @@
 		(uuid "3908d52a-498b-4902-99e5-3f634cd7123c")
 	)
 	(embedded_fonts no)
-	(model "../../../3D/FBMJ1608HS220NTR.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/FBMJ1608HS220NTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

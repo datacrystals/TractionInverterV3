@@ -201,7 +201,7 @@
 		(uuid "c15ad97f-fa1a-4816-9c8f-9eeceb0467d0")
 	)
 	(embedded_fonts no)
-	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/B32774X0205K000.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/B32774X0205K000.stp"
 		(offset
 			(xyz 13.62999991 0 10.94999964)
 		)

@@ -195,7 +195,7 @@
 		(uuid "09935fcf-4167-4fd5-9ebb-9aae511761a3")
 	)
 	(embedded_fonts no)
-	(model "../../3D/TMP236A2DCKR.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/TMP236A2DCKR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

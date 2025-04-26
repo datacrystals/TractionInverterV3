@@ -176,15 +176,15 @@
 		(uuid "3751fbf7-02b9-494c-a6e3-d6ccff731889")
 	)
 	(embedded_fonts no)
-	(model "BAT54WS-7-F.stp"
+	(model "${KIPRJMOD}/PartsLib/3D/BAT54WS-7-F.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 90)
 		)
 	)
 )
