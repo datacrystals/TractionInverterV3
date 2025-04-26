@@ -231,6 +231,10 @@
           "drill": 0.3
         },
         {
+          "diameter": 0.8,
+          "drill": 0.35
+        },
+        {
           "diameter": 1.0,
           "drill": 0.5
         }
@@ -659,6 +663,10 @@
     [
       "b603b6ab-731a-4b00-a995-a83952d2e03a",
       "CAN"
+    ],
+    [
+      "7a3cf8b1-a74b-46f9-bccc-862caf07379b",
+      "AnalogInFilters"
     ]
   ],
   "text_variables": {}

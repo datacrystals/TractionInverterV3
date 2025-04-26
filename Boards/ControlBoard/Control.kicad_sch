@@ -2969,17 +2969,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check extra pins"
-		(exclude_from_sim no)
-		(at 68.834 50.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e9ecd18-f2e8-4387-b68d-bfd2c551d551")
-	)
 	(text "UART Debug Header"
 		(exclude_from_sim no)
 		(at 50.8 59.69 0)
@@ -2989,17 +2978,6 @@
 			)
 		)
 		(uuid "56737680-85bc-489c-923e-8fe71ba360bb")
-	)
-	(text "add filter caps here for all inputs"
-		(exclude_from_sim no)
-		(at 69.596 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb91ddd1-568e-4967-8aed-ecacb72ff9d6")
 	)
 	(junction
 		(at 234.95 29.21)

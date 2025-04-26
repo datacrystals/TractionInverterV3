@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 215.9 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a3cf8b1-a74b-46f9-bccc-862caf07379b")
+		(property "Sheetname" "AnalogInFilters"
+			(at 215.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInFilters.kicad_sch"
+			(at 215.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 25.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
