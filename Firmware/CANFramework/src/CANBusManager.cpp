@@ -147,16 +147,14 @@ float CANBusManager::ReadFloat(const CANMessage& msg) {
 }
 
 void CANBusManager::PrintChipStatus() {
-    if (debugEnabled) {
-        uint8_t status = mcp.getStatus();
-        Serial.print("CAN Status: 0x");
-        Serial.println(status, HEX);
-        
-        // Simplified status interpretation
-        Serial.print("RX Status: ");
-        Serial.println((status & 0xC0) >> 6, BIN); // RX status bits
-        
-        Serial.print("TX Status: ");
-        Serial.println((status & 0x38) >> 3, BIN); // TX status bits
-    }
+    uint8_t status = mcp.getStatus();
+    Serial.print("CAN Status: 0x");
+    Serial.println(status, HEX);
+    
+    // Simplified status interpretation
+    Serial.print("RX Status: ");
+    Serial.println((status & 0xC0) >> 6, BIN); // RX status bits
+    
+    Serial.print("TX Status: ");
+    Serial.println((status & 0x38) >> 3, BIN); // TX status bits
 }

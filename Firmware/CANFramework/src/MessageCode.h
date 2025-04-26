@@ -3,7 +3,7 @@
 
 enum MessageCode : uint8_t {
 
-    NULL = 0, // No message code
+    MSG_NULL = 0, // No message code
     EMPTY = 1,
 
     // Existing codes
@@ -42,6 +42,7 @@ enum MessageCode : uint8_t {
     ENABLE_HEARTBEAT = 36,     // Enable Heartbeat Mode
     HEARTBEAT_PING = 37,       // Heartbeat Ping
     GET_FAULT_LIST_RESPONSE = 38, // Faults List Response
+    GET_FAN_SPEED = 39, // Get Fan Speed (CFM)
 
     // DYNAMIC BRAKE things
     DISABLE_OUTPUT = 40,
@@ -57,9 +58,17 @@ enum MessageCode : uint8_t {
     SET_VOLTAGE_SETPOINT = 54,// 0x54 - Set Voltage Setpoint
     RESET_FAULTS_CMD = 55,    // 0x55 - Reset Faults    
     SYSTEM_COMMAND = 56,      // 0x56 - System Command
-    FIRMWARE_VERSION = 57,    // 0x57 - Firmware Version
-
-    
+    REQUEST_FIRMWARE_VERSION = 57,    // 0x57 - Firmware Version
+    FIRMWARE_VERSION_RESPONSE = 58,   // 0x58 - Firmware Version Response
+    GET_FAULT_COUNT_RESPONSE = 59,    // 0x59 - Fault Count Response
+    GET_VIN_VOLTAGE_RESPONSE = 60,    // 0x60 - Vin Voltage Response
+    GET_VOUT_VOLTAGE_RESPONSE = 61,   // 0x61 - Vout Voltage Response
+    GET_PHASE1_CURRENT_RESPONSE = 62, // 0x62 - Phase 1 Current Response
+    GET_PHASE2_CURRENT_RESPONSE = 63, // 0x63 - Phase 2 Current Response
+    GET_PHASE1_TEMP_RESPONSE = 64,    // 0x64 - Phase 1 Temperature Response
+    GET_PHASE2_TEMP_RESPONSE = 65,    // 0x65 - Phase 2 Temperature Response
+    GET_POWER_RESPONSE = 66,            // 0x66 - Power Response
+    GET_FAN_SPEED_RESPONSE = 67,       // 0x67 - Fan Speed Response
 };
 
 #endif

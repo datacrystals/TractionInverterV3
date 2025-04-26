@@ -669,18 +669,20 @@ void handleCANMessage(const CANMessage& msg) {
             break;
 
         case MessageCode::GET_PHASE1_TEMP:
-            canManager.SendFloat(MessageCode::GET_PHASE1_TEMP_RESPONSE, voltageController.GetTemperature());
+            float tempTemp = 25.0f; // Placeholder for actual temperature reading
+            canManager.SendFloat(MessageCode::GET_PHASE1_TEMP_RESPONSE, tempTemp);
             break;
 
         case MessageCode::GET_PHASE2_TEMP:
-            canManager.SendFloat(MessageCode::GET_PHASE2_TEMP_RESPONSE, voltageController.GetTemperature());
+            float tempTemp2 = 25.0f; // Placeholder for actual temperature reading
+            canManager.SendFloat(MessageCode::GET_PHASE2_TEMP_RESPONSE, tempTemp2);
             break;
 
         case MessageCode::GET_FAN_SPEED:
             canManager.SendFloat(MessageCode::GET_FAN_SPEED_RESPONSE, fanController.getRollingCFMAvg());
             break;
 
-        case MessageCode::FIRMWARE_VERSION:
+        case MessageCode::REQUEST_FIRMWARE_VERSION:
             canManager.SendString(MessageCode::FIRMWARE_VERSION_RESPONSE, FW_VERSION);
             break;
 
