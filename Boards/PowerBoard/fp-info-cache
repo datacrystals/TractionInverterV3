@@ -1,4 +1,4 @@
-118702225718717
+120449682994082
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64697,6 +64697,13 @@ InverterCom
 DIOM5226X220N
 SMA CASE 403D-02
 Diode
+0
+2
+2
+InverterCom
+DIOM5436X247N
+SMB CASE 403A-03
+Zener Diode
 0
 2
 2
