@@ -91,7 +91,7 @@
 #include "Common/FanController.h"
 
 #include <mcp2515.h> // https://github.com/autowp/arduino-MCP2515/archive/master.zip
-#include "CANBusManager.h"
+#include "CANFramework/CANBusManager.cpp"
 
 // CAN Bus Constants
 #define CAN_BAUDRATE         CAN_500KBPS
