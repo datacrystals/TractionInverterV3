@@ -1,0 +1,154 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "828a4e3e-b28a-4325-b316-e46b70892a13")
+	(paper "A4")
+	(title_block
+		(title "IGBT Module Driver (CM600HA-24H)")
+		(date "2025-02-06")
+		(rev "1")
+		(company "University of California, Santa Cruz")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bc976e6-b528-442f-ac6e-fc04c941083d")
+		(property "Sheetname" "Driver"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9934949d-e5f2-4dda-9618-82f03ac8b763")
+		(property "Sheetname" "PowerSupply"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c8152b5-518b-4c97-a5b8-de788e259de8")
+		(property "Sheetname" "Connectors"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 101.6 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "GateDriver"
+				(path "/828a4e3e-b28a-4325-b316-e46b70892a13"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

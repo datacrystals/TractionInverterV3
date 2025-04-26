@@ -1,0 +1,10258 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "96f9b6d2-d44c-44dc-9eb6-7487d81a5ff3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "InverterCom:ALH82A750CB600"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ALH82A750CB600"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ALH82A750CB600"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "32"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-ALH82A750CB600"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ALH82A750CB600"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ALH82A750CB600_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:B32652A0104K000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B32652A0104K000"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "B32652_(18_x_9)"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "17.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "871-B32652A104K"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B32652A0104K000"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "B32652A0104K000_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:B32774X0205K000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B32774X0205K000"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "B32774X_(31.5_x_12.5)"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "871-B32774X0205K000"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B32774X0205K000"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "B32774X0205K000_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:C4AQNBW5200M3LJ"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C4AQNBW5200M3LJ"
+				(at 8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "C4AQNBW5200M3LJ"
+				(at 8.89 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+				(at 8.89 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "45.2"
+				(at 8.89 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+				(at 8.89 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+				(at 8.89 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+				(at 8.89 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C4AQNBW5200M3LJ_1_1"
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 1.27) (xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 7.112 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "InverterCom:CM600HA-24H_Power"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CM600HA-24H_Power_1_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 2.286) (xy -3.048 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 -0.508) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.508) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 3.556 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 3.556 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "POWER_SOURCE_5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "add zeners"
+		(exclude_from_sim no)
+		(at 110.744 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c7e0e47-d301-4211-8dc9-3c609ded6ff9")
+	)
+	(junction
+		(at 251.46 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0059a449-8973-493c-9d51-5a0e7504d32d")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0168ff95-0860-459c-b40d-fe29e0277f72")
+	)
+	(junction
+		(at 187.96 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02cbf249-76c4-44b9-881e-903e8c781295")
+	)
+	(junction
+		(at 187.96 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05100066-35ed-40cd-87ad-b892049d22c0")
+	)
+	(junction
+		(at 162.56 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09f3d1bb-4675-40b0-8e14-d54632ee08e5")
+	)
+	(junction
+		(at 41.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae2b574-0dfb-4a64-9bd3-dc9ad2c4c9d5")
+	)
+	(junction
+		(at 138.43 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bfb84f4-cbdb-4f57-9138-056a3f492955")
+	)
+	(junction
+		(at 139.7 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c62294c-34fa-4564-8541-4bceafcda476")
+	)
+	(junction
+		(at 251.46 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102c3678-5b74-4d67-840b-2246ea0fe402")
+	)
+	(junction
+		(at 114.3 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1060bcd2-a304-4f07-a7f8-b88b13e4a68b")
+	)
+	(junction
+		(at 151.13 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f509c0-8862-40bc-8a62-faa8122bf7b3")
+	)
+	(junction
+		(at 90.17 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c778a9-589f-49fa-b273-51a3ae653ef1")
+	)
+	(junction
+		(at 50.8 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16247545-57e6-4138-9788-e45c43d727ef")
+	)
+	(junction
+		(at 240.03 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19327d50-b8e0-4cbc-b604-41b3a44c080f")
+	)
+	(junction
+		(at 162.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199be20b-5a50-48e7-a0b2-449d6310efc3")
+	)
+	(junction
+		(at 228.6 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b0aa6b1-d8cd-4c57-b9a5-b4acef145fe2")
+	)
+	(junction
+		(at 73.66 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b352b55-d645-4b36-93ad-3dde1ad1bab2")
+	)
+	(junction
+		(at 67.31 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2eac24-508b-4f0b-bce4-1b440e89e5f8")
+	)
+	(junction
+		(at 228.6 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f903d5b-c47d-426e-9a7a-00052672add6")
+	)
+	(junction
+		(at 73.66 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2117e416-00a1-489e-8241-138f56a559ef")
+	)
+	(junction
+		(at 114.3 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21f5789b-53ef-44bc-bc0f-4c5fd2349cff")
+	)
+	(junction
+		(at 139.7 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c7bd880-ebd9-4922-9c66-cdf4aa08eb48")
+	)
+	(junction
+		(at 138.43 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d57fb25-b039-4931-bc6e-340bdd4a3be9")
+	)
+	(junction
+		(at 276.86 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f518712-af8d-4b6a-a4df-7d56dda67c44")
+	)
+	(junction
+		(at 62.23 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fddbbfe-a8dd-4331-8f44-7680e33ba51f")
+	)
+	(junction
+		(at 240.03 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320f25be-19d4-4e05-9d7d-42a3b98c9a21")
+	)
+	(junction
+		(at 87.63 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3305f42d-142a-4969-b54c-638b599ac63f")
+	)
+	(junction
+		(at 66.04 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36ab6ed8-ec2f-43af-be4a-9afc7fd9cfd9")
+	)
+	(junction
+		(at 87.63 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9e3ccf-5658-4bac-8080-9adffd0185de")
+	)
+	(junction
+		(at 99.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42950c1a-1bd1-42f0-a8da-e834a8fc8517")
+	)
+	(junction
+		(at 62.23 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4301ed68-22c0-4b01-9055-130f8887aecd")
+	)
+	(junction
+		(at 90.17 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ee5662-6905-4c65-a447-fae4a3ecb658")
+	)
+	(junction
+		(at 62.23 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d22b2a4-162e-4b80-ba9a-1c1bc8de2a8f")
+	)
+	(junction
+		(at 50.8 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2e0da7-5d8b-4199-aa96-cba7b19c8025")
+	)
+	(junction
+		(at 99.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9bf858-a2c3-42be-ae8e-3f283d8845c8")
+	)
+	(junction
+		(at 41.91 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5017f430-2f12-4082-b5f0-52e5179ed5cf")
+	)
+	(junction
+		(at 90.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f0cfa0-eca2-4bb3-8f96-a4a1fc12dd3a")
+	)
+	(junction
+		(at 115.57 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55605009-8967-4cec-8561-427a764c0805")
+	)
+	(junction
+		(at 99.06 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "593ecf69-80e4-43ae-b29a-1b6a36149a30")
+	)
+	(junction
+		(at 66.04 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63699711-cdc4-4325-9131-2ed02794a643")
+	)
+	(junction
+		(at 41.91 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6669d4be-686f-4a8c-8805-4ebd145d187a")
+	)
+	(junction
+		(at 265.43 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66996729-5c41-4dc4-9122-0862cb2f85fb")
+	)
+	(junction
+		(at 187.96 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f0b52f-47fb-42ea-ad78-3c50ff4c7483")
+	)
+	(junction
+		(at 187.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be6139c-a5ba-4881-8ddc-ea88521edd13")
+	)
+	(junction
+		(at 176.53 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727961ad-f49e-403e-a38b-e2e2a9d80b91")
+	)
+	(junction
+		(at 139.7 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7846db23-9676-4d66-8b49-13ac85da0ac3")
+	)
+	(junction
+		(at 162.56 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7916b1d0-5b6e-4fcd-8bdd-018a289d128f")
+	)
+	(junction
+		(at 139.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79403a1e-1327-4125-b0d5-9609cab731af")
+	)
+	(junction
+		(at 187.96 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7986e955-51fc-49bc-9d25-381ed7743bb9")
+	)
+	(junction
+		(at 240.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bf5ea5e-f40f-4ef2-9f1c-220586b65bcd")
+	)
+	(junction
+		(at 41.91 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f35a221-9394-46c0-9e37-7feeb5f1b7e4")
+	)
+	(junction
+		(at 176.53 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817d3fb5-0620-41f2-9315-0978dcd916cb")
+	)
+	(junction
+		(at 138.43 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f520f6-daf7-439d-98a1-04f116ce55f0")
+	)
+	(junction
+		(at 190.5 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f940f6-3d8f-44e7-85ed-d91058ebd6f4")
+	)
+	(junction
+		(at 114.3 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "858aaf9c-bdb4-4abd-9ae0-ec604593cef0")
+	)
+	(junction
+		(at 240.03 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "861fb7ca-9c60-4203-9869-15876320d845")
+	)
+	(junction
+		(at 99.06 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898d7f1b-9ba5-4e46-af80-850ac9547e0e")
+	)
+	(junction
+		(at 66.04 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d5840f7-b3d4-41ae-a815-881106850fca")
+	)
+	(junction
+		(at 41.91 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f7bbfef-1a06-4ecb-8987-b9da94193e5e")
+	)
+	(junction
+		(at 162.56 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91b4ea98-55fc-469b-a31d-d87ad2081f36")
+	)
+	(junction
+		(at 66.04 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b1e5f8-9742-4f22-ba75-9fed24209140")
+	)
+	(junction
+		(at 50.8 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955c543b-11ab-4128-965e-9c50817c111d")
+	)
+	(junction
+		(at 90.17 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9710a1a5-0918-4d92-8378-333f5797c6de")
+	)
+	(junction
+		(at 101.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9710ec7f-1842-4472-a6b9-005ffdf59c7e")
+	)
+	(junction
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9982f5ec-7b6b-481b-ad64-47c0e5c55ff7")
+	)
+	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bfc71bf-a16e-473a-99e8-3b5dd5b679c1")
+	)
+	(junction
+		(at 99.06 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d92cb63-7329-4265-a385-3a4fe759e433")
+	)
+	(junction
+		(at 228.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd8d153-eb4c-4a14-ae8e-3f4b75d3d473")
+	)
+	(junction
+		(at 276.86 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9edf2288-f555-40ae-9d31-9776f9132a8d")
+	)
+	(junction
+		(at 151.13 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8882d6-22cc-495e-bbd4-75767235f1dc")
+	)
+	(junction
+		(at 62.23 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a13890e9-aa4e-4e24-a000-bf02d56251fc")
+	)
+	(junction
+		(at 276.86 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22708a3-fbd7-4902-8d94-f5561525d550")
+	)
+	(junction
+		(at 91.44 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4451bc7-8e83-414d-824c-400ea6909106")
+	)
+	(junction
+		(at 90.17 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d72e4b-572b-4e94-a080-7865419c2692")
+	)
+	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a64f91dd-c742-4529-b77f-ff4f3d92d83d")
+	)
+	(junction
+		(at 91.44 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b1d62e-d663-446b-8682-bf255ba6d5c7")
+	)
+	(junction
+		(at 43.18 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a989a146-e5d6-4504-a283-5b285970f152")
+	)
+	(junction
+		(at 265.43 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0b66f6-f439-42bd-9977-46d4de66cd74")
+	)
+	(junction
+		(at 43.18 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af299b91-5d86-4ac5-9572-508ceb2a0220")
+	)
+	(junction
+		(at 276.86 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3f10d9-e541-40a5-a93f-f0a057016cae")
+	)
+	(junction
+		(at 41.91 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b00b91a2-3fad-43da-a5ab-e1da4c3b3cea")
+	)
+	(junction
+		(at 90.17 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02c7a8c-5005-4741-8548-6dc94cdca7ca")
+	)
+	(junction
+		(at 139.7 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9e31b47-42ab-474d-b957-9ae13c5f40d3")
+	)
+	(junction
+		(at 66.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbaa4c23-5ebb-442f-938a-96718b6fb91a")
+	)
+	(junction
+		(at 66.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbb8e279-8273-4a61-ae14-587d2af9b326")
+	)
+	(junction
+		(at 176.53 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbf41b6-45c0-4aeb-a038-7b0de3f9cff5")
+	)
+	(junction
+		(at 73.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd52be6d-4227-4681-beec-d3a0b40a1729")
+	)
+	(junction
+		(at 50.8 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcb9e90-55e3-46c9-b4b5-f03f6d21e988")
+	)
+	(junction
+		(at 139.7 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e72f88-1dbd-4f2d-ab8d-6f822bfb780c")
+	)
+	(junction
+		(at 265.43 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88f000a-6066-48b1-93cc-16a8ba0ec2ef")
+	)
+	(junction
+		(at 251.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf0d4d6-02d0-4db0-a99d-efd79ad40caf")
+	)
+	(junction
+		(at 228.6 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf64ef2e-8587-4e95-a5e8-25940e3d767e")
+	)
+	(junction
+		(at 87.63 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c492b5-0c20-4207-9912-f6ec8446b251")
+	)
+	(junction
+		(at 50.8 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d32ece5b-721c-4f27-bed7-d8a5c0214dd0")
+	)
+	(junction
+		(at 67.31 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71e3ac3-7557-4d96-8a8a-1be223e9bd12")
+	)
+	(junction
+		(at 139.7 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd808505-e8e8-46f0-8fd2-75e5f9bdf0c6")
+	)
+	(junction
+		(at 87.63 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec39d11-9f15-406d-b8cb-64f6a86b90f6")
+	)
+	(junction
+		(at 251.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4043f2-c62b-449c-ae01-207561318c9a")
+	)
+	(junction
+		(at 138.43 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e6873a-b572-44ee-bd3f-d80f8b319771")
+	)
+	(junction
+		(at 151.13 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2eb6ac8-b055-4fa3-b343-01cee79c41b5")
+	)
+	(junction
+		(at 228.6 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e31b557c-e1cf-402d-9eed-18c66c6f932e")
+	)
+	(junction
+		(at 114.3 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe6d222-b295-43cd-9e1f-6205e0583c72")
+	)
+	(junction
+		(at 176.53 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13ac9f6-2c6a-49bd-8ff9-9ff32ac9ccb1")
+	)
+	(junction
+		(at 115.57 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47ae1b2-4dd7-4145-a2a8-530c32d0dbbe")
+	)
+	(junction
+		(at 265.43 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e13bb4-666c-4024-aa47-f9e0b41d3f27")
+	)
+	(junction
+		(at 138.43 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6ae5216-3871-41cb-b8b8-199a5966d1f0")
+	)
+	(junction
+		(at 114.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97f7726-1075-4a1f-ab01-a5bc387e7554")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 90.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006e81d0-6f9b-4f72-9954-ad739b2d8433")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c76891-68fa-4fef-ab62-48651be2bd9e")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01655e74-011f-4ba4-8a53-9690feca443a")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049fa911-a135-49f2-886f-e07c09d31441")
+	)
+	(wire
+		(pts
+			(xy 276.86 55.88) (xy 279.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0631f258-a83b-41d4-b065-c80a82129385")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 101.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c043ce-b4d3-4119-ac1f-e2d57b819469")
+	)
+	(wire
+		(pts
+			(xy 62.23 25.4) (xy 73.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc54e34-3f89-4190-8485-7116dc56cdba")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d204423-5d11-48ee-92a9-08fd17ccb37e")
+	)
+	(wire
+		(pts
+			(xy 176.53 40.64) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4d8c4b-0326-421d-a704-3698ca067bef")
+	)
+	(wire
+		(pts
+			(xy 114.3 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103d0614-80d7-4634-bc8a-b87a1fb91c33")
+	)
+	(wire
+		(pts
+			(xy 43.18 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ce5c25-13fb-49fe-a9dd-6a3d0922cb32")
+	)
+	(wire
+		(pts
+			(xy 43.18 163.83) (xy 67.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1288fcbb-c67e-473c-a9ca-04b859d09157")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 101.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156d300d-ab89-4719-8b9a-a83055ff10df")
+	)
+	(wire
+		(pts
+			(xy 276.86 38.1) (xy 276.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1714e9d7-dd5c-4f25-92c6-de14057a77f7")
+	)
+	(wire
+		(pts
+			(xy 41.91 152.4) (xy 66.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f747e0-3518-4a23-bd64-c6bab7b04d6b")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a22dca8-9fe2-4449-acdc-280f989ed885")
+	)
+	(wire
+		(pts
+			(xy 240.03 68.58) (xy 240.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a55c6a1-4631-494f-8b6f-eaafa6b934f1")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c32d25c-4fa3-4a25-8b07-d467a6b3c20c")
+	)
+	(wire
+		(pts
+			(xy 162.56 40.64) (xy 176.53 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205a2bac-9c61-45fb-ab94-21ea50c320bd")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d8032f-b94b-4721-9114-7a2abf5c40a8")
+	)
+	(wire
+		(pts
+			(xy 251.46 55.88) (xy 265.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cf8b35-6bbc-4ecc-8737-af3ca3735c36")
+	)
+	(wire
+		(pts
+			(xy 41.91 139.7) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2377a999-6698-456f-9971-8b7a6b02f5c0")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24467c52-2181-422f-9d89-d144521242c1")
+	)
+	(wire
+		(pts
+			(xy 87.63 68.58) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f51253-431e-4fd7-a9e8-3e9644a45be7")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 41.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293ff408-01d7-4059-9b05-6ee5330b1d11")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2967c3e8-2cfe-4be0-8a26-f87c2832a1ab")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9ed05d-1e43-4ee0-8383-ed973587da17")
+	)
+	(wire
+		(pts
+			(xy 240.03 71.12) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d697ee1-a321-4ff9-8b99-b6b9b6c70e78")
+	)
+	(wire
+		(pts
+			(xy 87.63 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f05e0a4-9c60-4dc2-bff8-8830ba71eac6")
+	)
+	(wire
+		(pts
+			(xy 66.04 128.27) (xy 90.17 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300d2c55-409e-485d-8402-327316891178")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30638761-b43d-4db5-a738-39a7ba0dce22")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319a9adb-a603-4bbb-986a-cd0e61edd188")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 240.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c74b62-d3a3-43c0-8eab-b40bdae6b2a6")
+	)
+	(wire
+		(pts
+			(xy 43.18 176.53) (xy 67.31 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3760086f-7013-4027-b581-0a136bf4d322")
+	)
+	(wire
+		(pts
+			(xy 67.31 176.53) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b9ac0c-30ba-417e-9f26-e6fc8a51a462")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38361285-4ece-425e-823c-80a4a5b73a99")
+	)
+	(wire
+		(pts
+			(xy 41.91 88.9) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5a5862-7041-4aa2-a67c-4e29a6b8045a")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41269ff1-da6b-4586-9bb5-15171e433982")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413e02ab-b897-4b77-ac0e-3d97de3056b4")
+	)
+	(wire
+		(pts
+			(xy 240.03 38.1) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419e302b-b4df-4dae-afe8-c87d51c735cc")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a4e713-3316-4584-a57c-1ee46e9b5240")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43566bfe-1a3a-4dfb-93fc-81fb96cff011")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b03823-fcdf-416e-bc09-68c0fdef4cd5")
+	)
+	(wire
+		(pts
+			(xy 228.6 25.4) (xy 240.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4daf53d9-a3d8-44f6-b8dd-34094fc83d91")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4def5e7b-fb26-40d5-a88c-1ddb39925344")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef7755a-9728-4df0-9f56-b916578a304e")
+	)
+	(wire
+		(pts
+			(xy 187.96 25.4) (xy 190.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512f498c-ef2e-4ae9-b14c-2e6076efc657")
+	)
+	(wire
+		(pts
+			(xy 115.57 163.83) (xy 139.7 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171bcd1-66b6-4da7-b577-034c36aa3037")
+	)
+	(wire
+		(pts
+			(xy 39.37 163.83) (xy 43.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528033ba-b0ae-4f16-a18f-fd8eb6e7051d")
+	)
+	(wire
+		(pts
+			(xy 276.86 38.1) (xy 279.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f5fb54-e9c2-4df2-825d-29a804f0eaea")
+	)
+	(wire
+		(pts
+			(xy 91.44 163.83) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54eb8901-f90e-4447-bfeb-ef0b2f05c8eb")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5519c93d-28fc-4d9e-9918-9c2c09a28537")
+	)
+	(wire
+		(pts
+			(xy 265.43 40.64) (xy 276.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551d319d-ca20-4856-a951-3751b42cc0c3")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c7373b-8cb0-4fe5-9988-651a4ef5c595")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e01986-506e-4104-a828-cb00ea3a1180")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0f395b-10ba-460e-9524-7447192f0482")
+	)
+	(wire
+		(pts
+			(xy 41.91 128.27) (xy 66.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca02e05-c5b7-404d-b7da-82c7caf1c6ee")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d788dd1-6e6a-414e-8aab-48faf5882472")
+	)
+	(wire
+		(pts
+			(xy 39.37 176.53) (xy 43.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6a9d1d-f799-46f8-bf72-193458b12195")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d8cdac-f074-446f-9b6b-de419d4c7248")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633f3918-5417-49fd-aa24-a709687f31f2")
+	)
+	(wire
+		(pts
+			(xy 265.43 68.58) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6406425d-2ec4-4821-a91e-673cac03daa0")
+	)
+	(wire
+		(pts
+			(xy 176.53 25.4) (xy 187.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6451e145-efb0-4cfb-a6d5-26630bf5a8bc")
+	)
+	(wire
+		(pts
+			(xy 41.91 115.57) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f2c067-a9de-4af4-b431-58855fbd26d8")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 176.53 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a2e30d-e193-4bc2-8e64-5734bc6ddc72")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cf8894-8f1e-4f4d-bb62-4084d820c3f7")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68996795-6ad4-4819-85bb-4b56e19fbf7f")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691eaaeb-1042-4c5b-8033-c94c4b5e83c8")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0a569c-5813-4beb-b000-fce31580020d")
+	)
+	(wire
+		(pts
+			(xy 87.63 40.64) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9dafda-9767-490f-b4d6-8e0845ba279f")
+	)
+	(wire
+		(pts
+			(xy 90.17 152.4) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c72c465-d23b-4c7f-99e2-f6805b5bd583")
+	)
+	(wire
+		(pts
+			(xy 176.53 55.88) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee5a77b-d97b-4719-9e7b-c3500a99750c")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737029a6-d045-4e22-899e-206477dd68b8")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74779cf2-0ed9-41f8-a09a-d7ecf2d6bbca")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f5dc0d-b05b-4032-b898-69c2a04c41b4")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75db6579-3164-408a-99b4-a906bb2f2bb0")
+	)
+	(wire
+		(pts
+			(xy 73.66 25.4) (xy 87.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7897bff1-725a-41fe-839a-2ba26ea06d87")
+	)
+	(wire
+		(pts
+			(xy 115.57 176.53) (xy 139.7 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7905973e-1912-4348-9b13-c8dfd183c37a")
+	)
+	(wire
+		(pts
+			(xy 251.46 38.1) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795eb658-eb1f-46da-8018-d20deb917920")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fc3091-d5f1-461f-a6fd-251799aa5cc0")
+	)
+	(wire
+		(pts
+			(xy 276.86 68.58) (xy 276.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae60fae-2f85-44dd-96d8-77665cfbf227")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdd245f-6670-4f1c-9ce9-19cad25c4774")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 162.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e84eb3-05f4-419d-9915-ded3be81a168")
+	)
+	(wire
+		(pts
+			(xy 265.43 71.12) (xy 276.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8308a9a6-8f53-49a1-8d60-42e3cb29efd2")
+	)
+	(wire
+		(pts
+			(xy 87.63 25.4) (xy 99.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ef32b4-f212-4994-aa72-14dbefb3f9fb")
+	)
+	(wire
+		(pts
+			(xy 162.56 38.1) (xy 162.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fc88f3-7824-4f49-b01f-52057a516b09")
+	)
+	(wire
+		(pts
+			(xy 162.56 25.4) (xy 176.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fd2b9d-41ac-45b2-9955-2ce0a5c7c12d")
+	)
+	(wire
+		(pts
+			(xy 251.46 25.4) (xy 265.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a521b4b-35d5-4451-bdca-43fd5f2e85e4")
+	)
+	(wire
+		(pts
+			(xy 38.1 139.7) (xy 41.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acb4dad-ea09-48a7-8201-c13146963de5")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906aedf9-432a-4471-b010-1b9268fdd99d")
+	)
+	(wire
+		(pts
+			(xy 62.23 68.58) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8b0766-5b3c-48c3-aee6-997111fdbdae")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 41.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba6bc2c-44d9-4e2a-a9f7-e4ae4ca3de2d")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c16c8d4-e4a0-429d-b4dc-0d720343a177")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc391c6-884d-443d-b662-04bba5b1c237")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a0372-18ea-4cee-95e4-92fd6f39eec3")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 41.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a485c0a8-96e7-4b0b-8263-25b9b14cf5f7")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 138.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61a10c3-ff7d-4300-a0e6-f3dd2e42c7ee")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a759a48a-54bb-4308-ab8c-48c08001694f")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b231f14b-834c-42b6-ab81-546e0476a786")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b354e4cd-1243-4696-8c31-6ad51ae048a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 163.83) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e73181-91fb-4a60-a848-f99c183dd73e")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 162.56 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e8a6ed-9d88-494a-95d7-8bf2325943de")
+	)
+	(wire
+		(pts
+			(xy 139.7 25.4) (xy 151.13 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e9e80b-d1eb-48e2-be52-503e3eec83e7")
+	)
+	(wire
+		(pts
+			(xy 276.86 68.58) (xy 279.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85c895f-a182-4111-a927-4aa89ba75710")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 162.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9959ff7-961d-4672-95d8-b85868f70907")
+	)
+	(wire
+		(pts
+			(xy 87.63 38.1) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacdccc4-0942-4782-99f8-48d07a92b4f7")
+	)
+	(wire
+		(pts
+			(xy 265.43 25.4) (xy 276.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd23a7fc-4e72-4e1e-a0bf-3ac4080523e7")
+	)
+	(wire
+		(pts
+			(xy 187.96 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd3f5e6-79c3-4ddc-bf33-c0b7a0b002c3")
+	)
+	(wire
+		(pts
+			(xy 276.86 25.4) (xy 279.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b54d5a-e569-4dc9-b6fc-d74b619ca969")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c619d578-0967-4c8e-96bc-1caef6f6c51a")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68fc687-8d74-4c8c-acbe-397a058613bc")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d93442-73c3-4deb-934b-d689b15f6d7a")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caedb5f5-c74d-49c3-acd1-9012a47d5ab7")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb346429-c4e6-4331-a17a-1ba999ea8a95")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 90.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2d6014-a6a9-433d-ac9b-2421b195462a")
+	)
+	(wire
+		(pts
+			(xy 138.43 152.4) (xy 162.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09ef586-b05c-4e77-9eaf-03480db5bf1a")
+	)
+	(wire
+		(pts
+			(xy 265.43 55.88) (xy 276.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d56a55-fcbd-4361-afca-d15ad311a40e")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42d1629-3706-4dba-b494-29bf66986c5a")
+	)
+	(wire
+		(pts
+			(xy 38.1 128.27) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c943d3-75bb-4638-a86f-c9acfb40bc1f")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5a67a1-9efe-4b58-a2fe-f86c68deabc8")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd73a6cb-2170-49de-a282-f103e77fd24e")
+	)
+	(wire
+		(pts
+			(xy 187.96 38.1) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb47339-f9df-41fb-96f7-47c7a1ce5561")
+	)
+	(wire
+		(pts
+			(xy 41.91 71.12) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22629bb-4601-4e53-872a-c2fd583c6d6b")
+	)
+	(wire
+		(pts
+			(xy 151.13 40.64) (xy 162.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a62d94-1168-4a51-be5a-90a3915bbeb7")
+	)
+	(wire
+		(pts
+			(xy 90.17 128.27) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bcc584-ee91-4daa-82a8-a69c3e25edfc")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e627d206-b836-4113-a159-6309f7458b00")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80caeb0-4ea9-430a-8c8e-3308382859d9")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9847ed3-1ed0-4a40-936d-740b55b79ce4")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb25c992-de09-41c5-8b79-e4e33abde54c")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb789cf-4e24-4d83-83fd-076fed5f0f74")
+	)
+	(wire
+		(pts
+			(xy 240.03 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed304b08-07db-4526-bb16-df13b0808b51")
+	)
+	(wire
+		(pts
+			(xy 251.46 68.58) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef55dec-f9fe-4e3e-a85c-58c8a0dbfd26")
+	)
+	(wire
+		(pts
+			(xy 228.6 71.12) (xy 240.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef341201-b68f-4289-8380-2e4b6b302b99")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a025f4-7e4c-445e-92e0-cc139556b092")
+	)
+	(wire
+		(pts
+			(xy 90.17 115.57) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32b9244-5b52-45d8-89e4-c9628e25c4ac")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54d8541-4575-4525-8f33-7803d818e2fc")
+	)
+	(wire
+		(pts
+			(xy 228.6 48.26) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62fdc09-9753-4638-91fd-6f8b59f9f1d0")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71fdccf-c95c-4b9f-8b3c-f12972ef9cc9")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7802c72-f0a2-4f44-98a4-54616e473386")
+	)
+	(wire
+		(pts
+			(xy 99.06 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d6f32c-bb8c-4359-9cb9-3df083c13534")
+	)
+	(wire
+		(pts
+			(xy 139.7 176.53) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93e9a76-1080-4d3d-b82e-fb17fc7b1004")
+	)
+	(wire
+		(pts
+			(xy 67.31 163.83) (xy 91.44 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95e9aab-99da-48cd-8bb0-61d77ed17139")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 228.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9abf5ff-c88f-41d3-aeac-67f18bda441a")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 41.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1f4b97-8714-4c8c-933d-fe4df698f951")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3f2791-2e07-4c52-b129-ca1daa53a878")
+	)
+	(wire
+		(pts
+			(xy 265.43 38.1) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe132af4-3fa0-4382-bf0a-982e6d3042f5")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff93b807-d496-44ab-a531-abf7512c842f")
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 38.1 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d856a21-9005-47af-ac4f-a81167435906")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5962 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 38.1 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0db86f96-bed1-4cf7-a5ac-bef44239a528")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5962 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U"
+		(shape input)
+		(at 48.26 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fb39a93-5e11-436e-b32c-8bdb91b8d1f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.9291 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 38.1 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53496f90-9979-4d97-b627-78d205de5ede")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5962 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_V"
+		(shape input)
+		(at 137.16 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1d2e46c-b902-42f0-8a13-c11eb547d7fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.071 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W"
+		(shape input)
+		(at 226.06 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c79b6290-803a-46db-8fac-16428b2eeae1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6082 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 43.18 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9a72288-af90-4638-9b7c-f7833d3cc04f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.6762 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_BUS"
+		(shape input)
+		(at 39.37 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fda39d07-af22-47e9-a67e-d90ad24ff1e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.8662 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 251.46 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d7a199-ae5c-4183-9aaf-b8d247bfb43d")
+		(property "Reference" "C104"
+			(at 255.27 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 255.27 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 347.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 447.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 647.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 747.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 847.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 947.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 1047.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bc4e569-b679-4bca-9c27-e2a42c0f15c6")
+		)
+		(pin "1"
+			(uuid "69f80f0a-b769-4ee0-9e80-7b46c2af5e2f")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 90.17 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c73f3d9-f73d-4fa8-95c2-38b08175d936")
+		(property "Reference" "C15"
+			(at 93.98 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 93.98 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -6.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -106.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -306.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -406.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -506.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -606.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -706.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bee1c745-911c-419e-b5f1-6b9fd41ae147")
+		)
+		(pin "1"
+			(uuid "4fd804d0-7464-4a75-9f3f-cd7d7ddc1a37")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 278.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0debb6ce-09ad-4c69-b673-39bc6084a35a")
+		(property "Reference" "C96"
+			(at 281.94 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 281.94 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 373.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 473.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 278.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 673.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 773.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 873.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 973.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 1073.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "32638ceb-b9bd-4153-9f73-3bbd5e322a92")
+		)
+		(pin "1"
+			(uuid "a3091f9e-30e6-4b09-b087-8e068dddcd3d")
+		)
+		(pin "3"
+			(uuid "f218aa33-54db-45fa-9d1c-271b876eaf87")
+		)
+		(pin "2"
+			(uuid "88751aaf-e7b9-4c48-8db2-693bacab74e9")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 62.23 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a88615-8711-4f08-a6b9-81678acb4d0e")
+		(property "Reference" "C88"
+			(at 66.04 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 66.04 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 158.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 258.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 458.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 558.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 658.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 758.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 858.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02952bd4-b037-4e11-ac59-78a41bbde63a")
+		)
+		(pin "1"
+			(uuid "01cc30ce-60ca-4baa-9d76-8299bed426e3")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 176.53 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ae3eef-b78d-47e2-b351-00284a822b0e")
+		(property "Reference" "C95"
+			(at 180.34 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 180.34 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 272.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 372.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 572.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 672.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 772.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 872.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 972.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f02e87e-3d29-44b8-95da-be313129e4e8")
+		)
+		(pin "1"
+			(uuid "96b0f55e-0898-49bc-8cdb-7a9eb8a0fb7f")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 114.3 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1fbf6a-69b8-4c35-9c73-a955bdb6d537")
+		(property "Reference" "C4"
+			(at 118.11 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 118.11 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 18.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -81.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -281.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -381.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -481.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -581.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -681.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d10b52b-da90-4a92-873d-8636dab1d6e1")
+		)
+		(pin "1"
+			(uuid "a29ec254-f535-4b9b-9e63-994734a7c635")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 114.3 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24469634-8345-4e50-8779-b32910de393b")
+		(property "Reference" "C16"
+			(at 118.11 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 118.11 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 18.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -81.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -281.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -381.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -481.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -581.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -681.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad04ee1f-f0a4-431d-bb85-63830da0ccd4")
+		)
+		(pin "1"
+			(uuid "86ec263a-38a3-4a81-a08c-36acda46bd68")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 163.83 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5769d2-ae79-4954-935f-c362058cb4f0")
+		(property "Reference" "C112"
+			(at 167.64 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 167.64 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 67.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -32.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 163.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -232.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -332.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -432.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -532.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -632.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f862582f-22b2-4924-b2ae-ee078e15bb9e")
+		)
+		(pin "1"
+			(uuid "b15d408e-a59d-4713-b949-b4d84e221b2a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 38.1 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba0dfd5-d24c-4c74-ba21-e1bd1c42b988")
+		(property "Reference" "#PWR04"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 34.29 152.2729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c9a8624-f8be-41e4-abae-8e181055626d")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 91.44 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c527d39-08ea-463e-beba-262834be680a")
+		(property "Reference" "C106"
+			(at 95.25 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 95.25 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -4.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -104.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -304.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -404.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -504.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -604.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -704.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "495a3564-cc7c-4f00-88b1-e0334f9b90a7")
+		)
+		(pin "1"
+			(uuid "96753fff-a289-4648-b153-e9b67b795864")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 189.23 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c74846b-9dd6-437a-a541-1a50e1752272")
+		(property "Reference" "C92"
+			(at 193.04 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 193.04 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 284.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 384.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 584.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 684.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 784.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 884.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 984.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3c5c9a02-09da-4394-b7f8-3dc97a36ee01")
+		)
+		(pin "1"
+			(uuid "ae649511-ca1a-4b34-8968-51a5c7680756")
+		)
+		(pin "3"
+			(uuid "15f1b224-5ecc-42d0-86e2-916f1e7c6e12")
+		)
+		(pin "2"
+			(uuid "a17a8eb0-1fb8-4680-9d70-1136f6bd1e77")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 138.43 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "416b2922-bb81-4452-a08e-e5685f370b34")
+		(property "Reference" "C17"
+			(at 142.24 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 142.24 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 42.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -57.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 138.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -257.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -357.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -457.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -557.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -657.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6a93590-a029-4a79-aedc-a54bc16ba171")
+		)
+		(pin "1"
+			(uuid "ab1098d3-b179-4d19-8723-3f64a846308a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 73.66 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "441eb64b-3acb-4b29-bb4d-65b43d0a7fd7")
+		(property "Reference" "C89"
+			(at 77.47 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 77.47 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 169.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 269.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 469.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 569.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 669.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 769.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 869.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c92d90a9-6b11-4b7b-884c-e5eeb9e9579f")
+		)
+		(pin "1"
+			(uuid "8c9d9777-e5f8-4e28-a546-0ad78d5b55e0")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 162.56 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4443c037-9cb9-4b04-b5c1-9dcf62562d99")
+		(property "Reference" "C109"
+			(at 166.37 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 166.37 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 258.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 358.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 558.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 658.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 758.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 858.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 958.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a4a2d04-9629-462b-befc-de13b0aff67b")
+		)
+		(pin "1"
+			(uuid "27efe1b8-aad5-4d56-ac5e-4b933c75ff8a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 38.1 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4874a5f2-b1d2-4468-9ba7-4d56dde42519")
+		(property "Reference" "#PWR03"
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 34.29 128.1429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276123fd-2a37-4162-be59-6dc79484a288")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 100.33 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bfcdb13-1740-4d18-aa81-a6b0706c972b")
+		(property "Reference" "C87"
+			(at 104.14 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 104.14 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 195.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 295.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 100.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 495.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 595.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 695.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 795.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 895.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7742e32e-6795-493d-a04a-7abbbd867da4")
+		)
+		(pin "1"
+			(uuid "f285e95a-ec8f-436a-bc8d-5b595093d16f")
+		)
+		(pin "3"
+			(uuid "4cf305f6-3b4c-4a10-81ed-7f7643788ea4")
+		)
+		(pin "2"
+			(uuid "ecd6932e-1978-45b4-bab0-f815d2e934dd")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 115.57 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e38e90d-01c0-4f4c-af86-489bf8292069")
+		(property "Reference" "C107"
+			(at 119.38 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 119.38 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 19.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -80.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -280.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -380.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -480.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -580.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -680.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20db4a3f-7b76-47c4-b54f-fb0c259c9f09")
+		)
+		(pin "1"
+			(uuid "a58afef2-1fa2-4cb5-841a-26fad40c6c0a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 66.04 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52be90ef-f598-4820-8f95-ffc7bcb2920b")
+		(property "Reference" "C2"
+			(at 69.85 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 69.85 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -30.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -130.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -330.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -430.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -530.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -630.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -730.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5789c5e2-3d10-4303-9de8-954a13387fc9")
+		)
+		(pin "1"
+			(uuid "9863cfa4-082d-407a-8751-3fc7fe06316c")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 162.56 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58916e7b-cf33-4569-9596-d933dbb23a1b")
+		(property "Reference" "C6"
+			(at 166.37 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 166.37 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 66.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -33.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -233.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -333.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -433.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -533.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -633.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f99f3c89-cf9b-42f2-899d-2bdc928a587a")
+		)
+		(pin "1"
+			(uuid "24cd70f4-b25e-471d-a530-e4da3c3b0860")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 265.43 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cb6127-445d-4efe-b7f0-4bd0c626a36c")
+		(property "Reference" "C100"
+			(at 269.24 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 269.24 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 361.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 461.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 661.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 761.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 861.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 961.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 1061.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f926db6-143d-46a7-9f56-74eeaf8ed455")
+		)
+		(pin "1"
+			(uuid "aa0e804b-ac1f-465c-b797-c3afec56e293")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 100.33 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f86949-1cb1-455f-a482-8ac94af6059b")
+		(property "Reference" "C86"
+			(at 104.14 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 104.14 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 195.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 295.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 495.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 595.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 695.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 795.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 895.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cea242a5-e321-4f59-a018-d2a2923d5dac")
+		)
+		(pin "1"
+			(uuid "91b6b74d-10ba-4c02-83f5-fae7598524f8")
+		)
+		(pin "3"
+			(uuid "e0743d3d-8d1b-4f5a-a3ca-29eb9bd11f11")
+		)
+		(pin "2"
+			(uuid "6a13e391-7d33-4a7d-b5d7-7c3572cd47e5")
+		)
+		(instances
+			(project ""
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 62.23 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69bfb112-8fdf-40ab-a287-47c4e1a40be1")
+		(property "Reference" "C20"
+			(at 66.04 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 66.04 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 158.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 258.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 458.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 558.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 658.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 758.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 858.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e68a7cf3-086e-4136-b5db-22a7b0c3054d")
+		)
+		(pin "1"
+			(uuid "672708db-7437-424b-8869-ad648a036a66")
+		)
+		(instances
+			(project ""
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0804e5-3a00-470c-9ed1-2d24c13c6f21")
+		(property "Reference" "Q2"
+			(at 55.88 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676097fb-2bb0-4a2c-b6e6-ee7095792cd1")
+		)
+		(pin "2"
+			(uuid "7ada4b15-f8d5-4488-9e55-06a1eafe2ebf")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 265.43 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "733e804b-4fc6-4a5d-b67d-69e128091da5")
+		(property "Reference" "C105"
+			(at 269.24 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 269.24 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 361.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 461.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 661.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 761.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 861.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 961.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 1061.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fa463e8-0170-4876-9c09-2e39324a1b62")
+		)
+		(pin "1"
+			(uuid "af7a311c-9bfc-4427-acdd-2ca1222016cb")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 41.91 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75d3a3ab-5405-48dd-aa13-74fb1a0db2df")
+		(property "Reference" "C13"
+			(at 45.72 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 45.72 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -54.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -154.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -354.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -454.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -554.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -654.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -754.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6488a579-f57e-47f1-9b6d-f370f9c7ae73")
+		)
+		(pin "1"
+			(uuid "503119f3-5de3-4c69-9938-4350857caece")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 240.03 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "791dae5d-289f-4d2f-9b84-95a28a5ff9e4")
+		(property "Reference" "C98"
+			(at 243.84 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 243.84 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 336.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 436.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 636.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 736.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 836.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 936.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 1036.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51d71d0-555e-4ba8-8a39-840147f18d2f")
+		)
+		(pin "1"
+			(uuid "37f2aca9-3442-40e0-8190-88eec6291022")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 228.6 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a570c7c-defb-4bfe-a249-5155604d4470")
+		(property "Reference" "Q5"
+			(at 233.68 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e92ac13-a00f-44af-b66b-c66a810ca1d0")
+		)
+		(pin "2"
+			(uuid "d11a7d6c-1bd4-4178-be77-b69f412e666e")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 73.66 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df181a2-0a90-464e-b72a-94f186f40154")
+		(property "Reference" "C84"
+			(at 77.47 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 77.47 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 169.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 269.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 73.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 469.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 569.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 669.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 769.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 869.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c1e66be-4036-45ea-bf96-9abb1ce158e5")
+		)
+		(pin "1"
+			(uuid "baa2a158-3cff-49b2-b9a8-efd714622ed5")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 87.63 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f4473df-db06-4316-807e-39ec74ff8970")
+		(property "Reference" "C85"
+			(at 91.44 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 91.44 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 183.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 283.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 483.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 583.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 683.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 783.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 883.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cb88f70-06fe-4444-97b2-b837340c349f")
+		)
+		(pin "1"
+			(uuid "e2b26ccb-55af-4400-b4de-5f7551dc660e")
+		)
+		(instances
+			(project ""
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 90.17 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86e774af-b7bf-4c2b-b948-e5b7ae86ba16")
+		(property "Reference" "C9"
+			(at 93.98 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 93.98 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -6.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -106.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -306.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -406.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -506.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -606.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -706.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c87dc0ad-aebf-4cc7-9fd0-24d569f89581")
+		)
+		(pin "1"
+			(uuid "2b57c525-735f-44c5-a670-c4e7037754a1")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 176.53 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "888a4dcb-37d8-4b23-8b18-85d4b13a86b9")
+		(property "Reference" "C110"
+			(at 180.34 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 180.34 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 272.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 372.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 572.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 672.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 772.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 872.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 972.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c36d819-17d4-49f0-89d3-c25cbcbc2742")
+		)
+		(pin "1"
+			(uuid "4facdf39-37af-4497-a8b9-f4cf60908e2c")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 151.13 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de07125-5cda-433b-8b59-c8c697e52aa9")
+		(property "Reference" "C108"
+			(at 154.94 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 154.94 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 247.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 347.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 547.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 647.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 747.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 847.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 947.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98d739cc-d7ca-4c2e-8c96-f44e494f508e")
+		)
+		(pin "1"
+			(uuid "12d97905-e92e-4da5-b52c-06ca939d730f")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 228.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e5e3ab-def0-4fb0-869b-5ea8e6dcab5f")
+		(property "Reference" "Q6"
+			(at 233.68 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3340f882-8025-41a6-9202-15b44c4ec0a5")
+		)
+		(pin "2"
+			(uuid "3ea9e08d-da37-4d74-a12a-57fe64eaa9f3")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 66.04 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b206f7f-df5a-4960-9dd7-9e709038ab19")
+		(property "Reference" "C8"
+			(at 69.85 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 69.85 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -30.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -130.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -330.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -430.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -530.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -630.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -730.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05035190-a4fc-4854-96a0-318e2da6215f")
+		)
+		(pin "1"
+			(uuid "04366a1f-59ed-4a1a-85bb-d855dea9c8f9")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 114.3 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db5e90f-035d-4315-8459-fd1d4664c318")
+		(property "Reference" "C10"
+			(at 118.11 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 118.11 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 18.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -81.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -281.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -381.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -481.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -581.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -681.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04b1f08b-8a3a-4518-bf01-a275adb17c64")
+		)
+		(pin "1"
+			(uuid "6b8d9c89-d368-45cd-8a44-7149142c8751")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 138.43 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f005e70-1131-4fc2-884e-ef5f4ebf7fce")
+		(property "Reference" "C5"
+			(at 142.24 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 142.24 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 42.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -57.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -257.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -357.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -457.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -557.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -657.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "128da0e4-d6d9-4306-aa74-130c308ca9b1")
+		)
+		(pin "1"
+			(uuid "77029a34-96a0-44ec-8c20-10534d383dc1")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 90.17 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa9cbd2b-169b-4e66-91f9-65fcc49cdf89")
+		(property "Reference" "C3"
+			(at 93.98 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 93.98 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -6.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -106.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -306.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -406.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -506.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -606.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -706.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "548acd66-432a-4274-8a18-3cc5ecb2868d")
+		)
+		(pin "1"
+			(uuid "731061d1-a1a2-436c-b924-cee8b57268cc")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 66.04 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acdf1b07-bf56-4a1e-b8de-ec513f74109c")
+		(property "Reference" "C14"
+			(at 69.85 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 69.85 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -30.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -130.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -330.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -430.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -530.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -630.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -730.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2ed5143-51a2-4c90-ada9-72905d31891c")
+		)
+		(pin "1"
+			(uuid "7e2800dc-d7d1-4737-8c5f-08fd63eea375")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32774X0205K000")
+		(at 87.63 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace42845-4c95-4595-9aad-7ec3b012f8a3")
+		(property "Reference" "C90"
+			(at 91.44 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32774X0205K000"
+			(at 91.44 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
+			(at 183.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+			(at 283.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 483.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32774X0205K000"
+			(at 583.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
+			(at 683.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 783.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32774X0205K000"
+			(at 883.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01ee3aba-daca-4a4c-8152-ad081d507605")
+		)
+		(pin "1"
+			(uuid "199ab3d6-cf04-4aa6-b12f-c43bc05a0bd1")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 278.13 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1632fb2-451b-456d-b202-0bb023bb1532")
+		(property "Reference" "C97"
+			(at 281.94 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 281.94 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 373.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 473.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 278.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 673.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 773.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 873.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 973.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 1073.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bb781842-ac0a-4fd4-a5e2-2d5fd3c4e8a2")
+		)
+		(pin "1"
+			(uuid "6d66076c-2f4d-4fb2-9778-156c6b2e8461")
+		)
+		(pin "3"
+			(uuid "8affaa1f-9424-4ad9-bbf3-fc6189c3947e")
+		)
+		(pin "2"
+			(uuid "484205e8-f4f9-4c2a-b17e-ff079159de3c")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 41.91 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46ccf57-81a9-406d-816b-f171e3724163")
+		(property "Reference" "C1"
+			(at 45.72 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 45.72 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -54.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -154.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -354.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -454.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -554.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -654.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -754.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb998e6c-2214-43c6-ac37-0962cdbdc04c")
+		)
+		(pin "1"
+			(uuid "a51bd17e-f13e-4f0f-b6c0-c1275e2c2096")
+		)
+		(instances
+			(project ""
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 39.37 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b6745a-a83f-4f05-9497-3b2e679dfbeb")
+		(property "Reference" "#PWR012"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 35.56 176.4029 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f99631c-34a8-4741-b047-db95f31f167b")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 43.18 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb4d903-2593-4c83-a4de-7ca8ea4f59e7")
+		(property "Reference" "C101"
+			(at 46.99 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 46.99 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -53.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -153.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -353.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -453.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -553.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -653.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -753.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14b9cde9-62a9-4f95-853a-ae4e5e3ccc35")
+		)
+		(pin "1"
+			(uuid "e5389453-5b25-4fcf-9219-8f54f6466713")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 38.1 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0388108-1b0c-470d-b8e0-d11c65db58b0")
+		(property "Reference" "#PWR02"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 34.29 101.4729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971cf35d-0b1f-427d-8fe8-afd1aa80eced")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 67.31 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c191c6ba-30b1-4975-a554-807527b5d042")
+		(property "Reference" "C102"
+			(at 71.12 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 71.12 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -28.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -128.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -328.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -428.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -528.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -628.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -728.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7810302-1b7e-4b59-8224-7df9538b8ffe")
+		)
+		(pin "1"
+			(uuid "409375f0-4ca0-4a98-9843-dd5f41296356")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 162.56 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1b3608-e95f-4b41-bd67-445c08151364")
+		(property "Reference" "C18"
+			(at 166.37 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 166.37 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 66.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -33.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -233.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -333.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -433.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -533.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -633.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7f4c986-8025-45c1-a8c9-74c0d5dbc3b6")
+		)
+		(pin "1"
+			(uuid "621964fa-5426-48bc-8b28-91287e3a301e")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 240.03 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd29596e-78a0-4956-ba66-c59657910927")
+		(property "Reference" "C103"
+			(at 243.84 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 243.84 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 336.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 436.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 636.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 736.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 836.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 936.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 1036.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c3c294b-b927-4e30-84c9-161b109bca3c")
+		)
+		(pin "1"
+			(uuid "d1038f13-b2f1-47ed-9c21-7eb8ae26470a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 251.46 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde2f055-e0ee-491e-9c58-fd92a7fa2b25")
+		(property "Reference" "C99"
+			(at 255.27 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 255.27 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 347.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 447.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 647.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 747.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 847.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 947.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 1047.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa71ad52-8861-43b8-baa0-0f641b32d4a6")
+		)
+		(pin "1"
+			(uuid "3a710b83-aff1-472d-bda0-79b79771a4d8")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 50.8 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4ffda2b-4c96-4a2f-89cc-f17a1db19d35")
+		(property "Reference" "Q1"
+			(at 55.88 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8394459b-03e7-44c3-8445-e7319dc37581")
+		)
+		(pin "2"
+			(uuid "8503db38-e76f-4ce7-97f6-55549be05580")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 162.56 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c57673-e41a-4303-a7ca-e9d72a419648")
+		(property "Reference" "C12"
+			(at 166.37 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 166.37 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 66.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -33.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -233.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -333.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -433.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -533.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -633.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bce8d878-ac2e-488a-8d57-3f7007292df2")
+		)
+		(pin "1"
+			(uuid "62b13de7-98b8-4457-a6b3-3c36f8a04845")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 162.56 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e42d2de1-1fb0-46f2-b6db-952c2f87bf20")
+		(property "Reference" "C94"
+			(at 166.37 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 166.37 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 258.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 358.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 558.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 658.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 758.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 858.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 958.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "338a0bdc-9ab3-4419-9d44-c57fc542a9db")
+		)
+		(pin "1"
+			(uuid "b8952f4e-c48c-40b8-93ac-94fb4d733e55")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:C4AQNBW5200M3LJ")
+		(at 189.23 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7e220f3-4e92-4dc0-aa22-add7d28dfea3")
+		(property "Reference" "C91"
+			(at 193.04 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C4AQNBW5200M3LJ"
+			(at 193.04 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:C4AQNBW5200M3LJ"
+			(at 284.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
+			(at 384.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "45.2"
+			(at 584.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
+			(at 684.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
+			(at 784.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 884.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
+			(at 984.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a11d2c13-ed84-417c-b5db-8c3443f0bbcd")
+		)
+		(pin "1"
+			(uuid "c3dccc24-f211-4456-8791-b8f7ac82aa3c")
+		)
+		(pin "3"
+			(uuid "087f71b9-eaef-4ae0-9019-f415d29ff316")
+		)
+		(pin "2"
+			(uuid "5138de8b-f45e-49ef-a9c7-e53c6e6fd6ab")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 41.91 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea85ecb6-605d-4c75-9b47-47c5b1e0fa2e")
+		(property "Reference" "C7"
+			(at 45.72 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 45.72 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at -54.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -154.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -354.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -454.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -554.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -654.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -754.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b067318-fcc2-4439-8eed-c246a24bb924")
+		)
+		(pin "1"
+			(uuid "83444b4d-3cbe-48a2-b077-3e1b82f5ea4d")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 139.7 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0a420a-2b76-4b43-a345-60f619ea3d4f")
+		(property "Reference" "Q3"
+			(at 144.78 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a932fd-ef84-4b9e-bd8b-248f980e2170")
+		)
+		(pin "2"
+			(uuid "d2bbe4cb-7355-449a-9220-ece63330bc62")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 138.43 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0ed257f-c80e-4349-a175-2f4ea8ea5e45")
+		(property "Reference" "C11"
+			(at 142.24 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 142.24 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 42.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -57.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -257.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -357.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -457.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -557.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -657.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbe28361-7b3a-4217-81f2-3dd006b32bcc")
+		)
+		(pin "1"
+			(uuid "bfecccbe-9711-43d2-84c3-c46dc4727aad")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:CM600HA-24H_Power")
+		(at 139.7 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f23f4157-f6b4-4c88-88da-d78f3a7bae3b")
+		(property "Reference" "Q4"
+			(at 144.78 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:CM600HA-24H-PWR"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e516ecaa-8f5d-46fb-a381-09bb2cce55aa")
+		)
+		(pin "2"
+			(uuid "d24522a5-f3b3-464d-b1fd-a0a763dd2673")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:B32652A0104K000")
+		(at 151.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f311bacf-18ac-486e-b47e-818b493a13ed")
+		(property "Reference" "C93"
+			(at 154.94 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B32652A0104K000"
+			(at 154.94 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:B32652__18_x_9_"
+			(at 247.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
+			(at 347.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.5"
+			(at 547.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B32652A104K"
+			(at 647.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
+			(at 747.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 847.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32652A0104K000"
+			(at 947.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e31d9ba-c7c8-4b0b-a83f-934e78859379")
+		)
+		(pin "1"
+			(uuid "0460976b-f3db-4fdc-bb14-074264a2cd35")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 41.91 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3c4d1e-d1ac-4660-8b3a-f9a2d2b79804")
+		(property "Reference" "#PWR01"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 38.1 70.9929 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5803a920-f36c-49df-9078-a75565e25dfc")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:ALH82A750CB600")
+		(at 139.7 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcda48ac-516f-42c4-831d-a97220e26720")
+		(property "Reference" "C111"
+			(at 143.51 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ALH82A750CB600"
+			(at 143.51 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InverterCom:ALH82A750CB600"
+			(at 43.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600"
+			(at -56.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "32"
+			(at -256.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ALH82A750CB600"
+			(at -356.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D"
+			(at -456.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -556.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ALH82A750CB600"
+			(at -656.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6447db5-4fda-42b7-bda8-d56e40a477f1")
+		)
+		(pin "1"
+			(uuid "3ef98f3c-7139-46ff-8d93-3a44b53d21c3")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/ec4e2f14-8f62-408f-b5e7-7591df560004"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

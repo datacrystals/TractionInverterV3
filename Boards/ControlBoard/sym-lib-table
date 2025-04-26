@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "InverterCom")(type "KiCad")(uri "/home/tliao/Documents/TractionInverterV3/InverterCom.kicad_sym")(options "")(descr ""))
+)
