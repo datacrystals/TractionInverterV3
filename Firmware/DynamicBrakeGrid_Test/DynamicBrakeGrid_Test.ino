@@ -21,167 +21,207 @@ float fanSpeed = 0.0;
 bool newDataAvailable = false;
 
 void handleCANMessage(const CANMessage& msg) {
+    Serial.println(F("--- Start of CAN Message Processing ---"));
+    Serial.print(F("Raw Message ID: "));
+    Serial.println(msg.id, HEX);
+    Serial.print(F("Raw Message Length: "));
+    Serial.println(msg.length);
+    Serial.print(F("Raw Message Data: "));
+    for (int i = 0; i < msg.length; i++) {
+        Serial.print(msg.data[i], HEX);
+        Serial.print(F(" "));
+    }
+    Serial.println();
+
     MessageCode code = CANBusManager::GetMessageCode(msg);
-    Serial.print(F("Received CAN message with code: "));
+    Serial.print(F("Extracted Message Code: "));
     Serial.println(code);
-    Serial.print(F("int: "));
+    Serial.print(F("Message Code (int): "));
     Serial.println((int)code);
+
     switch (code) {
         case MessageCode::GET_VIN_VOLTAGE:
+            Serial.println(F("Processing GET_VIN_VOLTAGE"));
             inputVoltage = CANBusManager::ReadFloat(msg);
+            Serial.print(F("Extracted Vin Voltage: "));
+            Serial.println(inputVoltage, 2);
             newDataAvailable = true;            
             break;
 
         case MessageCode::TEMPERATURE:
+            Serial.println(F("Processing TEMPERATURE"));
             temperature = CANBusManager::ReadFloat(msg);
+            Serial.print(F("Extracted Temperature: "));
+            Serial.println(temperature, 2);
             newDataAvailable = true;            
             break;
 
         case MessageCode::GET_POWER:
+            Serial.println(F("Processing GET_POWER"));
             power = CANBusManager::ReadFloat(msg);
+            Serial.print(F("Extracted Power: "));
+            Serial.println(power, 2);
             newDataAvailable = true;            
             break;
 
         case MessageCode::GET_FAN_AIRFLOW:
+            Serial.println(F("Processing GET_FAN_AIRFLOW"));
             fanSpeed = CANBusManager::ReadFloat(msg);
+            Serial.print(F("Extracted Fan Airflow: "));
+            Serial.println(fanSpeed, 2);
             newDataAvailable = true;            
             break;
 
         case MessageCode::GET_FAULT_COUNT:
+            Serial.println(F("Processing GET_FAULT_COUNT"));
             uint32_t faultCount = CANBusManager::ReadInt(msg);
-            Serial.print(F("Fault Count: "));
+            Serial.print(F("Extracted Fault Count: "));
             Serial.println(faultCount);
             break;
 
         case MessageCode::GET_FAULT_LIST:
+            Serial.println(F("Processing GET_FAULT_LIST"));
             if (msg.length > 0) {
-                Serial.print(F("Fault List: "));
+                Serial.print(F("Extracted Fault List: "));
                 Serial.write(msg.data, msg.length);
                 Serial.println();
             }
             break;
 
         case MessageCode::RESET_FAULTS:
+            Serial.println(F("Processing RESET_FAULTS"));
             Serial.println(F("Faults reset acknowledged"));
             break;
 
         case MessageCode::HEARTBEAT:
+            Serial.println(F("Processing HEARTBEAT"));
             Serial.println(F("Heartbeat received"));
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE:
+            Serial.println(F("Processing GET_VOUT_VOLTAGE"));
             float voutVoltage = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Vout Voltage: "));
+            Serial.print(F("Extracted Vout Voltage: "));
             Serial.println(voutVoltage, 2);            
             break;
 
         case MessageCode::GET_PHASE1_CURRENT:
+            Serial.println(F("Processing GET_PHASE1_CURRENT"));
             float phase1Current = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 1 Current: "));
+            Serial.print(F("Extracted Phase 1 Current: "));
             Serial.println(phase1Current, 2);            
             break;
 
         case MessageCode::GET_PHASE2_CURRENT:
+            Serial.println(F("Processing GET_PHASE2_CURRENT"));
             float phase2Current = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 2 Current: "));
+            Serial.print(F("Extracted Phase 2 Current: "));
             Serial.println(phase2Current, 2);            
             break;
 
         case MessageCode::GET_PHASE1_TEMP:
+            Serial.println(F("Processing GET_PHASE1_TEMP"));
             float phase1Temp = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 1 Temperature: "));
+            Serial.print(F("Extracted Phase 1 Temperature: "));
             Serial.println(phase1Temp, 2);            
             break;
 
         case MessageCode::GET_PHASE2_TEMP:
+            Serial.println(F("Processing GET_PHASE2_TEMP"));
             float phase2Temp = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 2 Temperature: "));
+            Serial.print(F("Extracted Phase 2 Temperature: "));
             Serial.println(phase2Temp, 2);            
             break;
 
         case MessageCode::GET_CAN_FAULT_STATUS:
+            Serial.println(F("Processing GET_CAN_FAULT_STATUS"));
             uint32_t canFaultStatus = CANBusManager::ReadInt(msg);
-            Serial.print(F("CAN Fault Status: "));
+            Serial.print(F("Extracted CAN Fault Status: "));
             Serial.println(canFaultStatus);            
             break;
 
         case MessageCode::GET_FAN_SPEED:
+            Serial.println(F("Processing GET_FAN_SPEED"));
             float fanSpeedCFM = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Fan Speed (CFM): "));
+            Serial.print(F("Extracted Fan Speed (CFM): "));
             Serial.println(fanSpeedCFM, 2);            
             break;
 
         case MessageCode::REQUEST_FIRMWARE_VERSION:
+            Serial.println(F("Processing REQUEST_FIRMWARE_VERSION"));
             Serial.println(F("Firmware version request received"));
             break;
 
         case MessageCode::FIRMWARE_VERSION_RESPONSE:
+            Serial.println(F("Processing FIRMWARE_VERSION_RESPONSE"));
             if (msg.length > 0) {
                 char firmwareVersion[9] = {0};
                 memcpy(firmwareVersion, msg.data, msg.length);
-                Serial.print(F("Firmware Version: "));
+                Serial.print(F("Extracted Firmware Version: "));
                 Serial.println(firmwareVersion);
             }
             break;
 
         case MessageCode::GET_FAULT_COUNT_RESPONSE:
+            Serial.println(F("Processing GET_FAULT_COUNT_RESPONSE"));
             uint32_t faultCount_response = CANBusManager::ReadInt(msg);
-            Serial.print(F("Fault Count Response: "));
+            Serial.print(F("Extracted Fault Count Response: "));
             Serial.println(faultCount_response);            
             break;
 
         case MessageCode::GET_VIN_VOLTAGE_RESPONSE:
-            Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - start")); 
-            delay(100);
+            Serial.println(F("Processing GET_VIN_VOLTAGE_RESPONSE"));
             float vinVoltage = CANBusManager::ReadFloat(msg);
-            delay(100);
-            Serial.print(F("Vin Voltage Response: "));
-            delay(100);
-            Serial.println(vinVoltage, 2);    
-            delay(100);
-            Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - end"));        
-            delay(100);
+            Serial.print(F("Extracted Vin Voltage Response: "));
+            Serial.println(vinVoltage, 2);            
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE_RESPONSE:
+            Serial.println(F("Processing GET_VOUT_VOLTAGE_RESPONSE"));
             float voutVoltage_response = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Vout Voltage Response: "));
+            Serial.print(F("Extracted Vout Voltage Response: "));
             Serial.println(voutVoltage_response, 2);            
             break;
 
         case MessageCode::GET_PHASE1_CURRENT_RESPONSE:
+            Serial.println(F("Processing GET_PHASE1_CURRENT_RESPONSE"));
             float phase1Current_response = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 1 Current Response: "));
+            Serial.print(F("Extracted Phase 1 Current Response: "));
             Serial.println(phase1Current_response, 2);
             break;
 
         case MessageCode::GET_PHASE2_CURRENT_RESPONSE:
+            Serial.println(F("Processing GET_PHASE2_CURRENT_RESPONSE"));
             float phase2Current_response = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 2 Current Response: "));
+            Serial.print(F("Extracted Phase 2 Current Response: "));
             Serial.println(phase2Current_response, 2);            
             break;
 
         case MessageCode::GET_PHASE1_TEMP_RESPONSE:
+            Serial.println(F("Processing GET_PHASE1_TEMP_RESPONSE"));
             float phase1Temp_response = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 1 Temperature Response: "));
+            Serial.print(F("Extracted Phase 1 Temperature Response: "));
             Serial.println(phase1Temp_response, 2);            
             break;
 
         case MessageCode::GET_PHASE2_TEMP_RESPONSE:
+            Serial.println(F("Processing GET_PHASE2_TEMP_RESPONSE"));
             float phase2Temp_response = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Phase 2 Temperature Response: "));
+            Serial.print(F("Extracted Phase 2 Temperature Response: "));
             Serial.println(phase2Temp_response, 2);
             break;
 
         case MessageCode::GET_POWER_RESPONSE:
+            Serial.println(F("Processing GET_POWER_RESPONSE"));
             float power = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Power Response: "));
+            Serial.print(F("Extracted Power Response: "));
             Serial.println(power, 2);
             break;
 
         case MessageCode::GET_FAN_SPEED_RESPONSE:
+            Serial.println(F("Processing GET_FAN_SPEED_RESPONSE"));
             float fanSpeed = CANBusManager::ReadFloat(msg);
-            Serial.print(F("Fan Speed Response: "));
+            Serial.print(F("Extracted Fan Speed Response: "));
             Serial.println(fanSpeed, 2);
             break;
 
@@ -189,7 +229,7 @@ void handleCANMessage(const CANMessage& msg) {
             Serial.println(String(F("Unhandled CAN message: ")) + String((int)code));
             break;
     }
-    Serial.println(F("End of CAN message processing"));
+    Serial.println(F("--- End of CAN Message Processing ---"));
 }
 
 void OnCanStringMessage(MessageCode code, const char* message) {
