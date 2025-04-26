@@ -1,6 +1,6 @@
 // System Configuration
-#define SYSTEM_NAME "Chopper Controller v1.3"
-#define FW_VERSION "1.3"
+#define SYSTEM_NAME F("Chopper Controller v1.3")
+#define FW_VERSION F("1.3")
 #define DEVICE_ID 0x01
 
 // Hardware Defines
@@ -500,9 +500,9 @@ void handleCANMessage(const CANMessage& msg) {
 }
 
 void OnCanStringMessage(MessageCode code, const char* message) {
-    Serial.print("(DBG)Received string message with code ");
+    Serial.print(F("(DBG)Received string message with code "));
     Serial.print((int)code);
-    Serial.print(": ");
+    Serial.print(F(": "));
     Serial.println(message);
 }
 
@@ -522,7 +522,7 @@ void setup() {
     voltageController.SetSetpoint(DEFAULT_V_SETPOINT);
     fanController.SetStats(AIRFLOW_PER_FAN, NUM_FANS);    
 
-    Serial.println(SYSTEM_NAME " initialized");
+    Serial.println(F(SYSTEM_NAME " initialized"));
 }
 
 
@@ -575,21 +575,21 @@ void loop() {
     // Log status every LOG_INTERVAL_MS milliseconds
     if (millis() - lastLogTime >= LOG_INTERVAL_MS) {
         lastLogTime = millis();
-        Serial.print("Setpoint: ");
+        Serial.print(F("Setpoint: "));
         Serial.print(voltageController.GetSetpoint(), 2);
-        Serial.print("V | VIN: ");
+        Serial.print(F("V | VIN: "));
         Serial.print(voltageController.GetVoltage(), 2);
-        Serial.print("V | Duty: ");
+        Serial.print(F("V | Duty: "));
         Serial.print((voltageController.GetDutyCycle() / 255.0f) * 100.0f, 1);
-        Serial.print("% | Current: ");
+        Serial.print(F("% | Current: "));
         Serial.print(voltageController.GetCurrent(), 1);
-        Serial.print("A | Power: ");
+        Serial.print(F("A | Power: "));
         Serial.print(voltageController.GetPower(), 1);
-        Serial.print("W | Est. Delta T: ");
+        Serial.print(F("W | Est. Delta T: "));
         Serial.print(estimate_delta_t(fanController.getRollingCFMAvg(), voltageController.getRollingPowerAvg()), 1);
-        Serial.print("K | Fan: ");
+        Serial.print(F("K | Fan: "));
         Serial.print(fanController.getRollingCFMAvg());
-        Serial.println(" CFM");
+        Serial.println(F(" CFM"));
     }
 
     // Update CAN Manager

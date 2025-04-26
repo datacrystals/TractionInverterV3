@@ -22,7 +22,7 @@ bool newDataAvailable = false;
 
 void handleCANMessage(const CANMessage& msg) {
     MessageCode code = CANBusManager::GetMessageCode(msg);
-    Serial.print("Received CAN message with code: ");
+    Serial.print(F("Received CAN message with code: "));
     Serial.println(code);
     switch (code) {
         case MessageCode::GET_VIN_VOLTAGE:
@@ -47,147 +47,148 @@ void handleCANMessage(const CANMessage& msg) {
 
         case MessageCode::GET_FAULT_COUNT:
             uint32_t faultCount = CANBusManager::ReadInt(msg);
-            Serial.print("Fault Count: ");
+            Serial.print(F("Fault Count: "));
             Serial.println(faultCount);
             break;
 
         case MessageCode::GET_FAULT_LIST:
             if (msg.length > 0) {
-                Serial.print("Fault List: ");
+                Serial.print(F("Fault List: "));
                 Serial.write(msg.data, msg.length);
                 Serial.println();
             }
             break;
 
         case MessageCode::RESET_FAULTS:
-            Serial.println("Faults reset acknowledged");
+            Serial.println(F("Faults reset acknowledged"));
             break;
 
         case MessageCode::HEARTBEAT:
-            Serial.println("Heartbeat received");
+            Serial.println(F("Heartbeat received"));
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE:
             float voutVoltage = CANBusManager::ReadFloat(msg);
-            Serial.print("Vout Voltage: ");
+            Serial.print(F("Vout Voltage: "));
             Serial.println(voutVoltage, 2);            
             break;
 
         case MessageCode::GET_PHASE1_CURRENT:
             float phase1Current = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 1 Current: ");
+            Serial.print(F("Phase 1 Current: "));
             Serial.println(phase1Current, 2);            
             break;
 
         case MessageCode::GET_PHASE2_CURRENT:
             float phase2Current = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 2 Current: ");
+            Serial.print(F("Phase 2 Current: "));
             Serial.println(phase2Current, 2);            
             break;
 
         case MessageCode::GET_PHASE1_TEMP:
             float phase1Temp = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 1 Temperature: ");
+            Serial.print(F("Phase 1 Temperature: "));
             Serial.println(phase1Temp, 2);            
             break;
 
         case MessageCode::GET_PHASE2_TEMP:
             float phase2Temp = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 2 Temperature: ");
+            Serial.print(F("Phase 2 Temperature: "));
             Serial.println(phase2Temp, 2);            
             break;
 
         case MessageCode::GET_CAN_FAULT_STATUS:
             uint32_t canFaultStatus = CANBusManager::ReadInt(msg);
-            Serial.print("CAN Fault Status: ");
+            Serial.print(F("CAN Fault Status: "));
             Serial.println(canFaultStatus);            
             break;
 
         case MessageCode::GET_FAN_SPEED:
             float fanSpeedCFM = CANBusManager::ReadFloat(msg);
-            Serial.print("Fan Speed (CFM): ");
+            Serial.print(F("Fan Speed (CFM): "));
             Serial.println(fanSpeedCFM, 2);            
             break;
 
         case MessageCode::REQUEST_FIRMWARE_VERSION:
-            Serial.println("Firmware version request received");
+            Serial.println(F("Firmware version request received"));
             break;
 
         case MessageCode::FIRMWARE_VERSION_RESPONSE:
             if (msg.length > 0) {
                 char firmwareVersion[9] = {0};
                 memcpy(firmwareVersion, msg.data, msg.length);
-                Serial.print("Firmware Version: ");
+                Serial.print(F("Firmware Version: "));
                 Serial.println(firmwareVersion);
             }
             break;
 
         case MessageCode::GET_FAULT_COUNT_RESPONSE:
             uint32_t faultCount_response = CANBusManager::ReadInt(msg);
-            Serial.print("Fault Count Response: ");
+            Serial.print(F("Fault Count Response: "));
             Serial.println(faultCount_response);            
             break;
 
         case MessageCode::GET_VIN_VOLTAGE_RESPONSE:
-            Serial.println("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - start"); 
+            Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - start")); 
+            
             float vinVoltage = CANBusManager::ReadFloat(msg);
-            Serial.print("Vin Voltage Response: ");
+            Serial.print(F("Vin Voltage Response: "));
             Serial.println(vinVoltage, 2);    
-            Serial.println("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - end");        
+            Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - end"));        
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE_RESPONSE:
             float voutVoltage_response = CANBusManager::ReadFloat(msg);
-            Serial.print("Vout Voltage Response: ");
+            Serial.print(F("Vout Voltage Response: "));
             Serial.println(voutVoltage_response, 2);            
             break;
 
         case MessageCode::GET_PHASE1_CURRENT_RESPONSE:
             float phase1Current_response = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 1 Current Response: ");
+            Serial.print(F("Phase 1 Current Response: "));
             Serial.println(phase1Current_response, 2);
             break;
 
         case MessageCode::GET_PHASE2_CURRENT_RESPONSE:
             float phase2Current_response = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 2 Current Response: ");
+            Serial.print(F("Phase 2 Current Response: "));
             Serial.println(phase2Current_response, 2);            
             break;
 
         case MessageCode::GET_PHASE1_TEMP_RESPONSE:
             float phase1Temp_response = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 1 Temperature Response: ");
+            Serial.print(F("Phase 1 Temperature Response: "));
             Serial.println(phase1Temp_response, 2);            
             break;
 
         case MessageCode::GET_PHASE2_TEMP_RESPONSE:
             float phase2Temp_response = CANBusManager::ReadFloat(msg);
-            Serial.print("Phase 2 Temperature Response: ");
+            Serial.print(F("Phase 2 Temperature Response: "));
             Serial.println(phase2Temp_response, 2);
             break;
 
         case MessageCode::GET_POWER_RESPONSE:
             float power = CANBusManager::ReadFloat(msg);
-            Serial.print("Power Response: ");
+            Serial.print(F("Power Response: "));
             Serial.println(power, 2);
             break;
 
         case MessageCode::GET_FAN_SPEED_RESPONSE:
             float fanSpeed = CANBusManager::ReadFloat(msg);
-            Serial.print("Fan Speed Response: ");
+            Serial.print(F("Fan Speed Response: "));
             Serial.println(fanSpeed, 2);
             break;
 
         default:
-            Serial.println("Unhandled CAN message: " + String((int)code));
+            Serial.println(String(F("Unhandled CAN message: ")) + String((int)code));
             break;
     }
 }
 
 void OnCanStringMessage(MessageCode code, const char* message) {
-    Serial.print("Received string message with code ");
+    Serial.print(F("Received string message with code "));
     Serial.print((int)code);
-    Serial.print(": ");
+    Serial.print(F(": "));
     Serial.println(message);
 }
 
@@ -199,7 +200,7 @@ void setup() {
     canManager.SetCallback(handleCANMessage);
     canManager.SetStringCallback(OnCanStringMessage); // Register the string callback
 
-    Serial.println("Test Harness Ready");
+    Serial.println(F("Test Harness Ready"));
     printHelp();
 }
 
@@ -226,15 +227,15 @@ void loop() {
 }
 
 void printPolledData() {
-    Serial.print("Vin: ");
+    Serial.print(F("Vin: "));
     Serial.print(inputVoltage, 2);
-    Serial.print("V | Temp: ");
+    Serial.print(F("V | Temp: "));
     Serial.print(temperature, 1);
-    Serial.print("°C | Power: ");
+    Serial.print(F("°C | Power: "));
     Serial.print(power, 2);
-    Serial.print("W | Fan: ");
+    Serial.print(F("W | Fan: "));
     Serial.print(fanSpeed, 0);
-    Serial.println(" RPM");
+    Serial.println(F(" RPM"));
 }
 
 void processCommand(String cmd) {
@@ -300,8 +301,8 @@ void processCommand(String cmd) {
     }
     else if (cmd == "poll") {
         pollingActive = !pollingActive; // Toggle polling state
-        Serial.print("Polling ");
-        Serial.println(pollingActive ? "started" : "stopped");
+        Serial.print(F("Polling "));
+        Serial.println(pollingActive ? F("started") : F("stopped"));
         if (pollingActive) {
             lastPollTime = millis() - pollInterval; // Force immediate poll
             // Clear previous values
@@ -312,7 +313,7 @@ void processCommand(String cmd) {
         }
     }
     else {
-        Serial.println("Unknown command. Type 'help' for options.");
+        Serial.println(F("Unknown command. Type 'help' for options."));
     }
 }
 
@@ -325,16 +326,16 @@ void pollStats() {
 }
 
 void printHelp() {
-    Serial.println("Available Commands:");
-    Serial.println("  enable       - Enable output");
-    Serial.println("  disable      - Disable output");
-    Serial.println("  emergency    - Emergency stop");
-    Serial.println("  reset        - Reset faults");
-    Serial.println("  faults       - Get fault count");
-    Serial.println("  vin          - Get input voltage");
-    Serial.println("  temp         - Get temperature");
-    Serial.println("  power        - Get power");
-    Serial.println("  fan          - Get fan speed");
-    Serial.println("  poll         - Toggle continuous polling of stats");
-    Serial.println("  help         - Show this help");
+    Serial.println(F("Available Commands:"));
+    Serial.println(F("  enable       - Enable output"));
+    Serial.println(F("  disable      - Disable output"));
+    Serial.println(F("  emergency    - Emergency stop"));
+    Serial.println(F("  reset        - Reset faults"));
+    Serial.println(F("  faults       - Get fault count"));
+    Serial.println(F("  vin          - Get input voltage"));
+    Serial.println(F("  temp         - Get temperature"));
+    Serial.println(F("  power        - Get power"));
+    Serial.println(F("  fan          - Get fan speed"));
+    Serial.println(F("  poll         - Toggle continuous polling of stats"));
+    Serial.println(F("  help         - Show this help"));
 }
