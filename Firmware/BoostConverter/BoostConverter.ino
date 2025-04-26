@@ -295,7 +295,7 @@ void OnCanMessage(const CANMessage& msg) {
 }
 
 void OnCanStringMessage(MessageCode code, const char* message) {
-    Serial.print("Received string message with code ");
+    Serial.print("(BC)Received string message with code ");
     Serial.print((int)code);
     Serial.print(": ");
     Serial.println(message);

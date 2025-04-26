@@ -692,30 +692,28 @@ void handleCANMessage(const CANMessage& msg) {
     }
 }
 
+void OnCanStringMessage(MessageCode code, const char* message) {
+    Serial.print("(DBG)Received string message with code ");
+    Serial.print((int)code);
+    Serial.print(": ");
+    Serial.println(message);
+}
+
 void setup() {
     Serial.begin(9600);
     while (!Serial);
 
-    // Initialize CAN Bus
-    canController.begin();
-    canController.registerCallback(handleCANMessage);
-
-    if(canController.getError()) {
-        Serial.println("CAN Bus initialization failed!");
-        while(1);
-    }
-
+    // Initialize CAN Manager
+    canManager.Begin();
+    canManager.SetCallback(handleCANMessage);
+    canManager.SetStringCallback(OnCanStringMessage); // Register the string callback
 
     PwmController::Initialize();
     FaultLED.SetState(LOW);
     StatusLED.SetState(LOW);
     StatusLED.Blink(1000);
     voltageController.SetSetpoint(DEFAULT_V_SETPOINT);
-    fanController.SetStats(AIRFLOW_PER_FAN, NUM_FANS);
-
-    // Initialize CAN Manager
-    canManager.Begin();
-    canManager.SetCallback(handleCANMessage);
+    fanController.SetStats(AIRFLOW_PER_FAN, NUM_FANS);    
 
     Serial.println(SYSTEM_NAME " initialized");
 }
