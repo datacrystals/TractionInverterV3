@@ -24,9 +24,9 @@ void handleCANMessage(const CANMessage& msg) {
     MessageCode code = CANBusManager::GetMessageCode(msg);
     Serial.print(F("Received CAN message with code: "));
     Serial.println(code);
-    Serial.print(F("int"));
+    Serial.print(F("int: "));
     Serial.println((int)code);
-    switch ((int)code) {
+    switch (code) {
         case MessageCode::GET_VIN_VOLTAGE:
             inputVoltage = CANBusManager::ReadFloat(msg);
             newDataAvailable = true;            
@@ -132,11 +132,15 @@ void handleCANMessage(const CANMessage& msg) {
 
         case MessageCode::GET_VIN_VOLTAGE_RESPONSE:
             Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - start")); 
-            
+            Delay(100);
             float vinVoltage = CANBusManager::ReadFloat(msg);
+            Delay(100);
             Serial.print(F("Vin Voltage Response: "));
+            Delay(100);
             Serial.println(vinVoltage, 2);    
+            Delay(100);
             Serial.println(F("case MessageCode::GET_VIN_VOLTAGE_RESPONSE - end"));        
+            Delay(100);
             break;
 
         case MessageCode::GET_VOUT_VOLTAGE_RESPONSE:

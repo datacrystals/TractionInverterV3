@@ -61,9 +61,9 @@ enum MessageCode : uint8_t {
     REQUEST_FIRMWARE_VERSION = 57,    // 0x57 - Firmware Version
     FIRMWARE_VERSION_RESPONSE = 58,   // 0x58 - Firmware Version Response
     GET_FAULT_COUNT_RESPONSE = 59,    // 0x59 - Fault Count Response
-    GET_VIN_VOLTAGE_RESPONSE = 60,    // 0x60 - Vin Voltage Response
-    GET_VOUT_VOLTAGE_RESPONSE = 61,   // 0x61 - Vout Voltage Response
-    GET_PHASE1_CURRENT_RESPONSE = 62, // 0x62 - Phase 1 Current Response
+    GET_VIN_VOLTAGE_RESPONSE = 60,    // 60 - Vin Voltage Response
+    GET_VOUT_VOLTAGE_RESPONSE = 61,   // 61 - Vout Voltage Response
+    GET_PHASE1_CURRENT_RESPONSE = 62, // 62 - Phase 1 Current Response
     GET_PHASE2_CURRENT_RESPONSE = 63, // 0x63 - Phase 2 Current Response
     GET_PHASE1_TEMP_RESPONSE = 64,    // 0x64 - Phase 1 Temperature Response
     GET_PHASE2_TEMP_RESPONSE = 65,    // 0x65 - Phase 2 Temperature Response
