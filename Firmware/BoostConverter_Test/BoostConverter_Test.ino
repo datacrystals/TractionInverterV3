@@ -116,7 +116,7 @@ void loop() {
 
 // Callback for handling received CAN messages
 void OnMessage(const CANMessage& msg) {
-    MessageCode code = static_cast<MessageCode>(msg.id);
+    MessageCode code = CANBusManager::GetMessageCode(msg);
     switch (code) {
         case MessageCode::EMERGENCY_STOP:
             Serial.println("Emergency stop activated.");
