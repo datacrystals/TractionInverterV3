@@ -117,71 +117,91 @@ void loop() {
 // Callback for handling received CAN messages
 void OnMessage(const CANMessage& msg) {
     MessageCode code = static_cast<MessageCode>(msg.id);
-
     switch (code) {
-        case HEARTBEAT_PING:
-            Serial.println("Heartbeat ping received.");
-            break;
-        case ENABLE_OUTPUT:
-            Serial.println("Output enabled.");
-            break;
-        case REGULAR_STOP:
-            Serial.println("Output disabled.");
-            break;
-        case EMERGENCY_STOP:
+        case MessageCode::EMERGENCY_STOP:
             Serial.println("Emergency stop activated.");
             break;
-        case RESET_FAULTS:
+
+        case MessageCode::REGULAR_STOP:
+            Serial.println("Output disabled.");
+            break;
+
+        case MessageCode::ENABLE_OUTPUT:
+            Serial.println("Output enabled.");
+            break;
+
+        case MessageCode::RESET_FAULTS:
             Serial.println("Faults reset.");
             break;
-        case GET_FAULT_COUNT:
+
+        case MessageCode::GET_FAULT_COUNT:
             Serial.print("Number of faults: ");
             Serial.println(CANBusManager::ReadInt(msg));
             break;
-        case GET_FAULT_LIST:
+
+        case MessageCode::GET_FAULT_LIST:
             Serial.print("Fault list: ");
             Serial.println((char*)msg.data);
             break;
-        case GET_VIN_VOLTAGE:
+
+        case MessageCode::GET_VIN_VOLTAGE:
             Serial.print("Vin Voltage: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_VOUT_VOLTAGE:
+
+        case MessageCode::GET_VOUT_VOLTAGE:
             Serial.print("Vout Voltage: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_PHASE1_CURRENT:
+
+        case MessageCode::GET_PHASE1_CURRENT:
             Serial.print("Phase 1 Current: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_PHASE2_CURRENT:
+
+        case MessageCode::GET_PHASE2_CURRENT:
             Serial.print("Phase 2 Current: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_PHASE1_TEMP:
+
+        case MessageCode::GET_PHASE1_TEMP:
             Serial.print("Phase 1 Temperature: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_PHASE2_TEMP:
+
+        case MessageCode::GET_PHASE2_TEMP:
             Serial.print("Phase 2 Temperature: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_FAN_AIRFLOW:
+
+        case MessageCode::GET_FAN_AIRFLOW:
             Serial.print("Fan Airflow: ");
             Serial.println(CANBusManager::ReadInt(msg));
             break;
-        case GET_FAN_RPM:
+
+        case MessageCode::GET_FAN_RPM:
             Serial.print("Fan RPM: ");
             Serial.println(CANBusManager::ReadInt(msg));
             break;
-        case GET_POWER:
+
+        case MessageCode::GET_POWER:
             Serial.print("Power: ");
-            Serial.println(CANBusManager::ReadInt(msg));
+            Serial.println(CANBusManager::ReadFloat(msg));
             break;
-        case GET_CAN_FAULT_STATUS:
+
+        case MessageCode::GET_CAN_FAULT_STATUS:
             Serial.print("CAN Fault Status: ");
             Serial.println(CANBusManager::ReadBool(msg) ? "Error" : "OK");
             break;
+
+        case MessageCode::ENABLE_HEARTBEAT:
+            Serial.println("Heartbeat mode enabled.");
+            break;
+
+        case MessageCode::HEARTBEAT_PING:
+            Serial.println("Heartbeat ping received.");
+            break;
+
         default:
             Serial.println("Unhandled CAN message: " + String((int)code));
             break;
