@@ -3961,6 +3961,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e2fa59-2fd9-4690-9bd8-1d4f14078277")
+		(property "Reference" "R3"
+			(at 116.84 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 116.84 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 116.078 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99668fc7-f465-459b-939c-95c1c2092102")
+		)
+		(pin "2"
+			(uuid "b05c891a-8810-4156-a4f2-1196ca09e347")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 39.37 90)
 		(unit 1)
@@ -5054,7 +5124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "220"
 			(at 53.34 25.3999 0)
 			(effects
 				(font
@@ -5310,76 +5380,6 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25f82b58-25ba-490e-8d13-ea1233444a32")
-		(property "Reference" "R3"
-			(at 116.84 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 116.84 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 116.078 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67402ef4-3bcc-475c-9788-54bd20d8ddae")
-		)
-		(pin "2"
-			(uuid "36fb0eb1-82e7-4789-9d60-aef5f12fa5f3")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7086,76 +7086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 175.26 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c62de69-7b1d-4176-86cf-e19d4e20f26b")
-		(property "Reference" "R5"
-			(at 177.8 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 177.8 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 177.038 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13708248-d3a0-4e48-8ea8-e9afecdb57e3")
-		)
-		(pin "2"
-			(uuid "8f7ece01-b007-4ed5-9563-42f51f69c3e7")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 39.37 90)
 		(unit 1)
@@ -7287,6 +7217,76 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe8c2cb-4aea-41b0-8013-dfa5dbe4dbe0")
+		(property "Reference" "R37"
+			(at 53.34 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 53.34 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 52.578 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff097abd-c035-471a-a501-fa7d3b649fd7")
+		)
+		(pin "2"
+			(uuid "7732143b-9b23-4be7-a498-dacb26e3ea2a")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7962,76 +7962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "737b5703-6772-4565-8af0-913a6537892a")
-		(property "Reference" "R4"
-			(at 111.76 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 111.76 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 112.522 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6e83dfb-ac3e-4574-bc46-c607b4d51ab7")
-		)
-		(pin "2"
-			(uuid "7ab4230d-a901-4a31-a9c9-a080a76a077d")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 39.37 90)
 		(unit 1)
@@ -8099,6 +8029,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c3ea07-01cb-4efe-9239-297ccc224439")
+		(property "Reference" "R4"
+			(at 177.8 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 177.8 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 177.038 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef6d6774-b496-476e-93e3-b8cfc28b1a42")
+		)
+		(pin "2"
+			(uuid "2584fbc6-42dd-4f84-8783-6e57aae74e0c")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 76.2 90)
 		(unit 1)
@@ -8160,6 +8160,76 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7faa3ea8-0cef-44e5-91de-1370183b40f4")
+		(property "Reference" "R40"
+			(at 241.3 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 241.3 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 240.538 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47055b53-3a4d-4f9b-89e6-4cb248c617ff")
+		)
+		(pin "2"
+			(uuid "edb670fc-7f5b-4443-b7ff-0c00fcb7cad9")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -8434,76 +8504,6 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b7ea7a6-4cfe-402e-8b74-9dc53992d2ed")
-		(property "Reference" "R1"
-			(at 48.26 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 48.26 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 49.022 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b3ad105-fcf5-4986-9f67-70e5460f2bdf")
-		)
-		(pin "2"
-			(uuid "34101da6-e639-4c31-b90c-7a077adc102f")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9332,76 +9332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 238.76 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd6cae0e-4cfd-415e-b3b1-06fde1e236e2")
-		(property "Reference" "R7"
-			(at 241.3 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 241.3 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 240.538 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 238.76 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31670a06-e3fb-4235-bfb0-b80127f47ef1")
-		)
-		(pin "2"
-			(uuid "2833516a-2a27-4d62-a3a9-63bd01025c5c")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 96.52 67.31 180)
 		(unit 1)
@@ -9472,6 +9402,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73ede1c-545c-4408-a3a3-accaac814205")
+		(property "Reference" "R38"
+			(at 116.84 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 116.84 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 116.078 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbaba62c-e08f-44f9-980e-c39f42d3ea33")
+		)
+		(pin "2"
+			(uuid "cefc8646-0784-4596-8e78-97241c12ebbe")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 153.67 270)
 		(unit 1)
@@ -9533,6 +9533,76 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec181c3-be5f-4785-b229-651949a605f9")
+		(property "Reference" "R39"
+			(at 177.8 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 177.8 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 177.038 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bf25bba-ac57-4166-86db-2c8fd30ceb9b")
+		)
+		(pin "2"
+			(uuid "0a87d5c5-b584-4f82-9cdc-6c01f9a3e3a7")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -10079,6 +10149,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 238.76 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de5c13a3-8b64-4d31-9cd2-e1d24aa193c0")
+		(property "Reference" "R5"
+			(at 241.3 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 241.3 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 240.538 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e920984-afe4-4014-b936-95b159b46fa2")
+		)
+		(pin "2"
+			(uuid "4d287bdb-bd1a-409e-8f8f-3d8b2da7a83d")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 224.79 36.83 0)
 		(unit 1)
@@ -10280,76 +10420,6 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6481d16-4e29-4b51-ba08-ac3bf19838be")
-		(property "Reference" "R8"
-			(at 236.22 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 236.22 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 236.982 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 238.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4627778-656f-4486-932b-49b868f71686")
-		)
-		(pin "2"
-			(uuid "961a0bb1-99ab-4f42-a02e-fcfba3e728cb")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10753,76 +10823,6 @@
 			(project "PowerBoard"
 				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 175.26 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdf314f9-2db1-4757-b724-e9a8340270ec")
-		(property "Reference" "R6"
-			(at 172.72 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 172.72 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 173.482 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8807feca-7d4b-4e4e-9336-e3576aaf15f0")
-		)
-		(pin "2"
-			(uuid "0f3e9f2a-0eed-4e61-af6a-6d747c6a0046")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/80d633a3-2bf5-410b-b8ea-b291012109f7/07ae8d9d-27e1-4d4c-a161-946ae8197aa4"
-					(reference "R6")
 					(unit 1)
 				)
 			)

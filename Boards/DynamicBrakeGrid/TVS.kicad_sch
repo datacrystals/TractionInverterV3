@@ -1032,12 +1032,6 @@
 		)
 	)
 	(junction
-		(at 220.98 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "005a04e4-9113-497e-a50c-c35972240c4b")
-	)
-	(junction
 		(at 88.9 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1048,12 +1042,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17d0507e-fa3a-44a2-ac44-daf0b56f9041")
-	)
-	(junction
-		(at 195.58 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ac90b8b-2a1f-4d1b-ac57-71d607b09087")
 	)
 	(junction
 		(at 114.3 101.6)
@@ -1080,12 +1068,6 @@
 		(uuid "51103647-3721-465e-8239-3cb554777ec6")
 	)
 	(junction
-		(at 171.45 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b7a3aca-d4c5-4398-90b0-2f09d02db58f")
-	)
-	(junction
 		(at 138.43 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1110,12 +1092,6 @@
 		(uuid "9db07f58-7db1-4ab4-91b3-1704a00a0f68")
 	)
 	(junction
-		(at 171.45 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a847c334-d856-49d7-8948-5c390b340266")
-	)
-	(junction
 		(at 62.23 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1134,18 +1110,6 @@
 		(uuid "d04f2d96-4a9b-4fb5-b538-a28f3d6086c4")
 	)
 	(junction
-		(at 195.58 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9836cd8-6412-4ba0-a438-19b5aaf715c5")
-	)
-	(junction
-		(at 220.98 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef24bca5-e882-4e03-9f63-f667ff7543bd")
-	)
-	(junction
 		(at 138.43 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1160,16 +1124,6 @@
 			(type default)
 		)
 		(uuid "03fc639b-3ba1-4d06-a6a5-39d543343628")
-	)
-	(wire
-		(pts
-			(xy 220.98 83.82) (xy 195.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c25877d-293e-4cb9-8812-b1f2d3c3480d")
 	)
 	(wire
 		(pts
@@ -1203,16 +1157,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 83.82) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6fde9f-b3e0-4dd8-8235-5582f86f6aa4")
-	)
-	(wire
-		(pts
 			(xy 87.63 57.15) (xy 87.63 38.1)
 		)
 		(stroke
@@ -1240,16 +1184,6 @@
 			(type default)
 		)
 		(uuid "2d4a77e4-858e-4707-817f-c5e630ce428c")
-	)
-	(wire
-		(pts
-			(xy 195.58 38.1) (xy 171.45 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a3d860-d2d6-46bc-8fe8-1e9973690d95")
 	)
 	(wire
 		(pts
@@ -1293,16 +1227,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 195.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4435b64d-1d42-482d-ae0c-0c71db69bd73")
-	)
-	(wire
-		(pts
 			(xy 62.23 55.88) (xy 62.23 38.1)
 		)
 		(stroke
@@ -1330,16 +1254,6 @@
 			(type default)
 		)
 		(uuid "51853ecb-87c5-4ee3-8219-64b8d01f4980")
-	)
-	(wire
-		(pts
-			(xy 195.58 55.88) (xy 195.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5839bb24-2bb2-4612-a76c-0218c9ee1a6e")
 	)
 	(wire
 		(pts
@@ -1393,16 +1307,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 57.15) (xy 246.38 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a990193-a108-4b44-a0d5-7246492fbbe7")
-	)
-	(wire
-		(pts
 			(xy 138.43 127) (xy 114.3 127)
 		)
 		(stroke
@@ -1433,16 +1337,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 38.1) (xy 171.45 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9a9b1a-eaba-46cc-aa48-6e77bcccfd98")
-	)
-	(wire
-		(pts
 			(xy 88.9 120.65) (xy 88.9 127)
 		)
 		(stroke
@@ -1450,16 +1344,6 @@
 			(type default)
 		)
 		(uuid "9e058314-3eba-4c7d-9c75-1b7fbe3d2cae")
-	)
-	(wire
-		(pts
-			(xy 246.38 69.85) (xy 246.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0c424a-a2ae-4799-86f5-a8cdc6bf9d61")
 	)
 	(wire
 		(pts
@@ -1473,16 +1357,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f6c6c2-e1ba-4601-ae81-ece3babb430d")
-	)
-	(wire
-		(pts
 			(xy 113.03 57.15) (xy 113.03 38.1)
 		)
 		(stroke
@@ -1490,26 +1364,6 @@
 			(type default)
 		)
 		(uuid "a3b0805d-891d-4bee-aa3e-ce1de59743eb")
-	)
-	(wire
-		(pts
-			(xy 220.98 69.85) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f8665f-93d4-49ef-a0c7-d102a8dd7c80")
-	)
-	(wire
-		(pts
-			(xy 220.98 38.1) (xy 195.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adfe3b95-f261-4cfe-b2ca-59cf46ca5f50")
 	)
 	(wire
 		(pts
@@ -1543,16 +1397,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 57.15) (xy 220.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2cc53c-9686-4bd4-a287-ac66e0cc2ce5")
-	)
-	(wire
-		(pts
 			(xy 87.63 38.1) (xy 62.23 38.1)
 		)
 		(stroke
@@ -1563,16 +1407,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 38.1) (xy 220.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c39eb217-a48f-40ac-a468-d95a0d12fcd7")
-	)
-	(wire
-		(pts
 			(xy 63.5 120.65) (xy 63.5 127)
 		)
 		(stroke
@@ -1580,16 +1414,6 @@
 			(type default)
 		)
 		(uuid "d888e7a8-15c9-4f3f-9e1b-cf4fd2367c1d")
-	)
-	(wire
-		(pts
-			(xy 195.58 83.82) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e31a6fe3-afab-46ca-9a74-4b9a8b52422e")
 	)
 	(wire
 		(pts
@@ -1666,28 +1490,6 @@
 		(uuid "67af24a7-ff03-4fb2-aa68-4bc8b0e9172a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 13.3433 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHOPPER_DRAIN"
-		(shape input)
-		(at 165.1 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9cb6dca1-196b-4be1-9148-1c4057d23716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6933 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,128 +1638,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
 					(reference "C98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:B32774X0205K000")
-		(at 246.38 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38c6c12f-7b6a-4159-a235-880e9c1ced68")
-		(property "Reference" "C101"
-			(at 250.19 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32774X0205K000"
-			(at 250.19 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
-			(at 342.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
-			(at 442.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
-			(at 246.38 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 642.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "871-B32774X0205K000"
-			(at 742.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
-			(at 842.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 942.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32774X0205K000"
-			(at 1042.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf544cb6-d8f0-4847-a785-873cc9f6f6bb")
-		)
-		(pin "1"
-			(uuid "19459064-7c42-4636-80df-215f7d1e7e11")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -2330,128 +2010,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
 					(reference "C104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:1SMB5956BT3G")
-		(at 171.45 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce8f5e2-11bc-4240-a6ad-853d4a9f70c8")
-		(property "Reference" "Z8"
-			(at 175.26 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1SMB5956BT3G"
-			(at 175.26 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:DIOM5436X247N"
-			(at 77.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
-			(at -22.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.47"
-			(at -222.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-1SMB5956BT3G"
-			(at -322.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
-			(at -422.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at -522.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
-			(at -622.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9440707-194e-484b-97d0-dd2e83217ae6")
-		)
-		(pin "2"
-			(uuid "1f0ec8dd-61ff-469f-8a17-a3a450857ad8")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "Z8")
 					(unit 1)
 				)
 			)
@@ -2946,128 +2504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:1SMB5956BT3G")
-		(at 171.45 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "814dac90-3325-445f-b4b1-64ea918c0c31")
-		(property "Reference" "Z6"
-			(at 175.26 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1SMB5956BT3G"
-			(at 175.26 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:DIOM5436X247N"
-			(at 77.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
-			(at -22.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
-			(at 171.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.47"
-			(at -222.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-1SMB5956BT3G"
-			(at -322.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
-			(at -422.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at -522.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
-			(at -622.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d01548b-8e9a-4fc1-9c26-9aed35d720b0")
-		)
-		(pin "2"
-			(uuid "89434dac-b024-4050-a277-3cbaa344f0a7")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "Z6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 31.75 83.82 270)
 		(unit 1)
@@ -3258,317 +2694,6 @@
 	)
 	(symbol
 		(lib_id "InverterCom:1SMB5956BT3G")
-		(at 171.45 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a319fd61-94ea-4091-95f8-36aa5f2e40c9")
-		(property "Reference" "Z7"
-			(at 175.26 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1SMB5956BT3G"
-			(at 175.26 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "InverterCom:DIOM5436X247N"
-			(at 77.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"
-			(at -22.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.47"
-			(at -222.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-1SMB5956BT3G"
-			(at -322.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"
-			(at -422.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at -522.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1SMB5956BT3G"
-			(at -622.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba0a7bd-7ad2-4922-80da-c6171135dde1")
-		)
-		(pin "2"
-			(uuid "ba3ccb7a-c5cc-45d4-9d67-8beeca8414f5")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "Z7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:B32652A0104K000")
-		(at 220.98 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae0ca02a-98c7-40b4-9490-24b929780d31")
-		(property "Reference" "C100"
-			(at 224.79 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32652A0104K000"
-			(at 224.79 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:B32652__18_x_9_"
-			(at 317.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
-			(at 417.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
-			(at 220.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 617.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "871-B32652A104K"
-			(at 717.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
-			(at 817.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 917.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32652A0104K000"
-			(at 1017.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55231c2b-95e8-4e4f-a7af-1cc1b890ed2f")
-		)
-		(pin "1"
-			(uuid "8fe15213-b43f-4372-8038-1e9604e866c7")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "C100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 165.1 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b880d5d1-2685-4ba9-b32a-642951215feb")
-		(property "Reference" "#PWR014"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 161.29 83.6929 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04579783-4b13-4e5c-b447-7bb0080ad9bf")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:1SMB5956BT3G")
 		(at 38.1 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3684,128 +2809,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
 					(reference "Z4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:B32652A0104K000")
-		(at 195.58 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdf019ea-3d97-4675-a189-77eb6b7fb3b1")
-		(property "Reference" "C99"
-			(at 199.39 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B32652A0104K000"
-			(at 199.39 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:B32652__18_x_9_"
-			(at 291.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf"
-			(at 391.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)"
-			(at 195.58 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 591.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "871-B32652A104K"
-			(at 691.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K"
-			(at 791.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 891.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32652A0104K000"
-			(at 991.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a85f9822-a942-4a97-9f41-528ed8c4299c")
-		)
-		(pin "1"
-			(uuid "272cbaa6-7f41-445b-92e3-6fb8cbae58a8")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/9de24265-2cf0-447a-be60-15cfff6a33e3"
-					(reference "C99")
 					(unit 1)
 				)
 			)

@@ -268,176 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "InverterCom:1548129"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "1548129"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "1548129"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
-				(at 4.064 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "10.15"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "651-1548129"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1548129"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1548129_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "InverterCom:1987724"
 			(pin_names
 				(offset 0.762)
@@ -1825,16 +1655,6 @@
 		)
 		(uuid e1891662-ce6f-44df-bae5-c552081b8221)
 	)
-	(text "SNUBBER CAPACITORS, PLACE HERE"
-		(exclude_from_sim no)
-		(at 214.376 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "241329ce-e92e-4a9e-80c2-b8a46559d6af")
-	)
 	(text "RESISTOR LOAD CONNECTION BLOCK"
 		(exclude_from_sim yes)
 		(at 237.998 63.5 0)
@@ -1856,34 +1676,16 @@
 		(uuid "f9505733-37f5-4aa1-8cb7-c249e8604558")
 	)
 	(junction
-		(at 191.77 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07fc2756-f326-4378-a9e7-e5fb7ac43ac1")
-	)
-	(junction
-		(at 233.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a774980-bbe7-4fe1-a647-e63c69b3e51a")
-	)
-	(junction
-		(at 191.77 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21d28399-71c7-4c70-83d8-ebf3d7e0d034")
-	)
-	(junction
-		(at 233.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2396fd67-1ba9-46d9-b041-a022aab1ad11")
-	)
-	(junction
 		(at 114.3 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2516d516-052b-4961-a684-ba9f6fdbd565")
+	)
+	(junction
+		(at 223.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b751362-b73f-4ad3-8fd5-2372d744f9ec")
 	)
 	(junction
 		(at 36.83 87.63)
@@ -1910,28 +1712,10 @@
 		(uuid "3becf8fa-9064-41f4-b7b9-b0cc519a781c")
 	)
 	(junction
-		(at 191.77 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4692f22e-204a-4f02-aad6-7d8b865b6365")
-	)
-	(junction
-		(at 233.68 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "535e6a1a-3ffe-44d9-98c5-6f1a21d79d52")
-	)
-	(junction
 		(at 125.73 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5707512e-b966-4b65-b6a9-27dba88cd794")
-	)
-	(junction
-		(at 191.77 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63032838-853f-4eb7-8c23-f1713d6755df")
 	)
 	(junction
 		(at 49.53 76.2)
@@ -1940,22 +1724,46 @@
 		(uuid "6f794b24-d0ff-4ba0-a7d2-c8b54907fccb")
 	)
 	(junction
+		(at 200.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70eb1263-4436-481a-ab6b-bca4ab707bdf")
+	)
+	(junction
+		(at 223.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fa438d-9873-4a7c-b7b9-bb9fc27f89d6")
+	)
+	(junction
+		(at 212.09 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a27a4d-f384-4ada-8211-589f8d93da63")
+	)
+	(junction
+		(at 212.09 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88869a0e-ed94-4583-99d4-90ec60ef707b")
+	)
+	(junction
 		(at 127 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89c84c38-23cf-445a-bb51-fdd0394eb92f")
 	)
 	(junction
-		(at 208.28 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b3697b2-c773-459d-9f82-66281de3014f")
-	)
-	(junction
 		(at 127 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96f4cc67-68b5-4afc-99ef-efd6ec3fa76f")
+	)
+	(junction
+		(at 200.66 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a02ccc13-1f9a-43f5-a3e2-723db2e12367")
 	)
 	(junction
 		(at 69.85 36.83)
@@ -1976,34 +1784,10 @@
 		(uuid "aa3c2bec-f814-403d-9999-3c4ce9d4cf5b")
 	)
 	(junction
-		(at 233.68 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac58fa0e-d534-4e7a-8a72-0a1dd8517786")
-	)
-	(junction
-		(at 191.77 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3d7b96b-953c-4c02-b40b-7f6c4e78b82e")
-	)
-	(junction
 		(at 36.83 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5442944-0622-411c-bcf9-d246c9ef7938")
-	)
-	(junction
-		(at 191.77 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d35adc12-220c-4bc2-b983-98dc3f474151")
-	)
-	(junction
-		(at 233.68 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb5f2a2-46c7-4465-a741-b96994e6a714")
 	)
 	(junction
 		(at 137.16 36.83)
@@ -2016,18 +1800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f206f5f8-e95a-4aad-8f25-4fe09b2d4110")
-	)
-	(junction
-		(at 220.98 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f93892a2-dbed-4246-bb41-9c6990270b7a")
-	)
-	(junction
-		(at 233.68 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9bfd299-e25d-4459-b1af-6312aba5d0a6")
 	)
 	(junction
 		(at 148.59 36.83)
@@ -2077,16 +1849,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 87.63) (xy 220.98 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8ba505-c798-44ed-b6d1-49434f591af0")
-	)
-	(wire
-		(pts
 			(xy 49.53 76.2) (xy 31.75 76.2)
 		)
 		(stroke
@@ -2104,16 +1866,6 @@
 			(type default)
 		)
 		(uuid "102d397e-269c-4676-b410-2da753cb3c84")
-	)
-	(wire
-		(pts
-			(xy 233.68 91.44) (xy 236.22 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130a3bbb-573c-4a1d-be6c-e3a9b37895b7")
 	)
 	(wire
 		(pts
@@ -2137,26 +1889,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 76.2) (xy 233.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a9b7464-7d59-42f2-a8d0-baf179c7e381")
-	)
-	(wire
-		(pts
-			(xy 231.14 73.66) (xy 233.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dfc3d9-7281-4dc5-9ba4-a83ace215c54")
-	)
-	(wire
-		(pts
 			(xy 83.82 36.83) (xy 97.79 36.83)
 		)
 		(stroke
@@ -2164,16 +1896,6 @@
 			(type default)
 		)
 		(uuid "210c11ec-2b62-4a53-8dcf-72a558fd6b59")
-	)
-	(wire
-		(pts
-			(xy 191.77 78.74) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2369b229-a9b5-4a16-9a9c-25c6bffb3237")
 	)
 	(wire
 		(pts
@@ -2197,23 +1919,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 96.52) (xy 233.68 93.98)
+			(xy 198.12 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ddde7ee-66ae-4f69-8230-3c50ba7026de")
-	)
-	(wire
-		(pts
-			(xy 195.58 73.66) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1a0cdb-f03d-4295-ba84-4ef9ec2283d9")
 	)
 	(wire
 		(pts
@@ -2237,33 +1949,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 191.77 73.66)
+			(xy 223.52 93.98) (xy 234.95 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33746b0c-0698-40ae-8c2d-88aa77643c26")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "338988eb-42dd-4168-81f8-f0d495da6cc7")
-	)
-	(wire
-		(pts
-			(xy 191.77 96.52) (xy 189.23 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34797b2e-fa28-4e81-890e-03c67c6ead80")
+		(uuid "350efad5-5f22-4ea4-8085-2ca4fb765df3")
 	)
 	(wire
 		(pts
@@ -2277,26 +1969,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 87.63) (xy 233.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b5018e-5568-4324-b686-359c8027e4fc")
-	)
-	(wire
-		(pts
-			(xy 233.68 93.98) (xy 233.68 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c42fa8-baf9-4ad9-8e40-909109322c20")
-	)
-	(wire
-		(pts
 			(xy 119.38 78.74) (xy 119.38 80.01)
 		)
 		(stroke
@@ -2307,13 +1979,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 76.2) (xy 236.22 76.2)
+			(xy 207.01 39.37) (xy 205.74 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d68dc38-2832-40a0-8143-cad8b3df13e2")
+		(uuid "3d515a32-9165-4c56-81ac-61c61cf484bb")
 	)
 	(wire
 		(pts
@@ -2337,6 +2009,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46aed0a3-71ee-4700-8273-80e344238363")
+	)
+	(wire
+		(pts
 			(xy 55.88 34.29) (xy 55.88 36.83)
 		)
 		(stroke
@@ -2357,13 +2039,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 191.77 91.44)
+			(xy 200.66 73.66) (xy 212.09 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bf65bf9-71b6-4a35-bc45-686f8a1528a9")
+		(uuid "4b99d5fb-59d5-45b5-85bc-39792d4a43f1")
 	)
 	(wire
 		(pts
@@ -2437,16 +2119,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 91.44) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686a6992-5e09-4967-be07-50ea1fbeeb55")
-	)
-	(wire
-		(pts
 			(xy 110.49 139.7) (xy 113.03 139.7)
 		)
 		(stroke
@@ -2464,46 +2136,6 @@
 			(type default)
 		)
 		(uuid "6b0d6c84-07b2-4aae-9ce5-9c333211aeb4")
-	)
-	(wire
-		(pts
-			(xy 220.98 99.06) (xy 220.98 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be6b7f7-9d08-4393-ac44-0ac94ae34b2f")
-	)
-	(wire
-		(pts
-			(xy 208.28 87.63) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1d6016-90e0-435d-861a-808d4e898a3f")
-	)
-	(wire
-		(pts
-			(xy 233.68 91.44) (xy 233.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710d7fb5-705d-4ad3-bcde-b89a804ccc21")
-	)
-	(wire
-		(pts
-			(xy 191.77 76.2) (xy 191.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "747ec0d8-abd9-4824-9766-9956eef462b1")
 	)
 	(wire
 		(pts
@@ -2567,16 +2199,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.74) (xy 236.22 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e32bc4-1a3c-4833-ba23-318cc09ff87b")
-	)
-	(wire
-		(pts
 			(xy 31.75 107.95) (xy 34.29 107.95)
 		)
 		(stroke
@@ -2637,36 +2259,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 73.66) (xy 191.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2a5f09-47a5-4cff-bbee-0cee88cfe8b8")
-	)
-	(wire
-		(pts
-			(xy 210.82 87.63) (xy 208.28 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b3eded-9ffc-4c78-aabb-e5d8bde7816a")
-	)
-	(wire
-		(pts
-			(xy 189.23 78.74) (xy 191.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962904e2-1b18-4da9-88d2-341011d75b8e")
-	)
-	(wire
-		(pts
 			(xy 110.49 111.76) (xy 113.03 111.76)
 		)
 		(stroke
@@ -2677,16 +2269,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.74) (xy 233.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99fd24ed-c549-4c75-839f-9eded5fc6a68")
-	)
-	(wire
-		(pts
 			(xy 55.88 36.83) (xy 69.85 36.83)
 		)
 		(stroke
@@ -2694,26 +2276,6 @@
 			(type default)
 		)
 		(uuid "9c0c0d2e-3c40-49cd-877c-1ba6bdf43996")
-	)
-	(wire
-		(pts
-			(xy 191.77 93.98) (xy 189.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fe72ca-bea3-4753-b9ad-030b4506adda")
-	)
-	(wire
-		(pts
-			(xy 189.23 76.2) (xy 191.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3cf9e30-9244-4b92-bd17-b942b212d86a")
 	)
 	(wire
 		(pts
@@ -2777,13 +2339,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 99.06) (xy 220.98 99.06)
+			(xy 184.15 39.37) (xy 185.42 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbe213c2-256f-4c16-b33f-b533239e5cf6")
+		(uuid "ba411d60-8e9b-4718-958f-7dca56be2e5b")
+	)
+	(wire
+		(pts
+			(xy 212.09 93.98) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab69fac-ae57-4875-836a-44c960b2b8e7")
 	)
 	(wire
 		(pts
@@ -2834,26 +2406,6 @@
 			(type default)
 		)
 		(uuid "bfde340e-ec3b-47e5-896d-6cd4409f1545")
-	)
-	(wire
-		(pts
-			(xy 220.98 87.63) (xy 233.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0575324-28b0-4471-b54c-efdfb3a7ea8f")
-	)
-	(wire
-		(pts
-			(xy 208.28 87.63) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a74a90-7431-46f7-844a-6e555e26e8cb")
 	)
 	(wire
 		(pts
@@ -2917,16 +2469,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 96.52) (xy 236.22 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd1c3c0-a327-43b7-94a4-ff0af1afb441")
-	)
-	(wire
-		(pts
 			(xy 127 87.63) (xy 135.89 87.63)
 		)
 		(stroke
@@ -2987,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 191.77 96.52)
+			(xy 198.12 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3004,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "de94e686-3386-4dce-b9b4-a23ec0fa14a9")
+	)
+	(wire
+		(pts
+			(xy 212.09 73.66) (xy 223.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfad3d6c-cb26-49ab-b00c-613b6122d16a")
 	)
 	(wire
 		(pts
@@ -3077,16 +2629,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 91.44) (xy 191.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee862211-46b8-426e-816c-801dc8b25c5c")
-	)
-	(wire
-		(pts
 			(xy 31.75 127) (xy 34.29 127)
 		)
 		(stroke
@@ -3127,13 +2669,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 236.22 73.66)
+			(xy 223.52 73.66) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fafe54cf-3272-4a0b-8524-0ab92e85209f")
+		(uuid "fb6a73b4-ea7f-4fb0-95bb-6d9ee6ebfc8e")
 	)
 	(wire
 		(pts
@@ -3144,16 +2686,6 @@
 			(type default)
 		)
 		(uuid "fbc3e811-324a-4fdd-b616-8c6e1b0177b1")
-	)
-	(wire
-		(pts
-			(xy 233.68 93.98) (xy 236.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdcdf50e-dbae-4746-94e0-75712b94d0a0")
 	)
 	(label "CANBUS Connector 1"
 		(at 223.52 17.78 0)
@@ -3377,6 +2909,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_LINK_V+"
+		(shape input)
+		(at 184.15 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8527d951-02c7-48ce-abdc-1a7bc8f454ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7952 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3625,7 +3179,7 @@
 	)
 	(global_label "RESISTOR_RETURN"
 		(shape input)
-		(at 231.14 73.66 180)
+		(at 198.12 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3635,7 +3189,7 @@
 		)
 		(uuid "b5f56101-c82a-418e-a5fb-d79513607af7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8587 73.66 0)
+			(at 177.8387 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,22 +3289,22 @@
 	)
 	(global_label "DC_LINK_V+"
 		(shape input)
-		(at 195.58 73.66 0)
+		(at 198.12 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "cec3e20f-0081-4240-8148-974f2cbb3513")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.9348 73.66 0)
+			(at 183.7652 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5913,74 +5467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 214.63 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "440a9d33-7c43-4490-b3c5-ef606ef5331c")
-		(property "Reference" "C1"
-			(at 214.63 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 214.63 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 86.6648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 214.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "746dd104-92cf-42d4-aa0c-01f101e2660a")
-		)
-		(pin "1"
-			(uuid "94747b6e-d958-4f35-9962-4e66da77c7be")
-		)
-		(instances
-			(project ""
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:UVY1E102MPD1TD")
 		(at 83.82 39.37 270)
 		(unit 1)
@@ -6234,6 +5720,126 @@
 			(project ""
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:38969-0002")
+		(at 200.66 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e445ba1-a5de-4a3c-83ad-b8bc3b51d87a")
+		(property "Reference" "J19"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38969-0002"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:389690002"
+			(at 295.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 395.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks"
+			(at 194.31 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.9"
+			(at 595.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-38969-0002"
+			(at 695.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
+			(at 795.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 895.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "38969-0002"
+			(at 995.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5a3fb8-3dcf-4bed-b47b-06614b9ab1d5")
+		)
+		(pin "2"
+			(uuid "b29c2014-f724-4fdc-af39-3b8c0d2b58c2")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6568,6 +6174,126 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:38969-0002")
+		(at 234.95 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56eabd92-136b-470d-856c-b2a6da1a372d")
+		(property "Reference" "J22"
+			(at 227.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38969-0002"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:389690002"
+			(at 329.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks"
+			(at 228.6 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.9"
+			(at 629.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-38969-0002"
+			(at 729.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
+			(at 829.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 929.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "38969-0002"
+			(at 1029.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12849f8-72ea-4d5f-827c-85da25c526c4")
+		)
+		(pin "2"
+			(uuid "298e0e7c-33cb-4197-966f-dbee61243420")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -7157,129 +6883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:1548129")
-		(at 236.22 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a0b4240-b22a-4cde-b26b-b26508ee63d3")
-		(property "Reference" "J22"
-			(at 246.38 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1548129"
-			(at 246.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:1548129"
-			(at 252.73 186.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129"
-			(at 252.73 286.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
-			(at 240.284 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.15"
-			(at 252.73 486.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1548129"
-			(at 252.73 586.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
-			(at 252.73 686.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 252.73 786.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1548129"
-			(at 252.73 886.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "48f0db3d-01c0-4b88-90e1-ac38e6724b4b")
-		)
-		(pin "1"
-			(uuid "bcdbaa6e-9388-4377-8eb6-f33969e14f29")
-		)
-		(pin "2"
-			(uuid "7e1d53ba-c4eb-4f38-8562-9d202110bd32")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 223.52 115.57 0)
 		(unit 1)
@@ -7669,6 +7272,126 @@
 		)
 	)
 	(symbol
+		(lib_id "InverterCom:38969-0002")
+		(at 212.09 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d30cf7-7d20-4a98-bdf9-3cd832a47eb8")
+		(property "Reference" "J20"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38969-0002"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:389690002"
+			(at 307.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks"
+			(at 205.74 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.9"
+			(at 607.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-38969-0002"
+			(at 707.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
+			(at 807.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 907.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "38969-0002"
+			(at 1007.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd229295-8824-4f71-ac67-257b90c9eaa2")
+		)
+		(pin "2"
+			(uuid "1217966e-55b3-442b-9f77-c58afb3c4bbd")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 52.07 0)
 		(unit 1)
@@ -8046,74 +7769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 214.63 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b230f97-5bf6-4141-9d23-7327f036413c")
-		(property "Reference" "C10"
-			(at 214.63 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 214.63 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 98.0948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 214.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58df2c12-ee29-4240-8759-09ad49807be6")
-		)
-		(pin "1"
-			(uuid "b31ae7f9-8be1-4dd5-bcae-5d472aabb45f")
-		)
-		(instances
-			(project "DynamicBrakeGrid"
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 80.01 0)
 		(unit 1)
@@ -8174,6 +7829,126 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:38969-0002")
+		(at 223.52 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e1a6ab-2493-470b-aabb-d563745356f5")
+		(property "Reference" "J21"
+			(at 215.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "38969-0002"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:389690002"
+			(at 318.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 418.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Terminal Blocks"
+			(at 217.17 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.9"
+			(at 618.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-38969-0002"
+			(at 718.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
+			(at 818.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 918.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "38969-0002"
+			(at 1018.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462e335f-bd85-4e28-ad20-6dc95c00f15a")
+		)
+		(pin "2"
+			(uuid "4ff40539-6595-4cae-83bb-9f6030b276db")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -8896,43 +8671,33 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:1548129")
-		(at 236.22 73.66 0)
+		(lib_id "InverterCom:38969-0002")
+		(at 185.42 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "beb8ceaa-6c54-4367-abbe-98357bad9b29")
-		(property "Reference" "J23"
-			(at 246.38 86.36 0)
+		(uuid "be465098-c1be-4ab1-87c6-f72b3f7f9375")
+		(property "Reference" "J18"
+			(at 195.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1548129"
-			(at 246.38 83.82 0)
+		(property "Value" "38969-0002"
+			(at 195.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "InverterCom:1548129"
-			(at 252.73 168.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129"
-			(at 252.73 268.58 0)
+		(property "Footprint" "InverterCom:389690002"
+			(at 201.93 134.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,17 +8706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
-			(at 240.284 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.15"
-			(at 252.73 468.58 0)
+		(property "Datasheet" ""
+			(at 201.93 234.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,8 +8716,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "651-1548129"
-			(at 252.73 568.58 0)
+		(property "Description" "Barrier Terminal Blocks"
+			(at 190.246 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.9"
+			(at 201.93 434.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,8 +8735,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
-			(at 252.73 668.58 0)
+		(property "Mouser Part Number" "538-38969-0002"
+			(at 201.93 534.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,8 +8745,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 252.73 768.58 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D"
+			(at 201.93 634.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,8 +8755,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1548129"
-			(at 252.73 868.58 0)
+		(property "Manufacturer_Name" "Molex"
+			(at 201.93 734.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,19 +8765,26 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "3f3bd336-e054-4178-be45-b14560dcad25")
+		(property "Manufacturer_Part_Number" "38969-0002"
+			(at 201.93 834.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "8c66acfd-2bd2-4509-835e-8fe3e62e9a1d")
+			(uuid "dc918b7b-713f-43ec-b55d-e35e0e2b8251")
 		)
 		(pin "2"
-			(uuid "4d4687c2-09cf-4b4c-b646-fa01dad13259")
+			(uuid "e1d3e38a-701f-4a2c-a8d9-05c0c7a166b9")
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J23")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -9475,53 +9247,35 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:1548129")
-		(at 189.23 96.52 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 223.52 124.46 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d19e1e66-2187-4e21-b45c-173b17c1bfeb")
-		(property "Reference" "J17"
-			(at 179.07 83.82 0)
+		(uuid "ce931cc5-0cf5-41c5-8579-66aa9ccfaa43")
+		(property "Reference" "H9"
+			(at 226.06 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1548129"
-			(at 179.07 86.36 0)
+		(property "Value" "MountingHole_Pad"
+			(at 226.06 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "InverterCom:1548129"
-			(at 172.72 1.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129"
-			(at 172.72 -98.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
-			(at 185.166 101.346 0)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
+			(at 223.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,69 +9283,31 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "10.15"
-			(at 172.72 -298.4 0)
+		(property "Datasheet" "~"
+			(at 223.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "651-1548129"
-			(at 172.72 -398.4 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 223.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
-			(at 172.72 -498.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 172.72 -598.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1548129"
-			(at 172.72 -698.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "96550f99-84af-4800-a76f-fd196324f9f5")
 		)
 		(pin "1"
-			(uuid "eec9c0a4-cb07-41a1-a641-8dcea840d9e2")
-		)
-		(pin "2"
-			(uuid "0a0d5a95-ebb1-4e86-b78a-88ba06f0f2cd")
+			(uuid "f715de6c-641b-4c6d-9d72-ef7f559619d3")
 		)
 		(instances
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J17")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -9907,6 +9623,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 207.01 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7fa9bce-a3f5-44dd-9327-c9a760adbe09")
+		(property "Reference" "#PWR016"
+			(at 212.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 210.82 39.4969 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 207.01 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa8beb1-fa89-4e4f-9f9a-3c4285d5550d")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InverterCom:5442251")
 		(at 31.75 110.49 180)
 		(unit 1)
@@ -10094,129 +9877,6 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:1548129")
-		(at 189.23 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd98636e-74b0-4de2-b661-a4a854dd45f1")
-		(property "Reference" "J16"
-			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1548129"
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:1548129"
-			(at 172.72 -16.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-terminal-block-mkdsn-15-3-508-spe-1548129"
-			(at 172.72 -116.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pluggable Terminal Blocks MKDSN 1,5/ 3-5,08 SPE"
-			(at 185.166 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.15"
-			(at 172.72 -316.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1548129"
-			(at 172.72 -416.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548129?qs=ulEaXIWI0c%2FYtJCBk3iUtQ%3D%3D"
-			(at 172.72 -516.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 172.72 -616.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1548129"
-			(at 172.72 -716.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0e3de3e4-37ab-428a-978b-ac51fafa1c7c")
-		)
-		(pin "1"
-			(uuid "a6856c49-ef02-48a2-9d43-4bbc52d79e0a")
-		)
-		(pin "2"
-			(uuid "87b89800-71e0-4b6d-9d68-1e812bec73da")
-		)
-		(instances
-			(project ""
-				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -10549,6 +10209,73 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 247.65 124.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f79abd92-7df2-473f-bdc3-ab9d26bd9abc")
+		(property "Reference" "H10"
+			(at 250.19 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 250.19 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49670b1b-0b84-40cd-b9a0-41e73995f7ad")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/4321a8c5-cc23-43b1-ad92-5a0ea29a2d6e"
+					(reference "H10")
 					(unit 1)
 				)
 			)

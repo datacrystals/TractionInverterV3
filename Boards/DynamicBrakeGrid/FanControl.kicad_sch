@@ -462,6 +462,78 @@
 		(uuid 0435e5ce-1b73-416c-ac62-c6910e51d6c3)
 	)
 	(rectangle
+		(start 162.56 13.97)
+		(end 196.85 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 178e8c7b-08fa-42f8-8ab3-c1774b616f48)
+	)
+	(rectangle
+		(start 13.97 107.95)
+		(end 48.26 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53c9b730-67e7-4d67-b86d-19fb81eaff4a)
+	)
+	(rectangle
+		(start 13.97 77.47)
+		(end 48.26 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 589d1a7e-8158-4684-ba27-25bc9aae5078)
+	)
+	(rectangle
+		(start 127 44.45)
+		(end 161.29 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7656ea91-bab8-4792-ba00-26c3bded100a)
+	)
+	(rectangle
+		(start 198.12 13.97)
+		(end 232.41 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ccfee1b-8121-40ba-8a02-50f78541abff)
+	)
+	(rectangle
+		(start 127 13.97)
+		(end 161.29 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 830f050a-996f-4023-b864-58c8425b1449)
+	)
+	(rectangle
 		(start 85.09 13.97)
 		(end 119.38 43.18)
 		(stroke
@@ -486,6 +558,30 @@
 		(uuid 9016556d-1fa6-4b03-9710-b6fb81413fc2)
 	)
 	(rectangle
+		(start 85.09 77.47)
+		(end 119.38 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a727f0ce-5efc-45a4-a78e-9bf364a81bc0)
+	)
+	(rectangle
+		(start 49.53 77.47)
+		(end 83.82 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c80e6d9b-8181-4c42-a1a2-e7e90ab7b6f7)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 48.26 43.18)
 		(stroke
@@ -496,6 +592,26 @@
 			(type none)
 		)
 		(uuid e3835771-8f13-4e3f-880c-6fbeb60024a9)
+	)
+	(wire
+		(pts
+			(xy 19.05 91.44) (xy 25.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087cb216-7f96-42e3-8880-7980631c9211")
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 33.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a971bd3-b91c-447b-83d0-6057cab6fcdb")
 	)
 	(wire
 		(pts
@@ -516,6 +632,26 @@
 			(type default)
 		)
 		(uuid "101022af-1033-4174-94f2-170f976d04e8")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14898236-3f5f-4b7a-b2e3-36d3ecb6421c")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191dc06b-3431-4478-a787-90ce36122603")
 	)
 	(wire
 		(pts
@@ -569,6 +705,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 16.51) (xy 181.61 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38704fb3-baa7-4010-8d4a-c4b77ca89484")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ac7786-89d4-431b-a4c1-91192334249e")
+	)
+	(wire
+		(pts
 			(xy 19.05 60.96) (xy 19.05 58.42)
 		)
 		(stroke
@@ -576,6 +732,176 @@
 			(type default)
 		)
 		(uuid "3b577fce-5a29-4568-9ff9-b8f449203cce")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 132.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0f9d56-4cef-4b7b-bb32-d44c992de395")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5eb3f1-b682-4ce8-bf4c-5482ce6449f7")
+	)
+	(wire
+		(pts
+			(xy 171.45 22.86) (xy 173.99 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b9484b-75ab-4f3a-b066-fa03e6750c68")
+	)
+	(wire
+		(pts
+			(xy 171.45 16.51) (xy 181.61 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f08ab5-537c-4118-8403-064f50418c7a")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a2c86d-a2f9-4ce5-8f0a-4665d3322597")
+	)
+	(wire
+		(pts
+			(xy 22.86 116.84) (xy 25.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49668a0e-8fb2-4372-a6a5-62ca46cc77b2")
+	)
+	(wire
+		(pts
+			(xy 135.89 22.86) (xy 138.43 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df28614-be4b-4be8-bbc6-c3e2552c64f9")
+	)
+	(wire
+		(pts
+			(xy 203.2 30.48) (xy 203.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebf1fcc-a5e8-4a5c-a010-f676fcfc1832")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee9d364-2375-4c84-9065-ce2b2e238877")
+	)
+	(wire
+		(pts
+			(xy 217.17 16.51) (xy 217.17 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fed2777-83a4-40a3-bc74-cf8e327418fc")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 68.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ccac1c-c8ef-4300-a0a2-d531840f36ed")
+	)
+	(wire
+		(pts
+			(xy 54.61 93.98) (xy 54.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53717d42-0a55-4eab-8e32-8e4480d4ba4d")
+	)
+	(wire
+		(pts
+			(xy 132.08 27.94) (xy 138.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b77e39-ac50-4b3f-9eac-0a4aa9e24e12")
+	)
+	(wire
+		(pts
+			(xy 33.02 80.01) (xy 33.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f56a5f-0080-4930-b94b-db124c6fc49e")
+	)
+	(wire
+		(pts
+			(xy 146.05 16.51) (xy 146.05 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d96d8c-ceda-4429-a065-285d245ea445")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697ecdf8-90d9-4daa-b5a2-fa9cee81ac14")
+	)
+	(wire
+		(pts
+			(xy 167.64 30.48) (xy 167.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b1eeac-4fe4-4022-bfed-f4ea54e35440")
 	)
 	(wire
 		(pts
@@ -589,6 +915,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 16.51) (xy 146.05 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bee47c1-9a64-43bc-8108-bc0ba0d9f82d")
+	)
+	(wire
+		(pts
 			(xy 104.14 30.48) (xy 104.14 33.02)
 		)
 		(stroke
@@ -599,6 +935,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 30.48) (xy 217.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bad93f-fc68-4bb0-8207-b1087c0c0089")
+	)
+	(wire
+		(pts
 			(xy 93.98 16.51) (xy 104.14 16.51)
 		)
 		(stroke
@@ -606,6 +952,26 @@
 			(type default)
 		)
 		(uuid "7690404e-91bb-41a2-9a00-908fba91e6e8")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ffab8b-a2fa-4c16-9436-f1af64b9ea71")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789afa2b-e5f8-44df-a277-d4b0fa1713c4")
 	)
 	(wire
 		(pts
@@ -629,6 +995,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 91.44) (xy 96.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff8f974-8768-458a-ade0-354ff2204961")
+	)
+	(wire
+		(pts
+			(xy 33.02 110.49) (xy 33.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e71e93-9bf0-4c4a-86c0-27187d6bf122")
+	)
+	(wire
+		(pts
 			(xy 58.42 22.86) (xy 60.96 22.86)
 		)
 		(stroke
@@ -649,6 +1035,26 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 110.49) (xy 33.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8782c812-b7d6-4edb-99f3-35682a1dd580")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3be7b8-aa52-4618-90c4-a14e1d46826d")
+	)
+	(wire
+		(pts
 			(xy 54.61 27.94) (xy 60.96 27.94)
 		)
 		(stroke
@@ -656,6 +1062,16 @@
 			(type default)
 		)
 		(uuid "96b28c94-8b19-42ad-8a16-9eea2f78eee6")
+	)
+	(wire
+		(pts
+			(xy 33.02 124.46) (xy 33.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ea3d77-1ab6-42ca-ab08-2ca19b9cae36")
 	)
 	(wire
 		(pts
@@ -679,6 +1095,36 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 27.94) (xy 209.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13b942f-d836-4ced-b52a-c733f63c7ddc")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf25378-f6d3-4ccc-9f4c-f8a69d297c11")
+	)
+	(wire
+		(pts
+			(xy 19.05 121.92) (xy 25.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae228076-9ed5-4433-aa22-be150764ff93")
+	)
+	(wire
+		(pts
 			(xy 33.02 60.96) (xy 33.02 63.5)
 		)
 		(stroke
@@ -686,6 +1132,16 @@
 			(type default)
 		)
 		(uuid "af092105-8ac7-464f-a0c4-c52938556b25")
+	)
+	(wire
+		(pts
+			(xy 207.01 22.86) (xy 209.55 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec8d1d-d2b3-47c2-b0c1-688c23d7e64e")
 	)
 	(wire
 		(pts
@@ -699,6 +1155,56 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 86.36) (xy 25.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb23af7b-91bb-4852-a33d-929a1c32cddf")
+	)
+	(wire
+		(pts
+			(xy 19.05 93.98) (xy 19.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba4d8b7-c0f2-4e8e-908e-0c3b58e00170")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45baa98-7a45-486c-989e-1870973cfb91")
+	)
+	(wire
+		(pts
+			(xy 146.05 30.48) (xy 146.05 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9190348-c66b-4513-b58c-a11542e8ed87")
+	)
+	(wire
+		(pts
+			(xy 167.64 27.94) (xy 173.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57d5ce6-8951-45f7-9146-c5b4879a70a0")
+	)
+	(wire
+		(pts
 			(xy 104.14 16.51) (xy 104.14 17.78)
 		)
 		(stroke
@@ -706,6 +1212,46 @@
 			(type default)
 		)
 		(uuid "dc1d73ba-0fc6-40e9-b780-1996e4ec23f0")
+	)
+	(wire
+		(pts
+			(xy 19.05 124.46) (xy 19.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa99f42-58eb-45f0-99ee-33b57c6f76b1")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05e5a25-fecd-4b23-99b5-3a09b611ee77")
+	)
+	(wire
+		(pts
+			(xy 181.61 30.48) (xy 181.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b5a73a-098e-460f-8e82-d8afb06ae2e6")
+	)
+	(wire
+		(pts
+			(xy 22.86 80.01) (xy 33.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dfa2c8-222c-487c-ae9e-06501d4114f2")
 	)
 	(wire
 		(pts
@@ -729,6 +1275,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 46.99) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea296607-f1a9-4bee-a299-0b6d2f2335e5")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 90.17 27.94)
 		)
 		(stroke
@@ -736,6 +1292,48 @@
 			(type default)
 		)
 		(uuid "eea9f33c-104b-4320-9438-bf1e76776be3")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09db5bc-0851-4143-8ea9-8da5e0e4c0df")
+	)
+	(wire
+		(pts
+			(xy 207.01 16.51) (xy 217.17 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2eec34a-29a1-485b-8108-d6ac50fcd852")
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 58.42 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a1bd91f-6262-4327-a0f4-9662d886f9cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.3548 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "FAN_PWM"
 		(shape input)
@@ -761,6 +1359,28 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
+		(at 132.08 60.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22dfc4b9-04dd-4a04-9b9a-8e7dbb8dc0aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 72.5933 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
 		(at 90.17 30.48 270)
 		(fields_autoplaced yes)
 		(effects
@@ -772,6 +1392,116 @@
 		(uuid "234c5e81-5a89-4e1b-8da7-b3108124723c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.17 42.1133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 167.64 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29b05da3-dd4e-46e6-85aa-f5681e6f85d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 42.1133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 90.17 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a1ba77c-b873-4f7d-affe-29a6d3f56453")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 105.6133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 203.2 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d79d0e4-0517-48ae-ae0e-250577a9d66c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 42.1133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 54.61 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dffd753-4291-4123-9f49-aa2cdaa522de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 105.6133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 132.08 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a18c85a-9c25-4ee4-86b8-ded3ad88532d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 42.1133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,6 +1555,94 @@
 			)
 		)
 	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 19.05 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59f2321e-e68d-49e2-99e0-e37a59d0425e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 136.0933 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 93.98 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e708dc3-702c-48ca-bcbf-d5482c3f2970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.9148 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 22.86 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "648f368b-eeb2-44cb-bcd9-277d48f18192")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7948 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 171.45 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ed4e018-cefc-4fe2-b733-6e4a3b8e9b62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3848 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12V"
 		(shape input)
 		(at 22.86 16.51 180)
@@ -838,6 +1656,28 @@
 		(uuid "93530af4-5686-46e3-b690-c7fe22fde832")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.7948 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 22.86 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b091d40a-669a-456a-bcf1-a738dd254aee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7948 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,6 +1753,236 @@
 			)
 		)
 	)
+	(global_label "+12V"
+		(shape input)
+		(at 135.89 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be0d1959-734c-4625-a3e5-e1869f640353")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.8248 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 19.05 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e93e7b97-0c02-4820-9f3a-e69c7773300d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 105.6133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 135.89 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe5a2f4b-1d33-4d4a-b11c-9da78629150b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.8248 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 207.01 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe5af0dd-19b8-4748-b9db-9ddafbe7f196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.9448 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08264914-0216-457d-bd28-354ece22f5b6")
+		(property "Reference" "#PWR033"
+			(at 181.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b8844f6-81f4-47a4-b996-51f89f94c650")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 181.61 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c3d7abd-68fd-4454-aa9e-f72e92236060")
+		(property "Reference" "M5"
+			(at 186.69 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 186.69 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 181.61 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 181.61 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ce391668-cf34-4a02-a83c-d9c1b6db9ee1")
+		)
+		(pin "1"
+			(uuid "9188b44a-5f50-4d49-acb8-f87f79973bc3")
+		)
+		(pin "2"
+			(uuid "ef1d904f-a6c7-4fe7-9659-ec5f8234a2b2")
+		)
+		(pin "4"
+			(uuid "f8350985-873b-4c97-b983-0316bb156c21")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
 		(at 33.02 25.4 0)
@@ -984,6 +2054,280 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "310205cb-06fa-44dc-aea7-5dea1d289a1c")
+		(property "Reference" "#PWR035"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ddddde1-8423-4af4-ae0e-fb4be08e7550")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3996264d-f779-4c32-a331-1775440a5037")
+		(property "Reference" "#PWR040"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e78018fe-70da-4df2-9dbe-9306de21204c")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 33.02 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca49356-fb2e-445a-bf4e-ce64a17998a3")
+		(property "Reference" "M10"
+			(at 38.1 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 38.1 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 33.02 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 33.02 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b17b6c5-e9cb-4ddd-a3d2-20be98d013f2")
+		)
+		(pin "1"
+			(uuid "b1702cf2-75d3-424a-9595-48dbb2a1ec0e")
+		)
+		(pin "2"
+			(uuid "ba08c31e-601f-4883-a4ea-abc388d925b3")
+		)
+		(pin "4"
+			(uuid "56b3e1fa-a0f4-4a38-bfc8-7bb6f835dfd4")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d14d06e-9a74-43eb-a7f8-eadfee72ba03")
+		(property "Reference" "#PWR039"
+			(at 68.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d63f92c-43e1-4c40-899d-334cd2bd0a3c")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1265,6 +2609,82 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
+		(at 68.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5526a459-dcb0-4015-b7af-ce110d25b1f4")
+		(property "Reference" "M11"
+			(at 73.66 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 73.66 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 68.58 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 68.58 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f975f8da-372c-4402-8d10-dc52c2e7df6f")
+		)
+		(pin "1"
+			(uuid "dfb549ae-a9ed-449b-ac5a-7d0e8ed5ebfc")
+		)
+		(pin "2"
+			(uuid "1bad043e-f1fc-4d16-ba0f-9576e3ec98d7")
+		)
+		(pin "4"
+			(uuid "d36f9fed-f305-495c-9590-a2cc175e8c43")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
 		(at 68.58 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1341,6 +2761,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 217.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692fdbf8-d82f-4929-8771-b77961406f0c")
+		(property "Reference" "#PWR034"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcd008c-6bab-49d3-8018-5d8bc475c975")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 33.02 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1400,6 +2886,584 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 146.05 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817dd10d-93a3-412f-9ba7-05dd0c2d2423")
+		(property "Reference" "M4"
+			(at 151.13 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 151.13 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 146.05 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 146.05 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 146.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "705e31ef-8977-4eb6-ac75-1f5b4de9cbc5")
+		)
+		(pin "1"
+			(uuid "fd28a3cb-7bc6-4139-9856-d52cc02dd4ae")
+		)
+		(pin "2"
+			(uuid "61b13f70-810a-4bbd-845d-9a0a42befb08")
+		)
+		(pin "4"
+			(uuid "44486ba7-5644-48e3-b143-4e9cbdd24704")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 33.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5be293-2199-42e8-b1b3-7267e974444c")
+		(property "Reference" "M7"
+			(at 38.1 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 38.1 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 33.02 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 33.02 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a6c001b5-2faa-4de5-98b8-50786a394138")
+		)
+		(pin "1"
+			(uuid "f50798d7-f917-4039-8137-f92e6d44d386")
+		)
+		(pin "2"
+			(uuid "d6b4ca65-34a4-4ef5-8325-33b87d91c6b5")
+		)
+		(pin "4"
+			(uuid "1d316b7b-e9f5-4482-bd59-e4f827badfe3")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7581370-8f12-4069-a74b-beec957f2d78")
+		(property "Reference" "#PWR037"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bdbeaa-9699-446f-9deb-790e79dec72f")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac3a4808-ea5e-4526-886b-770187cc22fb")
+		(property "Reference" "#PWR038"
+			(at 33.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69376ea0-5093-4237-a3c9-73a691febe3c")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac7641fa-390a-4720-9ef1-7f6a5ee07767")
+		(property "Reference" "#PWR032"
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "383cd805-eaaf-4b14-be45-2bf150826fe6")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 104.14 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc747096-546c-4c1b-8fc2-60a2198945de")
+		(property "Reference" "M12"
+			(at 109.22 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 109.22 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 104.14 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 104.14 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "72650c9f-4789-458b-a34f-3c3048837dbe")
+		)
+		(pin "1"
+			(uuid "4842c933-c2cd-431a-b695-7f7277267556")
+		)
+		(pin "2"
+			(uuid "1a37cfae-39e6-401f-80b8-c64f8a6a3ca0")
+		)
+		(pin "4"
+			(uuid "3b27eb3b-2169-4ca8-ba7c-aebbf89f3932")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 217.17 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd22bf05-a296-4821-88ff-6633deaa1680")
+		(property "Reference" "M6"
+			(at 222.25 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 222.25 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 217.17 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 217.17 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd9ebeaf-aebb-415d-8264-1035cad96d3c")
+		)
+		(pin "1"
+			(uuid "4cb54bd2-f391-4c23-a8ea-80d1828d268f")
+		)
+		(pin "2"
+			(uuid "8d66ae36-c78c-4014-a013-1b2fa89a6e13")
+		)
+		(pin "4"
+			(uuid "74b61cb8-9f88-49b1-b50d-3e25c4c53aae")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 146.05 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca018202-599e-4e3f-b515-7a88d5bbaf69")
+		(property "Reference" "M9"
+			(at 151.13 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 151.13 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 146.05 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 146.05 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb4081c5-8ae5-494a-b116-b0046d7cf98e")
+		)
+		(pin "1"
+			(uuid "4e151912-af2f-4310-a21b-54c4e05ffa75")
+		)
+		(pin "2"
+			(uuid "d098d765-a504-4ff5-96f0-7d07137ffa67")
+		)
+		(pin "4"
+			(uuid "ad760462-5e16-4c08-9814-49d4edc54c81")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/87c7a46c-3519-4e44-add5-819be0b2d984"
+					(reference "M9")
 					(unit 1)
 				)
 			)

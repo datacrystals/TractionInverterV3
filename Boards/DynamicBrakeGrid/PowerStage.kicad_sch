@@ -5,6 +5,113 @@
 	(uuid "3d5bcf58-725e-4b11-912a-f540ff70472a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2467,6 +2574,12 @@
 		(uuid "0e9c606c-1175-4067-89b0-1804aca9a185")
 	)
 	(junction
+		(at 199.39 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11aca7db-cf58-4805-abc0-03ef86de270e")
+	)
+	(junction
 		(at 185.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2501,6 +2614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2912b477-f769-4f54-bdcc-5e42cbf8aafa")
+	)
+	(junction
+		(at 69.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366e891c-330a-4e92-9d8c-2dd8a6322427")
 	)
 	(junction
 		(at 83.82 120.65)
@@ -2593,6 +2712,12 @@
 		(uuid "af28f122-638f-4a9f-96b1-059f9c532808")
 	)
 	(junction
+		(at 33.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b271007f-64aa-49a1-b440-31eb049dea89")
+	)
+	(junction
 		(at 226.06 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2615,6 +2740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83a9791-c23e-4532-859a-3c791a9de40a")
+	)
+	(junction
+		(at 260.35 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd051c05-b4d4-44d8-847e-338d170d443e")
 	)
 	(junction
 		(at 204.47 111.76)
@@ -2641,6 +2772,12 @@
 		(uuid "d86e8af0-0df4-4115-b544-2192ed695db8")
 	)
 	(junction
+		(at 85.09 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd38120a-e85d-4160-b8ee-e16e99ccef70")
+	)
+	(junction
 		(at 179.07 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2651,6 +2788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6a66c5e-1146-437f-88bd-50e79cbb232a")
+	)
+	(junction
+		(at 44.45 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3e4cdc-6910-49f2-aa6d-1008b65f8b3b")
 	)
 	(junction
 		(at 74.93 100.33)
@@ -2675,6 +2818,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f77a96d3-8470-4451-a5ed-079bba83c2ce")
+	)
+	(wire
+		(pts
+			(xy 260.35 105.41) (xy 261.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03812cdf-607f-49dd-8282-1ea6621ff81b")
 	)
 	(wire
 		(pts
@@ -2725,6 +2878,16 @@
 			(type default)
 		)
 		(uuid "0ad49b47-b5c3-4248-8932-b044f663d6d1")
+	)
+	(wire
+		(pts
+			(xy 199.39 111.76) (xy 204.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf68d2b-faeb-4ea8-86aa-03e2709a4f04")
 	)
 	(wire
 		(pts
@@ -2888,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64) (xy 46.99 40.64)
+			(xy 30.48 40.64) (xy 44.45 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3008,6 +3171,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 100.33) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8922f0-608d-4da0-9307-0d66fd26169b")
+	)
+	(wire
+		(pts
 			(xy 201.93 53.34) (xy 201.93 52.07)
 		)
 		(stroke
@@ -3028,13 +3201,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 29.21 100.33)
+			(xy 34.29 100.33) (xy 33.02 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "507eeb14-218e-4c42-91e1-cf82fb7d8f0f")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 46.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563433b2-e8f6-46d1-873e-a38ab8fe17c7")
 	)
 	(wire
 		(pts
@@ -3158,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 92.71 100.33)
+			(xy 83.82 100.33) (xy 85.09 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3185,6 +3368,16 @@
 			(type default)
 		)
 		(uuid "65843389-80ed-46ac-a75d-3b6332b7917f")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 68.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6638eb63-750a-496d-b839-b7f8b795bc98")
 	)
 	(wire
 		(pts
@@ -3288,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 204.47 111.76)
+			(xy 185.42 111.76) (xy 199.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3698,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 120.65) (xy 68.58 120.65)
+			(xy 74.93 120.65) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 105.41) (xy 254 105.41)
+			(xy 248.92 105.41) (xy 260.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3915,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "ef100fa9-ff00-4ff1-84b8-ff760f8d5827")
+	)
+	(wire
+		(pts
+			(xy 33.02 100.33) (xy 29.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f258d3ed-49c7-4b3e-a3d3-ebd994ca921b")
 	)
 	(wire
 		(pts
@@ -4086,7 +4289,7 @@
 	)
 	(global_label "Arduino_CurrentSense"
 		(shape input)
-		(at 254 105.41 0)
+		(at 261.62 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4096,7 +4299,7 @@
 		)
 		(uuid "6697c4a2-1a66-4b05-afba-723aeaff4459")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.5469 105.41 0)
+			(at 285.1669 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,6 +4572,72 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 85.09 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a805408-26d4-4679-9e5b-94a9ddfb4e77")
+		(property "Reference" "TP23"
+			(at 85.598 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.566 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6de7dc95-f427-4e22-9820-46a5d3ad94d9")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -4887,6 +5156,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "343b0493-0da3-4fe3-95f5-fa62f56720c6")
+		(property "Reference" "TP25"
+			(at 69.342 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.374 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d43f305-9080-4b78-8fa4-74e2ecbf6791")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 57.15 270)
 		(unit 1)
@@ -4981,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1SMB2EZ15_R1_00001"
+		(property "Footprint" "InverterCom:1SMB2EZ15_R1_00001"
 			(at -9.83 113.03 0)
 			(effects
 				(font
@@ -5103,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "InverterCom:FZ400R12KE4"
 			(at 102.87 104.14 0)
 			(effects
 				(font
@@ -5286,6 +5621,138 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53a6c3a4-eedc-4275-9996-d071688019fa")
+		(property "Reference" "TP28"
+			(at 44.958 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 42.926 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "303ce7ce-523e-42d4-81e0-ede79ab48582")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567f9e57-8949-4f2a-ae97-2266e9e5d4e0")
+		(property "Reference" "TP24"
+			(at 33.528 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.496 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5e87dbd-ab17-41eb-b349-a7d7f4f1a1d7")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -6377,6 +6844,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a8b3a64-64cc-44b1-8331-c532b0b713c4")
+		(property "Reference" "TP26"
+			(at 198.882 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.914 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "190e3752-f825-440d-b4db-db56d73132cd")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 115.57 0)
 		(unit 1)
@@ -7246,7 +7779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1SMB2EZ15_R1_00001"
+		(property "Footprint" "InverterCom:1SMB2EZ15_R1_00001"
 			(at -18.72 113.03 0)
 			(effects
 				(font
@@ -7402,6 +7935,72 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be094967-d486-4480-93b0-9a8963f57583")
+		(property "Reference" "TP27"
+			(at 260.858 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 258.826 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e3a3a4-d572-4f6a-83e8-d1914933a2a9")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -8549,7 +9148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1SMB2EZ15_R1_00001"
+		(property "Footprint" "InverterCom:1SMB2EZ15_R1_00001"
 			(at -0.94 113.03 0)
 			(effects
 				(font

@@ -5902,6 +5902,28 @@
 			)
 		)
 	)
+	(global_label "GATE_PWM"
+		(shape input)
+		(at 43.18 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d1d7b79-f4e2-481e-a6c3-67e04e1803aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5792 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANBUS_ISO_5V"
 		(shape input)
 		(at 87.63 156.21 0)
@@ -6122,28 +6144,6 @@
 			)
 		)
 	)
-	(global_label "GATE_PWM"
-		(shape input)
-		(at 43.18 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5083d135-ee46-4742-ad35-0a9b296262a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.5792 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CANBUS_ISO_GND"
 		(shape input)
 		(at 119.38 194.31 0)
@@ -6278,7 +6278,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
-		(at 43.18 67.31 180)
+		(at 43.18 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6286,9 +6286,9 @@
 			)
 			(justify right)
 		)
-		(uuid "703e6543-c01e-4206-a690-7d9748bba87d")
+		(uuid "6f7708c3-1ee1-4891-b4d5-fcae0691b9c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5467 67.31 0)
+			(at 31.5467 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 33.02 143.51 0)
 			(effects
 				(font
