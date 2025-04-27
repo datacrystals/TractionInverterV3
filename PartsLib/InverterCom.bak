@@ -6696,6 +6696,18 @@
 		(symbol "FZ400R12KE4_0_1"
 			(polyline
 				(pts
+					(xy 2.54 -5.08) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 5.334 1.905) (xy 5.334 -1.905) (xy 5.334 -1.905)
 				)
 				(stroke
@@ -6813,6 +6825,43 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 11.43 -2.54) (xy 11.43 2.54) (xy 7.62 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -1.27) (xy 11.43 -1.27) (xy 12.7 -1.27) (xy 11.43 0) (xy 10.16 -1.27) (xy 11.43 -1.27)
+					(xy 10.16 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 		)
 		(symbol "FZ400R12KE4_1_1"
 			(text "IGBT, 1200V, 400A"
@@ -6834,6 +6883,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
