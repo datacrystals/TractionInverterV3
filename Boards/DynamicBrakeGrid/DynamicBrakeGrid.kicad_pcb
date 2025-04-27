@@ -38032,7 +38032,7 @@
 	(footprint "InverterCom:CAPPRD500W60D1025H1750"
 		(layer "F.Cu")
 		(uuid "eaa94698-819b-46f1-88ad-5d91f9a38dcc")
-		(at 105 87.5 180)
+		(at 105 88 180)
 		(descr "10*16")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C2"
@@ -48950,8 +48950,8 @@
 		)
 	)
 	(gr_text_box "DYNAMIC BRAKE CONTROL BOARD\n\nREVISION B\n\nABS. MAX. 600V, 200A"
-		(start 133.375 49)
-		(end 182.625 62)
+		(start 195.75 119)
+		(end 245 132)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "F.SilkS")
 		(uuid "6814cf9d-71bc-4361-8199-d90c1588c6e7")
@@ -48991,7 +48991,7 @@
 	)
 	(gr_text_box "Dynamic Brake Fans"
 		(start 95.5 26)
-		(end 107 82.5)
+		(end 126 82.5)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(angle 90)
 		(layer "F.SilkS")
@@ -59367,20 +59367,12 @@
 		(uuid "f0c61f0e-121f-47d6-b4cb-0195db1c4c1e")
 	)
 	(segment
-		(start 105 87.5)
-		(end 102 87.5)
-		(width 1)
-		(layer "In1.Cu")
-		(net 24)
-		(uuid "1d8f143d-3c3c-47a8-9ef8-6a95e9f6749f")
-	)
-	(segment
-		(start 102 87.5)
+		(start 98.5 91)
 		(end 92.5 97)
 		(width 1)
 		(layer "In1.Cu")
 		(net 24)
-		(uuid "b0005a4f-f61c-43ac-835c-cf400d3913f4")
+		(uuid "0e2c6b19-e236-4dad-b561-0adb863a0191")
 	)
 	(segment
 		(start 92.5 97)
@@ -59388,7 +59380,15 @@
 		(width 1)
 		(layer "In1.Cu")
 		(net 24)
-		(uuid "d7e24723-e009-481a-b543-682c5aad2e74")
+		(uuid "21fe6d86-bbdb-4354-bff5-ffaf5b4291d2")
+	)
+	(segment
+		(start 102 91)
+		(end 98.5 91)
+		(width 1)
+		(layer "In1.Cu")
+		(net 24)
+		(uuid "3ac04cd7-dda8-4673-8a1d-3649fe418ab5")
 	)
 	(segment
 		(start 68.5 97)
@@ -59396,7 +59396,15 @@
 		(width 1)
 		(layer "In1.Cu")
 		(net 24)
-		(uuid "ebb93646-da37-422f-b008-be6c1fc2d60f")
+		(uuid "975e99bc-6bc2-4be1-a9b3-426c3e43abd0")
+	)
+	(segment
+		(start 105 88)
+		(end 102 91)
+		(width 1)
+		(layer "In1.Cu")
+		(net 24)
+		(uuid "d25c919c-0903-43cd-adae-4f6e3f3452ed")
 	)
 	(segment
 		(start 72 115.5)
