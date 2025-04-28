@@ -3930,7 +3930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 73.66 46.9899 90)
 			(effects
 				(font
@@ -5485,7 +5485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 87.63 46.9899 90)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 101.6 46.9899 90)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 73.66 29.2099 90)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 59.69 46.9899 90)
 			(effects
 				(font
@@ -8431,7 +8431,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 87.63 29.2099 90)
 			(effects
 				(font
@@ -8809,7 +8809,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 59.69 29.2099 90)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "UVY1E102MPD1TD"
 			(at 101.6 29.2099 90)
 			(effects
 				(font

@@ -5429,7 +5429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FZ400R12KE4"
 			(at 116.84 104.8992 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS758xCB-200U-PFF"
+		(property "Value" "ACS758ECB-200U-PFF"
 			(at 177.8 96.5514 0)
 			(effects
 				(font
