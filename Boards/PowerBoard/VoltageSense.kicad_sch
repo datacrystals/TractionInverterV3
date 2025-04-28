@@ -443,16 +443,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check the iso voltage sense board max value and scale these vdivs accordingly"
-		(exclude_from_sim no)
-		(at 59.6268 106.5937 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5c52e9cb-ed9d-41b0-b27e-5065587318d4")
-	)
 	(junction
 		(at 158.75 55.88)
 		(diameter 0)

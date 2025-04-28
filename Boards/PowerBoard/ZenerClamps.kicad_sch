@@ -395,16 +395,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "parallle this\n"
-		(exclude_from_sim no)
-		(at 74.8662 104.0919 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbf6e783-a679-4137-b874-839f9ebf54f4")
-	)
 	(global_label "PHASE_U"
 		(shape input)
 		(at 25.4 25.4 90)

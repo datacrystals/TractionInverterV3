@@ -1310,16 +1310,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "add zeners"
-		(exclude_from_sim no)
-		(at 110.744 20.066 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5c7e0e47-d301-4211-8dc9-3c609ded6ff9")
-	)
 	(junction
 		(at 251.46 40.64)
 		(diameter 0)
