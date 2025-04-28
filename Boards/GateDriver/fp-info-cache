@@ -1,4 +1,4 @@
-129178603629787
+132670300894257
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64673,6 +64673,13 @@ Char_McGillisFareed_30mm
 0
 0
 InverterCom
+Char_SetsunaFSeiei_20mm
+
+
+0
+0
+0
+InverterCom
 Char_TieriaErde
 
 
@@ -64725,6 +64732,13 @@ InverterCom
 DIOM5436X247N
 SMB CASE 403A-03
 Zener Diode
+0
+2
+2
+InverterCom
+DIOM8059X265N
+S3N
+Diode
 0
 2
 2
