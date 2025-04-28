@@ -160,10 +160,16 @@ def main(args):
     substitutions = load_substitutions()
     all_components = {}
     excluded_count = 0
-    output_dir = Path("BOMs")
+
+    # Determine the output directory
+    output_dir = Path(args.output_dir) if args.output_dir else Path("BOMs")
     output_dir.mkdir(exist_ok=True)
 
     for dirpath, _, filenames in os.walk(args.input_dir):
+        # Skip processing files in the output directory
+        if Path(dirpath) == output_dir:
+            continue
+
         for filename in filenames:
             if filename == args.output_file:
                 continue
@@ -194,11 +200,11 @@ def main(args):
                     else:
                         all_components[key] = data
 
-    # Write combined output if specified
-    if args.output_file:
-        apply_quantity_adjustments(all_components, args)
-        write_output_file(all_components, args.output_file)
-        print(f"\nCombined output saved to {args.output_file}")
+    # Write combined output
+    combined_output_path = output_dir / "Combined.csv"
+    apply_quantity_adjustments(all_components, args)
+    write_output_file(all_components, combined_output_path)
+    print(f"\nCombined output saved to {combined_output_path}")
 
     print(f"\nProcessed {len(all_components)} unique components across all BOMs")
     print(f"Excluded {excluded_count} components marked DNO")
@@ -211,6 +217,7 @@ if __name__ == '__main__':
                       help='Round resistor/capacitor quantities to standard values')
     parser.add_argument('-c', '--chip-extras', type=int, default=0,
                       help='Add extra quantity for chips')
+    parser.add_argument('-d', '--output-dir', default='', help='Directory to save output files')
     args = parser.parse_args()
 
     main(args)

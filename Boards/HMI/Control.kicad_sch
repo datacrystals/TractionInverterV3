@@ -7387,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 167.64 77.47 0)
 			(effects
 				(font

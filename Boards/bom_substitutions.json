@@ -154,5 +154,35 @@
     "customer_part": "CBPN-LNT3S-conn01x02pin",
     "mouser_part": "538-22-28-4022",
     "type": "chip"
+  },
+  "r_1210_3225metric_pad1.30x2.65mm_handsolder|1m": {
+    "description": "1M 1210",
+    "customer_part": "CBPN-3OLMP-1m",
+    "mouser_part": "603-RC1210FR-071ML",
+    "type": "resistor"
+  },
+  "busbarconnection|~": {
+    "description": "Bus bar solder pad",
+    "customer_part": "CBPN-GSQ2V-",
+    "mouser_part": "DNO",
+    "type": "other"
+  },
+  "cm600ha-24h-pwr|~": {
+    "description": "CM600HA-24H IGBT 1200V, 600A",
+    "customer_part": "CBPN-1LYMV-",
+    "mouser_part": "DNO",
+    "type": "other"
+  },
+  "arduino_mega2560_r3_shield|arduino_mega2560_r3_shield": {
+    "description": "Arduino MEGA 2560",
+    "customer_part": "CBPN-TMV2U-arduinomega2560r3shield",
+    "mouser_part": "DNO",
+    "type": "other"
+  },
+  "pinsocket_1x10_p2.54mm_vertical|conn_01x10_socket": {
+    "description": "1x10 2.54mm socket",
+    "customer_part": "CBPN-C668G-conn01x10socket",
+    "mouser_part": "538-90147-1110",
+    "type": "chip"
   }
 }

@@ -2362,7 +2362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5-106505-2_3"
+		(property "Footprint" "InverterCom:5-106505-2_3"
 			(at 52.07 117.78 0)
 			(effects
 				(font
