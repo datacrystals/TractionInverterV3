@@ -184,5 +184,47 @@
     "customer_part": "CBPN-C668G-conn01x10socket",
     "mouser_part": "538-90147-1110",
     "type": "chip"
+  },
+  "c_1210_3225metric_pad1.33x2.70mm_handsolder|10pf": {
+    "description": "10pF 1210",
+    "customer_part": "CBPN-ULXI9-10pf",
+    "mouser_part": "581-12101U100JAT2A",
+    "type": "capacitor"
+  },
+  "r_1210_3225metric_pad1.30x2.65mm_handsolder|100": {
+    "description": "100 1210",
+    "customer_part": "CBPN-KHUMA-100",
+    "mouser_part": "603-RC1210FR-07100RL",
+    "type": "resistor"
+  },
+  "c_1210_3225metric_pad1.33x2.70mm_handsolder|2.2nf": {
+    "description": "2.2nF 1210",
+    "customer_part": "CBPN-BDEDI-22nf",
+    "mouser_part": "80-C1210C222K1HAUTO",
+    "type": "capacitor"
+  },
+  "r_1210_3225metric_pad1.30x2.65mm_handsolder|1.5": {
+    "description": "1.5 1210",
+    "customer_part": "CBPN-8QJGQ-15",
+    "mouser_part": "603-AC1210FR-7W1R5L",
+    "type": "resistor"
+  },
+  "c_1210_3225metric_pad1.33x2.70mm_handsolder|100pf": {
+    "description": "100pF 1210",
+    "customer_part": "CBPN-UPTUR-100pf",
+    "mouser_part": "80-C1210C101K3HACTU",
+    "type": "capacitor"
+  },
+  "c_1210_3225metric_pad1.33x2.70mm_handsolder|4.7uf": {
+    "description": "4.7uF 1210",
+    "customer_part": "CBPN-66ZXX-47uf",
+    "mouser_part": "187-CL32B475KBUYNNE",
+    "type": "capacitor"
+  },
+  "cm600ha-24h-gate|~": {
+    "description": "IGBT 1200V, 600A",
+    "customer_part": "CBPN-YT6DC-",
+    "mouser_part": "DNO",
+    "type": "other"
   }
 }
