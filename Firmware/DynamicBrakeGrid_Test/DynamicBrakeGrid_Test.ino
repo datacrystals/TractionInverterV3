@@ -1,0 +1,335 @@
+#include "CANFramework/CANBusManager.cpp"
+#include "CANFramework/MessageCode.h"
+
+// CAN Pins
+#define CAN_CS_PIN 10
+#define CAN_INT_PIN 2
+#define DEVICE_ID 0x02
+
+CANBusManager canManager(DEVICE_ID, CAN_CS_PIN, CAN_INT_PIN);
+
+volatile bool canMessageReceived = false;
+bool pollingActive = false;
+unsigned long lastPollTime = 0;
+const unsigned long pollInterval = 500; // 500ms = 0.5 second
+
+// Variables to store polled values
+float inputVoltage = 0.0;
+float temperature = 0.0;
+float power = 0.0;
+float fanSpeed = 0.0;
+bool newDataAvailable = false;
+
+void handleCANMessage(const CANMessage& msg) {
+    Serial.println(F("--- Start of CAN Message Processing ---"));
+    Serial.print(F("Raw Message ID: "));
+    Serial.println(msg.id, HEX);
+    Serial.print(F("Raw Message Length: "));
+    Serial.println(msg.length);
+    Serial.print(F("Raw Message Data: "));
+    for (int i = 0; i < msg.length; i++) {
+        Serial.print(msg.data[i], HEX);
+        Serial.print(F(" "));
+    }
+    Serial.println();
+
+    MessageCode code = CANBusManager::GetMessageCode(msg);
+    Serial.print(F("Extracted Message Code: "));
+    Serial.println(code);
+    Serial.print(F("Message Code (int): "));
+    Serial.println((int)code);
+
+    if (code == MessageCode::GET_VIN_VOLTAGE) {
+        Serial.println(F("Processing GET_VIN_VOLTAGE"));
+        inputVoltage = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Vin Voltage: "));
+        Serial.println(inputVoltage, 2);
+        newDataAvailable = true;
+    } else if (code == MessageCode::TEMPERATURE) {
+        Serial.println(F("Processing TEMPERATURE"));
+        temperature = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Temperature: "));
+        Serial.println(temperature, 2);
+        newDataAvailable = true;
+    } else if (code == MessageCode::GET_POWER) {
+        Serial.println(F("Processing GET_POWER"));
+        power = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Power: "));
+        Serial.println(power, 2);
+        newDataAvailable = true;
+    } else if (code == MessageCode::GET_FAN_AIRFLOW) {
+        Serial.println(F("Processing GET_FAN_AIRFLOW"));
+        fanSpeed = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Fan Airflow: "));
+        Serial.println(fanSpeed, 2);
+        newDataAvailable = true;
+    } else if (code == MessageCode::GET_FAULT_COUNT) {
+        Serial.println(F("Processing GET_FAULT_COUNT"));
+        uint32_t faultCount = CANBusManager::ReadInt(msg);
+        Serial.print(F("Extracted Fault Count: "));
+        Serial.println(faultCount);
+    } else if (code == MessageCode::GET_FAULT_LIST) {
+        Serial.println(F("Processing GET_FAULT_LIST"));
+        if (msg.length > 0) {
+            Serial.print(F("Extracted Fault List: "));
+            Serial.write(msg.data, msg.length);
+            Serial.println();
+        }
+    } else if (code == MessageCode::RESET_FAULTS) {
+        Serial.println(F("Processing RESET_FAULTS"));
+        Serial.println(F("Faults reset acknowledged"));
+    } else if (code == MessageCode::HEARTBEAT) {
+        Serial.println(F("Processing HEARTBEAT"));
+        Serial.println(F("Heartbeat received"));
+    } else if (code == MessageCode::GET_VOUT_VOLTAGE) {
+        Serial.println(F("Processing GET_VOUT_VOLTAGE"));
+        float voutVoltage = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Vout Voltage: "));
+        Serial.println(voutVoltage, 2);
+    } else if (code == MessageCode::GET_PHASE1_CURRENT) {
+        Serial.println(F("Processing GET_PHASE1_CURRENT"));
+        float phase1Current = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 1 Current: "));
+        Serial.println(phase1Current, 2);
+    } else if (code == MessageCode::GET_PHASE2_CURRENT) {
+        Serial.println(F("Processing GET_PHASE2_CURRENT"));
+        float phase2Current = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 2 Current: "));
+        Serial.println(phase2Current, 2);
+    } else if (code == MessageCode::GET_PHASE1_TEMP) {
+        Serial.println(F("Processing GET_PHASE1_TEMP"));
+        float phase1Temp = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 1 Temperature: "));
+        Serial.println(phase1Temp, 2);
+    } else if (code == MessageCode::GET_PHASE2_TEMP) {
+        Serial.println(F("Processing GET_PHASE2_TEMP"));
+        float phase2Temp = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 2 Temperature: "));
+        Serial.println(phase2Temp, 2);
+    } else if (code == MessageCode::GET_CAN_FAULT_STATUS) {
+        Serial.println(F("Processing GET_CAN_FAULT_STATUS"));
+        uint32_t canFaultStatus = CANBusManager::ReadInt(msg);
+        Serial.print(F("Extracted CAN Fault Status: "));
+        Serial.println(canFaultStatus);
+    } else if (code == MessageCode::GET_FAN_SPEED) {
+        Serial.println(F("Processing GET_FAN_SPEED"));
+        float fanSpeedCFM = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Fan Speed (CFM): "));
+        Serial.println(fanSpeedCFM, 2);
+    } else if (code == MessageCode::REQUEST_FIRMWARE_VERSION) {
+        Serial.println(F("Processing REQUEST_FIRMWARE_VERSION"));
+        Serial.println(F("Firmware version request received"));
+    } else if (code == MessageCode::FIRMWARE_VERSION_RESPONSE) {
+        Serial.println(F("Processing FIRMWARE_VERSION_RESPONSE"));
+        if (msg.length > 0) {
+            char firmwareVersion[9] = {0};
+            memcpy(firmwareVersion, msg.data, msg.length);
+            Serial.print(F("Extracted Firmware Version: "));
+            Serial.println(firmwareVersion);
+        }
+    } else if (code == MessageCode::GET_FAULT_COUNT_RESPONSE) {
+        Serial.println(F("Processing GET_FAULT_COUNT_RESPONSE"));
+        uint32_t faultCount_response = CANBusManager::ReadInt(msg);
+        Serial.print(F("Extracted Fault Count Response: "));
+        Serial.println(faultCount_response);
+    } else if (code == MessageCode::GET_VIN_VOLTAGE_RESPONSE) {
+        Serial.println(F("Processing GET_VIN_VOLTAGE_RESPONSE"));
+        float vinVoltage = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Vin Voltage Response: "));
+        Serial.println(vinVoltage, 2);
+    } else if (code == MessageCode::GET_VOUT_VOLTAGE_RESPONSE) {
+        Serial.println(F("Processing GET_VOUT_VOLTAGE_RESPONSE"));
+        float voutVoltage_response = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Vout Voltage Response: "));
+        Serial.println(voutVoltage_response, 2);
+    } else if (code == MessageCode::GET_PHASE1_CURRENT_RESPONSE) {
+        Serial.println(F("Processing GET_PHASE1_CURRENT_RESPONSE"));
+        float phase1Current_response = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 1 Current Response: "));
+        Serial.println(phase1Current_response, 2);
+    } else if (code == MessageCode::GET_PHASE2_CURRENT_RESPONSE) {
+        Serial.println(F("Processing GET_PHASE2_CURRENT_RESPONSE"));
+        float phase2Current_response = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 2 Current Response: "));
+        Serial.println(phase2Current_response, 2);
+    } else if (code == MessageCode::GET_PHASE1_TEMP_RESPONSE) {
+        Serial.println(F("Processing GET_PHASE1_TEMP_RESPONSE"));
+        float phase1Temp_response = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 1 Temperature Response: "));
+        Serial.println(phase1Temp_response, 2);
+    } else if (code == MessageCode::GET_PHASE2_TEMP_RESPONSE) {
+        Serial.println(F("Processing GET_PHASE2_TEMP_RESPONSE"));
+        float phase2Temp_response = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Phase 2 Temperature Response: "));
+        Serial.println(phase2Temp_response, 2);
+    } else if (code == MessageCode::GET_POWER_RESPONSE) {
+        Serial.println(F("Processing GET_POWER_RESPONSE"));
+        float power = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Power Response: "));
+        Serial.println(power, 2);
+    } else if (code == MessageCode::GET_FAN_SPEED_RESPONSE) {
+        Serial.println(F("Processing GET_FAN_SPEED_RESPONSE"));
+        float fanSpeed = CANBusManager::ReadFloat(msg);
+        Serial.print(F("Extracted Fan Speed Response: "));
+        Serial.println(fanSpeed, 2);
+    } else {
+        Serial.println(String(F("Unhandled CAN message: ")) + String((int)code));
+    }
+
+    Serial.println(F("--- End of CAN Message Processing ---"));
+}
+
+void OnCanStringMessage(MessageCode code, const char* message) {
+    Serial.print(F("Received string message with code "));
+    Serial.print((int)code);
+    Serial.print(F(": "));
+    Serial.println(message);
+}
+
+void setup() {
+    Serial.begin(9600);
+    while (!Serial);
+
+    canManager.Begin();
+    canManager.SetCallback(handleCANMessage);
+    canManager.SetStringCallback(OnCanStringMessage); // Register the string callback
+
+    Serial.println(F("Test Harness Ready"));
+    printHelp();
+}
+
+void loop() {
+    if (Serial.available()) {
+        String input = Serial.readStringUntil('\n');
+        input.trim();
+        processCommand(input);
+    }
+
+    canManager.Update();
+
+    // Handle polling if active
+    if (pollingActive && millis() - lastPollTime >= pollInterval) {
+        pollStats();
+        lastPollTime = millis();
+    }
+
+    // Print collected data if new data is available
+    if (newDataAvailable) {
+        printPolledData();
+        newDataAvailable = false;
+    }
+}
+
+void printPolledData() {
+    Serial.print(F("Vin: "));
+    Serial.print(inputVoltage, 2);
+    Serial.print(F("V | Temp: "));
+    Serial.print(temperature, 1);
+    Serial.print(F("°C | Power: "));
+    Serial.print(power, 2);
+    Serial.print(F("W | Fan: "));
+    Serial.print(fanSpeed, 0);
+    Serial.println(F(" RPM"));
+}
+
+void processCommand(String cmd) {
+    if (cmd == "help") {
+        printHelp();
+    } 
+    else if (cmd == "enable") {
+        canManager.SendCode(MessageCode::ENABLE_OUTPUT);
+    }
+    else if (cmd == "disable") {
+        canManager.SendCode(MessageCode::REGULAR_STOP);
+    }
+    else if (cmd == "emergency") {
+        canManager.SendCode(MessageCode::EMERGENCY_STOP);
+    }
+    else if (cmd == "reset") {
+        canManager.SendCode(MessageCode::RESET_FAULTS);
+    }
+    else if (cmd == "faults") {
+        canManager.SendCode(MessageCode::GET_FAULT_COUNT);
+    }
+    else if (cmd == "vin") {
+        canManager.SendCode(MessageCode::GET_VIN_VOLTAGE);
+    }
+    else if (cmd == "temp") {
+        canManager.SendCode(MessageCode::TEMPERATURE);
+    }
+    else if (cmd == "power") {
+        canManager.SendCode(MessageCode::GET_POWER);
+    }
+    else if (cmd == "fan") {
+        canManager.SendCode(MessageCode::GET_FAN_AIRFLOW);
+    }
+    else if (cmd == "faultlist") {
+        canManager.SendCode(MessageCode::GET_FAULT_LIST);
+    }
+    else if (cmd == "vout") {
+        canManager.SendCode(MessageCode::GET_VOUT_VOLTAGE);
+    }
+    else if (cmd == "current1") {
+        canManager.SendCode(MessageCode::GET_PHASE1_CURRENT);
+    }
+    else if (cmd == "current2") {
+        canManager.SendCode(MessageCode::GET_PHASE2_CURRENT);
+    }
+    else if (cmd == "temp1") {
+        canManager.SendCode(MessageCode::GET_PHASE1_TEMP);
+    }
+    else if (cmd == "temp2") {
+        canManager.SendCode(MessageCode::GET_PHASE2_TEMP);
+    }
+    else if (cmd == "rpm") {
+        canManager.SendCode(MessageCode::GET_FAN_RPM);
+    }
+    else if (cmd == "canstatus") {
+        canManager.SendCode(MessageCode::GET_CAN_FAULT_STATUS);
+    }
+    else if (cmd == "heartbeatmode") {
+        canManager.SendCode(MessageCode::ENABLE_HEARTBEAT);
+    }
+    else if (cmd == "ping") {
+        canManager.SendCode(MessageCode::HEARTBEAT_PING);
+    }
+    else if (cmd == "poll") {
+        pollingActive = !pollingActive; // Toggle polling state
+        Serial.print(F("Polling "));
+        Serial.println(pollingActive ? F("started") : F("stopped"));
+        if (pollingActive) {
+            lastPollTime = millis() - pollInterval; // Force immediate poll
+            // Clear previous values
+            inputVoltage = 0;
+            temperature = 0;
+            power = 0;
+            fanSpeed = 0;
+        }
+    }
+    else {
+        Serial.println(F("Unknown command. Type 'help' for options."));
+    }
+}
+
+void pollStats() {
+    // Request all stats
+    canManager.SendCode(MessageCode::GET_VIN_VOLTAGE);
+    canManager.SendCode(MessageCode::TEMPERATURE);
+    canManager.SendCode(MessageCode::GET_POWER);
+    canManager.SendCode(MessageCode::GET_FAN_AIRFLOW);
+}
+
+void printHelp() {
+    Serial.println(F("Available Commands:"));
+    Serial.println(F("  enable       - Enable output"));
+    Serial.println(F("  disable      - Disable output"));
+    Serial.println(F("  emergency    - Emergency stop"));
+    Serial.println(F("  reset        - Reset faults"));
+    Serial.println(F("  faults       - Get fault count"));
+    Serial.println(F("  vin          - Get input voltage"));
+    Serial.println(F("  temp         - Get temperature"));
+    Serial.println(F("  power        - Get power"));
+    Serial.println(F("  fan          - Get fan speed"));
+    Serial.println(F("  poll         - Toggle continuous polling of stats"));
+    Serial.println(F("  help         - Show this help"));
+}
