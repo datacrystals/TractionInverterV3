@@ -400,6 +400,8 @@ private:
         if (currentTime - lastControlTime >= CONTROL_INTERVAL_MS) {
             float dt = (currentTime - lastControlTime) / 1000.0f;
             lastControlTime = currentTime;
+            Serial.print("setpoint: ");
+            Serial.println(setpoint_);
             control_pid.pid_step(measuredVoltage_, setpoint_, dt);
 
 
