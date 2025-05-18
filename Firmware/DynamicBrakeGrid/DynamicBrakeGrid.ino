@@ -249,10 +249,10 @@ class PID {
         }
 
         float pid_step(float measurement, float setpoint, float time) {
-            float err;
-            float command;
-            float command_sat;
-            float deriv_filt;
+            float err = 0.0;
+            float command = 0.0;
+            float command_sat = 0.0;
+            float deriv_filt = 0.0;
 
             err = setpoint - measurement;
             integral += Ki * err * time + Kaw * (command_sat_prev - command_prev) * time;
@@ -261,7 +261,7 @@ class PID {
             err_prev = err;
             deriv_prev = deriv_filt;
 
-            command = Kp * err + integral + Kd*deriv_filt;
+            command = Kp * err + integral + Kd * deriv_filt;
 
             command_prev = command;
 
