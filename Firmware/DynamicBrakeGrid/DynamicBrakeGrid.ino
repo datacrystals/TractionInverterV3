@@ -248,7 +248,7 @@ class PID {
 
         }
 
-        pid_step(float measurement, float setpoint, float time) {
+        float pid_step(float measurement, float setpoint, float time) {
             float err;
             float command;
             float command_sat;
@@ -309,7 +309,7 @@ public:
     VoltageController() : voltageSensor_(VOLTAGE_SENSOR_PIN, 6000.0f, 60.0f, VOLTAGE_MIN, VOLTAGE_MAX, 100),
                         currentSensor_(CURRENT_SENSOR_PIN, 20.0f, 0.6f),
                         powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0), 
-                        control_pid(0.1f, 0.0f, 0.0f) {
+                        control_pid(0.01f, 0.0f, 0.0f) {
         currentSensor_.setCurrentRange(0.0f, CURRENT_MAX);
         Reset();
         powerQueue = new float[NUM_AVG_SAMPLES];
@@ -402,9 +402,9 @@ private:
             lastControlTime = currentTime;
             Serial.print("setpoint: ");
             Serial.println(setpoint_);
-            control_pid.pid_step(measuredVoltage_, setpoint_, dt);
+            float dutyCycle_ = control_pid.pid_step(measuredVoltage_, setpoint_, dt);
 
-
+            PwmController::WriteDuty(dutyCycle_);
             /*float dt = (currentTime - lastControlTime) / 1000.0f;
             lastControlTime = currentTime;
             
