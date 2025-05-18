@@ -258,6 +258,8 @@ class PID {
             integral += Ki * err * time + Kaw * (command_sat_prev - command_prev) * time;
 
             deriv_filt = (err - err_prev + T_C * deriv_prev) / (time * T_C);
+            Serial.print("time: ");
+            Serial.print(time);
             err_prev = err;
             deriv_prev = deriv_filt;
 
