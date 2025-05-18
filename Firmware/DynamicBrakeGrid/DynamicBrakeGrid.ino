@@ -854,8 +854,11 @@ void loop() {
     static uint32_t lastLogTime = 0;
 
     if (Serial.available() > 0) {
-        float serial_float = Serial.parseFloat();
+        String input = Serial.readStringUntil('\n'); // Read until newline
+        float serial_float = input.toFloat();        // Convert to float
         voltageController.SetSetpoint(serial_float);
+        Serial.print("Read float: ");
+        Serial.println(serial_float);
     }
 
     voltageController.Update();
