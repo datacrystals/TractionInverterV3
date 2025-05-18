@@ -319,9 +319,9 @@ class PID {
     float Kaw = 0.0;             // Anti-windup gain constant
     float T_C = 1.0;             // Time constant for derivative filtering
     float T = 0.8;               // Time step
-    float max = 0.0;             // Max command
+    float max = 400.0;             // Max command
     float min = 0.0;             // Min command
-    float max_rate = 0.0;        // Max rate of change of the command
+    float max_rate = 1.0;        // Max rate of change of the command
     float integral = 0.0;        // Integral term
     float err_prev = 0.0;        // Previous error
     float deriv_prev = 0.0;      // Previous derivative
