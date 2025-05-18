@@ -249,42 +249,58 @@ class PID {
         }
 
         float pid_step(float measurement, float setpoint, float time) {
-            float err = 0.0;
-            float command = 0.0;
-            float command_sat = 0.0;
-            float deriv_filt = 0.0;
+			float err;
+			float command;
+			float command_sat;
+			float deriv_filt;
 
-            err = setpoint - measurement;
-            integral += Ki * err * time + Kaw * (command_sat_prev - command_prev) * time;
+			/* Error calculation */
+			err = setpoint - measurement;
 
-            deriv_filt = (err - err_prev + T_C * deriv_prev) / (time * T_C);
+			/* Integral term calculation - including anti-windup */
+			integral += Ki*err*T + Kaw*(command_sat_prev - command_prev)*T;
 
-            err_prev = err;
-            deriv_prev = deriv_filt;
+			/* Derivative term calculation using filtered derivative method */
+			deriv_filt = (err - err_prev + T_C*deriv_prev)/(T + T_C);
+			err_prev = err;
+			deriv_prev = deriv_filt;
 
-            command = Kp * err + integral + Kd * deriv_filt;
+			/* Summing the 3 terms */
+			command = Kp*err + integral + Kd*deriv_filt;
 
-            command_prev = command;
+			/* Remember command at previous step */
+			command_prev = command;
 
-            /*if (command > max) {
-                command_sat = max;
-            }
-            else if (command < min) {
-                command_set = min;
-            }
-            else {
-                command_set = command;
-            }*/
+			/* Saturate command */
+			if (command > max)
+			{
+				command_sat = max;
+			}
+			else if (command < min)
+			{
+				command_sat = min;
+			}
+			else
+			{
+				command_sat = command;
+			}
 
-            /*if (command_sat > command_sat_prev + max_rate * time) {
-                    command_sat = command_sat_prev + max_rate * time;
-            }
-            else if (command_sat < command_sat_prev - max_rate * time) {
-                command_sat = command_sat_prev - max_rate * time;
-            }*/
-
-            command_sat_prev = command_sat;
-            Serial.print("err: ");
+			/* Apply rate limiter */
+			if (command_sat > command_sat_prev + max_rate*T)
+			{
+				command_sat = command_sat_prev + max_rate*T;
+			}
+			else if (command_sat < command_sat_prev - max_rate*T)
+			{
+				command_sat = command_sat_prev - max_rate*T;
+			}
+			else
+			{
+				/* No action */
+			}
+			/* Remember saturated command at previous step */
+			command_sat_prev = command_sat;
+            /*Serial.print("err: ");
             Serial.print(err);
             Serial.print("err_prev: ");
             Serial.print(err_prev);
@@ -293,8 +309,8 @@ class PID {
             Serial.print("integral: ");
             Serial.print(integral);
             Serial.print("command val: ");
-            Serial.println(command);
-            return command;
+            Serial.println(command);*/
+            return command_sat;
         }
 
     float Kp = 0.0;              // Proportional gain constant
@@ -302,7 +318,7 @@ class PID {
     float Kd = 0.0;              // Derivative gain constant
     float Kaw = 0.0;             // Anti-windup gain constant
     float T_C = 1.0;             // Time constant for derivative filtering
-    float T = 0.0;               // Time step
+    float T = 0.8;               // Time step
     float max = 0.0;             // Max command
     float min = 0.0;             // Min command
     float max_rate = 0.0;        // Max rate of change of the command
