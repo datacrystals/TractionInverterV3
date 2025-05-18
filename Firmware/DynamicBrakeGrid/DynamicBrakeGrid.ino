@@ -316,6 +316,8 @@ private:
 
     void UpdateVoltageMeasurement() {
         voltageSamples_[sampleIndex_] = voltageSensor_.readVoltage();
+        Serial.print("Voltage Measurement: ");
+        Serial.println(voltageSamples_[sampleIndex_]);
         sampleIndex_ = (sampleIndex_ + 1) % SAMPLE_WINDOW_SIZE;
 
         measuredVoltage_ = 0.0f;
