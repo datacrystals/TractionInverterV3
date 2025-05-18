@@ -242,11 +242,73 @@ uint16_t PwmController::currentTop_ = 0;
 
 #define NUM_AVG_SAMPLES 10  // Define the number of samples to average
 
+class PID {
+    public: 
+        PID(float kp, float ki, float kd) : Kp(kp), Ki(ki), Kd(kd) {
+
+        }
+
+        pid_step(float measurement, float setpoint, float time) {
+            float err;
+            float command;
+            float command_sat;
+            float deriv_filt;
+
+            err = setpoint - measurement;
+            integral += Ki * err * time + Kaw * (command_sat_prev - command_prev) * time;
+
+            deriv_filt = (err - err_prev + T_C * deriv_prev) / (time * T_C);
+            err_prev = err;
+            deriv_prev = deriv_filt;
+
+            command = Kp * err + integral + Kd*deriv_filt;
+
+            command_prev = command;
+
+            /*if (command > max) {
+                command_sat = max;
+            }
+            else if (command < min) {
+                command_set = min;
+            }
+            else {
+                command_set = command;
+            }*/
+
+            /*if (command_sat > command_sat_prev + max_rate * time) {
+                    command_sat = command_sat_prev + max_rate * time;
+            }
+            else if (command_sat < command_sat_prev - max_rate * time) {
+                command_sat = command_sat_prev - max_rate * time;
+            }*/
+
+            command_sat_prev = command_sat;
+
+            return command;
+        }
+
+    float Kp = 0.0;              // Proportional gain constant
+    float Ki = 0.0;              // Integral gain constant
+    float Kd = 0.0;              // Derivative gain constant
+    float Kaw = 0.0;             // Anti-windup gain constant
+    float T_C = 0.0;             // Time constant for derivative filtering
+    float T = 0.0;               // Time step
+    float max = 0.0;             // Max command
+    float min = 0.0;             // Min command
+    float max_rate = 0.0;        // Max rate of change of the command
+    float integral = 0.0;        // Integral term
+    float err_prev = 0.0;        // Previous error
+    float deriv_prev = 0.0;      // Previous derivative
+    float command_sat_prev = 0.0;// Previous saturated command
+    float command_prev = 0.0;    // Previous command
+};
+
 class VoltageController {
 public:
     VoltageController() : voltageSensor_(VOLTAGE_SENSOR_PIN, 6000.0f, 60.0f, VOLTAGE_MIN, VOLTAGE_MAX, 100),
                         currentSensor_(CURRENT_SENSOR_PIN, 20.0f, 0.6f),
-                        powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0) {
+                        powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0), 
+                        control_pid(0.001f, 0.0f, 0.0f) {
         currentSensor_.setCurrentRange(0.0f, CURRENT_MAX);
         Reset();
         powerQueue = new float[NUM_AVG_SAMPLES];
@@ -306,7 +368,8 @@ private:
     int powerHead;
     int powerTail;
     int powerCount;
-
+    PID control_pid;
+    
     void Reset() {
         for (auto& sample : voltageSamples_) sample = setpoint_;
         powerHead = 0;
@@ -331,9 +394,17 @@ private:
         static uint32_t lastControlTime = 0;
         uint32_t currentTime = millis();
 
+
+        
         if (currentTime - lastControlTime >= CONTROL_INTERVAL_MS) {
             float dt = (currentTime - lastControlTime) / 1000.0f;
             lastControlTime = currentTime;
+            control_pid.pid_step(measuredVoltage_, setpoint_, dt);
+
+
+            /*float dt = (currentTime - lastControlTime) / 1000.0f;
+            lastControlTime = currentTime;
+            
 
             float error = measuredVoltage_ - setpoint_;
             float kp = KP;
@@ -365,7 +436,7 @@ private:
             }
     
             PwmController::WriteDuty(dutyCycle_);
-            lastControlTime = currentTime;
+            lastControlTime = currentTime;*/
         }
     }
 
@@ -434,7 +505,6 @@ private:
         }
     }
 };
-
 
 class StatusIndicators {
 public:
@@ -808,8 +878,6 @@ void sendSystemInfo() {
     canController.sendMessage(CAN_ID_SYSTEM_INFO, data, 8);
 }
 
-
-
 void setup() {
     Serial.begin(9600);
     while (!Serial);
@@ -857,8 +925,6 @@ void loop() {
         String input = Serial.readStringUntil('\n'); // Read until newline
         float serial_float = input.toFloat();        // Convert to float
         voltageController.SetSetpoint(serial_float);
-        Serial.print("Read float: ");
-        Serial.println(serial_float);
     }
 
     voltageController.Update();
