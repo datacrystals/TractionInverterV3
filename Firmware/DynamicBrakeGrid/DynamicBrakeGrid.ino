@@ -291,7 +291,7 @@ class PID {
     float Ki = 0.0;              // Integral gain constant
     float Kd = 0.0;              // Derivative gain constant
     float Kaw = 0.0;             // Anti-windup gain constant
-    float T_C = 0.0;             // Time constant for derivative filtering
+    float T_C = 1.0;             // Time constant for derivative filtering
     float T = 0.0;               // Time step
     float max = 0.0;             // Max command
     float min = 0.0;             // Min command
