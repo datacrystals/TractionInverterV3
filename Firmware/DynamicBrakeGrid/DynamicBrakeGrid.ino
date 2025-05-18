@@ -853,6 +853,11 @@ void loop() {
     static uint32_t lastFanUpdate = 0;
     static uint32_t lastLogTime = 0;
 
+    if (Serial.available() > 0) {
+        float serial_float = Serial.parseFloat();
+        voltageController.SetSetpoint(serial_float);
+    }
+
     voltageController.Update();
     statusIndicators.Update();
     faultManager.updateFaultStatus();
