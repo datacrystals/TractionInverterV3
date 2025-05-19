@@ -59,11 +59,11 @@
 #define MAX_AIRFLOW_CFM     100
 #define DUCT_AREA_SQFT      0.25
 
-#define DELTA_TEMP_RAMP_START 7 // Kelvin
-#define DELTA_TEMP_RAMP_END   13 // Kelvin
+#define DELTA_TEMP_RAMP_START 5 // Kelvin
+#define DELTA_TEMP_RAMP_END   10 // Kelvin
 #define NUM_DISCRETE_STEPS 20  // Define the number of discrete steps for fan speed
 
-#define AIRFLOW_PER_FAN 140 // CFM
+#define AIRFLOW_PER_FAN 220 // CFM
 #define NUM_FANS 4
 
 // Control Parameters
@@ -74,8 +74,8 @@
 
 #define CURRENT_SOFT_LIMIT      38.0f    // Soft current threshold
 #define CURRENT_HARD_LIMIT      45.0f    // Hard current threshold (replaces CURRENT_MAX)
-#define POWER_SOFT_LIMIT        4000.0f  // Soft power threshold (adjust as needed)
-#define POWER_HARD_LIMIT        5000.0f  // Hard power threshold
+#define POWER_SOFT_LIMIT        6000.0f  // Soft power threshold (adjust as needed)
+#define POWER_HARD_LIMIT        7000.0f  // Hard power threshold
 
 // Constants
 #define SPECIFIC_HEAT_CAPACITY 1005.0 // J/(kg·K)
@@ -95,7 +95,7 @@
 
 // CAN Bus Constants
 #define CAN_BAUDRATE         CAN_500KBPS
-#define CAN_CLOCK            MCP_16MHZ
+#define CAN_CLOCK            MCP_8MHZ
 #define CAN_RETRY_DELAY_MS   100
 
 /*
