@@ -5255,6 +5255,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 185.42 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2493ab03-481b-45a4-8951-8aa7fefc9583")
+		(property "Reference" "#PWR0112"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8553eab0-f15c-44fa-a75e-2caca732d716")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 120.65 180)
 		(unit 1)
@@ -5382,6 +5448,76 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49a79847-a854-44fa-b8ba-b2360937c61b")
+		(property "Reference" "C99"
+			(at 208.28 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 208.28 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 205.4352 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f18b7ab-3064-45af-8dd4-28b49cc83724")
+		)
+		(pin "2"
+			(uuid "9a701c57-ac47-443f-ab44-9d17172483b8")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5798,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a89e62-eb0d-4dac-b19d-8f9088ec0f83")
 		(property "Reference" "C76"
@@ -7851,6 +7987,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c8b0f3-081a-45e0-9c7e-05a702050193")
+		(property "Reference" "#PWR0123"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad3f32bb-5268-4759-82a8-253eb0d8fc67")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InverterCom:1SMB2EZ15_R1_00001")
 		(at 74.93 102.87 270)
 		(unit 1)
@@ -8034,6 +8236,76 @@
 			(project "DynamicBrakeGrid"
 				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b94c45da-fdca-4856-ab14-078b67785e6a")
+		(property "Reference" "C100"
+			(at 189.23 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 189.23 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 186.3852 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b6730ab-e218-402e-bb7f-e90389a08ce9")
+		)
+		(pin "2"
+			(uuid "e06e4674-dff2-45a9-944e-287d3fc9b1f6")
+		)
+		(instances
+			(project "DynamicBrakeGrid"
+				(path "/c99e0392-d1c3-4f46-a25d-449c454a3f3b/8cde10ba-b1fe-45d4-b2d9-70e5e14dd7c6"
+					(reference "C100")
 					(unit 1)
 				)
 			)

@@ -60,10 +60,10 @@
 #define DUCT_AREA_SQFT      0.25
 
 #define DELTA_TEMP_RAMP_START 7 // Kelvin
-#define DELTA_TEMP_RAMP_END   30 // Kelvin
-#define NUM_DISCRETE_STEPS 14  // Define the number of discrete steps for fan speed
+#define DELTA_TEMP_RAMP_END   13 // Kelvin
+#define NUM_DISCRETE_STEPS 20  // Define the number of discrete steps for fan speed
 
-#define AIRFLOW_PER_FAN 220 // CFM
+#define AIRFLOW_PER_FAN 140 // CFM
 #define NUM_FANS 4
 
 // Control Parameters
@@ -72,10 +72,10 @@
 #define BASE_MAX_DUTY_CHANGE 30
 #define EMERGENCY_DUTY_CHANGE 1000
 
-#define CURRENT_SOFT_LIMIT      40.0f    // Soft current threshold
-#define CURRENT_HARD_LIMIT      60.0f    // Hard current threshold (replaces CURRENT_MAX)
-#define POWER_SOFT_LIMIT        1000.0f  // Soft power threshold (adjust as needed)
-#define POWER_HARD_LIMIT        3000.0f  // Hard power threshold
+#define CURRENT_SOFT_LIMIT      38.0f    // Soft current threshold
+#define CURRENT_HARD_LIMIT      45.0f    // Hard current threshold (replaces CURRENT_MAX)
+#define POWER_SOFT_LIMIT        4000.0f  // Soft power threshold (adjust as needed)
+#define POWER_HARD_LIMIT        5000.0f  // Hard power threshold
 
 // Constants
 #define SPECIFIC_HEAT_CAPACITY 1005.0 // J/(kg·K)
@@ -190,8 +190,8 @@ public:
     }
 
     static void SetFrequency(uint16_t freqHz) {
-        freqHz = constrain(freqHz, 1000, 4000); // Constrain frequency within valid range
-
+        freqHz = constrain(freqHz, 128, 16000); // New frequency range
+        
         // Define possible prescalers and their corresponding register bits
         struct PrescalerOption {
             uint16_t prescaler;
@@ -200,25 +200,33 @@ public:
 
         const PrescalerOption prescalers[] = {
             {1, _BV(CS10)},                     // Prescaler 1
-            {8, _BV(CS11)},                     // Prescaler 8
+            {8, _BV(CS11)},                      // Prescaler 8
             {64, _BV(CS10) | _BV(CS11)},        // Prescaler 64
-            {256, _BV(CS12)},                   // Prescaler 256
-            {1024, _BV(CS12) | _BV(CS10)}      // Prescaler 1024
+            {256, _BV(CS12)},                    // Prescaler 256
+            {1024, _BV(CS12) | _BV(CS10)}       // Prescaler 1024
         };
 
         uint16_t top = 0;
         uint8_t selectedCsBits = _BV(CS10); // Default to prescaler 1
+        bool foundValidPrescaler = false;
 
         // Find the best prescaler and calculate the top value
         for (size_t i = 0; i < sizeof(prescalers)/sizeof(prescalers[0]); ++i) {
             const PrescalerOption& option = prescalers[i];
             uint32_t calculatedTop = (16000000UL / (option.prescaler * (uint32_t)freqHz)) - 1;
 
-            if (calculatedTop <= 0xFFFF) {
+            if (calculatedTop <= 0xFFFF && calculatedTop >= 1) {
                 selectedCsBits = option.csBits;
                 top = (uint16_t)calculatedTop;
+                foundValidPrescaler = true;
                 break;
             }
+        }
+
+        if (!foundValidPrescaler) {
+            // Fallback to safest values if no valid prescaler found
+            top = 0xFFFF;
+            selectedCsBits = _BV(CS12) | _BV(CS10); // 1024 prescaler
         }
 
         // Configure Timer1 for Fast PWM mode using ICR1 as TOP
@@ -230,9 +238,17 @@ public:
 
     static void WriteDuty(uint8_t duty) {
         duty = constrain(duty, 0, 255);
-        // Map 0-255 duty to 0-currentTop_ range
-        OCR1A = (uint16_t)map(duty, 0, 255, 0, currentTop_);
+        // Special handling for 0% and 100% duty to ensure full off/on
+        if (duty == 0) {
+            OCR1A = 0;
+        } else if (duty == 255) {
+            OCR1A = currentTop_;
+        } else {
+            // For values between 1-254, use map with +1 to ensure we can reach top
+            OCR1A = (uint16_t)map(duty, 0, 255, 0, currentTop_ + 1);
+        }
     }
+
 
 private:
     static uint16_t currentTop_; // Tracks the current top value for duty scaling
@@ -242,102 +258,19 @@ uint16_t PwmController::currentTop_ = 0;
 
 #define NUM_AVG_SAMPLES 10  // Define the number of samples to average
 
-class PID {
-    public: 
-        PID(float kp, float ki, float kd) : Kp(kp), Ki(ki), Kd(kd) {
-
-        }
-
-        float pid_step(float measurement, float setpoint, float time) {
-			float err;
-			float command;
-			float command_sat;
-			float deriv_filt;
-
-			/* Error calculation */
-			err = setpoint - measurement;
-
-			/* Integral term calculation - including anti-windup */
-			integral += Ki*err*T + Kaw*(command_sat_prev - command_prev)*T;
-
-			/* Derivative term calculation using filtered derivative method */
-			deriv_filt = (err - err_prev + T_C*deriv_prev)/(T + T_C);
-			err_prev = err;
-			deriv_prev = deriv_filt;
-
-			/* Summing the 3 terms */
-			command = Kp*err + integral + Kd*deriv_filt;
-
-			/* Remember command at previous step */
-			command_prev = command;
-
-			/* Saturate command */
-			if (command > max)
-			{
-				command_sat = max;
-			}
-			else if (command < min)
-			{
-				command_sat = min;
-			}
-			else
-			{
-				command_sat = command;
-			}
-
-			/* Apply rate limiter */
-			if (command_sat > command_sat_prev + max_rate*T)
-			{
-				command_sat = command_sat_prev + max_rate*T;
-			}
-			else if (command_sat < command_sat_prev - max_rate*T)
-			{
-				command_sat = command_sat_prev - max_rate*T;
-			}
-			else
-			{
-				/* No action */
-			}
-			/* Remember saturated command at previous step */
-			command_sat_prev = command_sat;
-            /*Serial.print("err: ");
-            Serial.print(err);
-            Serial.print("err_prev: ");
-            Serial.print(err_prev);
-            Serial.print("deriv_filt: ");
-            Serial.print(deriv_filt);
-            Serial.print("integral: ");
-            Serial.print(integral);
-            Serial.print("command val: ");
-            Serial.println(command);*/
-            return command_sat;
-        }
-
-    float Kp = 0.0;              // Proportional gain constant
-    float Ki = 0.0;              // Integral gain constant
-    float Kd = 0.0;              // Derivative gain constant
-    float Kaw = 0.0;             // Anti-windup gain constant
-    float T_C = 1.0;             // Time constant for derivative filtering
-    float T = 0.8;               // Time step
-    float max = 400.0;             // Max command
-    float min = 0.0;             // Min command
-    float max_rate = 1.0;        // Max rate of change of the command
-    float integral = 0.0;        // Integral term
-    float err_prev = 0.0;        // Previous error
-    float deriv_prev = 0.0;      // Previous derivative
-    float command_sat_prev = 0.0;// Previous saturated command
-    float command_prev = 0.0;    // Previous command
-};
 
 class VoltageController {
 public:
     VoltageController() : voltageSensor_(VOLTAGE_SENSOR_PIN, 6000.0f, 60.0f, VOLTAGE_MIN, VOLTAGE_MAX, 100),
                         currentSensor_(CURRENT_SENSOR_PIN, 20.0f, 0.6f),
-                        powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0), 
-                        control_pid(0.01f, 0.0f, 0.0f) {
+                        powerQueue(nullptr), powerHead(0), powerTail(0), powerCount(0),
+                        currentOffset_(0.0f), isCalibrated_(false) {
         currentSensor_.setCurrentRange(0.0f, CURRENT_MAX);
         Reset();
         powerQueue = new float[NUM_AVG_SAMPLES];
+        
+        // Initialize with duty cycle 0 for calibration
+        SetDutyCycle(0);
     }
 
     ~VoltageController() {
@@ -350,16 +283,23 @@ public:
     }
 
     void Update() {
-        UpdateVoltageMeasurement();
-        UpdateControlLoop();
-        UpdateFrequencyStep();
-        CheckFaults();
+        if (!isCalibrated_) {
+            PerformCurrentCalibration();
+        } else {
+            UpdateVoltageMeasurement();
+            UpdateControlLoop();
+            UpdateFrequencyStep();
+            CheckFaults();
+        }
     }
 
     float GetVoltage() const { return measuredVoltage_; }
     float GetSetpoint() const { return setpoint_; }
     float GetDutyCycle() const { return dutyCycle_; }
-    float GetCurrent() const { return currentSensor_.getCurrent(); }
+    float GetCurrent() const { 
+        float current = currentSensor_.getCurrent() - currentOffset_;
+        return constrain(current, 0.0f, CURRENT_MAX); // Ensure current doesn't go negative after offset
+    }
     float GetPower() const {
         float power = GetVoltage() * GetCurrent();
         addPowerSample(power);  // Add the current power to the queue
@@ -394,8 +334,10 @@ private:
     int powerHead;
     int powerTail;
     int powerCount;
-    PID control_pid;
-    
+    float currentOffset_;  // Stores the zero-current offset
+    bool isCalibrated_;    // Flag to track calibration status
+    uint32_t calibrationStartTime_; // Time when calibration started
+
     void Reset() {
         for (auto& sample : voltageSamples_) sample = setpoint_;
         powerHead = 0;
@@ -403,10 +345,45 @@ private:
         powerCount = 0;
     }
 
+    void PerformCurrentCalibration() {
+        static const uint32_t CALIBRATION_DURATION = 1000; // 1 second calibration period
+        static const int NUM_CALIBRATION_SAMPLES = 100;
+        static float calibrationSamples[NUM_CALIBRATION_SAMPLES] = {0};
+        static int calibrationIndex = 0;
+        
+        if (calibrationIndex == 0) {
+            calibrationStartTime_ = millis();
+        }
+        
+        // Take calibration samples (ensure duty cycle is 0)
+        if (dutyCycle_ == 0) {
+            calibrationSamples[calibrationIndex] = currentSensor_.getCurrent();
+            calibrationIndex++;
+            
+            // If we've collected enough samples or time has elapsed
+            if (calibrationIndex >= NUM_CALIBRATION_SAMPLES || 
+                (millis() - calibrationStartTime_) >= CALIBRATION_DURATION) {
+                
+                // Calculate average offset
+                float sum = 0;
+                for (int i = 0; i < calibrationIndex; i++) {
+                    sum += calibrationSamples[i];
+                }
+                currentOffset_ = sum / calibrationIndex;
+                isCalibrated_ = true;
+                
+                Serial.print(F("Current sensor calibrated. Offset: "));
+                Serial.println(currentOffset_);
+            }
+        } else {
+            // If duty cycle isn't 0, reset calibration
+            calibrationIndex = 0;
+            SetDutyCycle(0);
+        }
+    }
+
     void UpdateVoltageMeasurement() {
         voltageSamples_[sampleIndex_] = voltageSensor_.readVoltage();
-        Serial.print("Voltage Measurement: ");
-        Serial.println(voltageSamples_[sampleIndex_]);
         sampleIndex_ = (sampleIndex_ + 1) % SAMPLE_WINDOW_SIZE;
 
         measuredVoltage_ = 0.0f;
@@ -420,19 +397,9 @@ private:
         static uint32_t lastControlTime = 0;
         uint32_t currentTime = millis();
 
-
-        
         if (currentTime - lastControlTime >= CONTROL_INTERVAL_MS) {
             float dt = (currentTime - lastControlTime) / 1000.0f;
             lastControlTime = currentTime;
-            Serial.print("setpoint: ");
-            Serial.println(setpoint_);
-            float dutyCycle_ = control_pid.pid_step(measuredVoltage_, setpoint_, dt);
-
-            PwmController::WriteDuty(dutyCycle_);
-            /*float dt = (currentTime - lastControlTime) / 1000.0f;
-            lastControlTime = currentTime;
-            
 
             float error = measuredVoltage_ - setpoint_;
             float kp = KP;
@@ -452,9 +419,8 @@ private:
             dutyCycle_ += static_cast<int>(change * 2.55f);
             dutyCycle_ = constrain(dutyCycle_, 0, 255);
 
-    
             // Soft limit back-off
-            float current = currentSensor_.getCurrent();
+            float current = GetCurrent();
             float power = measuredVoltage_ * current;
     
             if (current > CURRENT_SOFT_LIMIT || power > POWER_SOFT_LIMIT) {
@@ -463,32 +429,12 @@ private:
                 dutyCycle_ = constrain(dutyCycle_, 0, 255);
             }
     
-            PwmController::WriteDuty(dutyCycle_);
-            lastControlTime = currentTime;*/
+            SetDutyCycle(dutyCycle_);
         }
     }
 
     void UpdateFrequencyStep() {
-        // float dutyPercent = (dutyCycle_ / 255.0f) * 100.0f;
-      //   float Current_A = GetCurrent();
-      
-      // (this->current_rolling_avg)[this->current_rolling_avg_i] = Current_A;
-      // this->current_rolling_avg_i = (this->current_rolling_avg_i + 1) % CURRENT_ROLLING_AVERAGE_WINDOW;
-      //  if (Current_A <= 5.0f) {
-      //      PwmController::SetFrequency(4000);
-      //  } else if (Current_A <= 12.0f) {
-      //      PwmController::SetFrequency(2000);
-      //  } else {
-      //      PwmController::SetFrequency(1000);
-      //  }
-        // PwmController::SetFrequency(map(constrain(dutyPercent, 0, 100), 0, 100, 1250, 1024));
-    
-        // Generate a random frequency between 1000 Hz and 4000 Hz
-//        int randomFrequency = random(1000, 4001);
-    
-//        PwmController::SetFrequency(randomFrequency);
-
-        PwmController::SetFrequency(1024);
+        PwmController::SetFrequency(380);
     }
 
     float get_avg_current() {
@@ -501,7 +447,7 @@ private:
     }
 
     void CheckFaults() {
-        float current = currentSensor_.getCurrent();
+        float current = get_avg_current();
         float power = measuredVoltage_ * current; // Instantaneous power
     
         // Hard limits trigger panic
@@ -510,7 +456,7 @@ private:
                                     "LLLS", false); // No auto-reset
             setpoint_ = VOLTAGE_MAX;
             SetDutyCycle(0); // Force duty cycle to 0
-            Serial.println("Error Overcurrent!");
+            Serial.println(F("Error Overcurrent!"));
         }
     
         // Existing checks
@@ -574,9 +520,9 @@ private:
         
         if (result == MCP2515::ERROR_OK) {
             if (debugEnabled) {
-                Serial.print("CAN RX: ID=0x");
+                Serial.print(F("CAN RX: ID=0x"));
                 Serial.print(frame.can_id, HEX);
-                Serial.print(" DLC=");
+                Serial.print(F(" DLC="));
                 Serial.print(frame.can_dlc);
                 Serial.print(" Data:");
                 for (int i = 0; i < frame.can_dlc; i++) {
@@ -600,11 +546,11 @@ private:
 
     void printError(uint8_t error) {
         switch(error) {
-            case MCP2515::ERROR_FAIL:    Serial.println("General failure"); break;
-            case MCP2515::ERROR_ALLTXBUSY:Serial.println("All TX buffers busy"); break;
-            case MCP2515::ERROR_FAILINIT:Serial.println("Initialization failed"); break;
-            case MCP2515::ERROR_FAILTX:  Serial.println("Transmission failed"); break;
-            case MCP2515::ERROR_NOMSG:  Serial.println("No message available"); break;
+            case MCP2515::ERROR_FAIL:    Serial.println(F("General failure")); break;
+            case MCP2515::ERROR_ALLTXBUSY:Serial.println(F("All TX buffers busy")); break;
+            case MCP2515::ERROR_FAILINIT:Serial.println(F("Initialization failed")); break;
+            case MCP2515::ERROR_FAILTX:  Serial.println(F("Transmission failed")); break;
+            case MCP2515::ERROR_NOMSG:  Serial.println(F("No message available")); break;
             default: Serial.print("Unknown error code: 0x"); Serial.println(error, HEX); break;
         }
     }
@@ -621,32 +567,32 @@ public:
     void enableDebug(bool enable) {
         debugEnabled = enable;
         if (enable) {
-            Serial.println("CAN: Debug enabled");
+            Serial.println(F("CAN: Debug enabled"));
         }
     }
 
     bool initialize() {
-        if (debugEnabled) Serial.println("CAN: Initializing...");
+        if (debugEnabled) Serial.println(F("CAN: Initializing..."));
         
         if (MCP2515.reset() != MCP2515::ERROR_OK) {
-            if (debugEnabled) Serial.println("CAN: Reset failed");
+            if (debugEnabled) Serial.println(F("CAN: Reset failed"));
             return false;
         }
         
         if (MCP2515.setBitrate(CAN_500KBPS, CAN_CLOCK) != MCP2515::ERROR_OK) {
-            if (debugEnabled) Serial.println("CAN: Bitrate set failed");
+            if (debugEnabled) Serial.println(F("CAN: Bitrate set failed"));
             return false;
         }
         
         if (MCP2515.setNormalMode() != MCP2515::ERROR_OK) {
-            if (debugEnabled) Serial.println("CAN: Normal mode set failed");
+            if (debugEnabled) Serial.println(F("CAN: Normal mode set failed"));
             return false;
         }
         
         pinMode(interruptPin, INPUT);
         attachInterrupt(digitalPinToInterrupt(interruptPin), handleInterruptStatic, FALLING);
         
-        if (debugEnabled) Serial.println("CAN: Initialized successfully");
+        if (debugEnabled) Serial.println(F("CAN: Initialized successfully"));
         return true;
     }
 
@@ -655,7 +601,7 @@ public:
         pinMode(csPin, OUTPUT);
         digitalWrite(csPin, HIGH);
         
-        if (debugEnabled) Serial.println("CAN: Starting initialization...");
+        if (debugEnabled) Serial.println(F("CAN: Starting initialization..."));
         
         for (int attempt = 0; attempt < 3; attempt++) {
             if (debugEnabled) {
@@ -665,19 +611,19 @@ public:
             
             if (initialize()) {
                 hasError = false;
-                if (debugEnabled) Serial.println("CAN: Started successfully");
+                if (debugEnabled) Serial.println(F("CAN: Started successfully"));
                 return;
             }
             delay(100);
         }
         
         hasError = true;
-        if (debugEnabled) Serial.println("CAN: Initialization failed after 3 attempts");
+        if (debugEnabled) Serial.println(F("CAN: Initialization failed after 3 attempts"));
     }
 
     void registerCallback(void (*callback)(struct can_frame*)) {
         this->callback = callback;
-        if (debugEnabled) Serial.println("CAN: Callback registered");
+        if (debugEnabled) Serial.println(F("CAN: Callback registered"));
     }
 
     bool sendMessage(uint32_t id, uint8_t* data = nullptr, uint8_t len = 0) {
@@ -906,6 +852,8 @@ void sendSystemInfo() {
     canController.sendMessage(CAN_ID_SYSTEM_INFO, data, 8);
 }
 
+
+
 void setup() {
     Serial.begin(9600);
     while (!Serial);
@@ -953,6 +901,8 @@ void loop() {
         String input = Serial.readStringUntil('\n'); // Read until newline
         float serial_float = input.toFloat();        // Convert to float
         voltageController.SetSetpoint(serial_float);
+        Serial.print("Read float: ");
+        Serial.println(serial_float);
     }
 
     voltageController.Update();
