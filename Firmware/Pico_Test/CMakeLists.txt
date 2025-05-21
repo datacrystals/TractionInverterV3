@@ -31,16 +31,16 @@ pico_add_extra_outputs(${PROJECT_NAME})
 SET(BASEPATH "${CMAKE_SOURCE_DIR}")
 INCLUDE_DIRECTORIES("${BASEPATH}")
 
-add_subdirectory(serial_console)
+# add_subdirectory(serial_console)
 
 # Linking Pico libraries
 target_link_libraries(${PROJECT_NAME} PUBLIC
     pico_stdlib
     pico_platform
     pico_multicore
-    pico_time
-    pico_cyw43_arch_none
-    serial_console
+    pico_time    
+    hardware_spi
+    hardware_pwm
 )
 
 # Enable usb output, disable uart output

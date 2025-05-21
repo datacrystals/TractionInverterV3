@@ -8,14 +8,12 @@
  #include "hardware/spi.h"
  #include "hardware/gpio.h"
  #include "hardware/pwm.h"
-
- #include "ucc5870_interface.h"
  
  #define SPI_PORT spi0
- #define PIN_MISO 16
- #define PIN_CS   17
- #define PIN_SCK  18
- #define PIN_MOSI 19
+ #define PIN_MISO 12
+ #define PIN_CS   13
+ #define PIN_SCK  10
+ #define PIN_MOSI 11
  
  #define PWM_OUTH 8
  #define PWM_OUTL 9
@@ -36,6 +34,8 @@
  #define REG_STATUS3    0x33
  #define REG_ADCDATA1   0x2A
  #define REG_ADCDATA2   0x2B
+ 
+ static uint16_t pwm_top = 1249;
  
  void cs_select() {
      gpio_put(PIN_CS, 0);
@@ -114,8 +114,7 @@
  void set_pwm_duty_cycle(uint gpio, float duty_cycle) {
      uint slice = pwm_gpio_to_slice_num(gpio);
      uint chan = pwm_gpio_to_channel(gpio);
-     uint16_t wrap = pwm_get_wrap(slice);
-     uint16_t level = (uint16_t)((duty_cycle / 100.0f) * (wrap + 1));
+     uint16_t level = (uint16_t)((duty_cycle / 100.0f) * (pwm_top + 1));
      pwm_set_chan_level(slice, chan, level);
  }
  
@@ -137,7 +136,7 @@
      uint slice_outh = pwm_gpio_to_slice_num(PWM_OUTH);
      uint slice_outl = pwm_gpio_to_slice_num(PWM_OUTL);
      pwm_config cfg = pwm_get_default_config();
-     pwm_config_set_wrap(&cfg, 1249);
+     pwm_config_set_wrap(&cfg, pwm_top);
      pwm_config_set_clkdiv(&cfg, 1.0f);
      pwm_init(slice_outh, &cfg, true);
      if (slice_outl != slice_outh) pwm_init(slice_outl, &cfg, true);
@@ -165,5 +164,33 @@
      uint16_t a1 = read_adc(1);
      uint16_t a2 = read_adc(2);
      printf("FAULTS: 0x%02X | FLT1: %d FLT2: %d | ADC1: %u ADC2: %u\n", faults, f1, f2, a1, a2);
+ }
+
+ void force_fault() {
+    // Simulate a logic fault by writing an invalid command or toggling control lines
+    // Here we write an invalid command to test fault detection
+    printf("Forcing fault by sending invalid SPI command...\n");
+    spi_transfer16(0xFFFF); // Intentionally invalid command frame
+}
+ 
+ int main() {
+     ucc5870_init();
+     enter_configuration();
+     set_desat_threshold(1000);
+     exit_configuration();
+
+     int loop_counter = 0;
+     while (true) {
+         start();
+         read_status();
+         sleep_ms(5000);
+         stop();
+         sleep_ms(5000);
+
+         loop_counter++;
+         if (loop_counter == 3) {
+            force_fault();
+         }
+     }
  }
  
