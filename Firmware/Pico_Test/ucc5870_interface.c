@@ -171,6 +171,7 @@
 }
  
  int main() {
+    printf("Startup - UCC5870-Q1 Interface Test\n");
      ucc5870_init();
      enter_configuration();
      set_desat_threshold(1000);
