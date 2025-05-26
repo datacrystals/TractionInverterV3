@@ -41,6 +41,8 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
     hardware_spi
     hardware_pwm
 )
+target_compile_options(${PROJECT_NAME} PRIVATE $<$<COMPILE_LANGUAGE:C>:-Werror=implicit-function-declaration>)
+
 
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
