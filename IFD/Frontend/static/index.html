@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Control UI</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justgage/1.4.0/justgage.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="screen1" class="screen">
+            <h1>Screen 1</h1>
+            <div id="speedometer" class="gauge-container"></div>
+            <div class="digital-readout">
+                <span id="speed-readout">0</span> km/h
+            </div>
+        </div>
+
+        <div id="screen2" class="screen" style="display: none;">
+            <h1>Screen 2</h1>
+            <div id="linear-gauge" class="gauge-container"></div>
+            <div class="digital-readout">
+                <span id="temp-readout">0</span> °C
+            </div>
+        </div>
+
+        <div class="button-bar" id="buttonBar">
+            <!-- Buttons will be generated here -->
+        </div>
+    </div>
+
+    <script>
+        // Generate 20 buttons
+        const buttonBar = document.getElementById('buttonBar');
+        for (let i = 0; i < 20; i++) {
+            const button = document.createElement('button');
+            button.textContent = '';
+            button.setAttribute('data-index', i);
+            buttonBar.appendChild(button);
+        }
+
+        // Example function to enable a button
+        function enableButton(index) {
+            const button = document.querySelector(`button[data-index="${index}"]`);
+            if (button) {
+                button.classList.add('enabled');
+                button.addEventListener('click', () => {
+                    alert(`Button ${index} clicked!`);
+                });
+            }
+        }
+
+        // Example: Enable the first button
+        enableButton(0);
+    </script>
+</body>
+</html>
