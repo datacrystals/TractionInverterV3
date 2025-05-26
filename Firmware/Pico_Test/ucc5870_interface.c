@@ -163,6 +163,39 @@
      printf("FAULTS: 0x%02X | FLT1: %d | ADC1: %u ADC2: %u\n", faults, f1, a1, a2);
  }
 
+ // ============================
+// Print Key Status Bits
+// ============================
+void ucc5870_print_status() {
+    uint16_t status1 = ucc5870_read_register(0x16);
+    uint16_t status2 = ucc5870_read_register(0x17);
+    uint16_t status4 = ucc5870_read_register(0x19);
+
+    uint8_t opm = (status1 >> 12) & 0xF;
+    bool pri_rdy = (status2 >> 6) & 0x1;
+    bool sec_rdy = (status4 >> 6) & 0x1;
+
+    bool bist_pri_fault = (status2 >> 3) & 0x1;
+    bool bist_sec_fault = (status4 >> 3) & 0x1;
+
+    bool trim_crc_pri_fault = (status2 >> 2) & 0x1;
+    bool trim_crc_sec_fault = (status4 >> 2) & 0x1;
+
+    bool cfg_crc_pri_fault = (status2 >> 1) & 0x1;
+    bool cfg_crc_sec_fault = (status4 >> 1) & 0x1;
+
+    printf("\n=== UCC5870 STATUS ===\n");
+    printf("STATUS1[OPM]: %d\n", opm);
+    printf("STATUS2[PRI_RDY]: %d\n", pri_rdy);
+    printf("STATUS4[SEC_RDY]: %d\n", sec_rdy);
+    printf("STATUS2[BIST_PRI_FAULT]: %d\n", bist_pri_fault);
+    printf("STATUS4[BIST_SEC_FAULT]: %d\n", bist_sec_fault);
+    printf("STATUS2[TRIM_CRC_PRI_FAULT]: %d\n", trim_crc_pri_fault);
+    printf("STATUS4[TRIM_CRC_SEC_FAULT]: %d\n", trim_crc_sec_fault);
+    printf("STATUS2[CFG_CRC_PRI_FAULT]: %d\n", cfg_crc_pri_fault);
+    printf("STATUS4[CFG_CRC_SEC_FAULT]: %d\n", cfg_crc_sec_fault);
+}
+
  void force_fault() {
     // Simulate a logic fault by writing an invalid command or toggling control lines
     // Here we write an invalid command to test fault detection
@@ -181,6 +214,7 @@
      while (true) {
          start();
          read_status();
+         ucc5870_print_status();
          sleep_ms(5000);
          stop();
          sleep_ms(5000);
