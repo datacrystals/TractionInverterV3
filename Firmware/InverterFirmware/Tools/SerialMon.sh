@@ -18,14 +18,14 @@ class PersistentSerialMonitor:
         """Continuously try to establish serial connection"""
         while self.running:
             try:
-                print(f"Attempting to connect to {PORT}...")
+                # print(f"Attempting to connect to {PORT}...")
                 self.ser = serial.Serial(PORT, BAUDRATE, timeout=0.1)
                 print(f"Connected to {PORT} at {BAUDRATE} baud")
                 print("Type commands to send to the Pico (Ctrl+C to exit):")
                 return True
             except serial.SerialException as e:
-                print(f"Connection failed: {e}")
-                print(f"Retrying in {RECONNECT_DELAY} seconds...")
+                # print(f"Connection failed: {e}")
+                # print(f"Retrying in {RECONNECT_DELAY} seconds...")
                 time.sleep(RECONNECT_DELAY)
         return False
 
