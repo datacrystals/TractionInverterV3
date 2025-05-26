@@ -10,15 +10,14 @@
  #include "hardware/pwm.h"
  
  #define SPI_PORT spi0
- #define PIN_MISO 12
- #define PIN_CS   13
- #define PIN_SCK  10
- #define PIN_MOSI 11
+ #define PIN_SCK  2
+ #define PIN_MISO 3
+ #define PIN_MOSI 4
+ #define PIN_CS   9 // Chip Select pin W Low
  
- #define PWM_OUTH 8
- #define PWM_OUTL 9
- #define FAULT1   14
- #define FAULT2   15
+ #define PWM_OUTH  22 // Chip Select pin W High
+ #define PWM_OUTL  19 // Chip Select pin W Low
+ #define FAULT_PIN 26
  
  #define CHIP_ADDR      0x0
  #define CMD_WRITE      0x2
@@ -141,8 +140,7 @@
      pwm_init(slice_outh, &cfg, true);
      if (slice_outl != slice_outh) pwm_init(slice_outl, &cfg, true);
  
-     gpio_init(FAULT1); gpio_set_dir(FAULT1, GPIO_IN);
-     gpio_init(FAULT2); gpio_set_dir(FAULT2, GPIO_IN);
+     gpio_init(FAULT_PIN); gpio_set_dir(FAULT_PIN, GPIO_IN);
  }
  
  void start() {
@@ -159,11 +157,38 @@
  
  void read_status() {
      uint8_t faults = read_supply_faults();
-     bool f1 = read_fault_pin(FAULT1);
-     bool f2 = read_fault_pin(FAULT2);
+     bool f1 = read_fault_pin(FAULT_PIN);
      uint16_t a1 = read_adc(1);
      uint16_t a2 = read_adc(2);
-     printf("FAULTS: 0x%02X | FLT1: %d FLT2: %d | ADC1: %u ADC2: %u\n", faults, f1, f2, a1, a2);
+     printf("FAULTS: 0x%02X | FLT1: %d | ADC1: %u ADC2: %u\n", faults, f1, a1, a2);
+ }
+
+ void force_fault() {
+    // Simulate a logic fault by writing an invalid command or toggling control lines
+    // Here we write an invalid command to test fault detection
+    printf("Forcing fault by sending invalid SPI command...\n");
+    spi_transfer16(0xFFFF); // Intentionally invalid command frame
+}
+ 
+ int main() {
+     ucc5870_init();
+     enter_configuration();
+     set_desat_threshold(1000);
+     exit_configuration();
+
+     int loop_counter = 0;
+     while (true) {
+         start();
+         read_status();
+         sleep_ms(5000);
+         stop();
+         sleep_ms(5000);
+
+         loop_counter++;
+         if (loop_counter == 3) {
+            force_fault();
+         }
+     }
  }
 
  void force_fault() {

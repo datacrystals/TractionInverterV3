@@ -1,6 +1,6 @@
 #include "ucc5870_interface.h"
 
-int main() {
+int main_old() {
     ucc5870_init();
     enter_configuration();
     set_desat_threshold(1000);
