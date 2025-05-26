@@ -1,101 +1,77 @@
 #!/usr/bin/env python3
 import serial
-import serial.tools.list_ports
-import threading
-import time
 import sys
+import select
+import time
 
-class SerialMonitor:
+# Configuration
+PORT = "/dev/ttyACM0"  # Change this if your Pico uses a different port
+BAUDRATE = 115200      # Standard baud rate for Pico
+RECONNECT_DELAY = 0.5    # Seconds between connection attempts
+
+class PersistentSerialMonitor:
     def __init__(self):
-        self.serial_port = None
-        self.running = False
-        self.baudrate = 115200  # Common baud rate for Pico
-        self.default_port = "/dev/ttyACM0"
+        self.running = True
+        self.ser = None
 
-    def find_pico_port(self):
-        """Attempt to automatically find the Pico's serial port"""
-        ports = serial.tools.list_ports.comports()
-        for port in ports:
-            if "Raspberry Pi Pico" in port.description or "USB Serial Device" in port.description:
-                return port.device
-        return self.default_port
-
-    def start_serial(self, port=None):
-        """Initialize serial connection"""
-        if not port:
-            port = self.find_pico_port()
-            print(f"Auto-detected port: {port}")
-
-        try:
-            self.serial_port = serial.Serial(
-                port=port,
-                baudrate=self.baudrate,
-                timeout=1
-            )
-            time.sleep(2)  # Wait for connection to establish
-            self.running = True
-            print(f"Connected to {port} at {self.baudrate} baud")
-            return True
-        except Exception as e:
-            print(f"Failed to connect to {port}: {e}")
-            return False
-
-    def read_serial(self):
-        """Read data from serial port"""
-        while self.running and self.serial_port:
-            if self.serial_port.in_waiting > 0:
-                try:
-                    line = self.serial_port.readline().decode('utf-8', errors='replace').strip()
-                    if line:
-                        print(f"<< {line}")
-                except:
-                    pass
-
-    def write_serial(self):
-        """Send data to serial port"""
-        print("\nEnter commands to send (type 'exit' to quit):")
-        while self.running and self.serial_port:
+    def connect(self):
+        """Continuously try to establish serial connection"""
+        while self.running:
             try:
-                cmd = input(">> ").strip()
-                if cmd.lower() == 'exit':
-                    self.stop()
-                    break
-                if cmd:
-                    self.serial_port.write((cmd + '\n').encode('utf-8'))
+                print(f"Attempting to connect to {PORT}...")
+                self.ser = serial.Serial(PORT, BAUDRATE, timeout=0.1)
+                print(f"Connected to {PORT} at {BAUDRATE} baud")
+                print("Type commands to send to the Pico (Ctrl+C to exit):")
+                return True
+            except serial.SerialException as e:
+                print(f"Connection failed: {e}")
+                print(f"Retrying in {RECONNECT_DELAY} seconds...")
+                time.sleep(RECONNECT_DELAY)
+        return False
+
+    def monitor(self):
+        """Main monitoring loop"""
+        while self.running:
+            if not self.ser or not self.ser.is_open:
+                if not self.connect():
+                    continue
+            
+            try:
+                # Check for incoming serial data
+                if self.ser.in_waiting > 0:
+                    print(self.ser.readline().decode('utf-8', errors='replace').strip())
+                
+                # Check for user input (non-blocking)
+                if sys.stdin in select.select([sys.stdin], [], [], 0)[0]:
+                    cmd = sys.stdin.readline().strip()
+                    if cmd.lower() in ('exit', 'quit'):
+                        self.running = False
+                        break
+                    try:
+                        self.ser.write((cmd + '\n').encode('utf-8'))
+                    except serial.SerialException:
+                        print("Write failed - connection may be lost")
+                        self.ser.close()
+                        continue
+                        
+            except serial.SerialException:
+                print("Connection lost - attempting to reconnect...")
+                self.ser.close()
+                time.sleep(RECONNECT_DELAY)
+                continue
             except KeyboardInterrupt:
-                self.stop()
+                self.running = False
                 break
-            except:
-                pass
 
-    def stop(self):
-        """Cleanup serial connection"""
-        self.running = False
-        if self.serial_port and self.serial_port.is_open:
-            self.serial_port.close()
-        print("\nSerial connection closed")
-
-    def run(self):
-        """Main execution"""
-        print("Raspberry Pi Pico Serial Monitor")
-        print("--------------------------------")
-        
-        # Try to auto-detect port
-        if not self.start_serial():
-            # If auto-detection fails, prompt for manual port
-            port = input(f"Enter serial port [{self.default_port}]: ").strip()
-            if not port:
-                port = self.default_port
-            if not self.start_serial(port):
-                sys.exit(1)
-
-        # Start serial read thread
-        read_thread = threading.Thread(target=self.read_serial, daemon=True)
-        read_thread.start()
-
-        # Run write in main thread
-        self.write_serial()
+    def cleanup(self):
+        """Clean up resources"""
+        if self.ser and self.ser.is_open:
+            self.ser.close()
+        print("\nSerial monitor stopped")
 
 if __name__ == "__main__":
-    monitor = SerialMonitor()
-    monitor.run()
+    monitor = PersistentSerialMonitor()
+    try:
+        monitor.monitor()
+    finally:
+        monitor.cleanup()
