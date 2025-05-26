@@ -190,32 +190,4 @@
          }
      }
  }
-
- void force_fault() {
-    // Simulate a logic fault by writing an invalid command or toggling control lines
-    // Here we write an invalid command to test fault detection
-    printf("Forcing fault by sending invalid SPI command...\n");
-    spi_transfer16(0xFFFF); // Intentionally invalid command frame
-}
- 
- int main() {
-     ucc5870_init();
-     enter_configuration();
-     set_desat_threshold(1000);
-     exit_configuration();
-
-     int loop_counter = 0;
-     while (true) {
-         start();
-         read_status();
-         sleep_ms(5000);
-         stop();
-         sleep_ms(5000);
-
-         loop_counter++;
-         if (loop_counter == 3) {
-            force_fault();
-         }
-     }
- }
  
