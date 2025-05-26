@@ -21,8 +21,7 @@ endif()
 
 # Tell CMake where to find the executable source file
 add_executable(${PROJECT_NAME}
-    ucc5870_interface.c
-    main.cpp
+    ucc5870_driver.c
 )
 
 # Create map/bin/hex/uf2 files
