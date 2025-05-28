@@ -19,7 +19,7 @@
 // SPI Initialization
 // ============================
 void ucc5870_spi_init() {
-    spi_init(SPI_PORT, 4 * 1000 * 1000); // 4 MHz max
+    spi_init(SPI_PORT, 4 * 1000); // 4 MHz max
     gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
     gpio_set_function(PIN_CS,   GPIO_FUNC_SIO);
     gpio_set_function(PIN_SCK,  GPIO_FUNC_SPI);
@@ -120,17 +120,6 @@ void ucc5870_init() {
 }
 
 // ============================
-// Gate Drive Test and Fault Handling
-// ============================
-void ucc5870_test_drive() {
-    gpio_put(25, 1); // Example activity indicator (LED)
-    while (1) {
-        ucc5870_print_status();
-        sleep_ms(1000);
-    }
-}
-
-// ============================
 // Print Key Status Bits
 // ============================
 void ucc5870_print_status() {
@@ -161,6 +150,17 @@ void ucc5870_print_status() {
     printf("STATUS4[TRIM_CRC_SEC_FAULT]: %d\n", trim_crc_sec_fault);
     printf("STATUS2[CFG_CRC_PRI_FAULT]: %d\n", cfg_crc_pri_fault);
     printf("STATUS4[CFG_CRC_SEC_FAULT]: %d\n", cfg_crc_sec_fault);
+}
+
+// ============================
+// Gate Drive Test and Fault Handling
+// ============================
+void ucc5870_test_drive() {
+    gpio_put(25, 1); // Example activity indicator (LED)
+    while (1) {
+        ucc5870_print_status();
+        sleep_ms(1000);
+    }
 }
 
 // ============================
